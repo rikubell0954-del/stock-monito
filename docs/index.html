@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>急騰株モニター</title>
+<style>
+:root { color-scheme: light dark; }
+body { font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Yu Gothic",sans-serif; margin:0; background:#f5f5f7; color:#111; }
+.wrap { max-width:980px; margin:auto; padding:16px; }
+h1 { font-size:24px; margin:4px 0; }
+.muted { color:#666; font-size:13px; }
+.cards { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; margin:18px 0; }
+.card { background:white; border-radius:16px; padding:14px; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.label { font-size:13px; color:#666; }
+.num { font-size:30px; font-weight:800; margin-top:4px; }
+section { background:white; border-radius:16px; padding:14px; margin:14px 0; box-shadow:0 1px 4px rgba(0,0,0,.08); overflow:auto; }
+table { width:100%; border-collapse:collapse; font-size:13px; min-width:680px; }
+th,td { border-bottom:1px solid #ddd; padding:9px 7px; text-align:left; }
+th { position:sticky; top:0; background:white; }
+.summary-row { display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid #eee; }
+.badge { display:inline-block; border-radius:999px; padding:4px 9px; background:#eee; font-size:12px; }
+footer { font-size:12px; color:#777; padding:20px 2px 40px; }
+@media (min-width:700px) { .cards { grid-template-columns:repeat(4,1fr); } }
+@media (prefers-color-scheme:dark) {
+ body { background:#000; color:#f5f5f7; }
+ .card,section { background:#1c1c1e; }
+ .label,.muted,footer { color:#aaa; }
+ th { background:#1c1c1e; }
+ th,td,.summary-row { border-color:#333; }
+ .badge { background:#333; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>急騰株モニター</h1>
+<div class="muted">最終更新: 2026-08-18 10:37 JST</div>
+<div class="cards"><div class="card"><div class="label">Sランク</div><div class="num">5</div></div><div class="card"><div class="label">Aランク</div><div class="num">14</div></div><div class="card"><div class="label">Step3</div><div class="num">13</div></div><div class="card"><div class="label">仮想OPEN</div><div class="num">13</div></div></div>
+
+<section>
+<h2>優先ランキング TOP20</h2>
+<table>
+<thead><tr><th>Rank</th><th>Score</th><th>Code</th><th>銘柄</th><th>株価</th><th>判定</th></tr></thead>
+<tbody><tr><td>S</td><td>87</td><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>837.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>S</td><td>87</td><td>4243</td><td>Nix, Inc.</td><td>985.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>S</td><td>86</td><td>5542</td><td>Shinhokoku Material Corp.</td><td>873.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>S</td><td>85</td><td>3035</td><td>ktk Inc.</td><td>809.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>S</td><td>85</td><td>6155</td><td>Takamatsu Machinery Co., Ltd.</td><td>538.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>82</td><td>6964</td><td>Sanko Co., Ltd.</td><td>698.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>81</td><td>2464</td><td>Aoba-BBT, Inc.</td><td>343.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>81</td><td>3238</td><td>Central General Development Co., Ltd.</td><td>401.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>80</td><td>2481</td><td>Townnews-Sha Co.,Ltd.</td><td>666.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>80</td><td>4360</td><td>MANAC Chemical Partners Co.,Ltd</td><td>909.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>80</td><td>4447</td><td>PBsystems,Inc.</td><td>473.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>80</td><td>7127</td><td>Ikka Holdings Co.,Ltd.</td><td>703.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>79</td><td>4245</td><td>Daiki Axis Co., Ltd.</td><td>715.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>7217</td><td>Tein, Inc.</td><td>457.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>3359</td><td>cotta CO.,LTD</td><td>529.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>79</td><td>365A</td><td>不明</td><td>787.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>79</td><td>5010</td><td>Nippon Seiro Co., Ltd.</td><td>239.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>79</td><td>7980</td><td>Shigematsu Works Co., Ltd.</td><td>855.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>78</td><td>6325</td><td>Takakita Co., Ltd.</td><td>408.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>B</td><td>77</td><td>1840</td><td>Tsuchiya Holdings Co., Ltd.</td><td>248.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr></tbody>
+</table>
+</section>
+
+<section>
+<h2>Step3候補</h2>
+<table>
+<thead><tr><th>Rank</th><th>Score</th><th>Code</th><th>銘柄</th><th>株価</th><th>判定</th></tr></thead>
+<tbody><tr><td>S</td><td>87</td><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>837.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>S</td><td>87</td><td>4243</td><td>Nix, Inc.</td><td>985.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>S</td><td>86</td><td>5542</td><td>Shinhokoku Material Corp.</td><td>873.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>S</td><td>85</td><td>3035</td><td>ktk Inc.</td><td>809.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>S</td><td>85</td><td>6155</td><td>Takamatsu Machinery Co., Ltd.</td><td>538.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>82</td><td>6964</td><td>Sanko Co., Ltd.</td><td>698.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>81</td><td>2464</td><td>Aoba-BBT, Inc.</td><td>343.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>81</td><td>3238</td><td>Central General Development Co., Ltd.</td><td>401.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>80</td><td>2481</td><td>Townnews-Sha Co.,Ltd.</td><td>666.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>80</td><td>4360</td><td>MANAC Chemical Partners Co.,Ltd</td><td>909.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>80</td><td>4447</td><td>PBsystems,Inc.</td><td>473.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>4245</td><td>Daiki Axis Co., Ltd.</td><td>715.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>7217</td><td>Tein, Inc.</td><td>457.0</td><td>🚀 Step3（エントリー候補）</td></tr></tbody>
+</table>
+</section>
+
+<section>
+<h2>仮想取引 OPEN</h2>
+<table>
+<thead><tr><th>Code</th><th>銘柄</th><th>Signal</th><th>Entry</th><th>Score</th><th>最大上昇%</th><th>最大下落%</th></tr></thead>
+<tbody><tr><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>2026-08-11</td><td>837.0</td><td>87</td><td>0.0</td><td>0.0</td></tr><tr><td>4243</td><td>Nix, Inc.</td><td>2026-08-11</td><td>985.0</td><td>87</td><td>0.0</td><td>0.0</td></tr><tr><td>5542</td><td>Shinhokoku Material Corp.</td><td>2026-08-11</td><td>873.0</td><td>86</td><td>0.0</td><td>0.0</td></tr><tr><td>3035</td><td>ktk Inc.</td><td>2026-08-11</td><td>809.0</td><td>85</td><td>0.0</td><td>0.0</td></tr><tr><td>6155</td><td>Takamatsu Machinery Co., Ltd.</td><td>2026-08-11</td><td>538.0</td><td>85</td><td>0.0</td><td>0.0</td></tr><tr><td>6964</td><td>Sanko Co., Ltd.</td><td>2026-08-11</td><td>698.0</td><td>82</td><td>0.0</td><td>0.0</td></tr><tr><td>2464</td><td>Aoba-BBT, Inc.</td><td>2026-08-11</td><td>343.0</td><td>81</td><td>0.0</td><td>0.0</td></tr><tr><td>3238</td><td>Central General Development Co., Ltd.</td><td>2026-08-11</td><td>401.0</td><td>81</td><td>0.0</td><td>0.0</td></tr><tr><td>2481</td><td>Townnews-Sha Co.,Ltd.</td><td>2026-08-11</td><td>666.0</td><td>80</td><td>0.0</td><td>0.0</td></tr><tr><td>4360</td><td>MANAC Chemical Partners Co.,Ltd</td><td>2026-08-11</td><td>909.0</td><td>80</td><td>0.0</td><td>0.0</td></tr><tr><td>4447</td><td>PBsystems,Inc.</td><td>2026-08-11</td><td>473.0</td><td>80</td><td>0.0</td><td>0.0</td></tr><tr><td>4245</td><td>Daiki Axis Co., Ltd.</td><td>2026-08-11</td><td>715.0</td><td>79</td><td>0.0</td><td>0.0</td></tr><tr><td>7217</td><td>Tein, Inc.</td><td>2026-08-11</td><td>457.0</td><td>79</td><td>0.0</td><td>0.0</td></tr></tbody>
+</table>
+</section>
+
+<section>
+<h2>検証成績</h2>
+<div class='summary-row'><span>仮想取引数</span><strong>13</strong></div><div class='summary-row'><span>OPEN件数</span><strong>13</strong></div><div class='summary-row'><span>CLOSED件数</span><strong>0</strong></div><div class='summary-row'><span>+10%到達件数</span><strong>0</strong></div><div class='summary-row'><span>+10%到達率</span><strong>0.0%</strong></div><div class='summary-row'><span>+20%到達件数</span><strong>0</strong></div><div class='summary-row'><span>+20%到達率</span><strong>0.0%</strong></div><div class='summary-row'><span>+30%到達件数</span><strong>0</strong></div><div class='summary-row'><span>+30%到達率</span><strong>0.0%</strong></div><div class='summary-row'><span>損切り到達件数</span><strong>0</strong></div><div class='summary-row'><span>損切り到達率</span><strong>0.0%</strong></div><div class='summary-row'><span>平均最大上昇率</span><strong>0.00%</strong></div><div class='summary-row'><span>平均最大下落率</span><strong>0.00%</strong></div>
+</section>
+
+<footer>
+これはスクリーニング・検証用の表示です。自動発注は行いません。
+CSV原本はGitHubリポジトリの results/ に保存されます。
+</footer>
+</div>
+</body>
+</html>
