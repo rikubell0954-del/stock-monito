@@ -1,76 +1,97 @@
 <!doctype html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>急騰株モニター</title>
 <style>
-:root { color-scheme: light dark; }
-body { font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Yu Gothic",sans-serif; margin:0; background:#f5f5f7; color:#111; }
-.wrap { max-width:980px; margin:auto; padding:16px; }
-h1 { font-size:24px; margin:4px 0; }
-.muted { color:#666; font-size:13px; }
-.cards { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; margin:18px 0; }
-.card { background:white; border-radius:16px; padding:14px; box-shadow:0 1px 4px rgba(0,0,0,.08); }
-.label { font-size:13px; color:#666; }
-.num { font-size:30px; font-weight:800; margin-top:4px; }
-section { background:white; border-radius:16px; padding:14px; margin:14px 0; box-shadow:0 1px 4px rgba(0,0,0,.08); overflow:auto; }
-table { width:100%; border-collapse:collapse; font-size:13px; min-width:680px; }
-th,td { border-bottom:1px solid #ddd; padding:9px 7px; text-align:left; }
-th { position:sticky; top:0; background:white; }
-.summary-row { display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid #eee; }
-.badge { display:inline-block; border-radius:999px; padding:4px 9px; background:#eee; font-size:12px; }
-footer { font-size:12px; color:#777; padding:20px 2px 40px; }
-@media (min-width:700px) { .cards { grid-template-columns:repeat(4,1fr); } }
-@media (prefers-color-scheme:dark) {
- body { background:#000; color:#f5f5f7; }
- .card,section { background:#1c1c1e; }
- .label,.muted,footer { color:#aaa; }
- th { background:#1c1c1e; }
- th,td,.summary-row { border-color:#333; }
- .badge { background:#333; }
-}
+:root{color-scheme:light dark}body{font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Yu Gothic",sans-serif;margin:0;background:#f5f5f7;color:#111}
+.wrap{max-width:1040px;margin:auto;padding:16px}h1{font-size:25px;margin:4px 0}h2{font-size:20px}
+.muted{color:#666;font-size:13px}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:18px 0}
+.card,section,.copy-box{background:white;border-radius:16px;box-shadow:0 1px 4px rgba(0,0,0,.08)}.card{padding:14px}.label{font-size:13px;color:#666}.num{font-size:30px;font-weight:800;margin-top:4px}
+section{padding:14px;margin:14px 0;overflow:auto}table{width:100%;border-collapse:collapse;font-size:13px;min-width:720px}th,td{border-bottom:1px solid #ddd;padding:9px 7px;text-align:left}th{position:sticky;top:0;background:white}
+.pill{display:inline-block;padding:3px 7px;border-radius:999px;background:#eee;font-size:11px}.summary-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #eee}
+.copy-box{padding:14px;margin:10px 0}.copy-head{display:flex;gap:10px;justify-content:space-between;align-items:center}.copy-btn{border:0;border-radius:12px;padding:11px 14px;font-weight:700;background:#111;color:white;white-space:nowrap}
+.copy-btn:disabled{opacity:.4}textarea{width:100%;box-sizing:border-box;margin-top:10px;min-height:90px;border:1px solid #ccc;border-radius:12px;padding:12px;font-size:17px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;line-height:1.5;background:transparent;color:inherit}
+footer{font-size:12px;color:#777;padding:20px 2px 40px}
+@media(min-width:700px){.cards{grid-template-columns:repeat(4,1fr)}}
+@media(prefers-color-scheme:dark){body{background:#000;color:#f5f5f7}.card,section,.copy-box{background:#1c1c1e}.label,.muted,footer{color:#aaa}th{background:#1c1c1e}th,td,.summary-row{border-color:#333}.pill{background:#333}.copy-btn{background:#f5f5f7;color:#111}textarea{border-color:#444}}
 </style>
-</head>
-<body>
-<div class="wrap">
-<h1>急騰株モニター</h1>
-<div class="muted">最終更新: 2026-08-28 18:20 JST</div>
-<div class="cards"><div class="card"><div class="label">Sランク</div><div class="num">1</div></div><div class="card"><div class="label">Aランク</div><div class="num">20</div></div><div class="card"><div class="label">Step3</div><div class="num">13</div></div><div class="card"><div class="label">仮想OPEN</div><div class="num">28</div></div></div>
+<script>
+async function copyCodes(id, btn) {
+  const el = document.getElementById(id);
+  const text = el.value.trim();
+  if (!text) return;
+  try {
+    await navigator.clipboard.writeText(text);
+  } catch(e) {
+    el.focus(); el.select(); document.execCommand('copy'); el.setSelectionRange(0,0);
+  }
+  const old = btn.textContent;
+  btn.textContent = 'コピーしました ✓';
+  setTimeout(()=>btn.textContent=old, 1600);
+}
+</script>
+</head><body><div class="wrap">
+<h1>急騰株モニター</h1><div class="muted">最終更新: 2026-08-30 11:24 JST</div>
+<div class="cards"><div class="card"><div class="label">Sランク</div><div class="num">1</div></div><div class="card"><div class="label">新規Step3</div><div class="num">10</div></div><div class="card"><div class="label">Step3継続</div><div class="num">0</div></div><div class="card"><div class="label">仮想OPEN</div><div class="num">28</div></div></div>
 
-<section>
-<h2>優先ランキング TOP20</h2>
-<table>
+<section><h2>📋 ChatGPTへ貼り付け</h2>
+    <div class="copy-box">
+      <div class="copy-head"><div><b>Sランク銘柄コード</b><div class="muted">ChatGPT企業分析用。コードのみ、改行区切り。</div></div>
+      <button class="copy-btn" onclick="copyCodes('sCodes', this)">コードをコピー</button></div>
+      <textarea id="sCodes" readonly>2179</textarea>
+    </div>
+    
+    <div class="copy-box">
+      <div class="copy-head"><div><b>今日の新規Step3コード</b><div class="muted">今日初めてStep3へ入った銘柄だけ。</div></div>
+      <button class="copy-btn" onclick="copyCodes('newStep3Codes', this)">コードをコピー</button></div>
+      <textarea id="newStep3Codes" readonly>2179
+2788
+7217
+4394
+4707
+7078
+9340
+6778
+5033
+6775</textarea>
+    </div>
+    
+    <div class="copy-box">
+      <div class="copy-head"><div><b>現在のStep3銘柄コード</b><div class="muted">現在Step3判定の全銘柄。</div></div>
+      <button class="copy-btn" onclick="copyCodes('step3Codes', this)">コードをコピー</button></div>
+      <textarea id="step3Codes" readonly>2179
+2788
+7217
+4394
+4707
+7078
+9340
+6778
+5033
+6775</textarea>
+    </div>
+    </section>
+
+<section><h2>🆕 今日Step3に突入</h2>
+<table><thead><tr><th>区分</th><th>Code</th><th>銘柄</th><th>突入日</th><th>日数</th><th>突入価格</th><th>現在価格</th><th>Score</th></tr></thead>
+<tbody><tr><td><span class='pill'>初回</span></td><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>2026-08-30</td><td>1</td><td>861.0</td><td>861.0</td><td>87</td></tr><tr><td><span class='pill'>初回</span></td><td>2788</td><td>Apple International Co., Ltd.</td><td>2026-08-30</td><td>1</td><td>439.0</td><td>439.0</td><td>84</td></tr><tr><td><span class='pill'>初回</span></td><td>7217</td><td>Tein, Inc.</td><td>2026-08-30</td><td>1</td><td>459.0</td><td>459.0</td><td>81</td></tr><tr><td><span class='pill'>初回</span></td><td>4394</td><td>eXmotion Co., Ltd.</td><td>2026-08-30</td><td>1</td><td>636.0</td><td>636.0</td><td>79</td></tr><tr><td><span class='pill'>初回</span></td><td>4707</td><td>KITAC Corporation</td><td>2026-08-30</td><td>1</td><td>365.0</td><td>365.0</td><td>79</td></tr><tr><td><span class='pill'>初回</span></td><td>7078</td><td>INCLUSIVE Holdings Inc.</td><td>2026-08-30</td><td>1</td><td>365.0</td><td>365.0</td><td>79</td></tr><tr><td><span class='pill'>初回</span></td><td>9340</td><td>ASO International, Inc.</td><td>2026-08-30</td><td>1</td><td>770.0</td><td>770.0</td><td>79</td></tr><tr><td><span class='pill'>初回</span></td><td>6778</td><td>Artiza Networks, Inc.</td><td>2026-08-30</td><td>1</td><td>672.0</td><td>672.0</td><td>78</td></tr><tr><td><span class='pill'>初回</span></td><td>5033</td><td>Nulab Inc.</td><td>2026-08-30</td><td>1</td><td>953.0</td><td>953.0</td><td>75</td></tr><tr><td><span class='pill'>初回</span></td><td>6775</td><td>TB Group Inc.</td><td>2026-08-30</td><td>1</td><td>130.0</td><td>130.0</td><td>73</td></tr></tbody></table></section>
+
+<section><h2>🔁 Step3継続監視</h2>
+<table><thead><tr><th>区分</th><th>Code</th><th>銘柄</th><th>突入日</th><th>日数</th><th>突入価格</th><th>現在価格</th><th>Score</th></tr></thead>
+<tbody><tr><td colspan="8">該当銘柄なし</td></tr></tbody></table></section>
+
+<section><h2>優先ランキング TOP20</h2><table>
 <thead><tr><th>Rank</th><th>Score</th><th>Code</th><th>銘柄</th><th>株価</th><th>判定</th></tr></thead>
-<tbody><tr><td>S</td><td>87</td><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>861.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>84</td><td>2788</td><td>Apple International Co., Ltd.</td><td>439.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>81</td><td>7217</td><td>Tein, Inc.</td><td>459.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>80</td><td>3058</td><td>Sanyodo Holdings Inc</td><td>708.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>80</td><td>7610</td><td>Tay Two Co., Ltd.</td><td>143.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>80</td><td>8013</td><td>Naigai Co.,Ltd.</td><td>360.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>79</td><td>3991</td><td>Wantedly, Inc.</td><td>1050.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>4394</td><td>eXmotion Co., Ltd.</td><td>636.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>4707</td><td>KITAC Corporation</td><td>365.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>7078</td><td>INCLUSIVE Holdings Inc.</td><td>365.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>9340</td><td>ASO International, Inc.</td><td>770.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>3241</td><td>WILL,Co.,Ltd.</td><td>605.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>79</td><td>3423</td><td>SE Corporation</td><td>277.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>79</td><td>7486</td><td>Sanrin Co., Ltd.</td><td>822.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>79</td><td>7980</td><td>Shigematsu Works Co., Ltd.</td><td>853.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>78</td><td>6778</td><td>Artiza Networks, Inc.</td><td>672.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>78</td><td>2411</td><td>Gendai Agency Inc.</td><td>473.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>78</td><td>3071</td><td>Stream Co.,Ltd.</td><td>105.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>78</td><td>3204</td><td>Toabo Corporation</td><td>504.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td>A</td><td>78</td><td>3839</td><td>ODK Solutions Company, Ltd.</td><td>645.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr></tbody>
-</table>
-</section>
+<tbody><tr><td><b>S</b></td><td>87</td><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>861.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>84</td><td>2788</td><td>Apple International Co., Ltd.</td><td>439.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>81</td><td>7217</td><td>Tein, Inc.</td><td>459.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>80</td><td>3058</td><td>Sanyodo Holdings Inc</td><td>708.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td><b>A</b></td><td>80</td><td>7610</td><td>Tay Two Co., Ltd.</td><td>143.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td><b>A</b></td><td>80</td><td>8013</td><td>Naigai Co.,Ltd.</td><td>360.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td><b>A</b></td><td>79</td><td>4394</td><td>eXmotion Co., Ltd.</td><td>636.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>79</td><td>4707</td><td>KITAC Corporation</td><td>365.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>79</td><td>7078</td><td>INCLUSIVE Holdings Inc.</td><td>365.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>79</td><td>9340</td><td>ASO International, Inc.</td><td>770.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>79</td><td>3241</td><td>WILL,Co.,Ltd.</td><td>605.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td><b>A</b></td><td>79</td><td>3423</td><td>SE Corporation</td><td>277.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td><b>A</b></td><td>79</td><td>7486</td><td>Sanrin Co., Ltd.</td><td>822.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td><b>A</b></td><td>79</td><td>7980</td><td>Shigematsu Works Co., Ltd.</td><td>853.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td><b>A</b></td><td>78</td><td>6778</td><td>Artiza Networks, Inc.</td><td>672.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>78</td><td>2411</td><td>Gendai Agency Inc.</td><td>473.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td><b>A</b></td><td>78</td><td>3071</td><td>Stream Co.,Ltd.</td><td>105.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td><b>A</b></td><td>78</td><td>3204</td><td>Toabo Corporation</td><td>504.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td><b>A</b></td><td>78</td><td>3293</td><td>AZUMA HOUSE Co., Ltd.</td><td>780.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr><tr><td><b>A</b></td><td>78</td><td>3839</td><td>ODK Solutions Company, Ltd.</td><td>645.0</td><td>⏳ Step2完了（次の急騰待ち）</td></tr></tbody></table></section>
 
-<section>
-<h2>Step3候補</h2>
-<table>
+<section><h2>現在のStep3候補</h2><table>
 <thead><tr><th>Rank</th><th>Score</th><th>Code</th><th>銘柄</th><th>株価</th><th>判定</th></tr></thead>
-<tbody><tr><td>S</td><td>87</td><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>861.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>84</td><td>2788</td><td>Apple International Co., Ltd.</td><td>439.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>81</td><td>7217</td><td>Tein, Inc.</td><td>459.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>3991</td><td>Wantedly, Inc.</td><td>1050.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>4394</td><td>eXmotion Co., Ltd.</td><td>636.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>4707</td><td>KITAC Corporation</td><td>365.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>7078</td><td>INCLUSIVE Holdings Inc.</td><td>365.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>79</td><td>9340</td><td>ASO International, Inc.</td><td>770.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>A</td><td>78</td><td>6778</td><td>Artiza Networks, Inc.</td><td>672.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>B</td><td>75</td><td>5033</td><td>Nulab Inc.</td><td>953.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>B</td><td>73</td><td>4370</td><td>Mobilus Corporation</td><td>393.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>B</td><td>73</td><td>6775</td><td>TB Group Inc.</td><td>130.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td>C</td><td>67</td><td>5129</td><td>FIXER Inc.</td><td>342.0</td><td>🚀 Step3（エントリー候補）</td></tr></tbody>
-</table>
-</section>
+<tbody><tr><td><b>S</b></td><td>87</td><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>861.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>84</td><td>2788</td><td>Apple International Co., Ltd.</td><td>439.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>81</td><td>7217</td><td>Tein, Inc.</td><td>459.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>79</td><td>4394</td><td>eXmotion Co., Ltd.</td><td>636.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>79</td><td>4707</td><td>KITAC Corporation</td><td>365.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>79</td><td>7078</td><td>INCLUSIVE Holdings Inc.</td><td>365.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>79</td><td>9340</td><td>ASO International, Inc.</td><td>770.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>A</b></td><td>78</td><td>6778</td><td>Artiza Networks, Inc.</td><td>672.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>B</b></td><td>75</td><td>5033</td><td>Nulab Inc.</td><td>953.0</td><td>🚀 Step3（エントリー候補）</td></tr><tr><td><b>B</b></td><td>73</td><td>6775</td><td>TB Group Inc.</td><td>130.0</td><td>🚀 Step3（エントリー候補）</td></tr></tbody></table></section>
 
-<section>
-<h2>仮想取引 OPEN</h2>
-<table>
+<section><h2>仮想取引 OPEN</h2><table>
 <thead><tr><th>Code</th><th>銘柄</th><th>Signal</th><th>Entry</th><th>Score</th><th>最大上昇%</th><th>最大下落%</th></tr></thead>
-<tbody><tr><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>2026-08-11</td><td>837.0</td><td>87</td><td>6.09</td><td>-0.84</td></tr><tr><td>4243</td><td>Nix, Inc.</td><td>2026-08-11</td><td>985.0</td><td>87</td><td>16.65</td><td>-2.44</td></tr><tr><td>5542</td><td>Shinhokoku Material Corp.</td><td>2026-08-11</td><td>873.0</td><td>86</td><td>18.44</td><td>0.0</td></tr><tr><td>6155</td><td>Takamatsu Machinery Co., Ltd.</td><td>2026-08-11</td><td>538.0</td><td>85</td><td>3.35</td><td>-3.72</td></tr><tr><td>6964</td><td>Sanko Co., Ltd.</td><td>2026-08-11</td><td>698.0</td><td>82</td><td>1.58</td><td>-0.72</td></tr><tr><td>2464</td><td>Aoba-BBT, Inc.</td><td>2026-08-11</td><td>343.0</td><td>81</td><td>11.37</td><td>-2.04</td></tr><tr><td>3238</td><td>Central General Development Co., Ltd.</td><td>2026-08-11</td><td>401.0</td><td>81</td><td>0.0</td><td>-5.99</td></tr><tr><td>2481</td><td>Townnews-Sha Co.,Ltd.</td><td>2026-08-11</td><td>666.0</td><td>80</td><td>1.35</td><td>-2.55</td></tr><tr><td>4360</td><td>MANAC Chemical Partners Co.,Ltd</td><td>2026-08-11</td><td>909.0</td><td>80</td><td>14.41</td><td>-6.49</td></tr><tr><td>4447</td><td>PBsystems,Inc.</td><td>2026-08-11</td><td>473.0</td><td>80</td><td>8.03</td><td>-0.21</td></tr><tr><td>4245</td><td>Daiki Axis Co., Ltd.</td><td>2026-08-11</td><td>715.0</td><td>79</td><td>1.68</td><td>-2.38</td></tr><tr><td>7217</td><td>Tein, Inc.</td><td>2026-08-11</td><td>457.0</td><td>79</td><td>2.19</td><td>-3.06</td></tr><tr><td>3958</td><td>Sasatoku Printing Co.,Ltd.</td><td>2026-08-27</td><td>554.0</td><td>89</td><td>0.0</td><td>-0.72</td></tr><tr><td>7928</td><td>Asahi Kagaku Kogyo Co.,Ltd.</td><td>2026-08-27</td><td>662.0</td><td>86</td><td>0.0</td><td>-5.74</td></tr><tr><td>4707</td><td>KITAC Corporation</td><td>2026-08-27</td><td>346.0</td><td>81</td><td>6.65</td><td>0.0</td></tr><tr><td>3967</td><td>Eltes Co.,Ltd.</td><td>2026-08-27</td><td>612.0</td><td>80</td><td>0.0</td><td>-5.39</td></tr><tr><td>3440</td><td>NISSO GROUP Co.,Ltd.</td><td>2026-08-27</td><td>958.0</td><td>78</td><td>0.0</td><td>-8.35</td></tr><tr><td>4178</td><td>Sharing Innovations Inc.</td><td>2026-08-27</td><td>551.0</td><td>73</td><td>0.73</td><td>-1.81</td></tr><tr><td>2788</td><td>Apple International Co., Ltd.</td><td>2026-08-28</td><td>439.0</td><td>84</td><td>0.0</td><td>0.0</td></tr><tr><td>3991</td><td>Wantedly, Inc.</td><td>2026-08-28</td><td>1050.0</td><td>79</td><td>0.0</td><td>0.0</td></tr><tr><td>4394</td><td>eXmotion Co., Ltd.</td><td>2026-08-28</td><td>636.0</td><td>79</td><td>0.0</td><td>0.0</td></tr><tr><td>7078</td><td>INCLUSIVE Holdings Inc.</td><td>2026-08-28</td><td>365.0</td><td>79</td><td>0.0</td><td>0.0</td></tr><tr><td>9340</td><td>ASO International, Inc.</td><td>2026-08-28</td><td>770.0</td><td>79</td><td>0.0</td><td>0.0</td></tr><tr><td>6778</td><td>Artiza Networks, Inc.</td><td>2026-08-28</td><td>672.0</td><td>78</td><td>0.0</td><td>0.0</td></tr><tr><td>5033</td><td>Nulab Inc.</td><td>2026-08-28</td><td>953.0</td><td>75</td><td>0.0</td><td>0.0</td></tr><tr><td>4370</td><td>Mobilus Corporation</td><td>2026-08-28</td><td>393.0</td><td>73</td><td>0.0</td><td>0.0</td></tr><tr><td>6775</td><td>TB Group Inc.</td><td>2026-08-28</td><td>130.0</td><td>73</td><td>0.0</td><td>0.0</td></tr><tr><td>5129</td><td>FIXER Inc.</td><td>2026-08-28</td><td>342.0</td><td>67</td><td>0.0</td><td>0.0</td></tr></tbody>
-</table>
-</section>
+<tbody><tr><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>2026-08-11</td><td>837.0</td><td>87</td><td>6.09</td><td>-0.84</td></tr><tr><td>4243</td><td>Nix, Inc.</td><td>2026-08-11</td><td>985.0</td><td>87</td><td>16.65</td><td>-2.44</td></tr><tr><td>5542</td><td>Shinhokoku Material Corp.</td><td>2026-08-11</td><td>873.0</td><td>86</td><td>18.44</td><td>0.0</td></tr><tr><td>6155</td><td>Takamatsu Machinery Co., Ltd.</td><td>2026-08-11</td><td>538.0</td><td>85</td><td>3.35</td><td>-3.72</td></tr><tr><td>6964</td><td>Sanko Co., Ltd.</td><td>2026-08-11</td><td>698.0</td><td>82</td><td>1.58</td><td>-0.72</td></tr><tr><td>2464</td><td>Aoba-BBT, Inc.</td><td>2026-08-11</td><td>343.0</td><td>81</td><td>11.37</td><td>-2.04</td></tr><tr><td>3238</td><td>Central General Development Co., Ltd.</td><td>2026-08-11</td><td>401.0</td><td>81</td><td>0.0</td><td>-5.99</td></tr><tr><td>2481</td><td>Townnews-Sha Co.,Ltd.</td><td>2026-08-11</td><td>666.0</td><td>80</td><td>1.35</td><td>-2.55</td></tr><tr><td>4360</td><td>MANAC Chemical Partners Co.,Ltd</td><td>2026-08-11</td><td>909.0</td><td>80</td><td>14.41</td><td>-6.49</td></tr><tr><td>4447</td><td>PBsystems,Inc.</td><td>2026-08-11</td><td>473.0</td><td>80</td><td>8.03</td><td>-0.21</td></tr><tr><td>4245</td><td>Daiki Axis Co., Ltd.</td><td>2026-08-11</td><td>715.0</td><td>79</td><td>1.68</td><td>-2.38</td></tr><tr><td>7217</td><td>Tein, Inc.</td><td>2026-08-11</td><td>457.0</td><td>79</td><td>2.19</td><td>-3.06</td></tr><tr><td>3958</td><td>Sasatoku Printing Co.,Ltd.</td><td>2026-08-27</td><td>554.0</td><td>89</td><td>0.0</td><td>-0.72</td></tr><tr><td>7928</td><td>Asahi Kagaku Kogyo Co.,Ltd.</td><td>2026-08-27</td><td>662.0</td><td>86</td><td>0.0</td><td>-5.74</td></tr><tr><td>4707</td><td>KITAC Corporation</td><td>2026-08-27</td><td>346.0</td><td>81</td><td>6.65</td><td>0.0</td></tr><tr><td>3967</td><td>Eltes Co.,Ltd.</td><td>2026-08-27</td><td>612.0</td><td>80</td><td>0.0</td><td>-5.39</td></tr><tr><td>3440</td><td>NISSO GROUP Co.,Ltd.</td><td>2026-08-27</td><td>958.0</td><td>78</td><td>0.0</td><td>-8.35</td></tr><tr><td>4178</td><td>Sharing Innovations Inc.</td><td>2026-08-27</td><td>551.0</td><td>73</td><td>0.73</td><td>-1.81</td></tr><tr><td>2788</td><td>Apple International Co., Ltd.</td><td>2026-08-28</td><td>439.0</td><td>84</td><td>0.0</td><td>0.0</td></tr><tr><td>3991</td><td>Wantedly, Inc.</td><td>2026-08-28</td><td>1050.0</td><td>79</td><td>0.0</td><td>0.0</td></tr><tr><td>4394</td><td>eXmotion Co., Ltd.</td><td>2026-08-28</td><td>636.0</td><td>79</td><td>0.0</td><td>0.0</td></tr><tr><td>7078</td><td>INCLUSIVE Holdings Inc.</td><td>2026-08-28</td><td>365.0</td><td>79</td><td>0.0</td><td>0.0</td></tr><tr><td>9340</td><td>ASO International, Inc.</td><td>2026-08-28</td><td>770.0</td><td>79</td><td>0.0</td><td>0.0</td></tr><tr><td>6778</td><td>Artiza Networks, Inc.</td><td>2026-08-28</td><td>672.0</td><td>78</td><td>0.0</td><td>0.0</td></tr><tr><td>5033</td><td>Nulab Inc.</td><td>2026-08-28</td><td>953.0</td><td>75</td><td>0.0</td><td>0.0</td></tr><tr><td>4370</td><td>Mobilus Corporation</td><td>2026-08-28</td><td>393.0</td><td>73</td><td>0.0</td><td>0.0</td></tr><tr><td>6775</td><td>TB Group Inc.</td><td>2026-08-28</td><td>130.0</td><td>73</td><td>0.0</td><td>0.0</td></tr><tr><td>5129</td><td>FIXER Inc.</td><td>2026-08-28</td><td>342.0</td><td>67</td><td>0.0</td><td>0.0</td></tr></tbody></table></section>
 
-<section>
-<h2>検証成績</h2>
-<div class='summary-row'><span>仮想取引数</span><strong>31</strong></div><div class='summary-row'><span>OPEN件数</span><strong>28</strong></div><div class='summary-row'><span>CLOSED件数</span><strong>3</strong></div><div class='summary-row'><span>+10%到達件数</span><strong>4</strong></div><div class='summary-row'><span>+10%到達率</span><strong>12.9%</strong></div><div class='summary-row'><span>+20%到達件数</span><strong>0</strong></div><div class='summary-row'><span>+20%到達率</span><strong>0.0%</strong></div><div class='summary-row'><span>+30%到達件数</span><strong>0</strong></div><div class='summary-row'><span>+30%到達率</span><strong>0.0%</strong></div><div class='summary-row'><span>損切り到達件数</span><strong>3</strong></div><div class='summary-row'><span>損切り到達率</span><strong>9.7%</strong></div><div class='summary-row'><span>平均最大上昇率</span><strong>2.99%</strong></div><div class='summary-row'><span>平均最大下落率</span><strong>-2.13%</strong></div>
-</section>
-
-<footer>
-これはスクリーニング・検証用の表示です。自動発注は行いません。
-CSV原本はGitHubリポジトリの results/ に保存されます。
-</footer>
-</div>
-</body>
-</html>
+<section><h2>検証成績</h2><div class='summary-row'><span>仮想取引数</span><strong>31</strong></div><div class='summary-row'><span>OPEN件数</span><strong>28</strong></div><div class='summary-row'><span>CLOSED件数</span><strong>3</strong></div><div class='summary-row'><span>+10%到達件数</span><strong>4</strong></div><div class='summary-row'><span>+10%到達率</span><strong>12.9%</strong></div><div class='summary-row'><span>+20%到達件数</span><strong>0</strong></div><div class='summary-row'><span>+20%到達率</span><strong>0.0%</strong></div><div class='summary-row'><span>+30%到達件数</span><strong>0</strong></div><div class='summary-row'><span>+30%到達率</span><strong>0.0%</strong></div><div class='summary-row'><span>損切り到達件数</span><strong>3</strong></div><div class='summary-row'><span>損切り到達率</span><strong>9.7%</strong></div><div class='summary-row'><span>平均最大上昇率</span><strong>2.99%</strong></div><div class='summary-row'><span>平均最大下落率</span><strong>-2.13%</strong></div></section>
+<footer>スクリーニング・検証用です。自動発注は行いません。Sランク等のコードは上のコピーボタンからChatGPTへ貼り付けできます。</footer>
+</div></body></html>
