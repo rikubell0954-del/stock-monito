@@ -3,8 +3,8 @@ name: Stock Monitor
 on:
   workflow_dispatch:
   schedule:
-    # 16:30 JST = 07:30 UTC, weekdays
-    - cron: "30 7 * * 1-5"
+    # 17:45 JST = 08:45 UTC, weekdays
+    - cron: "45 8 * * 1-5"
 
 permissions:
   contents: write
