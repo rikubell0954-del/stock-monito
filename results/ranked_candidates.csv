@@ -1,680 +1,689 @@
 ﻿銘柄コード,銘柄名,株価,判定,出来高比率,出来高枯れ,出来高再増加,小実体,じわ切り上げ,日足代表価格上,MA5上,MA25上,MA75上,MA200上,全MA上,直近高値からの下落(%),損切り目安下幅(%),急騰期待スコア,優先ランク,スコア根拠,監視優先度
-3598,"Yamaki Co.,Ltd.",167.0,🚀 Step3（エントリー候補）,2.95,✗,✓,✗,✓,✓,✓,✓,✓,✓,✓,-1.2,5.4,82,A,stage=32; position=27; volume=9; shape=5; risk=9,★★ 強監視
-6233,KLASS Corporation,404.0,🚀 Step3（エントリー候補）,2.79,✗,✓,✗,✓,✓,✓,✓,✓,✓,✓,-0.5,5.0,81,A,stage=32; position=27; volume=9; shape=5; risk=8,★★ 強監視
-2215,"First Baking Co., Ltd.",616.0,⏳ Step2完了（次の急騰待ち）,0.25,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-5.2,2.9,80,A,stage=24; position=27; volume=8; shape=11; risk=10,★★ 強監視
-7610,"Tay Two Co., Ltd.",144.0,⏳ Step2完了（次の急騰待ち）,0.32,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.4,4.9,80,A,stage=24; position=27; volume=8; shape=11; risk=10,★★ 強監視
-8013,"Naigai Co.,Ltd.",358.0,⏳ Step2完了（次の急騰待ち）,0.04,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.9,3.9,80,A,stage=24; position=27; volume=8; shape=11; risk=10,★★ 強監視
-9972,"Altech Co., Ltd.",281.0,⏳ Step2完了（次の急騰待ち）,0.25,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.4,5.0,80,A,stage=24; position=27; volume=8; shape=11; risk=10,★★ 強監視
-3750,ADR Biomedical Holdings Inc.,848.0,🚀 Step3（エントリー候補）,4.54,✗,✓,✗,✓,✓,✓,✓,✓,✓,✓,-0.6,10.5,79,A,stage=32; position=27; volume=10; shape=5; risk=5,★★ 強監視
-3988,"SYS Holdings Co., Ltd.",560.0,⏳ Step2完了（次の急騰待ち）,0.04,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-2.9,5.3,79,A,stage=24; position=27; volume=8; shape=11; risk=9,★★ 強監視
-4014,"Karadanote, Inc.",509.0,⏳ Step2完了（次の急騰待ち）,0.2,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.7,5.9,79,A,stage=24; position=27; volume=8; shape=11; risk=9,★★ 強監視
-4484,"Lancers, Inc.",297.0,⏳ Step2完了（次の急騰待ち）,0.64,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.0,5.1,79,A,stage=24; position=27; volume=8; shape=11; risk=9,★★ 強監視
-6292,"Kawata Mfg. Co., Ltd.",856.0,⏳ Step2完了（次の急騰待ち）,0.08,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.2,6.8,79,A,stage=24; position=27; volume=8; shape=11; risk=9,★★ 強監視
-7980,"Shigematsu Works Co., Ltd.",861.0,⏳ Step2完了（次の急騰待ち）,0.24,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-2.8,7.0,79,A,stage=24; position=27; volume=8; shape=11; risk=9,★★ 強監視
-3160,"Oomitsu Co., Ltd.",580.0,⏳ Step2完了（次の急騰待ち）,0.74,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.3,0.7,78,A,stage=24; position=27; volume=8; shape=11; risk=8,★★ 強監視
-3839,"ODK Solutions Company, Ltd.",645.0,⏳ Step2完了（次の急騰待ち）,0.38,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.3,2.6,78,A,stage=24; position=27; volume=8; shape=11; risk=8,★★ 強監視
-9423,Forval RealStraight Inc.,106.0,⏳ Step2完了（次の急騰待ち）,0.39,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.9,3.8,78,A,stage=24; position=27; volume=8; shape=11; risk=8,★★ 強監視
-9827,"Lilycolor Co., Ltd.",648.0,⏳ Step2完了（次の急騰待ち）,0.54,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.3,4.8,78,A,stage=24; position=27; volume=8; shape=11; risk=8,★★ 強監視
-151A,Dive Group Inc.,667.0,⏳ Step2完了（次の急騰待ち）,0.24,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.3,5.8,77,B,stage=24; position=27; volume=8; shape=11; risk=7,★ 監視
-1724,Synclayer Inc.,721.0,⏳ Step2完了（次の急騰待ち）,0.29,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.6,5.8,77,B,stage=24; position=27; volume=8; shape=11; risk=7,★ 監視
-4245,"Daiki Axis Co., Ltd.",727.0,⏳ Step2完了（次の急騰待ち）,0.46,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.3,7.8,77,B,stage=24; position=27; volume=8; shape=11; risk=7,★ 監視
-6400,"Fuji Seiki Co.,Ltd.",291.0,⏳ Step2完了（次の急騰待ち）,0.24,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-2.0,11.3,77,B,stage=24; position=27; volume=8; shape=11; risk=7,★ 監視
-6757,"OSG Corporation Co., Ltd.",882.0,⏳ Step2完了（次の急騰待ち）,0.21,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.7,5.8,77,B,stage=24; position=27; volume=8; shape=11; risk=7,★ 監視
-7782,"Sincere Co., LTD.",489.0,⏳ Step2完了（次の急騰待ち）,0.44,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.6,6.5,77,B,stage=24; position=27; volume=8; shape=11; risk=7,★ 監視
-9514,EF-ON Inc.,349.0,⏳ Step2完了（次の急騰待ち）,0.35,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-2.0,9.2,77,B,stage=24; position=27; volume=8; shape=11; risk=7,★ 監視
-4486,Unite and Grow Inc.,705.0,⏳ Step2完了（次の急騰待ち）,0.36,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.6,11.3,75,B,stage=24; position=27; volume=8; shape=11; risk=5,★ 監視
-7640,"TOP CULTURE Co.,Ltd.",195.0,⏳ Step2完了（次の急騰待ち）,0.07,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-2.0,13.3,75,B,stage=24; position=27; volume=8; shape=11; risk=5,★ 監視
-9854,"Aigan Co.,Ltd.",286.0,⏳ Step2完了（次の急騰待ち）,0.14,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-4.7,12.9,75,B,stage=24; position=27; volume=8; shape=11; risk=5,★ 監視
-3521,"Thermae-Yu Holdings Co., Ltd.",156.0,⏳ Step2完了（次の急騰待ち）,1.28,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.3,3.8,74,B,stage=24; position=21; volume=8; shape=11; risk=10,★ 監視
-5491,"Nippon Kinzoku Co., Ltd.",938.0,⏳ Step2完了（次の急騰待ち）,0.51,✓,✗,✓,✗,✓,✓,✓,✓,✓,✓,-3.1,6.3,74,B,stage=24; position=27; volume=8; shape=6; risk=9,★ 監視
-7833,IFIS Japan Ltd.,660.0,⏳ Step2完了（次の急騰待ち）,0.85,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.3,3.9,74,B,stage=24; position=21; volume=8; shape=11; risk=10,★ 監視
-9980,MRK Holdings Inc.,96.0,⏳ Step2完了（次の急騰待ち）,0.25,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-2.0,3.1,74,B,stage=24; position=21; volume=8; shape=11; risk=10,★ 監視
-2778,"Palemo Holdings Co.,Ltd.",117.0,⏳ Step2完了（次の急騰待ち）,0.65,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.7,7.7,73,B,stage=24; position=21; volume=8; shape=11; risk=9,★ 監視
-7048,VELTRA Corporation,156.0,⏳ Step2完了（次の急騰待ち）,0.27,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-4.3,7.7,73,B,stage=24; position=21; volume=8; shape=11; risk=9,★ 監視
-7602,"Ledax Co.,Ltd.",171.0,⏳ Step2完了（次の急騰待ち）,0.07,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-4.5,7.6,73,B,stage=24; position=21; volume=8; shape=11; risk=9,★ 監視
-7692,Earth Infinity Co.Ltd.,81.0,⏳ Step2完了（次の急騰待ち）,0.03,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.2,7.4,73,B,stage=24; position=21; volume=8; shape=11; risk=9,★ 監視
-8835,Taiheiyo Kouhatsu Incorporated,805.0,⏳ Step2完了（次の急騰待ち）,0.14,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.2,6.6,73,B,stage=24; position=21; volume=8; shape=11; risk=9,★ 監視
-1420,Sanyo Homes Corporation,637.0,⏳ Step2完了（次の急騰待ち）,0.28,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.9,2.0,72,B,stage=24; position=21; volume=8; shape=11; risk=8,★ 監視
-3920,"Internetworking and Broadband Consulting Co.,Ltd.",988.0,⏳ Step2完了（次の急騰待ち）,0.08,✓,✗,✓,✓,✓,✓,✓,✗,✓,✗,-1.1,1.9,72,B,stage=24; position=19; volume=8; shape=11; risk=10,★ 監視
-3955,"IMURA & Co.,Ltd.",848.0,⏳ Step2完了（次の急騰待ち）,0.7,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.8,3.8,72,B,stage=24; position=21; volume=8; shape=11; risk=8,★ 監視
-175A,"Will Smart Co.,LTD.",647.0,⏳ Step2完了（次の急騰待ち）,0.2,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-5.4,9.3,71,B,stage=24; position=21; volume=8; shape=11; risk=7,★ 監視
-206A,"PRISM BioLab Co.,LTD",175.0,⏳ Step2完了（次の急騰待ち）,0.09,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-3.3,18.9,71,B,stage=24; position=27; volume=8; shape=11; risk=1 | risk: stop width >15%,★ 監視
-3639,Voltage Incorporation,230.0,⏳ Step2完了（次の急騰待ち）,0.03,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,0.0,5.7,71,B,stage=24; position=21; volume=8; shape=11; risk=7,★ 監視
-3848,"Data Applications Company, Limited",860.0,⏳ Step2完了（次の急騰待ち）,0.4,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,0.0,5.8,71,B,stage=24; position=21; volume=8; shape=11; risk=7,★ 監視
-407A,"Unicon Holdings Co., Ltd.",949.0,⏳ Step2完了（次の急騰待ち）,0.38,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-2.6,9.3,71,B,stage=24; position=21; volume=8; shape=11; risk=7,★ 監視
-4167,Kokopelli Inc.,335.0,⏳ Step2完了（次の急騰待ち）,0.21,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-2.9,15.2,71,B,stage=24; position=27; volume=8; shape=11; risk=1 | risk: stop width >15%,★ 監視
-4438,Welby Inc.,258.0,⏳ Step2完了（次の急騰待ち）,0.03,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-3.4,8.1,71,B,stage=24; position=21; volume=8; shape=11; risk=7,★ 監視
-5287,"Ito Yogyo Co., Ltd",883.0,⏳ Step2完了（次の急騰待ち）,0.08,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-5.9,10.0,71,B,stage=24; position=21; volume=8; shape=11; risk=7,★ 監視
-5950,"Japan Power Fastening Co.,Ltd.",160.0,⏳ Step2完了（次の急騰待ち）,0.08,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.2,11.9,71,B,stage=24; position=21; volume=8; shape=11; risk=7,★ 監視
-7093,"adish Co., Ltd.",602.0,⏳ Step2完了（次の急騰待ち）,0.04,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-2.4,16.4,71,B,stage=24; position=27; volume=8; shape=11; risk=1 | risk: stop width >15%,★ 監視
-8518,"Japan Asia Investment Co., Ltd.",150.0,🚀 Step3（エントリー候補）,4.34,✗,✓,✗,✓,✓,✓,✓,✓,✗,✗,-2.6,18.7,69,B,stage=32; position=21; volume=10; shape=5; risk=1 | risk: stop width >15%,★ 監視
-1711,"SDS HOLDINGS Co.,Ltd.",248.0,⏳ Step2完了（次の急騰待ち）,0.19,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.4,8.5,69,B,stage=24; position=21; volume=8; shape=11; risk=5,★ 監視
-3041,"Beauty Kadan Holdings Co., Ltd.",412.0,⏳ Step2完了（次の急騰待ち）,0.9,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-1.7,2.9,69,B,stage=24; position=16; volume=8; shape=11; risk=10,★ 監視
-3911,Aiming Inc.,186.0,⏳ Step2完了（次の急騰待ち）,0.24,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,0.0,9.7,69,B,stage=24; position=21; volume=8; shape=11; risk=5,★ 監視
-3985,TEMONA.inc.,194.0,⏳ Step2完了（次の急騰待ち）,0.08,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.5,9.3,69,B,stage=24; position=21; volume=8; shape=11; risk=5,★ 監視
-4017,Creema Ltd.,220.0,⏳ Step2完了（次の急騰待ち）,0.11,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.9,8.2,69,B,stage=24; position=21; volume=8; shape=11; risk=5,★ 監視
-4166,Cacco Inc.,638.0,⏳ Step2完了（次の急騰待ち）,0.03,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-1.7,2.2,69,B,stage=24; position=16; volume=8; shape=11; risk=10,★ 監視
-5255,Monstarlab Inc.,96.0,⏳ Step2完了（次の急騰待ち）,0.12,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-7.7,13.5,69,B,stage=24; position=21; volume=8; shape=11; risk=5,★ 監視
-6038,"IID, Inc.",835.0,⏳ Step2完了（次の急騰待ち）,0.25,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-1.4,3.7,69,B,stage=24; position=16; volume=8; shape=11; risk=10,★ 監視
-6343,Freesia Macross Corporation,154.0,⏳ Step2完了（次の急騰待ち）,0.18,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,0.0,8.4,69,B,stage=24; position=21; volume=8; shape=11; risk=5,★ 監視
-6786,RVH Inc.,49.0,⏳ Step2完了（次の急騰待ち）,0.06,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-3.9,4.1,69,B,stage=24; position=16; volume=8; shape=11; risk=10,★ 監視
-7325,IRRC Corporation,700.0,⏳ Step2完了（次の急騰待ち）,0.52,✓,✗,✓,✗,✓,✓,✓,✓,✗,✗,-5.4,3.3,69,B,stage=24; position=21; volume=8; shape=6; risk=10,★ 監視
-8912,Area Quest Inc.,156.0,⏳ Step2完了（次の急騰待ち）,0.05,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-1.3,3.8,69,B,stage=24; position=16; volume=8; shape=11; risk=10,★ 監視
-9193,"Tokyo Kisen Co.,Ltd.",881.0,⏳ Step2完了（次の急騰待ち）,0.44,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-3.0,4.5,69,B,stage=24; position=16; volume=8; shape=11; risk=10,★ 監視
-9816,Striders Corporation,259.0,⏳ Step2完了（次の急騰待ち）,0.04,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.4,11.2,69,B,stage=24; position=21; volume=8; shape=11; risk=5,★ 監視
-9876,"Cox Co., Ltd.",223.0,⏳ Step2完了（次の急騰待ち）,0.35,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-1.3,4.5,69,B,stage=24; position=16; volume=8; shape=11; risk=10,★ 監視
-9878,"SEKIDO Co., Ltd.",416.0,⏳ Step2完了（次の急騰待ち）,0.08,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-3.0,1.7,69,B,stage=24; position=16; volume=8; shape=11; risk=10,★ 監視
-1783,"Fantasista Co., Ltd.",49.0,⏳ Step2完了（次の急騰待ち）,0.12,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-2.0,6.1,68,B,stage=24; position=16; volume=8; shape=11; risk=9,★ 監視
-3686,DLE Inc.,60.0,⏳ Step2完了（次の急騰待ち）,0.74,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-6.2,6.7,68,B,stage=24; position=16; volume=8; shape=11; risk=9,★ 監視
-5035,HOUSEI Inc.,369.0,⏳ Step2完了（次の急騰待ち）,0.38,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-1.3,5.4,68,B,stage=24; position=16; volume=8; shape=11; risk=9,★ 監視
-4598,"Delta-Fly Pharma, Inc.",154.0,🚀 Step3（エントリー候補）,37.56,✗,✓,✗,✓,✓,✓,✓,✓,✗,✗,0.0,40.3,67,C,stage=32; position=21; volume=10; shape=5; risk=-1 | risk: stop width >15%,継続監視
-4766,"PA Co., Ltd.",214.0,⏳ Step2完了（次の急騰待ち）,0.28,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.9,12.1,67,C,stage=24; position=21; volume=8; shape=11; risk=3,継続監視
-4880,"CellSource Co., Ltd.",359.0,⏳ Step2完了（次の急騰待ち）,0.67,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.3,14.5,67,C,stage=24; position=21; volume=8; shape=11; risk=3,継続監視
-4885,Muromachi Chemicals Inc.,910.0,⏳ Step2完了（次の急騰待ち）,0.15,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-0.4,3.8,67,C,stage=24; position=16; volume=8; shape=11; risk=8,継続監視
-6049,ItoKuro Inc.,248.0,⏳ Step2完了（次の急騰待ち）,0.29,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,0.0,3.2,67,C,stage=24; position=16; volume=8; shape=11; risk=8,継続監視
-9262,"Silver Life Co., Ltd.",694.0,⏳ Step2完了（次の急騰待ち）,0.97,✓,✗,✓,✗,✓,✓,✓,✓,✗,✗,-1.8,8.8,66,C,stage=24; position=21; volume=8; shape=6; risk=7,継続監視
-3571,"Sotoh Co., Ltd.",736.0,📉 Step2中（調整中）,1.64,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.5,4.1,66,C,stage=14; position=27; volume=10; shape=5; risk=10,継続監視
-2193,Cookpad Inc.,136.0,⏳ Step2完了（次の急騰待ち）,0.58,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-2.2,16.2,65,C,stage=24; position=21; volume=8; shape=11; risk=1 | risk: stop width >15%,継続監視
-2321,Softfront Holdings,140.0,⏳ Step2完了（次の急騰待ち）,0.06,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-2.1,16.4,65,C,stage=24; position=21; volume=8; shape=11; risk=1 | risk: stop width >15%,継続監視
-4427,"EduLab, Inc.",228.0,⏳ Step2完了（次の急騰待ち）,0.07,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.7,17.5,65,C,stage=24; position=21; volume=8; shape=11; risk=1 | risk: stop width >15%,継続監視
-4395,Accrete Inc.,733.0,⏳ Step2完了（次の急騰待ち）,0.11,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-1.3,14.9,64,C,stage=24; position=16; volume=8; shape=11; risk=5,継続監視
-3058,Sanyodo Holdings Inc,710.0,📉 Step2中（調整中）,0.19,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-4.7,2.3,64,C,stage=14; position=27; volume=8; shape=5; risk=10,継続監視
-5742,"NIC Autotec, Inc.",753.0,📉 Step2中（調整中）,0.25,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.6,4.4,64,C,stage=14; position=27; volume=8; shape=5; risk=10,継続監視
-7544,"Three F Co.,Ltd.",561.0,📉 Step2中（調整中）,0.32,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.1,3.5,64,C,stage=14; position=27; volume=8; shape=5; risk=10,継続監視
-7939,"Kensoh Co.,Ltd.",608.0,📉 Step2中（調整中）,0.35,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.8,4.4,64,C,stage=14; position=27; volume=8; shape=5; risk=10,継続監視
-4179,G-NEXT Inc.,369.0,⏳ Step2完了（次の急騰待ち）,0.29,✓,✗,✓,✓,✓,✓,✓,✗,✓,✗,-5.6,17.9,63,C,stage=24; position=19; volume=8; shape=11; risk=1 | risk: stop width >15%,継続監視
-3241,"WILL,Co.,Ltd.",606.0,📉 Step2中（調整中）,0.14,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.5,5.3,63,C,stage=14; position=27; volume=8; shape=5; risk=9,継続監視
-4386,"SIG Group Co., Ltd.",903.0,📉 Step2中（調整中）,0.25,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-4.4,7.9,63,C,stage=14; position=27; volume=8; shape=5; risk=9,継続監視
-4490,VisasQ Inc.,665.0,📉 Step2中（調整中）,0.17,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-3.6,7.4,63,C,stage=14; position=27; volume=8; shape=5; risk=9,継続監視
-6579,"logly,Inc.",355.0,📉 Step2中（調整中）,0.09,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-4.1,5.4,63,C,stage=14; position=27; volume=8; shape=5; risk=9,継続監視
-6771,"Ikegami Tsushinki Co., Ltd.",681.0,📉 Step2中（調整中）,0.23,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.4,6.8,63,C,stage=14; position=27; volume=8; shape=5; risk=9,継続監視
-7362,Terminalcare Support Institute Inc.,884.0,📉 Step2中（調整中）,0.24,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.8,6.3,63,C,stage=14; position=27; volume=8; shape=5; risk=9,継続監視
-7619,"Tanaka Co.,Ltd.",971.0,📉 Step2中（調整中）,0.41,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.4,7.3,63,C,stage=14; position=27; volume=8; shape=5; risk=9,継続監視
-9475,"Shobunsha Holdings, Inc.",530.0,📉 Step2中（調整中）,0.13,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.3,6.6,63,C,stage=14; position=27; volume=8; shape=5; risk=9,継続監視
-2139,"Chuco Co., Ltd.",527.0,📉 Step2中（調整中）,0.34,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.9,1.9,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
-2789,"Karula Co.,LTD.",478.0,📉 Step2中（調整中）,0.15,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.6,2.7,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
-2796,Pharmarise Holdings Corporation,505.0,📉 Step2中（調整中）,0.35,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.2,3.8,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
-3143,O'will Corporation,698.0,📉 Step2中（調整中）,1.02,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.9,2.6,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
-3359,"cotta CO.,LTD",530.0,📉 Step2中（調整中）,1.0,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.4,4.3,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
-3641,"Papyless Co., Ltd.",988.0,📉 Step2中（調整中）,0.5,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.3,3.7,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
-6325,"Takakita Co., Ltd.",419.0,📉 Step2中（調整中）,0.47,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.5,4.8,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
-7183,"Anshin Guarantor Service Co., Ltd.",255.0,📉 Step2中（調整中）,0.06,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,0.4,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
-9330,AGEHA Inc.,882.0,📉 Step2中（調整中）,0.02,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.1,2.4,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
-9872,"Kitakei Co., Ltd.",962.0,📉 Step2中（調整中）,0.17,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.5,4.7,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
-2481,"Townnews-Sha Co.,Ltd.",675.0,📉 Step2中（調整中）,0.41,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,7.1,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-3246,"KOSE R.E. Co.,Ltd.",698.0,📉 Step2中（調整中）,0.39,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,7.6,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-3248,"Early Age Co., Ltd.",891.0,📉 Step2中（調整中）,0.16,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.3,5.7,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-4241,atect corporation,666.0,📉 Step2中（調整中）,0.2,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.8,11.4,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-4444,infoNet inc.,950.0,📉 Step2中（調整中）,0.48,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-9.5,5.4,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-5162,Asahi Rubber Inc.,808.0,📉 Step2中（調整中）,0.23,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.8,11.9,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-5527,Property Technologies Inc.,732.0,📉 Step2中（調整中）,0.21,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.1,8.5,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-5928,"Almetax Manufacturing Co., Ltd.",296.0,📉 Step2中（調整中）,0.47,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,6.4,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-6093,"MITRA Group, Inc.",164.0,📉 Step2中（調整中）,0.12,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.6,6.0,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-6663,"Taiyo Technolex Co.,Ltd.",318.0,📉 Step2中（調整中）,0.14,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-5.1,10.1,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-7060,geechs inc.,609.0,📉 Step2中（調整中）,0.63,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.2,6.7,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-7192,Mortgage Service Japan Limited,636.0,📉 Step2中（調整中）,0.29,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.2,8.3,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-7443,"Yokohama Gyorui Co., Ltd.",670.0,📉 Step2中（調整中）,0.59,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.3,5.7,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-7462,CAPITA Inc.,402.0,📉 Step2中（調整中）,0.57,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-3.8,10.9,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-8742,"Kobayashi Yoko Co., Ltd.",564.0,📉 Step2中（調整中）,0.42,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.2,6.9,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-9215,"CaSy Co., Ltd.",994.0,📉 Step2中（調整中）,0.75,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.4,7.6,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
-145A,L is B corp.,921.0,📉 Step2中（調整中）,0.14,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.0,13.4,59,C,stage=14; position=27; volume=8; shape=5; risk=5,継続監視
-2351,ASJ Inc.,338.0,📉 Step2中（調整中）,0.23,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-8.6,10.9,59,C,stage=14; position=27; volume=8; shape=5; risk=5,継続監視
-2438,"Asukanet Co., Ltd.",368.0,📉 Step2中（調整中）,0.79,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.5,12.0,59,C,stage=14; position=27; volume=8; shape=5; risk=5,継続監視
-3840,Path Corporation,62.0,📉 Step2中（調整中）,0.41,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.6,12.9,59,C,stage=14; position=27; volume=8; shape=5; risk=5,継続監視
-3896,"Awa Paper & Technological Company, Inc.",409.0,📉 Step2中（調整中）,0.08,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-4.7,12.5,59,C,stage=14; position=27; volume=8; shape=5; risk=5,継続監視
-4531,"Yuki Gosei Kogyo Co., Ltd.",368.0,📉 Step2中（調整中）,0.2,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.6,12.5,59,C,stage=14; position=27; volume=8; shape=5; risk=5,継続監視
-4990,"Showa Chemical Industry Co., Ltd.",534.0,📉 Step2中（調整中）,0.88,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.4,9.4,59,C,stage=14; position=27; volume=8; shape=5; risk=5,継続監視
-5248,"TECHNOLOGIES, Inc.",515.0,📉 Step2中（調整中）,0.07,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.5,12.4,59,C,stage=14; position=27; volume=8; shape=5; risk=5,継続監視
-7096,StemCell Institute Inc.,770.0,📉 Step2中（調整中）,0.07,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.6,9.2,59,C,stage=14; position=27; volume=8; shape=5; risk=5,継続監視
-7111,"INEST, Inc.",538.0,📉 Step2中（調整中）,0.15,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.0,14.5,59,C,stage=14; position=27; volume=8; shape=5; risk=5,継続監視
-220A,Faber Company Inc.,965.0,📉 Step2中（調整中）,0.49,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.2,4.1,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
-2376,Scinex Corporation,784.0,📉 Step2中（調整中）,0.17,✓,✗,✗,✗,✓,✓,✓,✓,✓,✓,-1.6,6.4,58,C,stage=14; position=27; volume=8; shape=0; risk=9,継続監視
-3326,"Runsystem Co.,Ltd.",654.0,📉 Step2中（調整中）,0.32,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.5,5.0,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
-4777,Gala Incorporated,205.0,📉 Step2中（調整中）,0.52,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.8,4.9,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
-5216,"Kuramoto Co., Ltd.",157.0,📉 Step2中（調整中）,0.24,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-4.8,4.5,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
-6424,"Takamisawa Cybernetics Company, Ltd.",903.0,📉 Step2中（調整中）,0.17,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.4,1.7,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
-6926,"Okaya Electric Industries Co., Ltd.",189.0,📉 Step2中（調整中）,0.32,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.0,2.6,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
-8166,"Taka-Q Co., Ltd.",79.0,📉 Step2中（調整中）,0.13,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.2,2.5,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
-8769,"Advantage Risk Management Co., Ltd.",507.0,📉 Step2中（調整中）,0.33,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-4.5,4.3,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
+2894,"Ishii Food Co., Ltd.",373.0,🚀 Step3（エントリー候補）,4.38,✗,✓,✗,✓,✓,✓,✓,✓,✓,✓,-1.6,11.8,81,A,stage=32; position=27; volume=10; shape=5; risk=7,★★ 強監視
+7162,"ASTMAX Co., Ltd.",308.0,🚀 Step3（エントリー候補）,4.25,✗,✓,✓,✓,✓,✓,✓,✓,✓,✓,-4.3,24.7,81,A,stage=32; position=27; volume=10; shape=11; risk=1 | risk: stop width >15%,★★ 強監視
+8247,"Daiwa Co.,Ltd.",341.0,🚀 Step3（エントリー候補）,20.73,✗,✓,✓,✓,✓,✓,✓,✓,✓,✓,-3.4,17.6,81,A,stage=32; position=27; volume=10; shape=11; risk=1 | risk: stop width >15%,★★ 強監視
+9466,Aidma Marketing Communication Corporation,243.0,🚀 Step3（エントリー候補）,24.58,✗,✓,✗,✓,✓,✓,✓,✓,✓,✓,-2.4,9.5,81,A,stage=32; position=27; volume=10; shape=5; risk=7,★★ 強監視
+3494,"Mullion Co., Ltd.",443.0,⏳ Step2完了（次の急騰待ち）,0.18,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-3.3,4.5,80,A,stage=24; position=27; volume=8; shape=11; risk=10,★★ 強監視
+4484,"Lancers, Inc.",300.0,⏳ Step2完了（次の急騰待ち）,0.48,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-2.9,5.0,80,A,stage=24; position=27; volume=8; shape=11; risk=10,★★ 強監視
+5742,"NIC Autotec, Inc.",754.0,⏳ Step2完了（次の急騰待ち）,0.12,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.4,4.5,80,A,stage=24; position=27; volume=8; shape=11; risk=10,★★ 強監視
+151A,Dive Group Inc.,662.0,⏳ Step2完了（次の急騰待ち）,0.29,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.0,5.1,79,A,stage=24; position=27; volume=8; shape=11; risk=9,★★ 強監視
+7782,"Sincere Co., LTD.",488.0,⏳ Step2完了（次の急騰待ち）,0.29,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.4,6.4,79,A,stage=24; position=27; volume=8; shape=11; risk=9,★★ 強監視
+6233,KLASS Corporation,400.0,🚀 Step3（エントリー候補）,4.85,✗,✓,✗,✓,✓,✓,✓,✓,✗,✗,-1.5,4.0,78,A,stage=32; position=21; volume=10; shape=5; risk=10,★★ 強監視
+3160,"Oomitsu Co., Ltd.",581.0,⏳ Step2完了（次の急騰待ち）,0.19,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.2,0.9,78,A,stage=24; position=27; volume=8; shape=11; risk=8,★★ 強監視
+7953,"Kikusui Chemical Industries Co., Ltd.",402.0,⏳ Step2完了（次の急騰待ち）,0.59,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.7,4.7,78,A,stage=24; position=27; volume=8; shape=11; risk=8,★★ 強監視
+2438,"Asukanet Co., Ltd.",365.0,⏳ Step2完了（次の急騰待ち）,0.44,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.6,11.2,77,B,stage=24; position=27; volume=8; shape=11; risk=7,★ 監視
+2481,"Townnews-Sha Co.,Ltd.",675.0,⏳ Step2完了（次の急騰待ち）,0.56,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.7,7.1,77,B,stage=24; position=27; volume=8; shape=11; risk=7,★ 監視
+7043,"Alue Co.,Ltd.",946.0,⏳ Step2完了（次の急騰待ち）,0.3,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.3,10.8,77,B,stage=24; position=27; volume=8; shape=11; risk=7,★ 監視
+9215,"CaSy Co., Ltd.",995.0,⏳ Step2完了（次の急騰待ち）,0.33,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.3,7.7,77,B,stage=24; position=27; volume=8; shape=11; risk=7,★ 監視
+5527,Property Technologies Inc.,735.0,⏳ Step2完了（次の急騰待ち）,0.23,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.7,8.6,75,B,stage=24; position=27; volume=8; shape=11; risk=5,★ 監視
+5697,"Sanyu Co., Ltd.",828.0,⏳ Step2完了（次の急騰待ち）,0.22,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-2.5,13.0,75,B,stage=24; position=27; volume=8; shape=11; risk=5,★ 監視
+7093,"adish Co., Ltd.",605.0,⏳ Step2完了（次の急騰待ち）,0.2,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.9,13.7,75,B,stage=24; position=27; volume=8; shape=11; risk=5,★ 監視
+7640,"TOP CULTURE Co.,Ltd.",197.0,⏳ Step2完了（次の急騰待ち）,0.06,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.0,14.2,75,B,stage=24; position=27; volume=8; shape=11; risk=5,★ 監視
+6538,Disruptors Inc.,250.0,🚀 Step3（エントリー候補）,2.54,✗,✓,✗,✓,✓,✓,✓,✓,✗,✗,-11.0,6.0,74,B,stage=32; position=21; volume=9; shape=5; risk=7,★ 監視
+4014,"Karadanote, Inc.",507.0,⏳ Step2完了（次の急騰待ち）,0.99,✓,✗,✓,✗,✓,✓,✓,✓,✓,✓,-2.1,5.5,74,B,stage=24; position=27; volume=8; shape=6; risk=9,★ 監視
+6292,"Kawata Mfg. Co., Ltd.",856.0,⏳ Step2完了（次の急騰待ち）,0.19,✓,✗,✓,✗,✓,✓,✓,✓,✓,✓,-1.2,6.8,74,B,stage=24; position=27; volume=8; shape=6; risk=9,★ 監視
+3634,Sockets Inc.,601.0,⏳ Step2完了（次の急騰待ち）,0.15,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-3.1,6.0,73,B,stage=24; position=21; volume=8; shape=11; risk=9,★ 監視
+3758,Aeria Inc.,252.0,⏳ Step2完了（次の急騰待ち）,0.27,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.6,5.6,73,B,stage=24; position=21; volume=8; shape=11; risk=9,★ 監視
+7602,"Ledax Co.,Ltd.",169.0,⏳ Step2完了（次の急騰待ち）,0.05,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-5.6,6.5,73,B,stage=24; position=21; volume=8; shape=11; risk=9,★ 監視
+4750,"Daisan Co., Ltd.",568.0,🚀 Step3（エントリー候補）,2.84,✗,✓,✗,✗,✓,✓,✓,✓,✗,✗,-1.4,4.8,72,B,stage=32; position=21; volume=9; shape=0; risk=10,★ 監視
+2493,"E-SUPPORTLINK, Ltd.",948.0,⏳ Step2完了（次の急騰待ち）,0.17,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.4,1.2,72,B,stage=24; position=21; volume=8; shape=11; risk=8,★ 監視
+2722,"IK HOLDINGS Co.,Ltd.",361.0,⏳ Step2完了（次の急騰待ち）,0.2,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,0.0,1.7,72,B,stage=24; position=21; volume=8; shape=11; risk=8,★ 監視
+4720,"Johnan Academic Preparatory Institute, Inc.",245.0,⏳ Step2完了（次の急騰待ち）,0.04,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.4,2.0,72,B,stage=24; position=21; volume=8; shape=11; risk=8,★ 監視
+3639,Voltage Incorporation,231.0,⏳ Step2完了（次の急騰待ち）,0.08,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.4,6.1,71,B,stage=24; position=21; volume=8; shape=11; risk=7,★ 監視
+4167,Kokopelli Inc.,340.0,⏳ Step2完了（次の急騰待ち）,0.35,✓,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.4,16.5,71,B,stage=24; position=27; volume=8; shape=11; risk=1 | risk: stop width >15%,★ 監視
+7918,"VIA Holdings,Inc.",107.0,⏳ Step2完了（次の急騰待ち）,0.68,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.8,11.2,71,B,stage=24; position=21; volume=8; shape=11; risk=7,★ 監視
+1711,"SDS HOLDINGS Co.,Ltd.",247.0,⏳ Step2完了（次の急騰待ち）,0.24,✓,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.8,8.1,69,B,stage=24; position=21; volume=8; shape=11; risk=5,★ 監視
+4351,Yamada Servicer Synthetic Office,841.0,⏳ Step2完了（次の急騰待ち）,0.91,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-2.2,2.6,69,B,stage=24; position=16; volume=8; shape=11; risk=10,★ 監視
+9439,M H Group Ltd.,230.0,⏳ Step2完了（次の急騰待ち）,0.11,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-3.8,4.3,69,B,stage=24; position=16; volume=8; shape=11; risk=10,★ 監視
+9876,"Cox Co., Ltd.",223.0,⏳ Step2完了（次の急騰待ち）,0.24,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-1.3,4.5,69,B,stage=24; position=16; volume=8; shape=11; risk=10,★ 監視
+1783,"Fantasista Co., Ltd.",49.0,⏳ Step2完了（次の急騰待ち）,0.15,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-2.0,6.1,68,B,stage=24; position=16; volume=8; shape=11; risk=9,★ 監視
+3686,DLE Inc.,60.0,⏳ Step2完了（次の急騰待ち）,0.24,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-6.2,6.7,68,B,stage=24; position=16; volume=8; shape=11; risk=9,★ 監視
+3059,"Hiraki Co.,Ltd.",711.0,⏳ Step2完了（次の急騰待ち）,0.36,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-0.6,0.6,67,C,stage=24; position=16; volume=8; shape=11; risk=8,継続監視
+4934,"Premier Anti-Aging Co., Ltd.",602.0,⏳ Step2完了（次の急騰待ち）,0.37,✓,✗,✓,✓,✓,✓,✓,✗,✗,✗,-0.8,3.2,67,C,stage=24; position=16; volume=8; shape=11; risk=8,継続監視
+143A,"Ishin Co., Ltd.",700.0,⏳ Step2完了（次の急騰待ち）,0.45,✓,✗,✓,✗,✓,✓,✓,✓,✗,✗,-2.4,8.9,66,C,stage=24; position=21; volume=8; shape=6; risk=7,継続監視
+7544,"Three F Co.,Ltd.",558.0,📉 Step2中（調整中）,0.1,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.6,3.0,64,C,stage=14; position=27; volume=8; shape=5; risk=10,継続監視
+7939,"Kensoh Co.,Ltd.",609.0,📉 Step2中（調整中）,0.17,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.6,4.6,64,C,stage=14; position=27; volume=8; shape=5; risk=10,継続監視
+2055,"Nichiwa Sangyo Co., Ltd.",349.0,📉 Step2中（調整中）,0.62,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.8,6.6,63,C,stage=14; position=27; volume=8; shape=5; risk=9,継続監視
+2984,"Yamaichi Real Estate Co., Ltd",771.0,📉 Step2中（調整中）,0.23,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.0,6.7,63,C,stage=14; position=27; volume=8; shape=5; risk=9,継続監視
+3988,"SYS Holdings Co., Ltd.",559.0,📉 Step2中（調整中）,0.01,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-3.1,5.2,63,C,stage=14; position=27; volume=8; shape=5; risk=9,継続監視
+6771,"Ikegami Tsushinki Co., Ltd.",675.0,📉 Step2中（調整中）,0.45,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.3,5.8,63,C,stage=14; position=27; volume=8; shape=5; risk=9,継続監視
+2411,Gendai Agency Inc.,474.0,📉 Step2中（調整中）,0.39,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.2,3.8,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
+2789,"Karula Co.,LTD.",479.0,📉 Step2中（調整中）,0.2,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.4,2.9,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
+2796,Pharmarise Holdings Corporation,505.0,📉 Step2中（調整中）,0.55,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.2,3.8,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
+3359,"cotta CO.,LTD",529.0,📉 Step2中（調整中）,0.45,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.6,4.2,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
+3641,"Papyless Co., Ltd.",994.0,📉 Step2中（調整中）,0.53,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,4.3,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
+4444,infoNet inc.,952.0,📉 Step2中（調整中）,0.25,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-9.3,4.8,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
+4558,"Chukyoiyakuhin Co.,Ltd.",202.0,📉 Step2中（調整中）,0.46,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.5,2.0,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
+6074,JSS Corporation,521.0,📉 Step2中（調整中）,0.36,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.6,2.1,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
+9330,AGEHA Inc.,883.0,📉 Step2中（調整中）,0.05,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,2.5,62,C,stage=14; position=27; volume=8; shape=5; risk=8,継続監視
+7615,"KYOTO KIMONO YUZEN HOLDINGS Co., Ltd.",103.0,⏳ Step2完了（次の急騰待ち）,0.25,✓,✗,✓,✗,✓,✓,✓,✓,✗,✗,-16.3,11.7,61,C,stage=24; position=21; volume=8; shape=6; risk=2,継続監視
+2376,Scinex Corporation,790.0,📉 Step2中（調整中）,0.22,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.9,7.1,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
+2769,"Village Vanguard CO.,LTD.",931.0,📉 Step2中（調整中）,0.56,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,5.4,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
+3246,"KOSE R.E. Co.,Ltd.",697.0,📉 Step2中（調整中）,0.45,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.1,6.7,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
+3796,"e-Seikatsu Co.,Ltd.",316.0,📉 Step2中（調整中）,0.21,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.2,10.8,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
+4490,VisasQ Inc.,679.0,📉 Step2中（調整中）,0.24,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.6,9.3,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
+7042,"Access Group Holdings Co., Ltd.",703.0,📉 Step2中（調整中）,0.07,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-3.0,10.1,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
+7060,geechs inc.,606.0,📉 Step2中（調整中）,0.34,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.7,6.3,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
+7443,"Yokohama Gyorui Co., Ltd.",680.0,📉 Step2中（調整中）,0.67,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.6,6.8,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
+7833,IFIS Japan Ltd.,669.0,📉 Step2中（調整中）,0.47,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.4,5.1,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
+8013,"Naigai Co.,Ltd.",363.0,📉 Step2中（調整中）,0.04,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,5.2,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
+8742,"Kobayashi Yoko Co., Ltd.",562.0,📉 Step2中（調整中）,0.24,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.9,6.6,61,C,stage=14; position=27; volume=8; shape=5; risk=7,継続監視
+4288,"Asgent, Inc.",467.0,⏳ Step2完了（次の急騰待ち）,0.14,✓,✗,✓,✗,✓,✓,✓,✓,✗,✗,-3.7,17.3,60,C,stage=24; position=21; volume=8; shape=6; risk=1 | risk: stop width >15%,継続監視
+2375,GiG Works Inc.,217.0,📉 Step2中（調整中）,0.29,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,8.3,59,C,stage=14; position=27; volume=8; shape=5; risk=5,継続監視
+3908,Collabos Corporation,350.0,📉 Step2中（調整中）,0.03,✓,✗,✗,✗,✓,✓,✓,✓,✓,✓,-2.2,4.6,59,C,stage=14; position=27; volume=8; shape=0; risk=10,継続監視
+3974,SCAT Inc.,671.0,📉 Step2中（調整中）,0.19,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.6,11.0,59,C,stage=14; position=27; volume=8; shape=5; risk=5,継続監視
+4896,"K Pharma,Inc.",792.0,📉 Step2中（調整中）,0.75,✓,✗,✓,✓,✗,✓,✓,✓,✓,✓,-6.3,11.0,59,C,stage=14; position=19; volume=8; shape=11; risk=7,継続監視
+9854,"Aigan Co.,Ltd.",290.0,📉 Step2中（調整中）,0.21,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-3.3,14.1,59,C,stage=14; position=27; volume=8; shape=5; risk=5,継続監視
+5194,"Sagami Rubber Industries Co., Ltd.",646.0,📉 Step2中（調整中）,0.39,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-3.7,2.5,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
+6424,"Takamisawa Cybernetics Company, Ltd.",901.0,📉 Step2中（調整中）,0.4,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.6,1.3,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
+6803,Teac Corporation,100.0,📉 Step2中（調整中）,0.47,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.0,5.0,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
+7837,"R. C. Core Co., Ltd.",340.0,📉 Step2中（調整中）,0.01,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-5.3,4.4,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
 9253,Slogan Inc.,738.0,📉 Step2中（調整中）,0.11,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.9,4.1,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
-9853,"Ginza Renoir Co., Ltd.",911.0,📉 Step2中（調整中）,0.3,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.0,1.0,58,C,stage=14; position=21; volume=8; shape=5; risk=10,継続監視
-2156,Saylor Advertising.Inc.,281.0,📉 Step2中（調整中）,0.0,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.4,6.4,57,C,stage=14; position=21; volume=8; shape=5; risk=9,継続監視
-3758,Aeria Inc.,252.0,📉 Step2中（調整中）,1.19,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.6,6.0,57,C,stage=14; position=21; volume=8; shape=5; risk=9,継続監視
-3796,"e-Seikatsu Co.,Ltd.",319.0,📉 Step2中（調整中）,0.24,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.3,12.2,57,C,stage=14; position=27; volume=8; shape=5; risk=3,継続監視
-4679,"TAYA Co.,Ltd.",265.0,📉 Step2中（調整中）,0.11,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.5,5.7,57,C,stage=14; position=21; volume=8; shape=5; risk=9,継続監視
-4896,"K Pharma,Inc.",807.0,📉 Step2中（調整中）,0.33,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.4,12.8,57,C,stage=14; position=27; volume=8; shape=5; risk=3,継続監視
-7057,"New Constructor's Network Co., Ltd.",946.0,📉 Step2中（調整中）,0.38,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.5,6.2,57,C,stage=14; position=21; volume=8; shape=5; risk=9,継続監視
-7795,"Kyoritsu Co.,Ltd.",229.0,📉 Step2中（調整中）,0.27,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.4,12.7,57,C,stage=14; position=27; volume=8; shape=5; risk=3,継続監視
-7919,"Nozaki Insatsu Shigyo Co., Ltd.",230.0,📉 Step2中（調整中）,0.79,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,14.3,57,C,stage=14; position=27; volume=8; shape=5; risk=3,継続監視
-9561,GLAD CUBE Inc.,425.0,📉 Step2中（調整中）,0.15,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.7,8.0,57,C,stage=14; position=21; volume=8; shape=5; risk=9,継続監視
-3622,Netyear Group Corporation,503.0,📉 Step2中（調整中）,0.08,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.4,5.0,56,C,stage=14; position=21; volume=8; shape=5; risk=8,継続監視
-3627,Tecmira Holdings Inc.,267.0,📉 Step2中（調整中）,0.3,✓,✗,✗,✓,✓,✓,✓,✗,✓,✗,-2.2,3.7,56,C,stage=14; position=19; volume=8; shape=5; risk=10,継続監視
-4720,"Johnan Academic Preparatory Institute, Inc.",244.0,📉 Step2中（調整中）,0.04,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.8,1.6,56,C,stage=14; position=21; volume=8; shape=5; risk=8,継続監視
-8077,TORQ Inc.,215.0,📉 Step2中（調整中）,0.57,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-10.4,4.7,56,C,stage=14; position=21; volume=8; shape=5; risk=8,継続監視
-130A,Veritas In Silico Inc.,443.0,📉 Step2中（調整中）,0.05,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-4.5,10.6,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-2375,GiG Works Inc.,214.0,📉 Step2中（調整中）,0.34,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.5,7.0,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-3223,"SLD Entertainment, Inc.",964.0,📉 Step2中（調整中）,0.34,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.1,5.5,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-3261,"GRANDES, Inc.",420.0,📉 Step2中（調整中）,0.27,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,0.0,6.4,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-3559,p-ban.com Corp.,467.0,📉 Step2中（調整中）,0.22,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.7,15.8,55,C,stage=14; position=27; volume=8; shape=5; risk=1 | risk: stop width >15%,継続監視
-3625,Techfirm Holdings Inc.,670.0,📉 Step2中（調整中）,0.12,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.2,16.9,55,C,stage=14; position=27; volume=8; shape=5; risk=1 | risk: stop width >15%,継続監視
-4932,"Almado, Inc.",774.0,📉 Step2中（調整中）,0.54,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.0,9.9,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-519A,Basic Inc.,519.0,📉 Step2中（調整中）,0.11,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-5.5,10.2,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-5820,"Mitsuboshi Co., Ltd.",830.0,📉 Step2中（調整中）,0.4,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.7,19.2,55,C,stage=14; position=27; volume=8; shape=5; risk=1 | risk: stop width >15%,継続監視
-6166,"Nakamura Choukou Co., Ltd.",683.0,📉 Step2中（調整中）,0.33,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.3,16.3,55,C,stage=14; position=27; volume=8; shape=5; risk=1 | risk: stop width >15%,継続監視
-6182,MetaReal Corporation,518.0,📉 Step2中（調整中）,0.26,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.0,19.3,55,C,stage=14; position=27; volume=8; shape=5; risk=1 | risk: stop width >15%,継続監視
-6307,"Sansei Co.,Ltd.",493.0,📉 Step2中（調整中）,0.12,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.0,11.0,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-6551,"Tsunagu Group Holdings, Inc.",628.0,📉 Step2中（調整中）,0.43,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.6,10.2,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-6634,JN Group Inc.,73.0,📉 Step2中（調整中）,0.08,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-3.9,11.0,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-7036,eMnet Japan.co.ltd.,676.0,📉 Step2中（調整中）,0.27,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.9,9.5,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-7074,Twenty-four seven Holdings Inc.,194.0,📉 Step2中（調整中）,0.08,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-5.8,9.8,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-7918,"VIA Holdings,Inc.",107.0,📉 Step2中（調整中）,0.34,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.8,11.2,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-7992,"The Sailor Pen Co., Ltd.",107.0,📉 Step2中（調整中）,0.19,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.9,7.5,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-9417,"Smartvalue Co., Ltd.",342.0,📉 Step2中（調整中）,0.08,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-6.8,8.5,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-9812,"T.O. Holdings CO.,LTD.",246.0,📉 Step2中（調整中）,0.04,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-3.5,8.9,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
-3974,SCAT Inc.,670.0,📉 Step2中（調整中）,0.23,✓,✗,✗,✗,✓,✓,✓,✓,✓,✓,-0.7,10.9,54,D,stage=14; position=27; volume=8; shape=0; risk=5,低優先
-5697,"Sanyu Co., Ltd.",828.0,📉 Step2中（調整中）,0.6,✓,✗,✗,✗,✓,✓,✓,✓,✓,✓,-2.5,13.5,54,D,stage=14; position=27; volume=8; shape=0; risk=5,低優先
-265A,Hmcomm Inc.,723.0,📉 Step2中（調整中）,0.07,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.8,13.4,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
-2776,"SHINTO Holdings, Inc.",104.0,📉 Step2中（調整中）,0.17,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-6.3,14.4,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
-3111,"Omikenshi Co., Ltd.",193.0,📉 Step2中（調整中）,0.53,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.0,15.0,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
-3803,Image Information Inc.,627.0,📉 Step2中（調整中）,0.12,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,29.8,53,D,stage=14; position=27; volume=8; shape=5; risk=-1 | risk: stop width >15%,低優先
-3935,"Edia Co., Ltd.",732.0,📉 Step2中（調整中）,0.27,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.3,10.5,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
-4378,CINC Corp.,552.0,📉 Step2中（調整中）,0.22,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.2,17.4,53,D,stage=14; position=27; volume=8; shape=5; risk=-1 | risk: stop width >15%,低優先
-4387,"ZUU Co.,Ltd.",516.0,📉 Step2中（調整中）,0.51,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.3,12.4,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
-4397,TeamSpirit Inc.,427.0,📉 Step2中（調整中）,0.32,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-3.2,12.6,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
-478A,Hutzper Inc.,811.0,📉 Step2中（調整中）,0.31,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.6,13.6,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
-4960,"Chemipro Kasei Kaisha, Ltd.",552.0,📉 Step2中（調整中）,0.29,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.8,14.9,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
-5031,Moi Corporation,345.0,📉 Step2中（調整中）,0.19,✓,✗,✗,✓,✓,✓,✓,✗,✓,✗,-1.4,10.7,53,D,stage=14; position=19; volume=8; shape=5; risk=7,低優先
-5588,"Fast Accounting Co.,Ltd.",860.0,📉 Step2中（調整中）,0.45,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-5.1,13.4,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
-5591,AVILEN Inc.,878.0,📉 Step2中（調整中）,0.51,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-3.3,12.9,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
-6177,AppBank Inc.,86.0,📉 Step2中（調整中）,0.13,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-3.4,12.8,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
-7162,"ASTMAX Co., Ltd.",278.0,📉 Step2中（調整中）,2.44,✓,✗,✓,✓,✗,✓,✓,✓,✓,✓,-9.7,16.5,53,D,stage=14; position=19; volume=10; shape=11; risk=-1 | risk: stop width >15%,低優先
-8226,Rikei Corporation,399.0,📉 Step2中（調整中）,0.61,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.2,14.5,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
-9223,"ASNOVA Co., Ltd.",453.0,📉 Step2中（調整中）,0.45,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.9,11.5,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
-9978,"Bunkyodo Group Holdings Co., Ltd.",45.0,📉 Step2中（調整中）,0.18,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-2.2,2.2,53,D,stage=14; position=16; volume=8; shape=5; risk=10,低優先
-331A,Medix Inc.,490.0,👀 監視継続,0.36,✓,✗,✓,✓,✓,✓,✗,✓,✓,✗,-3.4,2.0,53,D,stage=4; position=20; volume=8; shape=11; risk=10,低優先
-7883,"Sun Messe Co., Ltd.",402.0,👀 監視継続,0.11,✓,✗,✓,✓,✓,✗,✓,✓,✓,✗,-2.0,3.5,53,D,stage=4; position=20; volume=8; shape=11; risk=10,低優先
-7422,"Toho Lamac Co., Ltd.",373.0,📉 Step2中（調整中）,0.08,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-2.4,5.9,52,D,stage=14; position=16; volume=8; shape=5; risk=9,低優先
-3802,"Ecomic Co., Ltd",501.0,👀 監視継続,0.62,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.0,3.2,52,D,stage=4; position=27; volume=0; shape=11; risk=10,低優先
-4728,"Tose Co., Ltd.",652.0,👀 監視継続,0.56,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-2.5,4.5,52,D,stage=4; position=27; volume=0; shape=11; risk=10,低優先
-2722,"IK HOLDINGS Co.,Ltd.",359.0,📉 Step2中（調整中）,0.23,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-0.3,1.1,51,D,stage=14; position=16; volume=8; shape=5; risk=8,低優先
-442A,"Classico, Inc.",981.0,📉 Step2中（調整中）,0.05,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-0.5,4.2,51,D,stage=14; position=16; volume=8; shape=5; risk=8,低優先
-4814,Nextware Ltd.,174.0,📉 Step2中（調整中）,0.04,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,0.0,14.9,51,D,stage=14; position=21; volume=8; shape=5; risk=3,低優先
-6635,"Di-Nikko Engineering Co., Ltd.",670.0,📉 Step2中（調整中）,0.32,✓,✗,✗,✓,✓,✓,✓,✗,✓,✗,-12.8,11.5,51,D,stage=14; position=19; volume=8; shape=5; risk=5,低優先
-7370,"Enjin Co., Ltd.",719.0,📉 Step2中（調整中）,0.25,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-0.3,2.8,51,D,stage=14; position=16; volume=8; shape=5; risk=8,低優先
-7585,Kan-Nanmaru Corporation,408.0,📉 Step2中（調整中）,0.28,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-0.5,0.7,51,D,stage=14; position=16; volume=8; shape=5; risk=8,低優先
-8260,"Izutsuya Co., Ltd.",380.0,📉 Step2中（調整中）,0.37,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-0.5,3.4,51,D,stage=14; position=16; volume=8; shape=5; risk=8,低優先
-9250,GRCS Inc.,980.0,📉 Step2中（調整中）,0.01,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,0.0,14.1,51,D,stage=14; position=21; volume=8; shape=5; risk=3,低優先
-9421,NJ Holdings Inc.,513.0,📉 Step2中（調整中）,0.18,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,0.0,3.1,51,D,stage=14; position=16; volume=8; shape=5; risk=8,低優先
-2411,Gendai Agency Inc.,472.0,👀 監視継続,0.25,✓,✗,✓,✓,✓,✗,✓,✓,✓,✗,-0.6,4.7,51,D,stage=4; position=20; volume=8; shape=11; risk=8,低優先
-3071,"Stream Co.,Ltd.",107.0,👀 監視継続,1.82,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,0.0,6.5,51,D,stage=4; position=27; volume=2; shape=11; risk=7,低優先
-7494,"Konaka Co.,Ltd.",247.0,👀 監視継続,1.38,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.2,6.5,51,D,stage=4; position=27; volume=0; shape=11; risk=9,低優先
-3858,Ubiquitous AI Corporation,302.0,📉 Step2中（調整中）,0.19,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,0.0,7.3,50,D,stage=14; position=16; volume=8; shape=5; risk=7,低優先
-4260,"Hybrid Technologies Co., Ltd.",214.0,📉 Step2中（調整中）,0.69,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-5.3,9.3,50,D,stage=14; position=16; volume=8; shape=5; risk=7,低優先
-4487,"Spacemarket,Inc.",230.0,📉 Step2中（調整中）,0.12,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-3.8,10.9,50,D,stage=14; position=16; volume=8; shape=5; risk=7,低優先
-2300,"Kyokuto Co., Ltd.",500.0,👀 監視継続,0.93,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.4,3.7,50,D,stage=4; position=27; volume=0; shape=11; risk=8,低優先
-2425,"Care Service Co.,Ltd.",671.0,👀 監視継続,0.43,✓,✗,✓,✓,✓,✓,✗,✓,✗,✗,-3.3,2.2,50,D,stage=4; position=17; volume=8; shape=11; risk=10,低優先
-3477,"FORLIFE Co., Ltd.",893.0,👀 監視継続,1.34,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.6,4.9,50,D,stage=4; position=27; volume=0; shape=11; risk=8,低優先
-4650,"SD ENTERTAINMENT,Inc.",268.0,👀 監視継続,0.29,✓,✗,✓,✓,✓,✓,✗,✓,✗,✗,-2.5,1.1,50,D,stage=4; position=17; volume=8; shape=11; risk=10,低優先
-7604,"Umenohana Group Co.,Ltd.",901.0,👀 監視継続,0.82,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.2,1.4,50,D,stage=4; position=27; volume=0; shape=11; risk=8,低優先
-9969,"Shokubun Co., Ltd.",235.0,👀 監視継続,0.45,✓,✗,✓,✓,✓,✓,✗,✓,✗,✗,-1.3,1.3,50,D,stage=4; position=17; volume=8; shape=11; risk=10,低優先
-330A,TalentX Inc.,566.0,📉 Step2中（調整中）,1.44,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-4.7,21.9,49,D,stage=14; position=21; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
-3727,Aplix Corporation,160.0,📉 Step2中（調整中）,0.12,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.4,16.9,49,D,stage=14; position=21; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
-4317,Ray Corporation,572.0,📉 Step2中（調整中）,0.13,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.4,15.4,49,D,stage=14; position=21; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
-6548,Tabikobo Co. Ltd.,120.0,📉 Step2中（調整中）,0.13,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-4.0,20.8,49,D,stage=14; position=21; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
-6696,TRaaS On Product Inc.,318.0,📉 Step2中（調整中）,0.07,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-5.6,15.4,49,D,stage=14; position=21; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
-9342,Sumasapo Inc.,985.0,📉 Step2中（調整中）,0.16,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.0,19.8,49,D,stage=14; position=21; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
-1840,"Tsuchiya Holdings Co., Ltd.",258.0,👀 監視継続,0.34,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.8,7.4,49,D,stage=4; position=27; volume=0; shape=11; risk=7,低優先
-2654,Asmo Corporation,430.0,👀 監視継続,0.93,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,0.0,7.4,49,D,stage=4; position=27; volume=0; shape=11; risk=7,低優先
-3474,"G-Factory Co.,Ltd.",607.0,👀 監視継続,1.37,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.5,5.6,49,D,stage=4; position=27; volume=0; shape=11; risk=7,低優先
-3674,"Aucfan Co., Ltd.",346.0,👀 監視継続,0.73,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.7,9.2,49,D,stage=4; position=27; volume=0; shape=11; risk=7,低優先
-4564,"OncoTherapy Science, Inc.",22.0,👀 監視継続,1.77,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-4.3,13.6,49,D,stage=4; position=27; volume=2; shape=11; risk=5,低優先
-6819,"Izu Shaboten Resort Co.,Ltd",475.0,👀 監視継続,0.66,✓,✗,✓,✓,✓,✗,✗,✓,✓,✗,-1.2,1.1,49,D,stage=4; position=16; volume=8; shape=11; risk=10,低優先
-6888,Acmos Inc.,501.0,👀 監視継続,0.13,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-1.2,5.6,49,D,stage=4; position=17; volume=8; shape=11; risk=9,低優先
-7041,"CRG Holdings Co.,Ltd.",354.0,👀 監視継続,0.86,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.3,5.9,49,D,stage=4; position=27; volume=0; shape=11; risk=7,低優先
-7813,"Platz Co., Ltd.",920.0,👀 監視継続,1.6,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-2.7,14.7,49,D,stage=4; position=27; volume=2; shape=11; risk=5,低優先
-9340,"ASO International, Inc.",773.0,👀 監視継続,1.69,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.5,11.4,49,D,stage=4; position=27; volume=2; shape=11; risk=5,低優先
-4881,FunPep Company Limited,52.0,📉 Step2中（調整中）,0.22,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-3.7,13.5,48,D,stage=14; position=16; volume=8; shape=5; risk=5,低優先
-3123,"Saibo Co., Ltd.",651.0,👀 監視継続,0.59,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-1.4,3.4,48,D,stage=4; position=20; volume=8; shape=6; risk=10,低優先
-7791,"Dreambed Co.,Ltd.",826.0,👀 監視継続,0.72,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-1.4,4.4,48,D,stage=4; position=20; volume=8; shape=6; risk=10,低優先
-9419,"WirelessGate, Inc.",292.0,👀 監視継続,0.12,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-3.0,4.1,48,D,stage=4; position=20; volume=8; shape=6; risk=10,低優先
-9656,Greenland Resort Company Limited,605.0,👀 監視継続,2.25,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.3,4.1,48,D,stage=4; position=27; volume=2; shape=5; risk=10,低優先
-298A,"GVA TECH,Inc.",359.0,📉 Step2中（調整中）,0.18,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,0.0,20.6,47,D,stage=14; position=21; volume=8; shape=5; risk=-1 | risk: stop width >15%,低優先
-5138,"Rebase, Inc.",474.0,📉 Step2中（調整中）,0.05,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.2,16.7,47,D,stage=14; position=21; volume=8; shape=5; risk=-1 | risk: stop width >15%,低優先
-7859,Almedio Inc.,250.0,📉 Step2中（調整中）,0.12,✓,✗,✗,✓,✗,✓,✓,✓,✓,✓,-3.8,22.4,47,D,stage=14; position=19; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
-2408,"KG Intelligence CO., LTD.",856.0,👀 監視継続,0.07,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-2.2,3.9,47,D,stage=4; position=20; volume=8; shape=5; risk=10,低優先
-2464,"Aoba-BBT, Inc.",376.0,👀 監視継続,1.01,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.6,14.1,47,D,stage=4; position=27; volume=0; shape=11; risk=5,低優先
+9475,"Shobunsha Holdings, Inc.",530.0,📉 Step2中（調整中）,0.39,✓,✗,✗,✗,✓,✓,✓,✓,✓,✓,-1.3,6.6,58,C,stage=14; position=27; volume=8; shape=0; risk=9,継続監視
+2156,Saylor Advertising.Inc.,280.0,📉 Step2中（調整中）,0.0,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.8,6.1,57,C,stage=14; position=21; volume=8; shape=5; risk=9,継続監視
+3261,"GRANDES, Inc.",417.0,📉 Step2中（調整中）,1.25,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.3,5.8,57,C,stage=14; position=21; volume=8; shape=5; risk=9,継続監視
+3326,"Runsystem Co.,Ltd.",660.0,📉 Step2中（調整中）,0.48,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.6,5.9,57,C,stage=14; position=21; volume=8; shape=5; risk=9,継続監視
+3904,KAYAC Inc.,431.0,📉 Step2中（調整中）,0.18,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.8,7.7,57,C,stage=14; position=21; volume=8; shape=5; risk=9,継続監視
+5035,HOUSEI Inc.,369.0,📉 Step2中（調整中）,0.2,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.3,5.4,57,C,stage=14; position=21; volume=8; shape=5; risk=9,継続監視
+9417,"Smartvalue Co., Ltd.",345.0,📉 Step2中（調整中）,0.03,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-6.0,7.0,57,C,stage=14; position=21; volume=8; shape=5; risk=9,継続監視
+2373,Care Twentyone Corporation,409.0,📉 Step2中（調整中）,0.18,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.7,2.0,56,C,stage=14; position=21; volume=8; shape=5; risk=8,継続監視
+4705,CLIP Corporation,799.0,📉 Step2中（調整中）,0.23,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.7,3.1,56,C,stage=14; position=21; volume=8; shape=5; risk=8,継続監視
+7196,Casa Inc.,748.0,📉 Step2中（調整中）,0.21,✓,✗,✗,✓,✓,✓,✓,✗,✓,✗,-1.3,4.0,56,C,stage=14; position=19; volume=8; shape=5; risk=10,継続監視
+3223,"SLD Entertainment, Inc.",963.0,📉 Step2中（調整中）,0.26,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.2,5.4,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
+3840,Path Corporation,60.0,📉 Step2中（調整中）,0.14,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-4.8,10.0,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
+3848,"Data Applications Company, Limited",855.0,📉 Step2中（調整中）,0.7,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.6,5.3,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
+4438,Welby Inc.,259.0,📉 Step2中（調整中）,0.02,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-3.0,8.1,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
+5287,"Ito Yogyo Co., Ltd",865.0,📉 Step2中（調整中）,0.14,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-7.8,8.1,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
+5616,"Ame Kaze Taiyo, Inc.",660.0,📉 Step2中（調整中）,0.11,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,0.0,7.1,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
+5820,"Mitsuboshi Co., Ltd.",816.0,📉 Step2中（調整中）,0.44,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-3.3,17.8,55,C,stage=14; position=27; volume=8; shape=5; risk=1 | risk: stop width >15%,継続監視
+6182,MetaReal Corporation,510.0,📉 Step2中（調整中）,0.35,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.5,18.0,55,C,stage=14; position=27; volume=8; shape=5; risk=1 | risk: stop width >15%,継続監視
+6307,"Sansei Co.,Ltd.",489.0,📉 Step2中（調整中）,0.55,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.8,8.8,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
+6551,"Tsunagu Group Holdings, Inc.",629.0,📉 Step2中（調整中）,0.78,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.4,10.3,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
+7351,"Goodpatch, Inc.",480.0,📉 Step2中（調整中）,0.85,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.8,12.0,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
+7859,Almedio Inc.,254.0,📉 Step2中（調整中）,0.19,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-4.5,23.6,55,C,stage=14; position=27; volume=8; shape=5; risk=1 | risk: stop width >15%,継続監視
+9812,"T.O. Holdings CO.,LTD.",248.0,📉 Step2中（調整中）,0.15,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.7,8.9,55,C,stage=14; position=21; volume=8; shape=5; risk=7,継続監視
+3113,UNIVA Oak Holdings Limited,82.0,📉 Step2中（調整中）,0.06,✓,✗,✗,✗,✓,✓,✓,✓,✓,✓,-2.4,14.6,54,D,stage=14; position=27; volume=8; shape=0; risk=5,低優先
+1380,"Akikawa Foods & Farms Co., Ltd.",1000.0,📉 Step2中（調整中）,0.42,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-3.4,0.6,53,D,stage=14; position=16; volume=8; shape=5; risk=10,低優先
+2351,ASJ Inc.,334.0,📉 Step2中（調整中）,0.07,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-9.7,9.9,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
+3111,"Omikenshi Co., Ltd.",188.0,📉 Step2中（調整中）,0.32,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-3.6,12.2,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
+3625,Techfirm Holdings Inc.,674.0,📉 Step2中（調整中）,0.26,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.9,17.4,53,D,stage=14; position=27; volume=8; shape=5; risk=-1 | risk: stop width >15%,低優先
+3804,System D Inc.,470.0,📉 Step2中（調整中）,0.57,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.4,8.3,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
+3911,Aiming Inc.,186.0,📉 Step2中（調整中）,0.21,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,0.0,9.7,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
+4198,"TENDA Co.,LTD.",499.0,📉 Step2中（調整中）,0.86,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-3.7,3.6,53,D,stage=14; position=16; volume=8; shape=5; risk=10,低優先
+442A,"Classico, Inc.",982.0,📉 Step2中（調整中）,0.03,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-1.1,4.3,53,D,stage=14; position=16; volume=8; shape=5; risk=10,低優先
+5618,Nyle Inc.,290.0,📉 Step2中（調整中）,0.07,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-3.7,4.5,53,D,stage=14; position=16; volume=8; shape=5; risk=10,低優先
+6664,"Optoelectronics Co., Ltd.",261.0,📉 Step2中（調整中）,0.14,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.5,12.3,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
+6858,"Ono Sokki Co., Ltd.",829.0,📉 Step2中（調整中）,0.3,✓,✗,✗,✓,✓,✓,✓,✗,✓,✗,-4.4,9.2,53,D,stage=14; position=19; volume=8; shape=5; risk=7,低優先
+7090,Ligua Inc.,945.0,📉 Step2中（調整中）,0.26,✓,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.9,15.6,53,D,stage=14; position=27; volume=8; shape=5; risk=-1 | risk: stop width >15%,低優先
+9561,GLAD CUBE Inc.,434.0,📉 Step2中（調整中）,0.28,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.7,9.9,53,D,stage=14; position=21; volume=8; shape=5; risk=5,低優先
+331A,Medix Inc.,490.0,👀 監視継続,0.09,✓,✗,✓,✓,✓,✓,✗,✓,✓,✗,-3.4,2.0,53,D,stage=4; position=20; volume=8; shape=11; risk=10,低優先
+3667,"enish,inc.",28.0,📉 Step2中（調整中）,0.08,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-6.7,7.1,52,D,stage=14; position=16; volume=8; shape=5; risk=9,低優先
+3858,Ubiquitous AI Corporation,299.0,📉 Step2中（調整中）,0.23,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-1.0,6.4,52,D,stage=14; position=16; volume=8; shape=5; risk=9,低優先
+7422,"Toho Lamac Co., Ltd.",374.0,📉 Step2中（調整中）,0.05,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-2.1,6.1,52,D,stage=14; position=16; volume=8; shape=5; risk=9,低優先
+1724,Synclayer Inc.,717.0,👀 監視継続,0.74,✓,✗,✓,✓,✓,✗,✓,✓,✓,✗,-1.1,5.3,52,D,stage=4; position=20; volume=8; shape=11; risk=9,低優先
+3143,O'will Corporation,695.0,👀 監視継続,0.41,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.3,2.2,52,D,stage=4; position=27; volume=0; shape=11; risk=10,低優先
+3802,"Ecomic Co., Ltd",502.0,👀 監視継続,0.24,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.2,3.4,52,D,stage=4; position=27; volume=0; shape=11; risk=10,低優先
+3839,"ODK Solutions Company, Ltd.",645.0,👀 監視継続,1.7,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.3,2.6,52,D,stage=4; position=27; volume=2; shape=11; risk=8,低優先
+4341,Seiryo Electric Corporation,895.0,👀 監視継続,0.26,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-5.8,4.9,52,D,stage=4; position=27; volume=0; shape=11; risk=10,低優先
+4728,"Tose Co., Ltd.",650.0,👀 監視継続,0.14,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-2.8,4.1,52,D,stage=4; position=27; volume=0; shape=11; risk=10,低優先
+6635,"Di-Nikko Engineering Co., Ltd.",674.0,📉 Step2中（調整中）,0.78,✓,✗,✗,✓,✓,✓,✓,✗,✓,✗,-12.2,12.0,51,D,stage=14; position=19; volume=8; shape=5; risk=5,低優先
+7585,Kan-Nanmaru Corporation,408.0,📉 Step2中（調整中）,0.42,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-0.5,0.7,51,D,stage=14; position=16; volume=8; shape=5; risk=8,低優先
+9250,GRCS Inc.,990.0,📉 Step2中（調整中）,0.09,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,0.0,14.9,51,D,stage=14; position=21; volume=8; shape=5; risk=3,低優先
+9421,NJ Holdings Inc.,513.0,📉 Step2中（調整中）,0.86,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,0.0,3.1,51,D,stage=14; position=16; volume=8; shape=5; risk=8,低優先
+1840,"Tsuchiya Holdings Co., Ltd.",257.0,👀 監視継続,0.16,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.2,7.0,51,D,stage=4; position=27; volume=0; shape=11; risk=9,低優先
+9340,"ASO International, Inc.",765.0,👀 監視継続,1.96,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.5,10.5,51,D,stage=4; position=27; volume=2; shape=11; risk=7,低優先
+2300,"Kyokuto Co., Ltd.",500.0,👀 監視継続,0.51,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.4,3.7,50,D,stage=4; position=27; volume=0; shape=11; risk=8,低優先
+2425,"Care Service Co.,Ltd.",671.0,👀 監視継続,0.23,✓,✗,✓,✓,✓,✓,✗,✓,✗,✗,-3.3,2.2,50,D,stage=4; position=17; volume=8; shape=11; risk=10,低優先
+4650,"SD ENTERTAINMENT,Inc.",269.0,👀 監視継続,0.09,✓,✗,✓,✓,✓,✓,✗,✓,✗,✗,-2.2,1.5,50,D,stage=4; position=17; volume=8; shape=11; risk=10,低優先
+5125,Fines inc.,472.0,👀 監視継続,0.05,✓,✗,✓,✓,✓,✓,✗,✓,✗,✗,-5.4,1.7,50,D,stage=4; position=17; volume=8; shape=11; risk=10,低優先
+5986,"Molitec Steel Co., Ltd.",257.0,👀 監視継続,0.47,✓,✗,✓,✓,✓,✗,✓,✓,✓,✗,-2.7,8.6,50,D,stage=4; position=20; volume=8; shape=11; risk=7,低優先
+7255,Sakurai Ltd.,515.0,👀 監視継続,0.72,✓,✗,✓,✓,✓,✓,✗,✓,✗,✗,-3.4,2.9,50,D,stage=4; position=17; volume=8; shape=11; risk=10,低優先
+7795,"Kyoritsu Co.,Ltd.",227.0,👀 監視継続,0.37,✓,✗,✓,✓,✓,✗,✓,✓,✓,✗,-1.3,11.0,50,D,stage=4; position=20; volume=8; shape=11; risk=7,低優先
+9827,"Lilycolor Co., Ltd.",641.0,👀 監視継続,0.47,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-1.4,3.4,50,D,stage=4; position=17; volume=8; shape=11; risk=10,低優先
+9969,"Shokubun Co., Ltd.",235.0,👀 監視継続,0.23,✓,✗,✓,✓,✓,✓,✗,✓,✗,✗,-1.3,1.3,50,D,stage=4; position=17; volume=8; shape=11; risk=10,低優先
+265A,Hmcomm Inc.,766.0,📉 Step2中（調整中）,0.52,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-3.8,18.3,49,D,stage=14; position=21; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
+4890,Tsubota Laboratory Incorporated,295.0,📉 Step2中（調整中）,0.23,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.6,23.4,49,D,stage=14; position=21; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
+5138,"Rebase, Inc.",473.0,📉 Step2中（調整中）,0.43,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.9,16.5,49,D,stage=14; position=21; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
+6548,Tabikobo Co. Ltd.,119.0,📉 Step2中（調整中）,0.15,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-4.8,18.5,49,D,stage=14; position=21; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
+6696,TRaaS On Product Inc.,328.0,📉 Step2中（調整中）,0.12,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.7,18.0,49,D,stage=14; position=21; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
+2654,Asmo Corporation,431.0,👀 監視継続,0.92,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,0.0,7.4,49,D,stage=4; position=27; volume=0; shape=11; risk=7,低優先
+2778,"Palemo Holdings Co.,Ltd.",115.0,👀 監視継続,0.19,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-3.4,6.1,49,D,stage=4; position=17; volume=8; shape=11; risk=9,低優先
+3985,TEMONA.inc.,190.0,👀 監視継続,0.17,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-2.6,7.4,49,D,stage=4; position=17; volume=8; shape=11; risk=9,低優先
+4017,Creema Ltd.,215.0,👀 監視継続,0.2,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-3.2,6.0,49,D,stage=4; position=17; volume=8; shape=11; risk=9,低優先
+4442,"Valtes Holdings Co.,Ltd.",415.0,👀 監視継続,0.94,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,0.0,6.5,49,D,stage=4; position=27; volume=0; shape=11; risk=7,低優先
+7624,"Naito & Co., Ltd.",154.0,👀 監視継続,0.8,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.9,11.7,49,D,stage=4; position=27; volume=0; shape=11; risk=7,低優先
+8912,Area Quest Inc.,170.0,👀 監視継続,15.7,✗,✓,✓,✓,✗,✓,✓,✓,✓,✓,-9.6,11.8,49,D,stage=4; position=19; volume=10; shape=11; risk=5,低優先
+9478,"SE Holdings and Incubations Co., Ltd.",530.0,👀 監視継続,0.18,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-4.5,8.5,49,D,stage=4; position=27; volume=0; shape=11; risk=7,低優先
+4883,Modalis Therapeutics Corporation,34.0,📉 Step2中（調整中）,0.31,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-5.6,14.7,48,D,stage=14; position=16; volume=8; shape=5; risk=5,低優先
+3123,"Saibo Co., Ltd.",650.0,👀 監視継続,0.62,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-1.5,3.2,48,D,stage=4; position=20; volume=8; shape=6; risk=10,低優先
+3577,Tokai Senko K.K.,954.0,👀 監視継続,2.45,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.2,3.1,48,D,stage=4; position=27; volume=2; shape=5; risk=10,低優先
+4308,J-Stream Inc.,358.0,👀 監視継続,0.36,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-1.9,2.2,48,D,stage=4; position=20; volume=8; shape=6; risk=10,低優先
+5491,"Nippon Kinzoku Co., Ltd.",929.0,👀 監視継続,0.53,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-4.0,5.0,48,D,stage=4; position=20; volume=8; shape=6; risk=10,低優先
+7111,"INEST, Inc.",533.0,👀 監視継続,0.24,✓,✗,✓,✓,✓,✗,✓,✓,✓,✗,-2.9,12.2,48,D,stage=4; position=20; volume=8; shape=11; risk=5,低優先
+9419,"WirelessGate, Inc.",292.0,👀 監視継続,0.4,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-3.0,4.1,48,D,stage=4; position=20; volume=8; shape=6; risk=10,低優先
+9446,"SAKAI Holdings CO.,LTD",696.0,👀 監視継続,0.21,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-1.8,5.0,48,D,stage=4; position=20; volume=8; shape=6; risk=10,低優先
+330A,TalentX Inc.,535.0,📉 Step2中（調整中）,0.71,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,-9.9,17.4,47,D,stage=14; position=21; volume=8; shape=5; risk=-1 | risk: stop width >15%,低優先
+3727,Aplix Corporation,164.0,📉 Step2中（調整中）,0.24,✓,✗,✗,✓,✓,✓,✓,✓,✗,✗,0.0,17.7,47,D,stage=14; position=21; volume=8; shape=5; risk=-1 | risk: stop width >15%,低優先
 2795,Nippon Primex Inc.,964.0,👀 監視継続,0.22,✓,✗,✗,✓,✓,✓,✗,✓,✓,✗,-2.6,3.1,47,D,stage=4; position=20; volume=8; shape=5; risk=10,低優先
-3928,Mynet Inc.,237.0,👀 監視継続,0.07,✓,✗,✓,✓,✓,✓,✗,✓,✗,✗,-11.2,7.2,47,D,stage=4; position=17; volume=8; shape=11; risk=7,低優先
-4428,sinops Inc.,710.0,👀 監視継続,0.6,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-2.9,7.0,47,D,stage=4; position=20; volume=8; shape=6; risk=9,低優先
-4442,"Valtes Holdings Co.,Ltd.",411.0,👀 監視継続,1.65,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.0,5.6,47,D,stage=4; position=21; volume=2; shape=11; risk=9,低優先
-4615,"Shinto Paint Company, Limited",133.0,👀 監視継続,0.51,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-2.2,4.5,47,D,stage=4; position=20; volume=8; shape=5; risk=10,低優先
-5609,Nippon Chuzo K. K.,923.0,👀 監視継続,0.17,✓,✗,✗,✓,✓,✓,✗,✓,✓,✗,-1.7,1.8,47,D,stage=4; position=20; volume=8; shape=5; risk=10,低優先
-6069,"Trenders, Inc.",699.0,👀 監視継続,0.33,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-2.0,8.9,47,D,stage=4; position=17; volume=8; shape=11; risk=7,低優先
-6658,"Shirai Electronics Industrial Co., Ltd.",459.0,👀 監視継続,0.29,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-1.5,8.5,47,D,stage=4; position=17; volume=8; shape=11; risk=7,低優先
-7150,"The Shimane Bank,Ltd.",542.0,👀 監視継続,1.01,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.5,13.7,47,D,stage=4; position=27; volume=0; shape=11; risk=5,低優先
-9385,Shoei Corporation,760.0,👀 監視継続,0.08,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-2.2,4.6,47,D,stage=4; position=20; volume=8; shape=5; risk=10,低優先
-9446,"SAKAI Holdings CO.,LTD",697.0,👀 監視継続,0.15,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-1.7,5.2,47,D,stage=4; position=20; volume=8; shape=6; risk=9,低優先
-3823,"THE WHY HOW DO COMPANY, Inc.",32.0,📉 Step2中（調整中）,0.09,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,0.0,12.5,46,D,stage=14; position=16; volume=8; shape=5; risk=3,低優先
-2877,NittoBest Corporation,756.0,👀 監視継続,0.67,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-5.1,3.4,46,D,stage=4; position=27; volume=0; shape=5; risk=10,低優先
-2917,"Ohmoriya Co.,Ltd.",936.0,👀 監視継続,0.99,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.5,1.3,46,D,stage=4; position=27; volume=0; shape=5; risk=10,低優先
-3204,Toabo Corporation,503.0,👀 監視継続,0.32,✓,✗,✓,✓,✓,✗,✓,✗,✓,✗,-0.8,4.6,46,D,stage=4; position=15; volume=8; shape=11; risk=8,低優先
-3238,"Central General Development Co., Ltd.",388.0,👀 監視継続,0.84,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-5.4,4.9,46,D,stage=4; position=27; volume=0; shape=5; risk=10,低優先
-3423,SE Corporation,276.0,👀 監視継続,0.13,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-1.4,5.1,46,D,stage=4; position=20; volume=8; shape=5; risk=9,低優先
-3439,Mitsuchi Corporation,681.0,👀 監視継続,0.28,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.3,5.0,46,D,stage=4; position=27; volume=0; shape=5; risk=10,低優先
-365A,"Izawa Towel Co.,Ltd.",787.0,👀 監視継続,0.43,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.4,4.8,46,D,stage=4; position=27; volume=0; shape=5; risk=10,低優先
-3671,"Softmax Co., Ltd",310.0,👀 監視継続,0.05,✓,✗,✓,✓,✓,✗,✗,✓,✗,✗,-6.6,4.8,46,D,stage=4; position=13; volume=8; shape=11; risk=10,低優先
-3768,Riskmonster.com,567.0,👀 監視継続,0.3,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-3.9,3.9,46,D,stage=4; position=27; volume=0; shape=5; risk=10,低優先
-4341,Seiryo Electric Corporation,901.0,👀 監視継続,0.5,✗,✗,✓,✗,✓,✓,✓,✓,✓,✓,-5.2,5.5,46,D,stage=4; position=27; volume=0; shape=6; risk=9,低優先
-7297,"Car Mate Mfg. Co., Ltd.",870.0,👀 監視継続,0.32,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.1,2.3,46,D,stage=4; position=27; volume=0; shape=5; risk=10,低優先
-7427,"Echo Trading Co., Ltd.",832.0,👀 監視継続,0.83,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.4,4.3,46,D,stage=4; position=21; volume=0; shape=11; risk=10,低優先
-7461,"Kimura Co.,Ltd.",480.0,👀 監視継続,0.53,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-3.0,4.2,46,D,stage=4; position=27; volume=0; shape=5; risk=10,低優先
-7486,"Sanrin Co., Ltd.",817.0,👀 監視継続,0.18,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-2.5,8.0,46,D,stage=4; position=20; volume=8; shape=5; risk=9,低優先
-7863,"Hiraga Co.,Ltd.",958.0,👀 監視継続,0.52,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-2.2,4.3,46,D,stage=4; position=21; volume=0; shape=11; risk=10,低優先
-9376,"Eurasia Travel Co., Ltd.",834.0,👀 監視継続,0.45,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-1.1,7.0,46,D,stage=4; position=20; volume=8; shape=5; risk=9,低優先
-9466,Aidma Marketing Communication Corporation,238.0,👀 監視継続,0.27,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-2.5,7.6,46,D,stage=4; position=20; volume=8; shape=5; risk=9,低優先
-5026,"Tripleize Co.,Ltd.",619.0,📉 Step2中（調整中）,0.44,✓,✗,✗,✓,✗,✓,✓,✓,✗,✗,-5.5,14.4,45,D,stage=14; position=13; volume=8; shape=5; risk=5,低優先
-6666,River Eletec Corporation,807.0,📉 Step2中（調整中）,0.11,✓,✗,✗,✓,✓,✓,✓,✗,✓,✗,-9.1,21.7,45,D,stage=14; position=19; volume=8; shape=5; risk=-1 | risk: stop width >15%,低優先
-2186,Sobal Corporation,901.0,👀 監視継続,2.6,✗,✓,✓,✗,✓,✗,✗,✓,✓,✗,-3.3,1.0,45,D,stage=4; position=16; volume=9; shape=6; risk=10,低優先
-3202,"Daitobo Co., Ltd.",129.0,👀 監視継続,0.54,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-0.8,3.9,45,D,stage=4; position=20; volume=8; shape=5; risk=8,低優先
-3293,"AZUMA HOUSE Co., Ltd.",776.0,👀 監視継続,1.77,✗,✗,✓,✓,✓,✗,✓,✓,✓,✗,-0.5,1.5,45,D,stage=4; position=20; volume=2; shape=11; risk=8,低優先
-3965,"Capital Asset Planning, Inc.",913.0,👀 監視継続,0.56,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.8,6.9,45,D,stage=4; position=27; volume=0; shape=5; risk=9,低優先
-4284,"SOLXYZ Co., Ltd.",461.0,👀 監視継続,1.67,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.3,8.9,45,D,stage=4; position=27; volume=2; shape=5; risk=7,低優先
-4416,True Data Inc.,431.0,👀 監視継続,1.79,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-7.5,11.1,45,D,stage=4; position=21; volume=2; shape=11; risk=7,低優先
-4496,Commerce One Holdings Inc.,779.0,👀 監視継続,1.1,✗,✗,✓,✓,✓,✓,✗,✓,✓,✗,-5.5,4.4,45,D,stage=4; position=20; volume=0; shape=11; risk=10,低優先
-549A,"HITO-TO-HITO Holdings Co.,Ltd.",515.0,👀 監視継続,0.04,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-2.8,12.2,45,D,stage=4; position=17; volume=8; shape=11; risk=5,低優先
-5936,"Toyo Shutter Co., Ltd.",915.0,👀 監視継続,0.44,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.1,6.0,45,D,stage=4; position=27; volume=0; shape=5; risk=9,低優先
-5986,"Molitec Steel Co., Ltd.",256.0,👀 監視継続,0.36,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-3.0,8.2,45,D,stage=4; position=20; volume=8; shape=6; risk=7,低優先
-6171,C.E.Management Integrated Laboratory Co.Ltd,374.0,👀 監視継続,0.17,✓,✗,✓,✓,✓,✓,✗,✗,✗,✗,-5.8,1.1,45,D,stage=4; position=12; volume=8; shape=11; risk=10,低優先
-6195,"Hope, Inc.",204.0,👀 監視継続,0.55,✓,✗,✓,✓,✓,✓,✗,✗,✗,✗,-6.4,2.9,45,D,stage=4; position=12; volume=8; shape=11; risk=10,低優先
-6545,internet infinity Inc.,822.0,👀 監視継続,0.19,✓,✗,✓,✗,✓,✓,✗,✓,✓,✗,-9.4,5.1,45,D,stage=4; position=20; volume=8; shape=6; risk=7,低優先
-6662,"Ubiteq, Inc.",234.0,👀 監視継続,1.61,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.9,10.3,45,D,stage=4; position=27; volume=2; shape=5; risk=7,低優先
-7043,"Alue Co.,Ltd.",937.0,👀 監視継続,0.45,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-2.2,9.9,45,D,stage=4; position=20; volume=8; shape=6; risk=7,低優先
-7080,"Sportsfield Co., Ltd.",900.0,👀 監視継続,1.75,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.1,11.8,45,D,stage=4; position=27; volume=2; shape=5; risk=7,低優先
-7442,"Nakayamafuku Co.,Ltd.",484.0,👀 監視継続,0.61,✗,✗,✓,✓,✓,✓,✗,✓,✓,✗,-2.6,2.1,45,D,stage=4; position=20; volume=0; shape=11; risk=10,低優先
-7898,"Wood One Co.,Ltd.",925.0,👀 監視継続,0.44,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-3.1,4.2,45,D,stage=4; position=17; volume=8; shape=6; risk=10,低優先
-4288,"Asgent, Inc.",470.0,📉 Step2中（調整中）,0.17,✓,✗,✗,✗,✓,✓,✓,✓,✗,✗,-3.1,17.9,44,D,stage=14; position=21; volume=8; shape=0; risk=1 | risk: stop width >15%,低優先
-4883,Modalis Therapeutics Corporation,35.0,📉 Step2中（調整中）,0.32,✓,✗,✗,✓,✓,✓,✓,✗,✗,✗,-2.8,17.1,44,D,stage=14; position=16; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
-1418,"Interlife Holdings Co., Ltd.",594.0,👀 監視継続,0.46,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.7,4.3,44,D,stage=4; position=27; volume=0; shape=5; risk=8,低優先
-1446,"CANDEAL Co.,Ltd",540.0,👀 監視継続,0.37,✓,✗,✗,✓,✓,✓,✗,✓,✗,✗,-2.2,1.7,44,D,stage=4; position=17; volume=8; shape=5; risk=10,低優先
-2385,Soiken Holdings Inc.,224.0,👀 監視継続,0.04,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-2.2,6.7,44,D,stage=4; position=17; volume=8; shape=6; risk=9,低優先
-2916,"Semba Tohka Industries Co., Ltd",748.0,👀 監視継続,0.51,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.1,4.3,44,D,stage=4; position=27; volume=0; shape=5; risk=8,低優先
-3059,"Hiraki Co.,Ltd.",712.0,👀 監視継続,0.37,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.4,0.7,44,D,stage=4; position=21; volume=0; shape=11; risk=8,低優先
-3067,"Tokyo Ichiban Foods Co., Ltd.",467.0,👀 監視継続,1.22,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,3.6,44,D,stage=4; position=27; volume=0; shape=5; risk=8,低優先
-3137,"Fundely Co., Ltd.",207.0,👀 監視継続,0.1,✓,✗,✗,✓,✓,✓,✗,✓,✗,✗,-2.4,2.4,44,D,stage=4; position=17; volume=8; shape=5; risk=10,低優先
-324A,"Booking Resort Co., Ltd.",740.0,👀 監視継続,0.53,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-6.0,7.0,44,D,stage=4; position=17; volume=8; shape=6; risk=9,低優先
-3690,YRGLM Inc.,566.0,👀 監視継続,0.36,✗,✗,✓,✗,✓,✓,✓,✓,✓,✓,-0.9,6.5,44,D,stage=4; position=27; volume=0; shape=6; risk=7,低優先
-4057,"Interfactory, Inc.",358.0,👀 監視継続,1.04,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-0.6,3.6,44,D,stage=4; position=21; volume=0; shape=11; risk=8,低優先
-4657,"Environmental Control Center Co.,Ltd.",469.0,👀 監視継続,0.24,✓,✗,✓,✗,✓,✗,✗,✓,✓,✗,-7.9,4.1,44,D,stage=4; position=16; volume=8; shape=6; risk=10,低優先
-4736,Nippon RAD Inc.,592.0,👀 監視継続,0.1,✓,✗,✗,✓,✓,✓,✗,✓,✗,✗,-1.3,3.7,44,D,stage=4; position=17; volume=8; shape=5; risk=10,低優先
-5355,"Nippon Crucible Co., Ltd.",673.0,👀 監視継続,0.26,✓,✗,✓,✗,✓,✗,✗,✓,✓,✗,-1.3,0.3,44,D,stage=4; position=16; volume=8; shape=6; risk=10,低優先
-5940,"Fujisash Co.,Ltd.",768.0,👀 監視継続,0.21,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-5.7,7.6,44,D,stage=4; position=17; volume=8; shape=6; risk=9,低優先
-6059,"UCHIYAMA HOLDINGS Co.,Ltd.",363.0,👀 監視継続,0.32,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-0.5,6.6,44,D,stage=4; position=20; volume=8; shape=5; risk=7,低優先
-6155,"Takamatsu Machinery Co., Ltd.",539.0,👀 監視継続,1.6,✗,✗,✓,✓,✓,✗,✓,✓,✓,✗,-3.1,10.4,44,D,stage=4; position=20; volume=2; shape=11; risk=7,低優先
-6186,"Ichikura Co., Ltd.",378.0,👀 監視継続,0.64,✓,✗,✓,✗,✓,✗,✗,✓,✓,✗,-2.8,1.6,44,D,stage=4; position=16; volume=8; shape=6; risk=10,低優先
-6694,Zoom Corporation,723.0,👀 監視継続,1.9,✗,✗,✓,✗,✓,✓,✓,✓,✓,✓,-5.6,12.4,44,D,stage=4; position=27; volume=2; shape=6; risk=5,低優先
-6803,Teac Corporation,99.0,👀 監視継続,0.5,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-2.0,4.0,44,D,stage=4; position=17; volume=8; shape=5; risk=10,低優先
-7127,"Ikka Holdings Co.,Ltd.",709.0,👀 監視継続,0.58,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,2.5,44,D,stage=4; position=27; volume=0; shape=5; risk=8,低優先
-7255,Sakurai Ltd.,519.0,👀 監視継続,0.22,✓,✗,✗,✓,✓,✓,✗,✓,✗,✗,-2.6,3.7,44,D,stage=4; position=17; volume=8; shape=5; risk=10,低優先
-7399,"Nansin Co., Ltd.",618.0,👀 監視継続,1.0,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,4.4,44,D,stage=4; position=27; volume=0; shape=5; risk=8,低優先
-7625,"Global-Dining, Inc.",474.0,👀 監視継続,0.13,✓,✗,✓,✗,✓,✗,✗,✓,✓,✗,-3.5,3.2,44,D,stage=4; position=16; volume=8; shape=6; risk=10,低優先
-7879,Noda Corporation,679.0,👀 監視継続,0.34,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-0.9,5.4,44,D,stage=4; position=20; volume=8; shape=5; risk=7,低優先
-9259,"TAKAYOSHI Holdings, INC.",852.0,👀 監視継続,0.14,✓,✗,✗,✓,✓,✓,✗,✓,✗,✗,-4.8,4.8,44,D,stage=4; position=17; volume=8; shape=5; risk=10,低優先
-9326,"Kantsu HD Co.,Ltd.",493.0,👀 監視継続,0.1,✓,✗,✓,✗,✓,✗,✗,✓,✓,✗,-1.8,1.6,44,D,stage=4; position=16; volume=8; shape=6; risk=10,低優先
-9445,"Forval Telecom,Inc.",536.0,👀 監視継続,0.22,✓,✗,✗,✓,✓,✓,✗,✓,✗,✗,-1.1,1.1,44,D,stage=4; position=17; volume=8; shape=5; risk=10,低優先
-1443,"Giken Holdings Co., Ltd.",284.0,👀 監視継続,0.37,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-1.7,13.7,43,D,stage=4; position=20; volume=8; shape=6; risk=5,低優先
-156A,Material Group Inc.,857.0,👀 監視継続,0.48,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.4,8.9,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
-2479,JTEC Corporation,257.0,👀 監視継続,1.81,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,8.6,43,D,stage=4; position=27; volume=2; shape=5; risk=5,低優先
-2493,"E-SUPPORTLINK, Ltd.",946.0,👀 監視継続,0.22,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-0.6,1.0,43,D,stage=4; position=17; volume=8; shape=6; risk=8,低優先
-2894,"Ishii Food Co., Ltd.",363.0,👀 監視継続,1.94,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.5,9.4,43,D,stage=4; position=27; volume=2; shape=5; risk=5,低優先
-3169,"Misawa & Co., Ltd.",685.0,👀 監視継続,1.01,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.6,6.1,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
-3416,PIXTA Inc.,921.0,👀 監視継続,0.82,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.5,10.1,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
-3461,"Palma Co., Ltd.",623.0,👀 監視継続,0.76,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,6.7,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
-3826,System Integrator Corp.,499.0,👀 監視継続,0.85,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.7,11.4,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
-3958,"Sasatoku Printing Co.,Ltd.",551.0,👀 監視継続,3.04,✗,✓,✗,✗,✓,✗,✓,✓,✓,✗,-2.0,0.9,43,D,stage=4; position=20; volume=9; shape=0; risk=10,低優先
-3996,Signpost Corporation,208.0,👀 監視継続,0.38,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-5.9,8.2,43,D,stage=4; position=21; volume=0; shape=11; risk=7,低優先
-4019,"Stmn, Inc.",669.0,👀 監視継続,0.56,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-5.0,10.5,43,D,stage=4; position=21; volume=0; shape=11; risk=7,低優先
-4334,"YUKE'S Co.,Ltd.",401.0,👀 監視継続,1.34,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,7.5,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
-4379,Photosynth inc.,434.0,👀 監視継続,0.16,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-5.2,12.4,43,D,stage=4; position=20; volume=8; shape=6; risk=5,低優先
-4447,"PBsystems,Inc.",503.0,👀 監視継続,1.17,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.6,10.1,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
-4678,"SHUEI YOBIKO Co., Ltd.",333.0,👀 監視継続,0.58,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.6,5.1,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
-4845,"Scala, Inc.",358.0,👀 監視継続,0.8,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.6,8.7,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
-5616,"Ame Kaze Taiyo, Inc.",649.0,👀 監視継続,0.13,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-1.7,5.5,43,D,stage=4; position=17; volume=8; shape=5; risk=9,低優先
+3069,JFLA Holdings Inc.,169.0,👀 監視継続,0.83,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-0.6,9.5,47,D,stage=4; position=27; volume=0; shape=11; risk=5,低優先
+3536,"Axas Holdings Co.,Ltd.",128.0,👀 監視継続,0.12,✓,✗,✓,✓,✓,✗,✗,✓,✓,✗,-0.8,1.6,47,D,stage=4; position=16; volume=8; shape=11; risk=8,低優先
+3598,"Yamaki Co.,Ltd.",167.0,👀 監視継続,2.15,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.2,5.4,47,D,stage=4; position=27; volume=2; shape=5; risk=9,低優先
+3726,"4Cs HD Co., Ltd.",404.0,👀 監視継続,0.18,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-1.7,11.9,47,D,stage=4; position=17; volume=8; shape=11; risk=7,低優先
+407A,"Unicon Holdings Co., Ltd.",947.0,👀 監視継続,0.27,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-2.8,9.1,47,D,stage=4; position=17; volume=8; shape=11; risk=7,低優先
+4245,"Daiki Axis Co., Ltd.",715.0,👀 監視継続,0.74,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-1.9,6.3,47,D,stage=4; position=20; volume=8; shape=6; risk=9,低優先
+4678,"SHUEI YOBIKO Co., Ltd.",330.0,👀 監視継続,0.28,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-1.5,4.2,47,D,stage=4; position=20; volume=8; shape=5; risk=10,低優先
+4766,"PA Co., Ltd.",211.0,👀 監視継続,0.22,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-2.3,10.9,47,D,stage=4; position=17; volume=8; shape=11; risk=7,低優先
+5928,"Almetax Manufacturing Co., Ltd.",291.0,👀 監視継続,1.22,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-1.7,4.8,47,D,stage=4; position=20; volume=8; shape=5; risk=10,低優先
+6325,"Takakita Co., Ltd.",416.0,👀 監視継続,0.3,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-1.2,3.8,47,D,stage=4; position=20; volume=8; shape=5; risk=10,低優先
+6545,internet infinity Inc.,817.0,👀 監視継続,0.38,✓,✗,✓,✓,✓,✗,✗,✓,✓,✗,-9.9,4.5,47,D,stage=4; position=16; volume=8; shape=11; risk=8,低優先
+6778,"Artiza Networks, Inc.",676.0,👀 監視継続,0.76,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-1.3,12.3,47,D,stage=4; position=27; volume=0; shape=11; risk=5,低優先
+7813,"Platz Co., Ltd.",912.0,👀 監視継続,0.89,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-3.6,13.9,47,D,stage=4; position=27; volume=0; shape=11; risk=5,低優先
+9376,"Eurasia Travel Co., Ltd.",825.0,👀 監視継続,0.21,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-2.1,5.9,47,D,stage=4; position=20; volume=8; shape=6; risk=9,低優先
+2435,"CEDAR.Co.,Ltd.",210.0,👀 監視継続,0.07,✓,✗,✓,✓,✓,✗,✗,✓,✗,✗,-4.5,1.4,46,D,stage=4; position=13; volume=8; shape=11; risk=10,低優先
+2454,"All About, Inc.",355.0,👀 監視継続,0.63,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.1,4.5,46,D,stage=4; position=21; volume=0; shape=11; risk=10,低優先
+2687,CVS Bay Area Inc.,494.0,👀 監視継続,0.32,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.6,4.2,46,D,stage=4; position=27; volume=0; shape=5; risk=10,低優先
+2877,NittoBest Corporation,754.0,👀 監視継続,0.62,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-5.4,3.2,46,D,stage=4; position=27; volume=0; shape=5; risk=10,低優先
+3190,"HOTMAN Co.,Ltd.",586.0,👀 監視継続,0.36,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.0,2.7,46,D,stage=4; position=27; volume=0; shape=5; risk=10,低優先
+3439,Mitsuchi Corporation,679.0,👀 監視継続,0.68,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.6,4.7,46,D,stage=4; position=27; volume=0; shape=5; risk=10,低優先
+3571,"Sotoh Co., Ltd.",739.0,👀 監視継続,0.38,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.1,4.2,46,D,stage=4; position=27; volume=0; shape=5; risk=10,低優先
+3710,"Jorudan Co.,Ltd.",646.0,👀 監視継続,0.23,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-6.5,5.1,46,D,stage=4; position=20; volume=8; shape=5; risk=9,低優先
+7427,"Echo Trading Co., Ltd.",835.0,👀 監視継続,0.36,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.1,4.6,46,D,stage=4; position=21; volume=0; shape=11; risk=10,低優先
+9760,"Shingakukai Holdings Co.,Ltd.",121.0,👀 監視継続,0.16,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-1.6,2.5,46,D,stage=4; position=21; volume=0; shape=11; risk=10,低優先
+3011,"Banners Co., Ltd.",145.0,👀 監視継続,0.33,✓,✗,✓,✓,✓,✗,✓,✗,✗,✗,-1.4,2.1,45,D,stage=4; position=12; volume=8; shape=11; risk=10,低優先
+3474,"G-Factory Co.,Ltd.",604.0,👀 監視継続,0.74,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.0,5.1,45,D,stage=4; position=27; volume=0; shape=5; risk=9,低優先
+365A,"Izawa Towel Co.,Ltd.",781.0,👀 監視継続,0.29,✗,✗,✓,✓,✓,✗,✓,✓,✓,✗,-2.2,3.5,45,D,stage=4; position=20; volume=0; shape=11; risk=10,低優先
+3672,AltPlus Inc.,29.0,👀 監視継続,0.25,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-14.7,10.3,45,D,stage=4; position=17; volume=8; shape=11; risk=5,低優先
+3750,ADR Biomedical Holdings Inc.,836.0,👀 監視継続,2.34,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.0,9.2,45,D,stage=4; position=27; volume=2; shape=5; risk=7,低優先
+3955,"IMURA & Co.,Ltd.",844.0,👀 監視継続,0.14,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-1.3,3.3,45,D,stage=4; position=17; volume=8; shape=6; risk=10,低優先
+4496,Commerce One Holdings Inc.,779.0,👀 監視継続,0.86,✗,✗,✓,✓,✓,✓,✗,✓,✓,✗,-4.3,4.4,45,D,stage=4; position=20; volume=0; shape=11; risk=10,低優先
+6038,"IID, Inc.",833.0,👀 監視継続,0.28,✓,✗,✓,✓,✓,✗,✓,✗,✗,✗,-1.7,3.5,45,D,stage=4; position=12; volume=8; shape=11; risk=10,低優先
+6155,"Takamatsu Machinery Co., Ltd.",536.0,👀 監視継続,0.58,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-3.6,9.9,45,D,stage=4; position=20; volume=8; shape=6; risk=7,低優先
+6537,"Washhouse Co.,Ltd.",295.0,👀 監視継続,0.13,✓,✗,✓,✓,✓,✓,✗,✗,✗,✗,-6.1,2.4,45,D,stage=4; position=12; volume=8; shape=11; risk=10,低優先
+6633,Cgs Holdings Inc.,322.0,👀 監視継続,0.32,✓,✗,✓,✓,✓,✓,✗,✗,✗,✗,-2.4,2.5,45,D,stage=4; position=12; volume=8; shape=11; risk=10,低優先
+7791,"Dreambed Co.,Ltd.",839.0,👀 監視継続,1.32,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.1,5.8,45,D,stage=4; position=27; volume=0; shape=5; risk=9,低優先
+206A,"PRISM BioLab Co.,LTD",171.0,👀 監視継続,0.13,✓,✗,✓,✓,✓,✗,✓,✓,✓,✗,-5.5,15.8,44,D,stage=4; position=20; volume=8; shape=11; risk=1 | risk: stop width >15%,低優先
+3067,"Tokyo Ichiban Foods Co., Ltd.",466.0,👀 監視継続,1.34,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.2,3.4,44,D,stage=4; position=27; volume=0; shape=5; risk=8,低優先
+3161,AZEARTH Corporation,665.0,👀 監視継続,0.56,✓,✗,✓,✗,✓,✗,✗,✓,✓,✗,-2.8,2.1,44,D,stage=4; position=16; volume=8; shape=6; risk=10,低優先
+3248,"Early Age Co., Ltd.",888.0,👀 監視継続,0.11,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-0.7,5.4,44,D,stage=4; position=20; volume=8; shape=5; risk=7,低優先
+3477,"FORLIFE Co., Ltd.",892.0,👀 監視継続,0.29,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.7,4.8,44,D,stage=4; position=27; volume=0; shape=5; risk=8,低優先
+3910,MKSystem Corporation,282.0,👀 監視継続,0.07,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-2.1,5.0,44,D,stage=4; position=17; volume=8; shape=5; risk=10,低優先
+4531,"Yuki Gosei Kogyo Co., Ltd.",364.0,👀 監視継続,0.28,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-2.7,11.5,44,D,stage=4; position=20; volume=8; shape=5; risk=7,低優先
+4679,"TAYA Co.,Ltd.",263.0,👀 監視継続,0.2,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-2.6,4.9,44,D,stage=4; position=17; volume=8; shape=5; risk=10,低優先
+4777,Gala Incorporated,202.0,👀 監視継続,0.21,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-4.3,3.5,44,D,stage=4; position=17; volume=8; shape=5; risk=10,低優先
+6400,"Fuji Seiki Co.,Ltd.",288.0,👀 監視継続,0.42,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-3.0,10.4,44,D,stage=4; position=20; volume=8; shape=5; risk=7,低優先
+6658,"Shirai Electronics Industrial Co., Ltd.",453.0,👀 監視継続,0.59,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-2.8,7.3,44,D,stage=4; position=17; volume=8; shape=6; risk=9,低優先
+6819,"Izu Shaboten Resort Co.,Ltd",474.0,👀 監視継続,0.29,✓,✗,✓,✗,✓,✗,✗,✓,✓,✗,-1.5,0.8,44,D,stage=4; position=16; volume=8; shape=6; risk=10,低優先
+6888,Acmos Inc.,499.0,👀 監視継続,0.3,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-1.6,5.2,44,D,stage=4; position=17; volume=8; shape=6; risk=9,低優先
+7040,"Sun-Life Holding Co.,Ltd.",974.0,👀 監視継続,0.1,✓,✗,✗,✓,✓,✓,✗,✓,✗,✗,-2.6,1.3,44,D,stage=4; position=17; volume=8; shape=5; risk=10,低優先
+7127,"Ikka Holdings Co.,Ltd.",708.0,👀 監視継続,0.48,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.1,2.4,44,D,stage=4; position=27; volume=0; shape=5; risk=8,低優先
+7399,"Nansin Co., Ltd.",617.0,👀 監視継続,0.85,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.5,4.2,44,D,stage=4; position=27; volume=0; shape=5; risk=8,低優先
+7692,Earth Infinity Co.Ltd.,80.0,👀 監視継続,0.44,✓,✗,✓,✓,✓,✗,✓,✗,✗,✗,-2.4,6.2,44,D,stage=4; position=12; volume=8; shape=11; risk=9,低優先
+7992,"The Sailor Pen Co., Ltd.",104.0,👀 監視継続,0.16,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-3.7,4.8,44,D,stage=4; position=17; volume=8; shape=5; risk=10,低優先
+8077,TORQ Inc.,215.0,👀 監視継続,0.74,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-10.4,4.7,44,D,stage=4; position=21; volume=0; shape=11; risk=8,低優先
+9259,"TAKAYOSHI Holdings, INC.",852.0,👀 監視継続,0.25,✓,✗,✗,✓,✓,✓,✗,✓,✗,✗,-4.8,4.8,44,D,stage=4; position=17; volume=8; shape=5; risk=10,低優先
+9262,"Silver Life Co., Ltd.",683.0,👀 監視継続,0.7,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-3.4,6.6,44,D,stage=4; position=17; volume=8; shape=6; risk=9,低優先
+9326,"Kantsu HD Co.,Ltd.",491.0,👀 監視継続,0.21,✓,✗,✓,✗,✓,✗,✗,✓,✓,✗,-2.2,1.2,44,D,stage=4; position=16; volume=8; shape=6; risk=10,低優先
+9514,EF-ON Inc.,344.0,👀 監視継続,0.68,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-3.4,7.8,44,D,stage=4; position=17; volume=8; shape=6; risk=9,低優先
+9929,"Heiwa Paper Co.,Ltd.",475.0,👀 監視継続,0.15,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.4,2.7,44,D,stage=4; position=27; volume=0; shape=5; risk=8,低優先
+1994,Takahashi Curtain Wall Corporation,618.0,👀 監視継続,2.46,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-5.1,13.4,43,D,stage=4; position=27; volume=2; shape=5; risk=5,低優先
+2215,"First Baking Co., Ltd.",610.0,👀 監視継続,0.39,✓,✗,✗,✓,✓,✗,✗,✓,✓,✗,-6.2,2.0,43,D,stage=4; position=16; volume=8; shape=5; risk=10,低優先
+303A,visumo Inc.,602.0,👀 監視継続,0.05,✓,✗,✗,✓,✓,✓,✗,✓,✗,✗,-5.5,6.6,43,D,stage=4; position=17; volume=8; shape=5; risk=9,低優先
+3169,"Misawa & Co., Ltd.",683.0,👀 監視継続,0.49,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.9,5.9,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
+3461,"Palma Co., Ltd.",630.0,👀 監視継続,1.26,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.8,7.8,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
+3826,System Integrator Corp.,498.0,👀 監視継続,0.6,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.9,11.2,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
+3935,"Edia Co., Ltd.",708.0,👀 監視継続,0.33,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-3.5,7.5,43,D,stage=4; position=17; volume=8; shape=5; risk=9,低優先
+4334,"YUKE'S Co.,Ltd.",401.0,👀 監視継続,0.75,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.5,7.5,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
+4380,M - mart Inc.,682.0,👀 監視継続,0.85,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-5.3,17.2,43,D,stage=4; position=27; volume=0; shape=11; risk=1 | risk: stop width >15%,低優先
+5936,"Toyo Shutter Co., Ltd.",921.0,👀 監視継続,0.63,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.4,6.6,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
 5974,"Chugokukogyo Co.,Ltd.",850.0,👀 監視継続,0.09,✓,✗,✗,✓,✓,✗,✗,✓,✓,✗,-1.4,3.1,43,D,stage=4; position=16; volume=8; shape=5; risk=10,低優先
-6218,ENSHU Limited,637.0,👀 監視継続,1.04,✓,✗,✗,✓,✓,✗,✗,✓,✓,✗,-6.9,3.3,43,D,stage=4; position=16; volume=8; shape=5; risk=10,低優先
-7217,"Tein, Inc.",456.0,👀 監視継続,1.17,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.4,9.4,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
-7369,"Meiho Holdings,Inc.",361.0,👀 監視継続,0.18,✓,✗,✓,✓,✓,✓,✗,✗,✗,✗,-13.8,4.7,43,D,stage=4; position=12; volume=8; shape=11; risk=8,低優先
-7372,Decollte Holdings Corporation,389.0,👀 監視継続,0.02,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-4.7,5.1,43,D,stage=4; position=17; volume=8; shape=5; risk=9,低優先
-9218,"Mental Health Technologies Co.,Ltd.",790.0,👀 監視継続,0.87,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.9,8.0,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
-9478,"SE Holdings and Incubations Co., Ltd.",529.0,👀 監視継続,0.06,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-4.7,8.3,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
-9930,"Kitazawa Sangyo Co., Ltd.",397.0,👀 監視継続,0.22,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-5.0,9.3,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
-157A,Green Monster Inc.,743.0,👀 監視継続,0.02,✓,✗,✓,✓,✓,✓,✗,✗,✗,✗,-10.3,5.8,42,D,stage=4; position=12; volume=8; shape=11; risk=7,低優先
-2179,"Seigakusha Co.,Ltd.",859.0,👀 監視継続,0.1,✗,✗,✓,✓,✓,✗,✓,✓,✓,✗,-3.3,8.8,42,D,stage=4; position=20; volume=0; shape=11; risk=7,低優先
-3494,"Mullion Co., Ltd.",442.0,👀 監視継続,0.23,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.5,4.3,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
-3536,"Axas Holdings Co.,Ltd.",128.0,👀 監視継続,0.27,✓,✗,✓,✗,✓,✗,✗,✓,✓,✗,-0.8,1.6,42,D,stage=4; position=16; volume=8; shape=6; risk=8,低優先
-387A,"Fuller, Inc.",945.0,👀 監視継続,0.05,✓,✗,✗,✓,✓,✓,✗,✓,✗,✗,-10.0,3.5,42,D,stage=4; position=17; volume=8; shape=5; risk=8,低優先
-3908,Collabos Corporation,350.0,👀 監視継続,0.01,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.2,4.6,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
-3953,"Ohmura Shigyo Co.,Ltd.",795.0,👀 監視継続,0.89,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.7,4.0,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
-4558,"Chukyoiyakuhin Co.,Ltd.",201.0,👀 監視継続,0.44,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.0,1.5,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
-6081,"Allied Architects, Inc.",166.0,👀 監視継続,0.12,✓,✗,✓,✓,✓,✗,✓,✗,✗,✗,-3.5,9.6,42,D,stage=4; position=12; volume=8; shape=11; risk=7,低優先
-6334,"Meiji Machine Co., Ltd.",501.0,👀 監視継続,0.54,✗,✗,✓,✓,✓,✗,✓,✓,✓,✗,-3.7,11.6,42,D,stage=4; position=20; volume=0; shape=11; risk=7,低優先
-6538,Disruptors Inc.,241.0,👀 監視継続,0.42,✓,✗,✗,✓,✓,✓,✗,✓,✗,✗,-14.2,2.5,42,D,stage=4; position=17; volume=8; shape=5; risk=8,低優先
-7090,Ligua Inc.,922.0,👀 監視継続,0.43,✓,✗,✗,✓,✓,✗,✓,✓,✓,✗,-3.4,14.8,42,D,stage=4; position=20; volume=8; shape=5; risk=5,低優先
-7571,Yamano Holdings Corporation,89.0,👀 監視継続,0.26,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-5.3,9.0,42,D,stage=4; position=17; volume=8; shape=6; risk=7,低優先
-7807,"Kowa Co.,Ltd.",870.0,👀 監視継続,0.05,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.8,3.7,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
-7953,"Kikusui Chemical Industries Co., Ltd.",400.0,👀 監視継続,0.46,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.2,4.2,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
-8247,"Daiwa Co.,Ltd.",312.0,👀 監視継続,0.85,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-2.8,9.9,42,D,stage=4; position=17; volume=8; shape=6; risk=7,低優先
-9240,Delivery Consulting Inc.,428.0,👀 監視継続,0.09,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-7.0,8.6,42,D,stage=4; position=17; volume=8; shape=6; risk=7,低優先
-9760,"Shingakukai Holdings Co.,Ltd.",120.0,👀 監視継続,0.38,✗,✗,✓,✓,✓,✗,✓,✓,✗,✗,-2.4,2.5,42,D,stage=4; position=17; volume=0; shape=11; risk=10,低優先
-198A,PostPrime Inc.,173.0,📉 Step2中（調整中）,0.22,✓,✗,✗,✓,✗,✓,✓,✓,✗,✗,-8.0,21.4,41,D,stage=14; position=13; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
-143A,"Ishin Co., Ltd.",696.0,👀 監視継続,0.12,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-2.9,8.3,41,D,stage=4; position=17; volume=8; shape=5; risk=7,低優先
-2286,"Hayashikane Sangyo Co.,Ltd.",932.0,👀 監視継続,0.91,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-9.3,10.3,41,D,stage=4; position=27; volume=0; shape=5; risk=5,低優先
-2388,"Wedge Holdings CO.,LTD.",35.0,👀 監視継続,0.12,✓,✗,✓,✓,✓,✗,✗,✗,✗,✗,-7.9,2.9,41,D,stage=4; position=8; volume=8; shape=11; risk=10,低優先
-2435,"CEDAR.Co.,Ltd.",210.0,👀 監視継続,0.07,✓,✗,✓,✗,✓,✗,✗,✓,✗,✗,-4.5,1.4,41,D,stage=4; position=13; volume=8; shape=6; risk=10,低優先
-2459,"AUN CONSULTING, Inc.",178.0,👀 監視継続,0.12,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-5.3,10.7,41,D,stage=4; position=17; volume=8; shape=5; risk=7,低優先
-2984,"Yamaichi Real Estate Co., Ltd",763.0,👀 監視継続,0.23,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.1,5.8,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
-3042,SecuAvail Inc.,296.0,👀 監視継続,0.07,✓,✗,✓,✗,✓,✗,✗,✓,✗,✗,-3.9,3.7,41,D,stage=4; position=13; volume=8; shape=6; risk=10,低優先
-3236,"Properst Co., Ltd.",294.0,👀 監視継続,0.12,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-1.7,8.5,41,D,stage=4; position=17; volume=8; shape=5; risk=7,低優先
-3377,BIKE O & COMPANY Ltd.,393.0,👀 監視継続,0.33,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.5,6.4,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
-3646,"Ekitan & Co., Ltd.",380.0,👀 監視継続,7.26,✗,✓,✗,✓,✗,✓,✓,✓,✓,✓,-9.7,12.9,41,D,stage=4; position=19; volume=10; shape=5; risk=3,低優先
-3710,"Jorudan Co.,Ltd.",646.0,👀 監視継続,0.76,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-6.5,5.1,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
-4240,"Cluster Technology Co.,Ltd.",320.0,👀 監視継続,0.1,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-9.1,6.2,41,D,stage=4; position=17; volume=8; shape=5; risk=7,低優先
-4576,"D. Western Therapeutics Institute, Inc.",88.0,👀 監視継続,0.03,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-2.2,15.9,41,D,stage=4; position=17; volume=8; shape=11; risk=1 | risk: stop width >15%,低優先
-5125,Fines inc.,470.0,👀 監視継続,0.05,✓,✗,✓,✓,✓,✗,✗,✗,✗,✗,-5.8,1.5,41,D,stage=4; position=8; volume=8; shape=11; risk=10,低優先
-5247,"BTM, Inc.",577.0,👀 監視継続,0.08,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-2.9,9.2,41,D,stage=4; position=17; volume=8; shape=5; risk=7,低優先
-5952,Amatei Incorporated,191.0,👀 監視継続,0.05,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.0,5.8,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
-6074,JSS Corporation,514.0,👀 監視継続,0.1,✓,✗,✓,✗,✓,✗,✗,✓,✗,✗,-1.9,1.0,41,D,stage=4; position=13; volume=8; shape=6; risk=10,低優先
-6428,OIZUMI Corporation,328.0,👀 監視継続,0.18,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.2,5.8,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
-6467,Nichidai Corporation,346.0,👀 監視継続,0.23,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.5,7.2,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
-7075,"QLS Holdings Co., Ltd",929.0,👀 監視継続,2.0,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.6,13.8,41,D,stage=4; position=27; volume=2; shape=5; risk=3,低優先
-7078,INCLUSIVE Holdings Inc.,360.0,👀 監視継続,0.29,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-14.1,8.3,41,D,stage=4; position=21; volume=0; shape=11; risk=5,低優先
-7215,"Faltec Co., Ltd.",437.0,👀 監視継続,0.16,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-5.0,5.5,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
-7291,"Nihon Plast Co., Ltd.",475.0,👀 監視継続,0.81,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-3.1,12.4,41,D,stage=4; position=27; volume=0; shape=5; risk=5,低優先
-7371,Zenken Corporation,804.0,👀 監視継続,1.04,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,10.9,41,D,stage=4; position=27; volume=0; shape=5; risk=5,低優先
-7624,"Naito & Co., Ltd.",155.0,👀 監視継続,0.86,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.3,12.3,41,D,stage=4; position=27; volume=0; shape=5; risk=5,低優先
-2454,"All About, Inc.",354.0,👀 監視継続,1.04,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.4,4.2,40,D,stage=4; position=21; volume=0; shape=5; risk=10,低優先
-3011,"Banners Co., Ltd.",145.0,👀 監視継続,0.82,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-1.4,2.1,40,D,stage=4; position=12; volume=8; shape=6; risk=10,低優先
-3190,"HOTMAN Co.,Ltd.",583.0,👀 監視継続,0.36,✗,✗,✓,✗,✓,✓,✗,✓,✓,✗,-1.5,2.2,40,D,stage=4; position=20; volume=0; shape=6; risk=10,低優先
-3682,"Encourage Technologies Co., Ltd.",600.0,👀 監視継続,0.18,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-5.5,5.0,40,D,stage=4; position=21; volume=0; shape=5; risk=10,低優先
-3726,"4Cs HD Co., Ltd.",404.0,👀 監視継続,0.13,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-1.7,13.4,40,D,stage=4; position=17; volume=8; shape=6; risk=5,低優先
-3940,"Nomura System Corporation Co, Ltd.",130.0,👀 監視継続,1.1,✗,✗,✓,✓,✓,✗,✓,✓,✓,✗,-1.5,12.3,40,D,stage=4; position=20; volume=0; shape=11; risk=5,低優先
-4892,Cyfuse Biomedical K.K.,561.0,👀 監視継続,0.09,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-3.4,13.2,40,D,stage=4; position=17; volume=8; shape=6; risk=5,低優先
-4936,AXXZIA Inc.,324.0,👀 監視継続,0.24,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-1.5,2.8,40,D,stage=4; position=12; volume=8; shape=6; risk=10,低優先
-5870,Nalnet Communications Inc.,888.0,👀 監視継続,0.5,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-7.5,13.9,40,D,stage=4; position=17; volume=8; shape=6; risk=5,低優先
-6537,"Washhouse Co.,Ltd.",294.0,👀 監視継続,0.26,✓,✗,✓,✗,✓,✓,✗,✗,✗,✗,-6.4,2.0,40,D,stage=4; position=12; volume=8; shape=6; risk=10,低優先
-7805,Printnet Inc.,710.0,👀 監視継続,2.95,✗,✓,✓,✗,✓,✗,✗,✗,✓,✗,-5.3,1.3,40,D,stage=4; position=11; volume=9; shape=6; risk=10,低優先
-8230,"Hasegawa Co., Ltd.",312.0,👀 監視継続,1.79,✗,✗,✓,✓,✓,✗,✗,✓,✗,✗,-1.9,0.6,40,D,stage=4; position=13; volume=2; shape=11; risk=10,低優先
-177A,"Kohjin Bio Co., Ltd.",853.0,👀 監視継続,0.11,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-5.8,2.0,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
-2304,"CSS Holdings,Ltd.",922.0,👀 監視継続,0.39,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-5.2,3.3,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
-2338,"Quantum Solutions Co.,Ltd.",125.0,👀 監視継続,0.21,✓,✗,✓,✓,✗,✓,✗,✓,✗,✗,-10.7,7.2,39,D,stage=4; position=9; volume=8; shape=11; risk=7,低優先
-2373,Care Twentyone Corporation,408.0,👀 監視継続,0.88,✓,✗,✗,✓,✓,✗,✓,✗,✗,✗,-1.0,2.0,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
-2666,"AUTOWAVE Co., Ltd.",185.0,👀 監視継続,0.49,✗,✗,✓,✗,✓,✓,✗,✓,✓,✗,-5.1,7.0,39,D,stage=4; position=20; volume=0; shape=6; risk=9,低優先
-2673,"YUMEMITSUKETAI Co.,Ltd.",118.0,👀 監視継続,0.03,✓,✗,✓,✓,✓,✗,✓,✓,✗,✗,-12.6,21.2,39,D,stage=4; position=17; volume=8; shape=11; risk=-1 | risk: stop width >15%,低優先
-3237,"Intrance Co., Ltd.",99.0,👀 監視継続,0.3,✓,✗,✓,✗,✓,✗,✗,✓,✓,✗,-10.0,10.1,39,D,stage=4; position=16; volume=8; shape=6; risk=5,低優先
-3266,Fund Creation Group Company Limited,80.0,👀 監視継続,0.03,✓,✗,✗,✓,✓,✗,✓,✗,✗,✗,-2.4,3.8,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
-4308,J-Stream Inc.,359.0,👀 監視継続,0.31,✗,✗,✗,✓,✓,✗,✓,✓,✓,✗,-1.6,3.1,39,D,stage=4; position=20; volume=0; shape=5; risk=10,低優先
-4351,Yamada Servicer Synthetic Office,837.0,👀 監視継続,0.55,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-2.7,2.2,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
-4376,Kufu Company Holdings Inc.,165.0,👀 監視継続,0.22,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-8.3,6.7,39,D,stage=4; position=20; volume=8; shape=0; risk=7,低優先
-4388,"AI,Inc.",374.0,👀 監視継続,0.54,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.1,5.9,39,D,stage=4; position=21; volume=0; shape=5; risk=9,低優先
-4705,CLIP Corporation,794.0,👀 監視継続,0.14,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-1.4,2.8,39,D,stage=4; position=17; volume=8; shape=0; risk=10,低優先
-5194,"Sagami Rubber Industries Co., Ltd.",639.0,👀 監視継続,0.14,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-4.8,1.4,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
-5570,"Jenoba Co.,Ltd.",640.0,👀 監視継続,0.45,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.1,6.9,39,D,stage=4; position=21; volume=0; shape=5; risk=9,低優先
-5618,Nyle Inc.,288.0,👀 監視継続,0.05,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-4.3,3.8,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
-5997,Kyoritsu Air Tech Inc.,901.0,👀 監視継続,2.86,✗,✓,✗,✗,✓,✗,✗,✓,✓,✗,-6.1,2.3,39,D,stage=4; position=16; volume=9; shape=0; risk=10,低優先
-6190,"PhoenixBio Co., Ltd.",342.0,👀 監視継続,0.13,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-4.7,3.5,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
-6494,"NFK Holdings Co., Ltd.",97.0,👀 監視継続,0.17,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-6.7,3.1,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
-6552,GameWith Inc.,174.0,👀 監視継続,0.11,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-2.8,5.2,39,D,stage=4; position=12; volume=8; shape=6; risk=9,低優先
-6614,"Shikino High-Tech CO.,LTD.",863.0,👀 監視継続,0.08,✓,✗,✗,✓,✓,✓,✗,✗,✓,✗,-7.7,8.9,39,D,stage=4; position=15; volume=8; shape=5; risk=7,低優先
-6778,"Artiza Networks, Inc.",682.0,👀 監視継続,0.98,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.4,13.0,39,D,stage=4; position=27; volume=0; shape=5; risk=3,低優先
-7042,"Access Group Holdings Co., Ltd.",693.0,👀 監視継続,0.05,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-4.4,8.8,39,D,stage=4; position=20; volume=8; shape=0; risk=7,低優先
-7112,"Cube Co., Ltd.",700.0,👀 監視継続,0.04,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-3.2,1.4,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
-7140,Petgo Corporation,802.0,👀 監視継続,0.43,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-1.6,0.5,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
-7360,"ONDECK Co., Ltd.",650.0,👀 監視継続,0.12,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-2.3,3.7,39,D,stage=4; position=17; volume=8; shape=0; risk=10,低優先
-7837,"R. C. Core Co., Ltd.",336.0,👀 監視継続,0.02,✓,✗,✗,✗,✓,✓,✗,✓,✗,✗,-6.4,3.3,39,D,stage=4; position=17; volume=8; shape=0; risk=10,低優先
-8165,"Senshukai Co., Ltd.",107.0,👀 監視継続,0.82,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-6.1,1.9,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
-8946,Asian Star Co.,75.0,👀 監視継続,0.25,✓,✗,✓,✓,✓,✗,✗,✗,✗,✗,-8.5,1.3,39,D,stage=4; position=8; volume=8; shape=11; risk=8,低優先
-1844,"Ohmori Co.,Ltd.",485.0,👀 監視継続,0.06,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-3.0,6.2,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
-2055,"Nichiwa Sangyo Co., Ltd.",344.0,👀 監視継続,0.57,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-4.2,5.2,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
-2138,"CROOZ, Inc.",456.0,👀 監視継続,0.08,✓,✗,✗,✗,✓,✓,✗,✓,✗,✗,-3.6,7.9,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
-2341,"Arbeit-Times Co., Ltd.",172.0,👀 監視継続,0.36,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-2.3,6.4,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
-2769,"Village Vanguard CO.,LTD.",925.0,👀 監視継続,0.83,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,0.0,4.9,38,D,stage=4; position=21; volume=0; shape=5; risk=8,低優先
-303A,visumo Inc.,602.0,👀 監視継続,0.05,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-5.5,6.6,38,D,stage=4; position=12; volume=8; shape=5; risk=9,低優先
-3161,AZEARTH Corporation,666.0,👀 監視継続,0.63,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-2.6,2.3,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
-3634,Sockets Inc.,598.0,👀 監視継続,0.09,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-1.6,6.4,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
-3904,KAYAC Inc.,429.0,👀 監視継続,0.11,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-2.3,7.2,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
-4893,Noile-Immune Biotech Inc.,149.0,👀 監視継続,0.62,✗,✗,✓,✓,✓,✗,✓,✓,✓,✗,-13.4,12.8,38,D,stage=4; position=20; volume=0; shape=11; risk=3,低優先
-5973,Toami Corporation,615.0,👀 監視継続,1.15,✗,✗,✗,✓,✓,✗,✓,✓,✓,✗,-2.4,5.7,38,D,stage=4; position=20; volume=0; shape=5; risk=9,低優先
-6054,Livesense Inc.,113.0,👀 監視継続,0.21,✓,✗,✓,✗,✓,✗,✗,✓,✗,✗,-9.6,5.3,38,D,stage=4; position=13; volume=8; shape=6; risk=7,低優先
-6090,"Human Metabolome Technologies, Inc.",620.0,👀 監視継続,0.22,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-4.0,6.9,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
-7031,Inbound Tech Inc.,685.0,👀 監視継続,0.21,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-4.7,2.8,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
-7196,Casa Inc.,744.0,👀 監視継続,0.19,✓,✗,✗,✓,✓,✗,✗,✗,✓,✗,-1.8,3.5,38,D,stage=4; position=11; volume=8; shape=5; risk=10,低優先
-7538,"Daisui Co.,Ltd.",386.0,👀 監視継続,0.59,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-5.4,4.1,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
-7555,"Ota Floriculture Auction Co.,Ltd.",749.0,👀 監視継続,0.69,✗,✗,✗,✓,✓,✓,✓,✗,✓,✗,-1.2,1.7,38,D,stage=4; position=19; volume=0; shape=5; risk=10,低優先
-7615,"KYOTO KIMONO YUZEN HOLDINGS Co., Ltd.",103.0,👀 監視継続,0.77,✗,✗,✓,✓,✓,✓,✓,✓,✗,✗,-16.3,11.7,38,D,stage=4; position=21; volume=0; shape=11; risk=2,低優先
-8119,Sanyei Corporation,795.0,👀 監視継続,0.36,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.6,4.3,38,D,stage=4; position=21; volume=0; shape=5; risk=8,低優先
-8135,Zett Corporation,443.0,👀 監視継続,0.16,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-1.6,5.9,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
-9219,GiXo Ltd.,902.0,👀 監視継続,0.63,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.1,4.9,38,D,stage=4; position=21; volume=0; shape=5; risk=8,低優先
-9476,"Chuokeizai-Sha Holdings, Inc.",985.0,👀 監視継続,0.04,✓,✗,✗,✓,✓,✗,✗,✗,✓,✗,-2.2,1.7,38,D,stage=4; position=11; volume=8; shape=5; risk=10,低優先
-2499,"Nihonwasou Holdings, Inc.",302.0,👀 監視継続,0.93,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.7,6.0,37,D,stage=4; position=21; volume=0; shape=5; risk=7,低優先
-3113,UNIVA Oak Holdings Limited,81.0,👀 監視継続,0.04,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.6,13.6,37,D,stage=4; position=20; volume=8; shape=0; risk=5,低優先
-3174,"Happiness and D Co.,Ltd.",402.0,👀 監視継続,0.43,✗,✗,✓,✓,✓,✓,✗,✗,✗,✗,-4.3,2.5,37,D,stage=4; position=12; volume=0; shape=11; risk=10,低優先
-3267,"Phil Company, Inc.",645.0,👀 監視継続,0.21,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-4.4,8.1,37,D,stage=4; position=12; volume=8; shape=6; risk=7,低優先
-3280,"STrust Co.,Ltd.",939.0,👀 監視継続,0.22,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.7,7.7,37,D,stage=4; position=21; volume=0; shape=5; risk=7,低優先
-3358,"Trailhead Global Holdings,Inc.",98.0,👀 監視継続,0.11,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-11.7,10.2,37,D,stage=4; position=20; volume=8; shape=0; risk=5,低優先
-3645,"Medical Net, Inc.",257.0,👀 監視継続,0.89,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.8,6.6,37,D,stage=4; position=21; volume=0; shape=5; risk=7,低優先
-3760,"CAVE Interactive CO.,LTD.",723.0,👀 監視継続,0.08,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-6.1,6.4,37,D,stage=4; position=16; volume=8; shape=0; risk=9,低優先
-4265,Institution for a Global Society Corporation,287.0,👀 監視継続,0.06,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-4.7,8.4,37,D,stage=4; position=12; volume=8; shape=6; risk=7,低優先
-4287,Just Planning Inc.,487.0,👀 監視継続,0.2,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-2.6,7.2,37,D,stage=4; position=16; volume=8; shape=0; risk=9,低優先
-4625,"Atomix Co.,Ltd.",852.0,👀 監視継続,1.96,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,15.4,37,D,stage=4; position=27; volume=2; shape=5; risk=-1 | risk: stop width >15%,低優先
-4929,"Adjuvant Holdings Co.,Ltd.",740.0,👀 監視継続,0.15,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-0.4,1.4,37,D,stage=4; position=17; volume=8; shape=0; risk=8,低優先
-6347,"Placo Co., Ltd.",259.0,👀 監視継続,0.19,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-8.2,6.6,37,D,stage=4; position=12; volume=8; shape=6; risk=7,低優先
-7114,"Foodison, Inc.",779.0,👀 監視継続,0.46,✗,✗,✓,✗,✓,✓,✗,✓,✗,✗,-3.8,5.0,37,D,stage=4; position=17; volume=0; shape=6; risk=10,低優先
-7707,"Precision System Science Co., Ltd.",216.0,👀 監視継続,0.22,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-8.1,9.7,37,D,stage=4; position=20; volume=8; shape=0; risk=5,低優先
-7865,"People Co., Ltd.",370.0,👀 監視継続,2.14,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,0.0,11.4,37,D,stage=4; position=21; volume=2; shape=5; risk=5,低優先
-9363,"Daiun Co.,Ltd.",533.0,👀 監視継続,0.09,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-4.0,5.3,37,D,stage=4; position=16; volume=8; shape=0; risk=9,低優先
-9685,"KYCOM Holdings Co., Ltd.",585.0,👀 監視継続,0.24,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.5,5.5,37,D,stage=4; position=21; volume=0; shape=5; risk=7,低優先
-149A,"Thinca Co.,Ltd.",798.0,👀 監視継続,0.06,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-3.9,10.3,36,D,stage=4; position=17; volume=8; shape=0; risk=7,低優先
-155A,"Information Strategy and Technology Co.,Ltd.",840.0,👀 監視継続,0.05,✓,✗,✗,✓,✓,✗,✓,✗,✗,✗,-4.5,10.7,36,D,stage=4; position=12; volume=8; shape=5; risk=7,低優先
-2721,J-Holdings Corp.,110.0,👀 監視継続,0.14,✓,✗,✓,✓,✓,✗,✗,✗,✗,✗,-15.4,3.6,36,D,stage=4; position=8; volume=8; shape=11; risk=5,低優先
-3070,"JELLY BEANS GROUP Co., Ltd.",69.0,👀 監視継続,0.03,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-5.5,2.9,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
+6092,"EnBio Holdings, Inc",863.0,👀 監視継続,0.96,✗,✗,✓,✓,✓,✓,✓,✓,✓,✓,-6.2,18.7,43,D,stage=4; position=27; volume=0; shape=11; risk=1 | risk: stop width >15%,低優先
+6343,Freesia Macross Corporation,151.0,👀 監視継続,0.11,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-1.9,6.6,43,D,stage=4; position=17; volume=8; shape=5; risk=9,低優先
+6428,OIZUMI Corporation,330.0,👀 監視継続,0.99,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.6,5.5,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
+6694,Zoom Corporation,722.0,👀 監視継続,1.0,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-5.7,12.0,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
+6757,"OSG Corporation Co., Ltd.",876.0,👀 監視継続,0.49,✓,✗,✓,✗,✓,✗,✗,✓,✓,✗,-1.4,5.1,43,D,stage=4; position=16; volume=8; shape=6; risk=9,低優先
+6776,"Tensho Electric Industries Co., Ltd.",287.0,👀 監視継続,2.23,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.7,10.1,43,D,stage=4; position=27; volume=2; shape=5; risk=5,低優先
+7041,"CRG Holdings Co.,Ltd.",356.0,👀 監視継続,0.75,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,6.5,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
+7074,Twenty-four seven Holdings Inc.,192.0,👀 監視継続,0.05,✓,✗,✗,✓,✓,✓,✗,✓,✗,✗,-6.8,7.3,43,D,stage=4; position=17; volume=8; shape=5; risk=9,低優先
+7080,"Sportsfield Co., Ltd.",879.0,👀 監視継続,0.87,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-3.4,8.9,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
+7217,"Tein, Inc.",460.0,👀 監視継続,0.62,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-1.5,10.2,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
+7462,CAPITA Inc.,397.0,👀 監視継続,0.95,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-5.0,9.8,43,D,stage=4; position=27; volume=0; shape=5; risk=7,低優先
+7625,"Global-Dining, Inc.",474.0,👀 監視継続,0.86,✓,✗,✗,✓,✓,✗,✗,✓,✓,✗,-3.3,3.2,43,D,stage=4; position=16; volume=8; shape=5; risk=10,低優先
+2408,"KG Intelligence CO., LTD.",855.0,👀 監視継続,0.13,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.3,3.7,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
+3058,Sanyodo Holdings Inc,705.0,👀 監視継続,0.45,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-5.4,1.6,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
+3202,"Daitobo Co., Ltd.",128.0,👀 監視継続,0.67,✓,✗,✗,✓,✓,✗,✓,✗,✓,✗,-1.5,3.1,42,D,stage=4; position=15; volume=8; shape=5; risk=10,低優先
+3241,"WILL,Co.,Ltd.",600.0,👀 監視継続,0.18,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.4,4.0,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
+3674,"Aucfan Co., Ltd.",342.0,👀 監視継続,0.92,✗,✗,✓,✓,✓,✗,✓,✓,✓,✗,-2.8,8.2,42,D,stage=4; position=20; volume=0; shape=11; risk=7,低優先
+4615,"Shinto Paint Company, Limited",133.0,👀 監視継続,0.18,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.2,4.5,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
+4657,"Environmental Control Center Co.,Ltd.",466.0,👀 監視継続,0.23,✓,✗,✓,✗,✓,✗,✗,✓,✓,✗,-8.4,3.4,42,D,stage=4; position=16; volume=8; shape=6; risk=8,低優先
+4929,"Adjuvant Holdings Co.,Ltd.",740.0,👀 監視継続,0.14,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-0.4,1.4,42,D,stage=4; position=17; volume=8; shape=5; risk=8,低優先
+5247,"BTM, Inc.",572.0,👀 監視継続,0.02,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-3.7,8.4,42,D,stage=4; position=17; volume=8; shape=6; risk=7,低優先
+5900,"Daiken Co.,Ltd.",870.0,👀 監視継続,0.14,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.2,4.5,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
+6612,BALMUDA Inc.,601.0,👀 監視継続,0.09,✗,✗,✓,✓,✓,✓,✗,✓,✗,✗,-6.1,1.8,42,D,stage=4; position=17; volume=0; shape=11; risk=10,低優先
+7325,IRRC Corporation,700.0,👀 監視継続,0.67,✗,✗,✓,✓,✓,✓,✗,✓,✗,✗,-5.4,3.3,42,D,stage=4; position=17; volume=0; shape=11; risk=10,低優先
+7362,Terminalcare Support Institute Inc.,871.0,👀 監視継続,0.24,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.2,4.9,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
+7571,Yamano Holdings Corporation,89.0,👀 監視継続,0.24,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-5.3,9.0,42,D,stage=4; position=17; volume=8; shape=6; risk=7,低優先
+7807,"Kowa Co.,Ltd.",876.0,👀 監視継続,0.4,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.1,4.3,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
+7879,Noda Corporation,674.0,👀 監視継続,0.21,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.6,4.6,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
+8836,RISE Inc.,27.0,👀 監視継続,0.03,✓,✗,✓,✓,✗,✗,✓,✓,✗,✗,-6.9,3.7,42,D,stage=4; position=9; volume=8; shape=11; risk=10,低優先
+9240,Delivery Consulting Inc.,418.0,👀 監視継続,0.13,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-9.1,6.5,42,D,stage=4; position=17; volume=8; shape=6; risk=7,低優先
+9816,Striders Corporation,254.0,👀 監視継続,0.06,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-2.3,9.4,42,D,stage=4; position=17; volume=8; shape=6; risk=7,低優先
+9904,"Verite Co., Ltd.",248.0,👀 監視継続,2.04,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.7,4.8,42,D,stage=4; position=21; volume=2; shape=5; risk=10,低優先
+9972,"Altech Co., Ltd.",280.0,👀 監視継続,0.53,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.1,4.6,42,D,stage=4; position=20; volume=8; shape=0; risk=10,低優先
+298A,"GVA TECH,Inc.",340.0,📉 Step2中（調整中）,0.48,✓,✗,✗,✓,✗,✓,✓,✓,✗,✗,-7.4,16.2,41,D,stage=14; position=13; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
+130A,Veritas In Silico Inc.,433.0,👀 監視継続,0.1,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-6.7,8.5,41,D,stage=4; position=17; volume=8; shape=5; risk=7,低優先
+1420,Sanyo Homes Corporation,633.0,👀 監視継続,0.54,✓,✗,✓,✗,✓,✗,✗,✓,✗,✗,-1.6,1.4,41,D,stage=4; position=13; volume=8; shape=6; risk=10,低優先
+2370,"MEDINET Co., Ltd.",25.0,👀 監視継続,0.41,✓,✗,✓,✓,✓,✗,✗,✗,✗,✗,-3.8,4.0,41,D,stage=4; position=8; volume=8; shape=11; risk=10,低優先
+2459,"AUN CONSULTING, Inc.",178.0,👀 監視継続,0.07,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-5.3,10.1,41,D,stage=4; position=17; volume=8; shape=5; risk=7,低優先
+2479,JTEC Corporation,256.0,👀 監視継続,0.86,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.4,8.2,41,D,stage=4; position=27; volume=0; shape=5; risk=5,低優先
+2926,"Shinozakiya, Inc.",125.0,👀 監視継続,0.6,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-8.8,14.4,41,D,stage=4; position=20; volume=8; shape=6; risk=3,低優先
+3204,Toabo Corporation,503.0,👀 監視継続,0.36,✓,✗,✓,✗,✓,✗,✓,✗,✓,✗,-0.8,4.6,41,D,stage=4; position=15; volume=8; shape=6; risk=8,低優先
+3224,"General Oyster, Inc.",695.0,👀 監視継続,0.9,✗,✗,✓,✓,✓,✓,✓,✗,✗,✗,-1.0,1.9,41,D,stage=4; position=16; volume=0; shape=11; risk=10,低優先
+3237,"Intrance Co., Ltd.",96.0,👀 監視継続,0.83,✓,✗,✓,✗,✓,✗,✗,✓,✓,✗,-12.7,7.3,41,D,stage=4; position=16; volume=8; shape=6; risk=7,低優先
+3416,PIXTA Inc.,929.0,👀 監視継続,0.67,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.6,10.9,41,D,stage=4; position=27; volume=0; shape=5; risk=5,低優先
+3521,"Thermae-Yu Holdings Co., Ltd.",155.0,👀 監視継続,0.35,✓,✗,✓,✗,✓,✗,✗,✓,✗,✗,-1.9,3.2,41,D,stage=4; position=13; volume=8; shape=6; risk=10,低優先
+3690,YRGLM Inc.,577.0,👀 監視継続,0.85,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,0.0,8.3,41,D,stage=4; position=27; volume=0; shape=5; risk=5,低優先
+3996,Signpost Corporation,206.0,👀 監視継続,1.27,✗,✗,✓,✓,✓,✗,✓,✓,✗,✗,-6.8,7.3,41,D,stage=4; position=17; volume=0; shape=11; risk=9,低優先
+4386,"SIG Group Co., Ltd.",893.0,👀 監視継続,0.59,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-5.5,6.8,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
+4387,"ZUU Co.,Ltd.",532.0,👀 監視継続,11.74,✗,✓,✓,✓,✗,✓,✓,✓,✗,✗,-10.3,14.3,41,D,stage=4; position=13; volume=10; shape=11; risk=3,低優先
+478A,Hutzper Inc.,796.0,👀 監視継続,0.61,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-3.4,11.9,41,D,stage=4; position=17; volume=8; shape=5; risk=7,低優先
+4932,"Almado, Inc.",765.0,👀 監視継続,0.32,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-3.2,8.8,41,D,stage=4; position=17; volume=8; shape=5; risk=7,低優先
+5248,"TECHNOLOGIES, Inc.",505.0,👀 監視継続,0.13,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-4.4,10.7,41,D,stage=4; position=17; volume=8; shape=5; risk=7,低優先
+5952,Amatei Incorporated,191.0,👀 監視継続,0.11,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.0,5.8,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
+6467,Nichidai Corporation,344.0,👀 監視継続,0.6,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.1,6.7,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
+6634,JN Group Inc.,72.0,👀 監視継続,0.17,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-5.3,9.7,41,D,stage=4; position=17; volume=8; shape=5; risk=7,低優先
+7036,eMnet Japan.co.ltd.,674.0,👀 監視継続,0.33,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-2.2,9.2,41,D,stage=4; position=17; volume=8; shape=5; risk=7,低優先
+7075,"QLS Holdings Co., Ltd",933.0,👀 監視継続,1.85,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.7,14.1,41,D,stage=4; position=27; volume=2; shape=5; risk=3,低優先
+7192,Mortgage Service Japan Limited,628.0,👀 監視継続,0.36,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.5,6.1,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
+7360,"ONDECK Co., Ltd.",640.0,👀 監視継続,0.72,✓,✗,✓,✗,✓,✗,✗,✓,✗,✗,-3.8,2.2,41,D,stage=4; position=13; volume=8; shape=6; risk=10,低優先
+7371,Zenken Corporation,816.0,👀 監視継続,1.76,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.1,12.3,41,D,stage=4; position=27; volume=2; shape=5; risk=3,低優先
+7486,"Sanrin Co., Ltd.",810.0,👀 監視継続,0.03,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.3,6.5,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
+7567,Sakae Electronics Corporation,606.0,👀 監視継続,0.32,✓,✗,✓,✗,✓,✗,✓,✓,✓,✗,-11.4,15.0,41,D,stage=4; position=20; volume=8; shape=6; risk=3,低優先
+7619,"Tanaka Co.,Ltd.",964.0,👀 監視継続,0.44,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.1,6.6,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
+7831,Wellco Holdings Corporation,67.0,👀 監視継続,0.23,✓,✗,✓,✓,✓,✗,✗,✗,✗,✗,-4.3,1.5,41,D,stage=4; position=8; volume=8; shape=11; risk=10,低優先
+7836,"AVIX,Inc.",77.0,👀 監視継続,0.08,✓,✗,✓,✓,✓,✗,✗,✗,✗,✗,-7.2,3.9,41,D,stage=4; position=8; volume=8; shape=11; risk=10,低優先
+7980,"Shigematsu Works Co., Ltd.",850.0,👀 監視継続,0.59,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-4.1,5.2,41,D,stage=4; position=20; volume=8; shape=0; risk=9,低優先
+9980,MRK Holdings Inc.,95.0,👀 監視継続,0.08,✓,✗,✓,✓,✓,✗,✗,✗,✗,✗,-3.1,2.1,41,D,stage=4; position=8; volume=8; shape=11; risk=10,低優先
+2321,Softfront Holdings,136.0,👀 監視継続,0.03,✓,✗,✓,✓,✓,✗,✓,✗,✗,✗,-4.9,14.0,40,D,stage=4; position=12; volume=8; shape=11; risk=5,低優先
+2666,"AUTOWAVE Co., Ltd.",184.0,👀 監視継続,1.27,✗,✗,✓,✓,✓,✗,✗,✓,✓,✗,-5.6,6.5,40,D,stage=4; position=16; volume=0; shape=11; risk=9,低優先
+4395,Accrete Inc.,721.0,👀 監視継続,0.12,✓,✗,✓,✓,✓,✗,✓,✗,✗,✗,-3.0,13.5,40,D,stage=4; position=12; volume=8; shape=11; risk=5,低優先
+4892,Cyfuse Biomedical K.K.,562.0,👀 監視継続,0.17,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-3.3,13.3,40,D,stage=4; position=17; volume=8; shape=6; risk=5,低優先
+5704,JMC Corporation,390.0,👀 監視継続,0.84,✗,✗,✓,✓,✓,✓,✓,✗,✗,✗,-6.5,5.1,40,D,stage=4; position=16; volume=0; shape=11; risk=9,低優先
+6926,"Okaya Electric Industries Co., Ltd.",193.0,👀 監視継続,1.25,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.0,4.7,40,D,stage=4; position=21; volume=0; shape=5; risk=10,低優先
+7048,VELTRA Corporation,153.0,👀 監視継続,0.38,✓,✗,✓,✗,✓,✗,✗,✓,✗,✗,-6.1,5.9,40,D,stage=4; position=13; volume=8; shape=6; risk=9,低優先
+7356,Retty Inc.,117.0,👀 監視継続,0.12,✓,✗,✓,✓,✓,✓,✗,✗,✗,✗,-18.2,3.4,40,D,stage=4; position=12; volume=8; shape=11; risk=5,低優先
+8119,Sanyei Corporation,790.0,👀 監視継続,0.36,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.2,3.7,40,D,stage=4; position=21; volume=0; shape=5; risk=10,低優先
+8769,"Advantage Risk Management Co., Ltd.",501.0,👀 監視継続,0.43,✓,✗,✗,✓,✓,✗,✗,✓,✗,✗,-5.6,3.2,40,D,stage=4; position=13; volume=8; shape=5; risk=10,低優先
+9193,"Tokyo Kisen Co.,Ltd.",876.0,👀 監視継続,0.33,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-3.5,4.0,40,D,stage=4; position=12; volume=8; shape=6; risk=10,低優先
+142A,"JINJIB Co., Ltd.",838.0,👀 監視継続,0.44,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-5.3,11.2,39,D,stage=4; position=20; volume=8; shape=0; risk=7,低優先
+1443,"Giken Holdings Co., Ltd.",277.0,👀 監視継続,0.35,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-4.2,11.6,39,D,stage=4; position=20; volume=8; shape=0; risk=7,低優先
+145A,L is B corp.,903.0,👀 監視継続,0.77,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.9,11.4,39,D,stage=4; position=20; volume=8; shape=0; risk=7,低優先
+2385,Soiken Holdings Inc.,221.0,👀 監視継続,0.14,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-3.5,5.4,39,D,stage=4; position=12; volume=8; shape=6; risk=9,低優先
+2776,"SHINTO Holdings, Inc.",101.0,👀 監視継続,0.26,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-9.0,11.9,39,D,stage=4; position=17; volume=8; shape=5; risk=5,低優先
+3041,"Beauty Kadan Holdings Co., Ltd.",406.0,👀 監視継続,0.41,✓,✗,✗,✓,✓,✗,✓,✗,✗,✗,-3.1,1.5,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
+3042,SecuAvail Inc.,299.0,👀 監視継続,0.22,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-2.9,4.7,39,D,stage=4; position=17; volume=8; shape=0; risk=10,低優先
+3071,"Stream Co.,Ltd.",105.0,👀 監視継続,0.34,✗,✗,✗,✓,✓,✗,✓,✓,✓,✗,-1.9,4.8,39,D,stage=4; position=20; volume=0; shape=5; risk=10,低優先
+3185,"Dream Vision Co.,Ltd.",144.0,👀 監視継続,0.04,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-6.5,4.9,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
+3267,"Phil Company, Inc.",641.0,👀 監視継続,0.29,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-5.0,7.5,39,D,stage=4; position=12; volume=8; shape=6; risk=9,低優先
+3280,"STrust Co.,Ltd.",931.0,👀 監視継続,0.24,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.5,6.9,39,D,stage=4; position=21; volume=0; shape=5; risk=9,低優先
+340A,"zig-zag,Inc.",319.0,👀 監視継続,0.08,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-6.2,6.3,39,D,stage=4; position=12; volume=8; shape=6; risk=9,低優先
+3559,p-ban.com Corp.,460.0,👀 監視継続,0.11,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-3.2,13.9,39,D,stage=4; position=17; volume=8; shape=5; risk=5,低優先
+3645,"Medical Net, Inc.",255.0,👀 監視継続,0.59,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.5,5.9,39,D,stage=4; position=21; volume=0; shape=5; risk=9,低優先
+3920,"Internetworking and Broadband Consulting Co.,Ltd.",982.0,👀 監視継続,0.04,✓,✗,✓,✗,✓,✗,✗,✗,✓,✗,-1.7,1.3,39,D,stage=4; position=11; volume=8; shape=6; risk=10,低優先
+4241,atect corporation,653.0,👀 監視継続,0.28,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.7,9.6,39,D,stage=4; position=20; volume=8; shape=0; risk=7,低優先
+4284,"SOLXYZ Co., Ltd.",452.0,👀 監視継続,0.67,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-4.2,7.1,39,D,stage=4; position=21; volume=0; shape=5; risk=9,低優先
+4429,"Ricksoft Co., Ltd.",720.0,👀 監視継続,0.19,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-2.3,4.9,39,D,stage=4; position=17; volume=8; shape=0; risk=10,低優先
+4486,Unite and Grow Inc.,690.0,👀 監視継続,0.4,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.7,9.4,39,D,stage=4; position=20; volume=8; shape=0; risk=7,低優先
+5162,Asahi Rubber Inc.,799.0,👀 監視継続,0.13,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.9,10.9,39,D,stage=4; position=20; volume=8; shape=0; risk=7,低優先
+548A,"SystemEXE,Inc.",946.0,👀 監視継続,0.08,✓,✗,✗,✓,✓,✗,✗,✓,✗,✗,-6.8,5.9,39,D,stage=4; position=13; volume=8; shape=5; risk=9,低優先
+5570,"Jenoba Co.,Ltd.",635.0,👀 監視継続,0.71,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-2.9,6.1,39,D,stage=4; position=21; volume=0; shape=5; risk=9,低優先
+6081,"Allied Architects, Inc.",162.0,👀 監視継続,0.2,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-5.8,7.4,39,D,stage=4; position=12; volume=8; shape=6; risk=9,低優先
+6171,C.E.Management Integrated Laboratory Co.Ltd,374.0,👀 監視継続,0.17,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-5.8,1.1,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
+6190,"PhoenixBio Co., Ltd.",342.0,👀 監視継続,0.05,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-4.7,3.5,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
+6494,"NFK Holdings Co., Ltd.",97.0,👀 監視継続,0.4,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-6.7,3.1,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
+6897,Twinbird Corporation,702.0,👀 監視継続,41.28,✗,✓,✗,✓,✗,✓,✓,✓,✓,✓,-8.0,17.7,39,D,stage=4; position=19; volume=10; shape=5; risk=1 | risk: stop width >15%,低優先
+7057,"New Constructor's Network Co., Ltd.",928.0,👀 監視継続,0.51,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-3.3,4.4,39,D,stage=4; position=17; volume=8; shape=0; risk=10,低優先
+7066,"Peers Co.,Ltd.",427.0,👀 監視継続,0.05,✓,✗,✓,✗,✓,✗,✗,✓,✗,✗,-11.0,1.4,39,D,stage=4; position=13; volume=8; shape=6; risk=8,低優先
+7850,"Sougou Shouken Co.,Ltd.",814.0,👀 監視継続,0.12,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-1.6,1.7,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
+7898,"Wood One Co.,Ltd.",920.0,👀 監視継続,0.18,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-3.7,3.5,39,D,stage=4; position=17; volume=8; shape=0; risk=10,低優先
+8226,Rikei Corporation,394.0,👀 監視継続,0.38,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-3.4,13.5,39,D,stage=4; position=17; volume=8; shape=5; risk=5,低優先
+8260,"Izutsuya Co., Ltd.",376.0,👀 監視継続,0.22,✓,✗,✗,✓,✓,✗,✓,✗,✗,✗,-1.6,2.4,39,D,stage=4; position=12; volume=8; shape=5; risk=10,低優先
+184A,"Manabi-aid Co.,Ltd.",322.0,👀 監視継続,0.2,✓,✗,✗,✓,✓,✓,✗,✓,✗,✗,-16.8,5.3,38,D,stage=4; position=17; volume=8; shape=5; risk=4,低優先
+2139,"Chuco Co., Ltd.",523.0,👀 監視継続,0.43,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-1.7,0.8,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+2341,"Arbeit-Times Co., Ltd.",171.0,👀 監視継続,0.08,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-2.8,5.8,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
+2876,Delsole Corporation,465.0,👀 監視継続,0.19,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-6.8,3.2,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+3236,"Properst Co., Ltd.",290.0,👀 監視継続,0.22,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-3.0,7.2,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
+3423,SE Corporation,274.0,👀 監視継続,0.23,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-2.1,3.6,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+3760,"CAVE Interactive CO.,LTD.",715.0,👀 監視継続,0.57,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-7.1,4.8,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+3768,Riskmonster.com,560.0,👀 監視継続,0.35,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-5.1,2.7,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+3807,Fisco Ltd.,87.0,👀 監視継続,0.53,✓,✗,✗,✓,✓,✗,✓,✗,✗,✗,-6.5,5.7,38,D,stage=4; position=12; volume=8; shape=5; risk=9,低優先
+3953,"Ohmura Shigyo Co.,Ltd.",792.0,👀 監視継続,0.25,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-2.1,3.7,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+4287,Just Planning Inc.,483.0,👀 監視継続,0.12,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-3.4,4.1,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+4447,"PBsystems,Inc.",505.0,👀 監視継続,1.18,✗,✗,✗,✗,✓,✓,✓,✓,✓,✓,-1.2,10.5,38,D,stage=4; position=27; volume=0; shape=0; risk=7,低優先
+4829,"Nihon Enterprise Co.,Ltd.",109.0,👀 監視継続,0.48,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-2.7,7.3,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
+4918,Ivy Cosmetics Corporation,300.0,👀 監視継続,0.45,✓,✗,✗,✓,✓,✗,✗,✓,✗,✗,-8.8,1.7,38,D,stage=4; position=13; volume=8; shape=5; risk=8,低優先
+4990,"Showa Chemical Industry Co., Ltd.",511.0,👀 監視継続,0.34,✓,✗,✗,✓,✗,✗,✓,✓,✓,✗,-4.7,5.3,38,D,stage=4; position=12; volume=8; shape=5; risk=9,低優先
+5609,Nippon Chuzo K. K.,917.0,👀 監視継続,0.3,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-2.3,1.2,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+5940,"Fujisash Co.,Ltd.",755.0,👀 監視継続,0.53,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-2.7,6.0,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
+5973,Toami Corporation,613.0,👀 監視継続,0.56,✗,✗,✗,✓,✓,✗,✓,✓,✓,✗,-2.7,5.4,38,D,stage=4; position=20; volume=0; shape=5; risk=9,低優先
+6059,"UCHIYAMA HOLDINGS Co.,Ltd.",361.0,👀 監視継続,0.47,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-1.1,5.8,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
+6090,"Human Metabolome Technologies, Inc.",617.0,👀 監視継続,0.2,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-4.5,6.5,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
+6186,"Ichikura Co., Ltd.",380.0,👀 監視継続,0.23,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-2.3,2.1,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+6218,ENSHU Limited,636.0,👀 監視継続,1.52,✗,✗,✓,✗,✓,✗,✗,✓,✓,✗,-7.0,3.1,38,D,stage=4; position=16; volume=2; shape=6; risk=10,低優先
+6579,"logly,Inc.",349.0,👀 監視継続,0.02,✓,✗,✗,✓,✓,✗,✗,✗,✓,✗,-5.7,3.7,38,D,stage=4; position=11; volume=8; shape=5; risk=10,低優先
+6748,"Seiwa Electric Mfg. Co., Ltd.",768.0,👀 監視継続,0.49,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-5.1,6.9,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
+7031,Inbound Tech Inc.,680.0,👀 監視継続,0.11,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-5.4,2.1,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+7065,UPR Corporation,986.0,👀 監視継続,0.23,✗,✗,✗,✓,✓,✗,✓,✓,✓,✗,-2.3,5.8,38,D,stage=4; position=20; volume=0; shape=5; risk=9,低優先
+7096,StemCell Institute Inc.,759.0,👀 監視継続,0.14,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-2.1,7.9,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
+7494,"Konaka Co.,Ltd.",246.0,👀 監視継続,0.56,✗,✗,✗,✓,✓,✗,✓,✓,✓,✗,-1.6,6.1,38,D,stage=4; position=20; volume=0; shape=5; risk=9,低優先
+7538,"Daisui Co.,Ltd.",386.0,👀 監視継続,0.16,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-5.4,4.1,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+7883,"Sun Messe Co., Ltd.",400.0,👀 監視継続,0.23,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-2.4,3.0,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+8835,Taiheiyo Kouhatsu Incorporated,798.0,👀 監視継続,0.18,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-2.1,5.8,38,D,stage=4; position=17; volume=8; shape=0; risk=9,低優先
+9219,GiXo Ltd.,903.0,👀 監視継続,1.35,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.1,5.0,38,D,stage=4; position=21; volume=0; shape=5; risk=8,低優先
+9363,"Daiun Co.,Ltd.",527.0,👀 監視継続,0.09,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-5.0,4.0,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+9385,Shoei Corporation,750.0,👀 監視継続,0.39,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-3.5,3.3,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+9872,"Kitakei Co., Ltd.",951.0,👀 監視継続,0.22,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-1.7,3.2,38,D,stage=4; position=16; volume=8; shape=0; risk=10,低優先
+2499,"Nihonwasou Holdings, Inc.",305.0,👀 監視継続,0.74,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.3,6.9,37,D,stage=4; position=21; volume=0; shape=5; risk=7,低優先
+3134,Hamee Corp.,305.0,👀 監視継続,0.24,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-6.2,9.8,37,D,stage=4; position=12; volume=8; shape=6; risk=7,低優先
+323A,Flier Inc.,373.0,👀 監視継続,0.14,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-15.0,6.7,37,D,stage=4; position=12; volume=8; shape=6; risk=7,低優先
+4178,Sharing Innovations Inc.,537.0,👀 監視継続,3.22,✗,✓,✗,✗,✓,✗,✓,✓,✗,✗,-5.0,11.4,37,D,stage=4; position=17; volume=9; shape=0; risk=7,低優先
+4265,Institution for a Global Society Corporation,287.0,👀 監視継続,0.03,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-3.7,8.4,37,D,stage=4; position=12; volume=8; shape=6; risk=7,低優先
+4379,Photosynth inc.,435.0,👀 監視継続,0.37,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-5.0,12.6,37,D,stage=4; position=20; volume=8; shape=0; risk=5,低優先
+4487,"Spacemarket,Inc.",229.0,👀 監視継続,0.07,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-4.2,10.5,37,D,stage=4; position=12; volume=8; shape=6; risk=7,低優先
+4625,"Atomix Co.,Ltd.",855.0,👀 監視継続,1.46,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-2.5,15.7,37,D,stage=4; position=27; volume=0; shape=5; risk=1 | risk: stop width >15%,低優先
+6166,"Nakamura Choukou Co., Ltd.",662.0,👀 監視継続,0.25,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-5.3,13.6,37,D,stage=4; position=20; volume=8; shape=0; risk=5,低優先
+6334,"Meiji Machine Co., Ltd.",500.0,👀 監視継続,0.3,✗,✗,✓,✗,✓,✗,✓,✓,✓,✗,-3.8,11.4,37,D,stage=4; position=20; volume=0; shape=6; risk=7,低優先
+6662,"Ubiteq, Inc.",230.0,👀 監視継続,0.14,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-4.6,8.3,37,D,stage=4; position=21; volume=0; shape=5; risk=7,低優先
+7150,"The Shimane Bank,Ltd.",530.0,👀 監視継続,0.97,✗,✗,✓,✗,✓,✗,✓,✓,✓,✗,-3.6,11.7,37,D,stage=4; position=20; volume=0; shape=6; risk=7,低優先
+7370,"Enjin Co., Ltd.",717.0,👀 監視継続,0.18,✓,✗,✗,✓,✓,✗,✓,✗,✗,✗,-0.6,2.5,37,D,stage=4; position=12; volume=8; shape=5; risk=8,低優先
+7919,"Nozaki Insatsu Shigyo Co., Ltd.",226.0,👀 監視継続,0.37,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.7,12.8,37,D,stage=4; position=20; volume=8; shape=0; risk=5,低優先
+9685,"KYCOM Holdings Co., Ltd.",583.0,👀 監視継続,1.25,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.9,5.1,37,D,stage=4; position=21; volume=0; shape=5; risk=7,低優先
+9853,"Ginza Renoir Co., Ltd.",909.0,👀 監視継続,0.67,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-0.7,0.8,37,D,stage=4; position=17; volume=8; shape=0; risk=8,低優先
+149A,"Thinca Co.,Ltd.",792.0,👀 監視継続,0.04,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-4.6,9.6,36,D,stage=4; position=17; volume=8; shape=0; risk=7,低優先
+156A,Material Group Inc.,852.0,👀 監視継続,0.53,✗,✗,✗,✓,✓,✗,✓,✓,✓,✗,-3.0,8.4,36,D,stage=4; position=20; volume=0; shape=5; risk=7,低優先
+157A,Green Monster Inc.,741.0,👀 監視継続,0.08,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-10.5,5.5,36,D,stage=4; position=12; volume=8; shape=5; risk=7,低優先
+2186,Sobal Corporation,898.0,👀 監視継続,1.48,✗,✗,✓,✗,✓,✗,✗,✓,✓,✗,-3.6,0.7,36,D,stage=4; position=16; volume=0; shape=6; risk=10,低優先
+3070,"JELLY BEANS GROUP Co., Ltd.",68.0,👀 監視継続,0.21,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-6.8,1.5,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
 3079,DVx Inc.,930.0,👀 監視継続,0.0,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-2.7,0.1,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
-3185,"Dream Vision Co.,Ltd.",144.0,👀 監視継続,0.23,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-6.5,4.9,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
+3396,Felissimo Corporation,867.0,👀 監視継続,0.31,✗,✗,✓,✗,✓,✗,✗,✓,✓,✗,-2.0,0.9,36,D,stage=4; position=16; volume=0; shape=6; risk=10,低優先
 3469,"Dualtap Co., Ltd.",895.0,👀 監視継続,0.16,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-1.5,0.6,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
-3680,"Hottolink, Inc.",208.0,👀 監視継続,0.25,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-4.1,1.9,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
-3910,MKSystem Corporation,284.0,👀 監視継続,0.28,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-1.4,9.5,36,D,stage=4; position=17; volume=8; shape=0; risk=7,低優先
-3917,"iRidge, Inc.",459.0,👀 監視継続,0.21,✓,✗,✓,✗,✓,✗,✗,✓,✗,✗,-9.1,8.9,36,D,stage=4; position=13; volume=8; shape=6; risk=5,低優先
-3986,"bBreak Systems Company, Limited",475.0,👀 監視継続,0.36,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-4.8,1.9,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
-4015,Paycloud Holdings Inc.,513.0,👀 監視継続,0.32,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-10.0,2.7,36,D,stage=4; position=16; volume=8; shape=0; risk=8,低優先
-4176,coconala Inc.,285.0,👀 監視継続,0.19,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-5.3,10.9,36,D,stage=4; position=17; volume=8; shape=0; risk=7,低優先
-4429,"Ricksoft Co., Ltd.",730.0,👀 監視継続,0.12,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-0.9,6.2,36,D,stage=4; position=17; volume=8; shape=0; risk=7,低優先
-4586,"MedRx Co., Ltd",62.0,👀 監視継続,0.48,✓,✗,✓,✗,✓,✗,✗,✓,✗,✗,-13.9,8.1,36,D,stage=4; position=13; volume=8; shape=6; risk=5,低優先
-4829,"Nihon Enterprise Co.,Ltd.",110.0,👀 監視継続,0.35,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-1.8,8.2,36,D,stage=4; position=17; volume=8; shape=0; risk=7,低優先
+3680,"Hottolink, Inc.",206.0,👀 監視継続,0.46,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-5.1,1.0,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
+4015,Paycloud Holdings Inc.,516.0,👀 監視継続,0.25,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-9.5,3.3,36,D,stage=4; position=16; volume=8; shape=0; risk=8,低優先
+4176,coconala Inc.,275.0,👀 監視継続,0.41,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-8.6,7.6,36,D,stage=4; position=17; volume=8; shape=0; risk=7,低優先
+4427,"EduLab, Inc.",222.0,👀 監視継続,0.08,✓,✗,✓,✗,✓,✗,✓,✓,✗,✗,-4.3,15.3,36,D,stage=4; position=17; volume=8; shape=6; risk=1 | risk: stop width >15%,低優先
+4936,AXXZIA Inc.,321.0,👀 監視継続,0.6,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-2.4,1.9,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
 5025,MERCURY Inc.,583.0,👀 監視継続,0.08,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-2.8,9.9,36,D,stage=4; position=17; volume=8; shape=0; risk=7,低優先
-5956,"Toso Company, Limited",578.0,👀 監視継続,0.21,✗,✗,✗,✓,✓,✓,✗,✓,✗,✗,-2.4,2.1,36,D,stage=4; position=17; volume=0; shape=5; risk=10,低優先
-6198,"CAREER CO., LTD.",204.0,👀 監視継続,0.25,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-5.1,2.9,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
-6578,"CORREC Co., Ltd.",480.0,👀 監視継続,1.07,✗,✗,✓,✗,✓,✗,✗,✓,✓,✗,-5.9,3.1,36,D,stage=4; position=16; volume=0; shape=6; risk=10,低優先
-6664,"Optoelectronics Co., Ltd.",256.0,👀 監視継続,0.03,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-3.4,10.5,36,D,stage=4; position=17; volume=8; shape=0; risk=7,低優先
-6731,Pixela Corporation,106.0,👀 監視継続,0.02,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-7.8,2.8,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
-7037,teno. Holdings Company Limited,815.0,👀 監視継続,0.33,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-6.1,1.3,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
-7044,Piala Inc.,519.0,👀 監視継続,0.11,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-3.2,8.3,36,D,stage=4; position=17; volume=8; shape=0; risk=7,低優先
-7367,"CELM,Inc.",332.0,👀 監視継続,0.65,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-2.1,0.6,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
-7836,"AVIX,Inc.",77.0,👀 監視継続,0.09,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-7.2,3.9,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
-8836,RISE Inc.,27.0,👀 監視継続,0.02,✓,✗,✗,✓,✗,✗,✓,✓,✗,✗,-6.9,3.7,36,D,stage=4; position=9; volume=8; shape=5; risk=10,低優先
-8944,"Land Business Co.,Ltd.",242.0,👀 監視継続,0.16,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-4.3,1.2,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
-9904,"Verite Co., Ltd.",246.0,👀 監視継続,0.54,✗,✗,✗,✓,✓,✗,✓,✓,✗,✗,-3.5,4.1,36,D,stage=4; position=17; volume=0; shape=5; risk=10,低優先
-2291,"Fukutome Meat Packers, Ltd.",511.0,👀 監視継続,0.34,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-2.5,0.6,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
-2311,"EPCO Co.,Ltd.",783.0,👀 監視継続,0.2,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-1.4,4.1,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
-248A,KIDS STAR Inc.,812.0,👀 監視継続,0.22,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-4.9,0.7,35,D,stage=4; position=8; volume=8; shape=5; risk=10,低優先
-3134,Hamee Corp.,312.0,👀 監視継続,0.34,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-4.0,12.5,35,D,stage=4; position=12; volume=8; shape=6; risk=5,低優先
-3224,"General Oyster, Inc.",695.0,👀 監視継続,0.96,✗,✗,✗,✓,✓,✓,✓,✗,✗,✗,-1.0,1.9,35,D,stage=4; position=16; volume=0; shape=5; risk=10,低優先
-3409,"Kitabo Co.,Ltd",92.0,👀 監視継続,0.28,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-7.1,5.4,35,D,stage=4; position=8; volume=8; shape=6; risk=9,低優先
-3930,"Hatena Co., Ltd.",768.0,👀 監視継続,0.21,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-2.9,6.8,35,D,stage=4; position=8; volume=8; shape=6; risk=9,低優先
-3970,Innovation Inc.,865.0,👀 監視継続,0.81,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-11.3,9.8,35,D,stage=4; position=21; volume=0; shape=5; risk=5,低優先
-4054,"Japan PropTech Co.,Ltd.",522.0,👀 監視継続,0.5,✗,✗,✓,✓,✓,✓,✗,✗,✗,✗,-10.0,2.3,35,D,stage=4; position=12; volume=0; shape=11; risk=8,低優先
-4059,"Magmag, Inc.",397.0,👀 監視継続,0.05,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-5.9,1.8,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
-4174,Appirits Inc.,876.0,👀 監視継続,1.35,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.8,20.1,35,D,stage=4; position=27; volume=0; shape=5; risk=-1 | risk: stop width >15%,低優先
-4594,"BrightPath Biotherapeutics Co., Ltd.",53.0,👀 監視継続,0.09,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-5.4,15.1,35,D,stage=4; position=17; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
-4882,Perseus Proteomics Inc.,144.0,👀 監視継続,0.34,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-5.3,6.9,35,D,stage=4; position=8; volume=8; shape=6; risk=9,低優先
-5578,"AR advanced technology, Inc.",880.0,👀 監視継続,2.35,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.5,13.3,35,D,stage=4; position=21; volume=2; shape=5; risk=3,低優先
-6034,MRT Inc.,633.0,👀 監視継続,0.12,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-2.6,1.3,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
-6858,"Ono Sokki Co., Ltd.",835.0,👀 監視継続,0.5,✗,✗,✗,✓,✓,✓,✓,✗,✓,✗,-3.7,9.8,35,D,stage=4; position=19; volume=0; shape=5; risk=7,低優先
-6897,Twinbird Corporation,670.0,👀 監視継続,48.15,✗,✓,✗,✗,✓,✗,✗,✓,✓,✗,-2.5,13.7,35,D,stage=4; position=16; volume=10; shape=0; risk=5,低優先
-7040,"Sun-Life Holding Co.,Ltd.",974.0,👀 監視継続,0.16,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-2.6,1.3,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
-7064,"Howtelevision, Inc.",955.0,👀 監視継続,1.59,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,0.0,13.5,35,D,stage=4; position=21; volume=2; shape=5; risk=3,低優先
-7351,"Goodpatch, Inc.",467.0,👀 監視継続,0.32,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.6,9.5,35,D,stage=4; position=21; volume=0; shape=5; risk=5,低優先
-7527,SystemSoft Corporation,54.0,👀 監視継続,0.33,✓,✗,✗,✓,✓,✗,✓,✓,✗,✗,-1.8,16.7,35,D,stage=4; position=17; volume=8; shape=5; risk=1 | risk: stop width >15%,低優先
-7831,Wellco Holdings Corporation,67.0,👀 監視継続,0.15,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-4.3,1.5,35,D,stage=4; position=8; volume=8; shape=5; risk=10,低優先
-8617,"The Kosei Securities Co., Ltd.",649.0,👀 監視継続,0.94,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-0.3,16.2,35,D,stage=4; position=27; volume=0; shape=5; risk=-1 | risk: stop width >15%,低優先
-8938,"GLOME Holdings,Inc.",326.0,👀 監視継続,0.21,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-7.9,1.5,35,D,stage=4; position=8; volume=8; shape=5; risk=10,低優先
-9345,"Bizmates, Inc.",586.0,👀 監視継続,0.24,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-7.7,0.0,35,D,stage=4; position=8; volume=8; shape=6; risk=9,低優先
-9885,"Charle Co.,Ltd.",335.0,👀 監視継続,0.25,✗,✗,✗,✓,✓,✓,✓,✗,✗,✗,-1.5,1.2,35,D,stage=4; position=16; volume=0; shape=5; risk=10,低優先
-9903,"Kanseki Co., Ltd.",898.0,👀 監視継続,0.61,✗,✗,✗,✓,✓,✓,✓,✗,✗,✗,-2.3,2.7,35,D,stage=4; position=16; volume=0; shape=5; risk=10,低優先
-137A,"Cocolive, Inc.",691.0,👀 監視継続,0.08,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-9.7,4.1,34,D,stage=4; position=8; volume=8; shape=6; risk=8,低優先
-142A,"JINJIB Co., Ltd.",847.0,👀 監視継続,0.42,✗,✗,✗,✓,✓,✗,✓,✓,✓,✗,-4.3,12.2,34,D,stage=4; position=20; volume=0; shape=5; risk=5,低優先
-184A,"Manabi-aid Co.,Ltd.",320.0,👀 監視継続,0.06,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-18.8,4.7,34,D,stage=4; position=12; volume=8; shape=5; risk=5,低優先
-2440,"Gurunavi, Inc.",130.0,👀 監視継続,0.73,✗,✗,✓,✗,✓,✗,✓,✓,✗,✗,-3.7,10.0,34,D,stage=4; position=17; volume=0; shape=6; risk=7,低優先
-2693,YKT Corporation,283.0,👀 監視継続,0.33,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-15.0,0.7,34,D,stage=4; position=8; volume=8; shape=6; risk=8,低優先
-3286,TRUST Holdings Inc.,898.0,👀 監視継続,0.22,✗,✗,✓,✗,✓,✓,✓,✗,✗,✗,-0.8,4.7,34,D,stage=4; position=16; volume=0; shape=6; risk=8,低優先
-352A,"LOIVE Co.,Ltd.",536.0,👀 監視継続,0.03,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-7.6,13.6,34,D,stage=4; position=17; volume=8; shape=0; risk=5,低優先
-3747,"Intertrade Co.,Ltd.",431.0,👀 監視継続,0.02,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-13.5,11.4,34,D,stage=4; position=17; volume=8; shape=0; risk=5,低優先
-3804,System D Inc.,463.0,👀 監視継続,0.62,✗,✗,✗,✗,✓,✓,✓,✓,✗,✗,-2.5,6.9,34,D,stage=4; position=21; volume=0; shape=0; risk=9,低優先
-4198,"TENDA Co.,LTD.",496.0,👀 監視継続,0.09,✓,✗,✗,✗,✓,✗,✓,✗,✗,✗,-4.2,3.0,34,D,stage=4; position=12; volume=8; shape=0; risk=10,低優先
-4772,"SM ENTERTAINMENT JAPAN Co.,Ltd.",72.0,👀 監視継続,0.14,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-14.3,8.3,34,D,stage=4; position=12; volume=8; shape=5; risk=5,低優先
-4934,"Premier Anti-Aging Co., Ltd.",597.0,👀 監視継続,0.04,✓,✗,✗,✗,✓,✓,✗,✗,✗,✗,-2.9,2.3,34,D,stage=4; position=12; volume=8; shape=0; risk=10,低優先
-6185,SMN Corporation,369.0,👀 監視継続,0.02,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-1.3,6.8,34,D,stage=4; position=8; volume=8; shape=5; risk=9,低優先
-6555,"MS&Consulting Co., Ltd.",423.0,👀 監視継続,0.1,✓,✗,✗,✗,✓,✗,✓,✗,✗,✗,-1.6,1.9,34,D,stage=4; position=12; volume=8; shape=0; risk=10,低優先
-6557,AIAI Group Corporation,772.0,👀 監視継続,0.5,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-3.4,14.1,34,D,stage=4; position=17; volume=8; shape=0; risk=5,低優先
-6964,"Sanko Co., Ltd.",700.0,👀 監視継続,0.33,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.1,3.9,34,D,stage=4; position=20; volume=0; shape=0; risk=10,低優先
-7345,AI Partners Financial Inc.,941.0,👀 監視継続,0.25,✗,✗,✗,✓,✓,✓,✗,✗,✓,✗,-2.5,3.8,34,D,stage=4; position=15; volume=0; shape=5; risk=10,低優先
-7776,CellSeed Inc.,229.0,👀 監視継続,0.29,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-5.4,12.7,34,D,stage=4; position=17; volume=8; shape=0; risk=5,低優先
-8105,Bitcoin Japan Corporation,88.0,👀 監視継続,0.19,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-13.7,3.4,34,D,stage=4; position=8; volume=8; shape=6; risk=8,低優先
-9225,Bridge Consulting Group Inc.,974.0,👀 監視継続,0.07,✓,✗,✗,✗,✓,✗,✓,✗,✗,✗,-2.5,2.7,34,D,stage=4; position=12; volume=8; shape=0; risk=10,低優先
-9439,M H Group Ltd.,229.0,👀 監視継続,0.07,✓,✗,✗,✗,✓,✗,✓,✗,✗,✗,-4.2,3.9,34,D,stage=4; position=12; volume=8; shape=0; risk=10,低優先
-9929,"Heiwa Paper Co.,Ltd.",471.0,👀 監視継続,0.83,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.3,1.9,34,D,stage=4; position=20; volume=0; shape=0; risk=10,低優先
-2183,"Linical Co., Ltd.",207.0,👀 監視継続,0.72,✗,✗,✓,✓,✓,✗,✗,✗,✗,✗,-2.8,2.9,33,D,stage=4; position=8; volume=0; shape=11; risk=10,低優先
-2195,"Amita Holdings Co.,Ltd.",379.0,👀 監視継続,0.49,✗,✗,✓,✓,✗,✓,✓,✓,✓,✓,-12.5,16.9,33,D,stage=4; position=19; volume=0; shape=11; risk=-1 | risk: stop width >15%,低優先
-2370,"MEDINET Co., Ltd.",25.0,👀 監視継続,0.38,✓,✗,✓,✓,✗,✗,✗,✗,✗,✗,-3.8,4.0,33,D,stage=4; position=0; volume=8; shape=11; risk=10,低優先
-241A,"ROXX,inc.",420.0,👀 監視継続,0.03,✓,✗,✗,✗,✓,✗,✓,✗,✗,✗,-4.1,7.1,33,D,stage=4; position=12; volume=8; shape=0; risk=9,低優先
-2735,"Watts Co., Ltd.",694.0,👀 監視継続,1.16,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.8,6.8,33,D,stage=4; position=20; volume=0; shape=0; risk=9,低優先
-2876,Delsole Corporation,461.0,👀 監視継続,0.44,✓,✗,✗,✗,✓,✗,✗,✗,✓,✗,-7.6,2.4,33,D,stage=4; position=11; volume=8; shape=0; risk=10,低優先
-2926,"Shinozakiya, Inc.",125.0,👀 監視継続,0.72,✓,✗,✓,✗,✗,✗,✓,✓,✓,✗,-8.8,14.4,33,D,stage=4; position=12; volume=8; shape=6; risk=3,低優先
-3370,"FUJITA CORPORATION Co.,Ltd.",466.0,👀 監視継続,0.09,✓,✗,✗,✗,✓,✗,✗,✗,✓,✗,-4.9,2.1,33,D,stage=4; position=11; volume=8; shape=0; risk=10,低優先
-339A,"Progress Technologies Group, Inc.",918.0,👀 監視継続,0.25,✓,✗,✗,✗,✓,✗,✓,✗,✗,✗,-4.3,6.8,33,D,stage=4; position=12; volume=8; shape=0; risk=9,低優先
-3550,"STUDIO ATAO Co., Ltd.",216.0,👀 監視継続,0.23,✓,✗,✗,✗,✓,✗,✗,✗,✓,✗,-2.3,0.5,33,D,stage=4; position=11; volume=8; shape=0; risk=10,低優先
-3909,Showcase Inc.,193.0,👀 監視継続,0.05,✓,✗,✗,✓,✓,✓,✗,✗,✗,✗,-16.1,5.2,33,D,stage=4; position=12; volume=8; shape=5; risk=4,低優先
-4492,Genetec Corporation,390.0,👀 監視継続,2.65,✗,✓,✗,✓,✗,✓,✓,✗,✗,✗,-9.3,7.9,33,D,stage=4; position=8; volume=9; shape=5; risk=7,低優先
-4582,SymBio Pharmaceuticals Limited,63.0,👀 監視継続,0.08,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-14.9,4.8,33,D,stage=4; position=8; volume=8; shape=5; risk=8,低優先
-4707,KITAC Corporation,336.0,👀 監視継続,1.92,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-8.9,5.1,33,D,stage=4; position=20; volume=2; shape=0; risk=7,低優先
-4918,Ivy Cosmetics Corporation,299.0,👀 監視継続,0.43,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-9.1,1.3,33,D,stage=4; position=13; volume=8; shape=0; risk=8,低優先
-5704,JMC Corporation,392.0,👀 監視継続,2.39,✗,✗,✗,✓,✗,✓,✓,✓,✗,✗,-6.0,5.6,33,D,stage=4; position=13; volume=2; shape=5; risk=9,低優先
-5900,"Daiken Co.,Ltd.",882.0,👀 監視継続,0.18,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.9,5.9,33,D,stage=4; position=20; volume=0; shape=0; risk=9,低優先
-6029,Artra Group Corporation,185.0,👀 監視継続,0.09,✓,✗,✗,✓,✓,✗,✗,✗,✓,✗,-16.7,2.7,33,D,stage=4; position=11; volume=8; shape=5; risk=5,低優先
-7066,"Peers Co.,Ltd.",427.0,👀 監視継続,0.06,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-11.0,1.9,33,D,stage=4; position=13; volume=8; shape=0; risk=8,低優先
-7687,"MICREED Co.,Ltd.",451.0,👀 監視継続,0.53,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-4.9,6.9,33,D,stage=4; position=20; volume=0; shape=0; risk=9,低優先
-7847,Graphite Design Inc.,653.0,👀 監視継続,1.36,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.7,5.2,33,D,stage=4; position=20; volume=0; shape=0; risk=9,低優先
-7897,"Hokushin Co., Ltd.",107.0,👀 監視継続,0.91,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.7,7.5,33,D,stage=4; position=20; volume=0; shape=0; risk=9,低優先
-9723,"The Kyoto Hotel, Ltd.",635.0,👀 監視継続,0.44,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-0.8,0.8,33,D,stage=4; position=13; volume=8; shape=0; risk=8,低優先
-2404,"Tetsujin Holdings, Inc.",532.0,👀 監視継続,3.34,✗,✓,✗,✗,✓,✗,✗,✗,✓,✗,-9.5,0.8,32,D,stage=4; position=11; volume=9; shape=0; risk=8,低優先
-3672,AltPlus Inc.,29.0,👀 監視継続,0.11,✓,✗,✓,✗,✗,✗,✓,✓,✗,✗,-14.7,10.3,32,D,stage=4; position=9; volume=8; shape=6; risk=5,低優先
-4380,M - mart Inc.,684.0,👀 監視継続,0.18,✗,✗,✗,✗,✓,✓,✓,✓,✓,✓,-5.0,17.4,32,D,stage=4; position=27; volume=0; shape=0; risk=1 | risk: stop width >15%,低優先
-4421,"D. I. System Co., Ltd.",941.0,👀 監視継続,0.71,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-0.9,4.3,32,D,stage=4; position=20; volume=0; shape=0; risk=8,低優先
-4645,"Ichishin Holdings Co.,Ltd.",435.0,👀 監視継続,0.38,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-0.5,1.4,32,D,stage=4; position=20; volume=0; shape=0; risk=8,低優先
-520A,"J-Pharma Co., Ltd.",315.0,👀 監視継続,1.26,✗,✗,✓,✓,✓,✓,✓,✗,✗,✗,-1.9,17.5,32,D,stage=4; position=16; volume=0; shape=11; risk=1 | risk: stop width >15%,低優先
-6721,Wintest Corp.,73.0,👀 監視継続,0.13,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-11.0,5.5,32,D,stage=4; position=8; volume=8; shape=5; risk=7,低優先
-7872,"Estelle Holdings Co.,Ltd.",616.0,👀 監視継続,0.72,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-0.6,2.3,32,D,stage=4; position=20; volume=0; shape=0; risk=8,低優先
-9162,"Bleach, Inc.",230.0,👀 監視継続,0.1,✗,✗,✓,✗,✓,✗,✓,✗,✗,✗,-1.3,2.2,32,D,stage=4; position=12; volume=0; shape=6; risk=10,低優先
-9212,"Green Earth Institute Co., Ltd.",275.0,👀 監視継続,0.33,✗,✗,✗,✓,✓,✓,✓,✗,✗,✗,-6.8,9.5,32,D,stage=4; position=16; volume=0; shape=5; risk=7,低優先
-2667,"ImageONE Co., Ltd.",101.0,👀 監視継続,0.11,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-15.1,3.0,31,D,stage=4; position=8; volume=8; shape=6; risk=5,低優先
-2762,"Sanko Marketing Foods Co., Ltd.",70.0,👀 監視継続,0.49,✗,✗,✓,✓,✓,✗,✗,✗,✗,✗,-13.6,1.4,31,D,stage=4; position=8; volume=0; shape=11; risk=8,低優先
-2788,"Apple International Co., Ltd.",424.0,👀 監視継続,0.97,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-4.7,10.6,31,D,stage=4; position=20; volume=0; shape=0; risk=7,低優先
-281A,"Informetis Co., Ltd.",442.0,👀 監視継続,0.05,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-9.1,8.1,31,D,stage=4; position=8; volume=8; shape=6; risk=5,低優先
-3069,JFLA Holdings Inc.,168.0,👀 監視継続,1.18,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.2,8.9,31,D,stage=4; position=20; volume=0; shape=0; risk=7,低優先
-340A,"zig-zag,Inc.",320.0,👀 監視継続,0.09,✓,✗,✓,✗,✗,✗,✓,✗,✗,✗,-5.9,6.6,31,D,stage=4; position=4; volume=8; shape=6; risk=9,低優先
-5252,"Nihon Knowledge Co,Ltd.",756.0,👀 監視継続,0.23,✓,✗,✗,✗,✓,✗,✗,✗,✓,✗,-9.0,2.4,31,D,stage=4; position=11; volume=8; shape=0; risk=8,低優先
-6181,Tameny Inc.,91.0,👀 監視継続,0.83,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-1.1,17.6,31,D,stage=4; position=21; volume=0; shape=5; risk=1 | risk: stop width >15%,低優先
-6228,"J.E.T. Co., Ltd.",487.0,👀 監視継続,0.67,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-15.3,2.9,31,D,stage=4; position=8; volume=8; shape=6; risk=5,低優先
-6776,"Tensho Electric Industries Co., Ltd.",281.0,👀 監視継続,0.77,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-1.7,8.2,31,D,stage=4; position=20; volume=0; shape=0; risk=7,低優先
-7062,"Fureasu Co.,Ltd.",700.0,👀 監視継続,1.64,✗,✗,✗,✓,✓,✓,✗,✗,✗,✗,-14.1,2.9,31,D,stage=4; position=12; volume=2; shape=5; risk=8,低優先
-7590,"Takasho Co.,Ltd.",400.0,👀 監視継続,0.57,✗,✗,✗,✗,✓,✗,✓,✓,✗,✗,-4.8,3.0,31,D,stage=4; position=17; volume=0; shape=0; risk=10,低優先
-7896,"Seven Industries Co., Ltd.",508.0,👀 監視継続,0.38,✗,✗,✗,✗,✓,✓,✗,✓,✗,✗,-1.6,1.6,31,D,stage=4; position=17; volume=0; shape=0; risk=10,低優先
-1380,"Akikawa Foods & Farms Co., Ltd.",996.0,👀 監視継続,0.38,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.8,0.2,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
-2687,CVS Bay Area Inc.,492.0,👀 監視継続,1.13,✗,✗,✗,✗,✓,✗,✗,✓,✓,✗,-1.9,4.4,30,D,stage=4; position=16; volume=0; shape=0; risk=10,低優先
-2978,TSUKURUBA Inc.,339.0,👀 監視継続,0.33,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-4.2,4.7,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
-3396,Felissimo Corporation,867.0,👀 監視継続,0.2,✗,✗,✗,✗,✓,✗,✗,✓,✓,✗,-2.0,0.9,30,D,stage=4; position=16; volume=0; shape=0; risk=10,低優先
-3440,"NISSO GROUP Co.,Ltd.",881.0,👀 監視継続,1.26,✗,✗,✗,✗,✓,✗,✓,✓,✗,✗,-4.3,7.7,30,D,stage=4; position=17; volume=0; shape=0; risk=9,低優先
-3577,Tokai Senko K.K.,939.0,👀 監視継続,0.1,✗,✗,✗,✗,✓,✗,✗,✓,✓,✗,-2.8,2.0,30,D,stage=4; position=16; volume=0; shape=0; risk=10,低優先
-3779,"J Escom Holdings,Inc.",130.0,👀 監視継続,0.12,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.0,2.3,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
-3929,"Socialwire Co., Ltd.",242.0,👀 監視継続,0.23,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-16.0,6.2,30,D,stage=4; position=8; volume=8; shape=6; risk=4,低優先
-4069,BlueMeme Inc.,734.0,👀 監視継続,0.58,✗,✗,✗,✓,✓,✓,✓,✗,✗,✗,-2.1,14.9,30,D,stage=4; position=16; volume=0; shape=5; risk=5,低優先
-441A,NE Inc.,266.0,👀 監視継続,0.4,✓,✗,✓,✗,✗,✗,✗,✓,✗,✗,-8.0,8.6,30,D,stage=4; position=5; volume=8; shape=6; risk=7,低優先
-5134,"POPER Co.,Ltd.",480.0,👀 監視継続,0.08,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-4.6,2.5,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
-6558,"Cookbiz Co.,Ltd.",660.0,👀 監視継続,1.27,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.9,3.5,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
-6633,Cgs Holdings Inc.,318.0,👀 監視継続,0.09,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.6,1.3,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
-7601,"Poplar Co., Ltd.",164.0,👀 監視継続,1.21,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-2.4,0.6,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
-7928,"Asahi Kagaku Kogyo Co.,Ltd.",622.0,👀 監視継続,0.97,✗,✗,✗,✗,✓,✗,✗,✓,✓,✗,-5.3,0.3,30,D,stage=4; position=16; volume=0; shape=0; risk=10,低優先
-8107,Kimuratan Corporation,31.0,👀 監視継続,0.13,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.1,3.2,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
-9235,"Ureru Net Advertising Group Co.,Ltd.",488.0,👀 監視継続,0.08,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-4.9,3.5,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
-9327,"e-LogiT co.,ltd.",189.0,👀 監視継続,0.07,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-7.8,4.8,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
-9331,Caster Co.Ltd.,734.0,👀 監視継続,0.03,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.5,2.6,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
-2424,Brass Corporation,599.0,👀 監視継続,0.6,✗,✗,✗,✓,✓,✓,✗,✗,✗,✗,-0.7,2.0,29,D,stage=4; position=12; volume=0; shape=5; risk=8,低優先
-2736,"Festaria Holdings Co., Ltd.",606.0,👀 監視継続,2.51,✗,✓,✗,✗,✓,✗,✗,✗,✗,✗,-9.5,0.5,29,D,stage=4; position=8; volume=9; shape=0; risk=8,低優先
-323A,Flier Inc.,375.0,👀 監視継続,0.3,✗,✗,✓,✗,✓,✗,✓,✗,✗,✗,-14.6,7.2,29,D,stage=4; position=12; volume=0; shape=6; risk=7,低優先
-4436,"MINKABU THE INFONOID, Inc.",420.0,👀 監視継続,0.53,✗,✗,✗,✓,✓,✓,✗,✗,✗,✗,-11.0,3.6,29,D,stage=4; position=12; volume=0; shape=5; risk=8,低優先
-9565,GLOE Inc.,667.0,👀 監視継続,0.84,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-4.4,5.4,29,D,stage=4; position=8; volume=8; shape=0; risk=9,低優先
-190A,Chordia Therapeutics Inc.,72.0,👀 監視継続,0.43,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-14.3,2.8,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
-2437,"Shinwa Wise Holdings Co.,Ltd.",635.0,👀 監視継続,1.95,✗,✗,✗,✓,✗,✓,✗,✓,✓,✗,-8.0,12.4,28,D,stage=4; position=12; volume=2; shape=5; risk=5,低優先
-3035,ktk Inc.,778.0,👀 監視継続,0.36,✗,✗,✗,✗,✓,✓,✗,✗,✓,✗,-6.8,5.7,28,D,stage=4; position=15; volume=0; shape=0; risk=9,低優先
-3192,"Shirohato Co., Ltd.",291.0,👀 監視継続,0.12,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-3.6,3.8,28,D,stage=4; position=8; volume=0; shape=6; risk=10,低優先
-3927,Fuva Brain Limited,882.0,👀 監視継続,0.5,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-13.4,1.1,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
-3987,Ecomott Inc.,669.0,👀 監視継続,1.65,✗,✗,✗,✓,✗,✗,✓,✓,✓,✗,-11.6,11.2,28,D,stage=4; position=12; volume=2; shape=5; risk=5,低優先
-3998,"SuRaLa Net Co.,Ltd.",295.0,👀 監視継続,0.14,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-11.1,2.7,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
-4178,Sharing Innovations Inc.,549.0,👀 監視継続,1.61,✗,✗,✗,✗,✓,✗,✓,✓,✗,✗,-2.8,13.3,28,D,stage=4; position=17; volume=2; shape=0; risk=5,低優先
-4891,"TMS Co., Ltd.",109.0,👀 監視継続,0.8,✗,✗,✓,✓,✓,✗,✓,✗,✗,✗,-3.5,15.6,28,D,stage=4; position=12; volume=0; shape=11; risk=1 | risk: stop width >15%,低優先
-5028,"SecondXight Analytica, Inc.",354.0,👀 監視継続,0.06,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-10.2,3.1,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
-5244,"jig.jp Co., Ltd.",181.0,👀 監視継続,0.5,✗,✗,✗,✗,✓,✗,✓,✓,✗,✗,-3.2,8.3,28,D,stage=4; position=17; volume=0; shape=0; risk=7,低優先
-6699,"Diamond Electric Holdings Co., Ltd.",526.0,👀 監視継続,0.62,✗,✗,✗,✗,✓,✗,✓,✓,✗,✗,-1.7,10.5,28,D,stage=4; position=17; volume=0; shape=0; risk=7,低優先
-6775,TB Group Inc.,125.0,👀 監視継続,0.47,✗,✗,✗,✓,✓,✗,✓,✓,✓,✗,-22.8,11.2,28,D,stage=4; position=20; volume=0; shape=5; risk=-1 | risk: recent-high drawdown >20%,低優先
-7077,"ALiNK Internet, Inc.",986.0,👀 監視継続,0.94,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-3.4,1.5,28,D,stage=4; position=8; volume=0; shape=6; risk=10,低優先
-7353,"KIYO Learning Co.,Ltd.",542.0,👀 監視継続,0.25,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-4.6,1.7,28,D,stage=4; position=8; volume=0; shape=6; risk=10,低優先
-7524,Marche Corporation,177.0,👀 監視継続,0.29,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-3.8,2.3,28,D,stage=4; position=8; volume=0; shape=6; risk=10,低優先
-7771,"Nihon Seimitsu Co., Ltd.",274.0,👀 監視継続,0.1,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-11.6,2.2,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
-9271,"Wagokoro Co., Ltd.",982.0,👀 監視継続,0.07,✓,✗,✗,✗,✓,✗,✗,✗,✓,✗,-15.6,2.7,28,D,stage=4; position=11; volume=8; shape=0; risk=5,低優先
-4571,"Nano Holdings, Inc.",101.0,👀 監視継続,0.32,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-14.4,7.9,27,D,stage=4; position=8; volume=8; shape=0; risk=7,低優先
-5133,Terilogy Holdings Corporation,309.0,👀 監視継続,0.63,✗,✗,✗,✗,✓,✗,✗,✓,✗,✗,-5.2,4.9,27,D,stage=4; position=13; volume=0; shape=0; risk=10,低優先
-5341,"Asahi Eito Holdings Co.,Ltd.",147.0,👀 監視継続,0.12,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-5.8,8.2,27,D,stage=4; position=8; volume=8; shape=0; risk=7,低優先
-5619,MRSO Inc.,853.0,👀 監視継続,0.68,✗,✗,✗,✗,✓,✗,✗,✓,✗,✗,-7.3,4.0,27,D,stage=4; position=13; volume=0; shape=0; risk=10,低優先
-6563,Mirai Works Inc.,456.0,👀 監視継続,6.35,✗,✓,✗,✗,✓,✗,✗,✗,✗,✗,-15.1,3.5,27,D,stage=4; position=8; volume=10; shape=0; risk=5,低優先
-6612,BALMUDA Inc.,602.0,👀 監視継続,0.2,✗,✗,✗,✗,✓,✗,✗,✓,✗,✗,-5.9,2.0,27,D,stage=4; position=13; volume=0; shape=0; risk=10,低優先
-8746,"Unbanked,Inc.",97.0,👀 監視継続,0.01,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-10.2,6.2,27,D,stage=4; position=8; volume=8; shape=0; risk=7,低優先
-3557,"United & Collective Co., Ltd.",518.0,👀 監視継続,0.69,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-10.2,0.6,26,D,stage=4; position=8; volume=0; shape=6; risk=8,低優先
-3667,"enish,inc.",27.0,👀 監視継続,0.11,✓,✗,✓,✗,✗,✗,✗,✗,✗,✗,-10.0,3.7,26,D,stage=4; position=0; volume=8; shape=6; risk=8,低優先
-4437,"gooddays holdings, Inc.",765.0,👀 監視継続,1.25,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-8.6,2.0,26,D,stage=4; position=8; volume=0; shape=6; risk=8,低優先
-6982,"The Lead Co., Inc.",580.0,👀 監視継続,0.55,✗,✗,✗,✗,✓,✓,✗,✗,✗,✗,-4.0,1.9,26,D,stage=4; position=12; volume=0; shape=0; risk=10,低優先
-8894,"Revolution Co., Ltd.",21.0,👀 監視継続,0.41,✓,✗,✓,✗,✗,✗,✗,✗,✗,✗,-8.7,4.8,26,D,stage=4; position=0; volume=8; shape=6; risk=8,低優先
-3372,"KANMONKAI Co., Ltd.",220.0,👀 監視継続,0.71,✗,✗,✗,✗,✓,✗,✗,✓,✗,✗,-0.9,0.5,25,D,stage=4; position=13; volume=0; shape=0; risk=8,低優先
-3607,"Kuraudia Holdings Co.,Ltd.",353.0,👀 監視継続,1.39,✗,✗,✗,✗,✓,✗,✗,✗,✓,✗,-3.0,1.7,25,D,stage=4; position=11; volume=0; shape=0; risk=10,低優先
-3878,Tomoegawa Corporation,875.0,👀 監視継続,1.08,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-6.4,16.1,25,D,stage=4; position=20; volume=0; shape=0; risk=1 | risk: stop width >15%,低優先
-5587,Inbound Platform Corp.,810.0,👀 監視継続,0.45,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-17.3,1.2,25,D,stage=4; position=8; volume=8; shape=0; risk=5,低優先
-6047,Gunosy Inc.,416.0,👀 監視継続,0.35,✓,✗,✗,✗,✓,✗,✓,✗,✗,✗,-3.9,16.3,25,D,stage=4; position=12; volume=8; shape=0; risk=1 | risk: stop width >15%,低優先
-6495,"Miyairi Valve Mfg. Co., Ltd.",118.0,👀 監視継続,0.23,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-16.3,1.7,25,D,stage=4; position=8; volume=8; shape=0; risk=5,低優先
-9835,"Juntendo Co.,Ltd.",507.0,👀 監視継続,0.58,✗,✗,✗,✗,✓,✗,✗,✗,✓,✗,-2.9,0.4,25,D,stage=4; position=11; volume=0; shape=0; risk=10,低優先
-2683,"Uoki Co.,Ltd.",998.0,👀 監視継続,2.0,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-2.3,1.8,24,D,stage=4; position=8; volume=2; shape=0; risk=10,低優先
-4750,"Daisan Co., Ltd.",553.0,👀 監視継続,2.15,✓,✗,✗,✗,✗,✗,✗,✗,✗,✗,-4.0,0.4,24,D,stage=4; position=0; volume=10; shape=0; risk=10,低優先
-288A,Laxus Technologies Inc.,96.0,👀 監視継続,0.39,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-11.1,9.4,23,D,stage=4; position=8; volume=0; shape=6; risk=5,低優先
-7356,Retty Inc.,117.0,👀 監視継続,0.14,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-18.2,3.4,23,D,stage=4; position=8; volume=0; shape=6; risk=5,低優先
-7886,"Yamato Mobility & Mfg. Co.,Ltd.",624.0,👀 監視継続,0.74,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-16.8,2.9,23,D,stage=4; position=8; volume=0; shape=6; risk=5,低優先
-2999,"Home Position Co., Ltd.",538.0,👀 監視継続,1.94,✗,✗,✗,✗,✓,✗,✗,✗,✓,✗,-17.1,0.9,22,D,stage=4; position=11; volume=2; shape=0; risk=5,低優先
-3807,Fisco Ltd.,86.0,👀 監視継続,0.64,✓,✗,✗,✗,✗,✗,✗,✗,✗,✗,-7.5,4.7,22,D,stage=4; position=0; volume=8; shape=0; risk=10,低優先
-3815,"Media Kobo, Inc.",427.0,👀 監視継続,1.86,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-8.4,1.4,22,D,stage=4; position=8; volume=2; shape=0; risk=8,低優先
-3967,"Eltes Co.,Ltd.",572.0,👀 監視継続,1.07,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-7.4,1.2,22,D,stage=4; position=8; volume=0; shape=0; risk=10,低優先
-4735,"Kyoshin Co., Ltd.",302.0,👀 監視継続,0.59,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-2.3,1.7,22,D,stage=4; position=8; volume=0; shape=0; risk=10,低優先
-6867,Leader Electronics Corporation,407.0,👀 監視継続,0.97,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.3,0.2,22,D,stage=4; position=8; volume=0; shape=0; risk=10,低優先
-7850,"Sougou Shouken Co.,Ltd.",810.0,👀 監視継続,0.17,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-2.1,1.2,22,D,stage=4; position=8; volume=0; shape=0; risk=10,低優先
-8181,"Totenko Co., Ltd.",988.0,👀 監視継続,0.96,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.0,0.3,22,D,stage=4; position=8; volume=0; shape=0; risk=10,低優先
-4935,"Liberta Co.,Ltd.",206.0,👀 監視継続,0.16,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-21.4,0.0,21,D,stage=4; position=8; volume=8; shape=0; risk=1 | risk: recent-high drawdown >20%,低優先
-548A,"SystemEXE,Inc.",940.0,👀 監視継続,0.27,✓,✗,✗,✗,✗,✗,✗,✗,✗,✗,-7.4,5.3,21,D,stage=4; position=0; volume=8; shape=0; risk=9,低優先
-9625,"Cerespo Co., Ltd.",960.0,👀 監視継続,0.06,✗,✗,✗,✗,✓,✓,✗,✗,✗,✗,-7.0,14.1,21,D,stage=4; position=12; volume=0; shape=0; risk=5,低優先
-302A,"b-style holdings,Inc.",600.0,👀 監視継続,0.89,✗,✗,✗,✗,✗,✗,✗,✓,✓,✗,-13.8,4.8,20,D,stage=4; position=8; volume=0; shape=0; risk=8,低優先
-3566,"Uniform Next Co., Ltd.",764.0,👀 監視継続,0.94,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-10.7,3.1,20,D,stage=4; position=8; volume=0; shape=0; risk=8,低優先
-7049,"SHIKIGAKU. Co., Ltd.",809.0,👀 監視継続,0.93,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-9.0,0.2,20,D,stage=4; position=8; volume=0; shape=0; risk=8,低優先
-9704,"AGORA Hospitality Group Co., Ltd",29.0,👀 監視継続,0.06,✓,✗,✗,✗,✗,✗,✗,✗,✗,✗,-9.4,3.4,20,D,stage=4; position=0; volume=8; shape=0; risk=8,低優先
-2164,"Chiikishinbunsha Co.,Ltd.",131.0,👀 監視継続,2.85,✗,✓,✗,✗,✗,✗,✗,✗,✗,✗,-30.3,1.5,15,D,stage=4; position=0; volume=9; shape=0; risk=2 | risk: recent-high drawdown >20%,低優先
+5134,"POPER Co.,Ltd.",480.0,👀 監視継続,0.17,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-4.6,2.5,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
+549A,"HITO-TO-HITO Holdings Co.,Ltd.",504.0,👀 監視継続,0.05,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-4.9,10.3,36,D,stage=4; position=17; volume=8; shape=0; risk=7,低優先
+5950,"Japan Power Fastening Co.,Ltd.",156.0,👀 監視継続,0.2,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-3.7,9.6,36,D,stage=4; position=17; volume=8; shape=0; risk=7,低優先
+5956,"Toso Company, Limited",578.0,👀 監視継続,0.33,✗,✗,✗,✓,✓,✓,✗,✓,✗,✗,-2.4,2.1,36,D,stage=4; position=17; volume=0; shape=5; risk=10,低優先
+6063,"Emergency Assistance Japan Co., Ltd.",988.0,👀 監視継続,0.54,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-8.8,3.8,36,D,stage=4; position=16; volume=8; shape=0; risk=8,低優先
+6177,AppBank Inc.,84.0,👀 監視継続,0.12,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-5.6,10.7,36,D,stage=4; position=17; volume=8; shape=0; risk=7,低優先
+6195,"Hope, Inc.",201.0,👀 監視継続,0.59,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-7.8,1.5,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
+6198,"CAREER CO., LTD.",205.0,👀 監視継続,0.78,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-4.7,3.4,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
+6552,GameWith Inc.,172.0,👀 監視継続,0.17,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-3.9,4.1,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
+6663,"Taiyo Technolex Co.,Ltd.",311.0,👀 監視継続,0.17,✓,✗,✗,✗,✓,✗,✓,✗,✓,✗,-7.2,8.0,36,D,stage=4; position=15; volume=8; shape=0; risk=9,低優先
+7114,"Foodison, Inc.",777.0,👀 監視継続,0.23,✗,✗,✗,✓,✓,✓,✗,✓,✗,✗,-4.1,4.1,36,D,stage=4; position=17; volume=0; shape=5; risk=10,低優先
+7140,Petgo Corporation,799.0,👀 監視継続,0.23,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-2.0,0.1,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
+7291,"Nihon Plast Co., Ltd.",463.0,👀 監視継続,0.51,✗,✗,✗,✓,✓,✗,✓,✓,✓,✗,-5.5,10.2,36,D,stage=4; position=20; volume=0; shape=5; risk=7,低優先
+7442,"Nakayamafuku Co.,Ltd.",482.0,👀 監視継続,0.63,✗,✗,✓,✗,✓,✗,✗,✓,✓,✗,-2.2,1.7,36,D,stage=4; position=16; volume=0; shape=6; risk=10,低優先
+7610,"Tay Two Co., Ltd.",141.0,👀 監視継続,0.54,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-3.4,2.8,36,D,stage=4; position=8; volume=8; shape=6; risk=10,低優先
+9258,"CS-C.Co.,Ltd.",312.0,👀 監視継続,11.84,✗,✓,✗,✗,✓,✓,✗,✓,✗,✗,-9.6,10.3,36,D,stage=4; position=17; volume=10; shape=0; risk=5,低優先
+1446,"CANDEAL Co.,Ltd",537.0,👀 監視継続,0.44,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-2.7,1.1,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
+177A,"Kohjin Bio Co., Ltd.",846.0,👀 監視継続,0.03,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-6.5,1.2,35,D,stage=4; position=8; volume=8; shape=5; risk=10,低優先
+1844,"Ohmori Co.,Ltd.",480.0,👀 監視継続,0.1,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-4.0,5.2,35,D,stage=4; position=8; volume=8; shape=6; risk=9,低優先
+2195,"Amita Holdings Co.,Ltd.",394.0,👀 監視継続,1.82,✗,✗,✓,✓,✗,✓,✓,✓,✓,✓,-9.2,20.1,35,D,stage=4; position=19; volume=2; shape=11; risk=-1 | risk: stop width >15%,低優先
+2311,"EPCO Co.,Ltd.",780.0,👀 監視継続,0.25,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-1.8,2.8,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
+248A,KIDS STAR Inc.,812.0,👀 監視継続,0.3,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-4.9,0.7,35,D,stage=4; position=8; volume=8; shape=5; risk=10,低優先
+2667,"ImageONE Co., Ltd.",103.0,👀 監視継続,1.29,✓,✗,✓,✓,✗,✓,✗,✗,✗,✗,-12.7,4.9,35,D,stage=4; position=4; volume=8; shape=11; risk=8,低優先
+3137,"Fundely Co., Ltd.",206.0,👀 監視継続,0.05,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-1.9,1.9,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
+3377,BIKE O & COMPANY Ltd.,385.0,👀 監視継続,0.59,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-3.5,4.4,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
+3646,"Ekitan & Co., Ltd.",351.0,👀 監視継続,4.25,✗,✓,✗,✓,✗,✗,✓,✓,✓,✗,-16.6,5.7,35,D,stage=4; position=12; volume=10; shape=5; risk=4,低優先
+4054,"Japan PropTech Co.,Ltd.",523.0,👀 監視継続,0.41,✗,✗,✓,✓,✓,✓,✗,✗,✗,✗,-9.8,2.5,35,D,stage=4; position=12; volume=0; shape=11; risk=8,低優先
+4059,"Magmag, Inc.",397.0,👀 監視継続,0.08,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-5.9,1.8,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
+4168,"Yappli, Inc.",757.0,👀 監視継続,0.57,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-7.1,3.8,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
+4882,Perseus Proteomics Inc.,142.0,👀 監視継続,0.4,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-6.6,5.6,35,D,stage=4; position=8; volume=8; shape=6; risk=9,低優先
+4893,Noile-Immune Biotech Inc.,147.0,👀 監視継続,0.37,✗,✗,✓,✗,✓,✗,✓,✓,✓,✗,-14.5,11.6,35,D,stage=4; position=20; volume=0; shape=6; risk=5,低優先
+5216,"Kuramoto Co., Ltd.",154.0,👀 監視継続,0.16,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-6.7,2.6,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
+5884,"KURADASHI.Co.,Ltd.",613.0,👀 監視継続,0.63,✓,✗,✗,✗,✓,✗,✓,✓,✓,✗,-8.5,14.5,35,D,stage=4; position=20; volume=8; shape=0; risk=3,低優先
+6093,"MITRA Group, Inc.",160.0,👀 監視継続,0.31,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-3.0,3.7,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
+6185,SMN Corporation,368.0,👀 監視継続,0.08,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-1.6,6.5,35,D,stage=4; position=8; volume=8; shape=6; risk=9,低優先
+6775,TB Group Inc.,128.0,👀 監視継続,1.7,✗,✗,✗,✓,✓,✓,✓,✓,✓,✓,-21.0,13.3,35,D,stage=4; position=27; volume=2; shape=5; risk=-3 | risk: recent-high drawdown >20%,低優先
+7183,"Anshin Guarantor Service Co., Ltd.",254.0,👀 監視継続,0.18,✓,✗,✗,✓,✓,✗,✗,✗,✓,✗,-0.4,0.0,35,D,stage=4; position=11; volume=8; shape=5; risk=7,低優先
+7372,Decollte Holdings Corporation,385.0,👀 監視継続,0.32,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-5.6,4.2,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
+7863,"Hiraga Co.,Ltd.",944.0,👀 監視継続,0.05,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-3.7,1.4,35,D,stage=4; position=8; volume=8; shape=5; risk=10,低優先
+7896,"Seven Industries Co., Ltd.",509.0,👀 監視継続,0.27,✗,✗,✗,✗,✓,✓,✓,✓,✗,✗,-1.4,1.8,35,D,stage=4; position=21; volume=0; shape=0; risk=10,低優先
+8107,Kimuratan Corporation,31.0,👀 監視継続,0.12,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-3.1,3.2,35,D,stage=4; position=8; volume=8; shape=5; risk=10,低優先
+8135,Zett Corporation,433.0,👀 監視継続,0.35,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-3.8,3.7,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
+8165,"Senshukai Co., Ltd.",106.0,👀 監視継続,0.53,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-7.0,0.9,35,D,stage=4; position=8; volume=8; shape=5; risk=10,低優先
+8166,"Taka-Q Co., Ltd.",78.0,👀 監視継続,0.45,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-2.5,1.3,35,D,stage=4; position=8; volume=8; shape=5; risk=10,低優先
+9162,"Bleach, Inc.",231.0,👀 監視継続,0.38,✗,✗,✗,✓,✓,✓,✓,✗,✗,✗,-1.3,2.6,35,D,stage=4; position=16; volume=0; shape=5; risk=10,低優先
+9223,"ASNOVA Co., Ltd.",432.0,👀 監視継続,2.83,✗,✓,✗,✗,✓,✗,✗,✓,✗,✗,-5.5,5.6,35,D,stage=4; position=13; volume=9; shape=0; risk=9,低優先
+9423,Forval RealStraight Inc.,103.0,👀 監視継続,0.66,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-3.7,1.0,35,D,stage=4; position=13; volume=8; shape=0; risk=10,低優先
+9445,"Forval Telecom,Inc.",535.0,👀 監視継続,0.6,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-1.3,0.9,35,D,stage=4; position=8; volume=8; shape=5; risk=10,低優先
+9878,"SEKIDO Co., Ltd.",411.0,👀 監視継続,0.2,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-2.1,0.5,35,D,stage=4; position=8; volume=8; shape=5; risk=10,低優先
+9885,"Charle Co.,Ltd.",335.0,👀 監視継続,0.6,✗,✗,✗,✓,✓,✓,✓,✗,✗,✗,-1.5,0.9,35,D,stage=4; position=16; volume=0; shape=5; risk=10,低優先
+137A,"Cocolive, Inc.",688.0,👀 監視継続,0.23,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-10.1,3.6,34,D,stage=4; position=8; volume=8; shape=6; risk=8,低優先
+175A,"Will Smart Co.,LTD.",628.0,👀 監視継続,0.07,✓,✗,✓,✗,✗,✗,✓,✓,✗,✗,-8.2,6.5,34,D,stage=4; position=9; volume=8; shape=6; risk=7,低優先
+2138,"CROOZ, Inc.",453.0,👀 監視継続,0.27,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-4.2,7.3,34,D,stage=4; position=13; volume=8; shape=0; risk=9,低優先
+2286,"Hayashikane Sangyo Co.,Ltd.",918.0,👀 監視継続,0.58,✗,✗,✗,✓,✓,✗,✓,✓,✓,✗,-10.6,8.9,34,D,stage=4; position=20; volume=0; shape=5; risk=5,低優先
+2683,"Uoki Co.,Ltd.",999.0,👀 監視継続,2.97,✗,✓,✗,✗,✓,✗,✗,✗,✓,✗,-2.3,1.9,34,D,stage=4; position=11; volume=9; shape=0; risk=10,低優先
+352A,"LOIVE Co.,Ltd.",536.0,👀 監視継続,0.02,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-7.6,12.7,34,D,stage=4; position=17; volume=8; shape=0; risk=5,低優先
+3622,Netyear Group Corporation,498.0,👀 監視継続,0.54,✓,✗,✗,✗,✓,✗,✓,✗,✗,✗,-1.4,4.0,34,D,stage=4; position=12; volume=8; shape=0; risk=10,低優先
+3671,"Softmax Co., Ltd",305.0,👀 監視継続,0.08,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-8.1,3.3,34,D,stage=4; position=8; volume=8; shape=6; risk=8,低優先
+3987,Ecomott Inc.,672.0,👀 監視継続,1.21,✗,✗,✗,✓,✓,✗,✓,✓,✓,✗,-11.2,10.7,34,D,stage=4; position=20; volume=0; shape=5; risk=5,低優先
+4317,Ray Corporation,558.0,👀 監視継続,0.2,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-3.8,13.3,34,D,stage=4; position=17; volume=8; shape=0; risk=5,低優先
+4428,sinops Inc.,699.0,👀 監視継続,0.11,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-4.4,5.6,34,D,stage=4; position=13; volume=8; shape=0; risk=9,低優先
+4576,"D. Western Therapeutics Institute, Inc.",86.0,👀 監視継続,0.16,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-4.4,14.0,34,D,stage=4; position=17; volume=8; shape=0; risk=5,低優先
+4594,"BrightPath Biotherapeutics Co., Ltd.",52.0,👀 監視継続,0.21,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-7.1,13.5,34,D,stage=4; position=17; volume=8; shape=0; risk=5,低優先
+4707,KITAC Corporation,335.0,👀 監視継続,1.71,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-9.2,4.8,34,D,stage=4; position=20; volume=2; shape=0; risk=8,低優先
+4885,Muromachi Chemicals Inc.,902.0,👀 監視継続,0.35,✓,✗,✗,✗,✓,✗,✓,✗,✗,✗,-1.3,3.0,34,D,stage=4; position=12; volume=8; shape=0; risk=10,低優先
+5026,"Tripleize Co.,Ltd.",597.0,👀 監視継続,0.32,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-8.9,11.2,34,D,stage=4; position=17; volume=8; shape=0; risk=5,低優先
+519A,Basic Inc.,505.0,👀 監視継続,0.36,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-8.0,7.7,34,D,stage=4; position=8; volume=8; shape=5; risk=9,低優先
+5870,Nalnet Communications Inc.,875.0,👀 監視継続,0.19,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-8.9,11.9,34,D,stage=4; position=17; volume=8; shape=0; risk=5,低優先
+5997,Kyoritsu Air Tech Inc.,910.0,👀 監視継続,0.33,✗,✗,✗,✗,✓,✓,✗,✓,✓,✗,-5.2,3.3,34,D,stage=4; position=20; volume=0; shape=0; risk=10,低優先
+6069,"Trenders, Inc.",679.0,👀 監視継続,0.31,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-4.8,6.2,34,D,stage=4; position=13; volume=8; shape=0; risk=9,低優先
+6228,"J.E.T. Co., Ltd.",505.0,👀 監視継続,1.24,✗,✗,✓,✓,✓,✓,✗,✗,✗,✗,-12.2,6.3,34,D,stage=4; position=12; volume=0; shape=11; risk=7,低優先
+6347,"Placo Co., Ltd.",252.0,👀 監視継続,0.2,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-10.6,4.0,34,D,stage=4; position=8; volume=8; shape=6; risk=8,低優先
+6555,"MS&Consulting Co., Ltd.",424.0,👀 監視継続,0.28,✓,✗,✗,✗,✓,✗,✓,✗,✗,✗,-1.4,2.1,34,D,stage=4; position=12; volume=8; shape=0; risk=10,低優先
+6964,"Sanko Co., Ltd.",696.0,👀 監視継続,0.93,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.7,3.3,34,D,stage=4; position=20; volume=0; shape=0; risk=10,低優先
+7461,"Kimura Co.,Ltd.",478.0,👀 監視継続,0.09,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.4,3.8,34,D,stage=4; position=20; volume=0; shape=0; risk=10,低優先
+7555,"Ota Floriculture Auction Co.,Ltd.",747.0,👀 監視継続,0.61,✗,✗,✗,✓,✓,✗,✓,✗,✓,✗,-1.5,1.5,34,D,stage=4; position=15; volume=0; shape=5; risk=10,低優先
+7604,"Umenohana Group Co.,Ltd.",895.0,👀 監視継続,0.7,✗,✗,✓,✗,✓,✗,✗,✓,✓,✗,-0.9,0.8,34,D,stage=4; position=16; volume=0; shape=6; risk=8,低優先
+7847,Graphite Design Inc.,652.0,👀 監視継続,1.23,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.8,5.0,34,D,stage=4; position=20; volume=0; shape=0; risk=10,低優先
+8105,Bitcoin Japan Corporation,87.0,👀 監視継続,0.22,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-14.7,2.3,34,D,stage=4; position=8; volume=8; shape=6; risk=8,低優先
+8617,"The Kosei Securities Co., Ltd.",626.0,👀 監視継続,0.78,✗,✗,✗,✓,✓,✗,✓,✓,✓,✗,-3.8,13.1,34,D,stage=4; position=20; volume=0; shape=5; risk=5,低優先
+9978,"Bunkyodo Group Holdings Co., Ltd.",44.0,👀 監視継続,0.19,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-4.3,0.0,34,D,stage=4; position=8; volume=8; shape=5; risk=9,低優先
+2183,"Linical Co., Ltd.",207.0,👀 監視継続,0.63,✗,✗,✓,✓,✓,✗,✗,✗,✗,✗,-2.8,2.9,33,D,stage=4; position=8; volume=0; shape=11; risk=10,低優先
+241A,"ROXX,inc.",417.0,👀 監視継続,0.04,✓,✗,✗,✗,✓,✗,✓,✗,✗,✗,-4.8,6.5,33,D,stage=4; position=12; volume=8; shape=0; risk=9,低優先
+2424,Brass Corporation,597.0,👀 監視継続,0.72,✗,✗,✓,✓,✓,✗,✗,✗,✗,✗,-1.0,1.7,33,D,stage=4; position=8; volume=0; shape=11; risk=10,低優先
+2735,"Watts Co., Ltd.",684.0,👀 監視継続,0.74,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-4.2,5.5,33,D,stage=4; position=20; volume=0; shape=0; risk=9,低優先
+2788,"Apple International Co., Ltd.",415.0,👀 監視継続,1.64,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-6.7,8.7,33,D,stage=4; position=20; volume=2; shape=0; risk=7,低優先
+3370,"FUJITA CORPORATION Co.,Ltd.",466.0,👀 監視継続,0.07,✓,✗,✗,✗,✓,✗,✗,✗,✓,✗,-4.9,2.1,33,D,stage=4; position=11; volume=8; shape=0; risk=10,低優先
+387A,"Fuller, Inc.",922.0,👀 監視継続,0.04,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-12.2,1.1,33,D,stage=4; position=13; volume=8; shape=0; risk=8,低優先
+3928,Mynet Inc.,235.0,👀 監視継続,0.05,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-12.0,5.1,33,D,stage=4; position=8; volume=8; shape=6; risk=7,低優先
+3965,"Capital Asset Planning, Inc.",900.0,👀 監視継続,0.56,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.2,5.6,33,D,stage=4; position=20; volume=0; shape=0; risk=9,低優先
+4436,"MINKABU THE INFONOID, Inc.",414.0,👀 監視継続,0.51,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-12.3,2.2,33,D,stage=4; position=8; volume=8; shape=5; risk=8,低優先
+4814,Nextware Ltd.,168.0,👀 監視継続,0.15,✓,✗,✗,✓,✗,✗,✓,✓,✗,✗,-4.0,11.3,33,D,stage=4; position=9; volume=8; shape=5; risk=7,低優先
+4845,"Scala, Inc.",352.0,👀 監視継続,1.13,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-3.3,7.1,33,D,stage=4; position=20; volume=0; shape=0; risk=9,低優先
+4880,"CellSource Co., Ltd.",343.0,👀 監視継続,0.5,✓,✗,✗,✓,✗,✗,✓,✓,✗,✗,-4.7,10.5,33,D,stage=4; position=9; volume=8; shape=5; risk=7,低優先
+5578,"AR advanced technology, Inc.",887.0,👀 監視継続,0.67,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.1,14.0,33,D,stage=4; position=21; volume=0; shape=5; risk=3,低優先
+5599,S&J Corporation,998.0,👀 監視継続,0.45,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-12.5,2.7,33,D,stage=4; position=8; volume=8; shape=5; risk=8,低優先
+6614,"Shikino High-Tech CO.,LTD.",858.0,👀 監視継続,0.2,✓,✗,✗,✓,✓,✗,✗,✗,✓,✗,-8.2,8.4,33,D,stage=4; position=11; volume=8; shape=5; risk=5,低優先
+6786,RVH Inc.,48.0,👀 監視継続,0.04,✓,✗,✓,✓,✗,✗,✗,✗,✗,✗,-5.9,2.1,33,D,stage=4; position=0; volume=8; shape=11; risk=10,低優先
+7064,"Howtelevision, Inc.",963.0,👀 監視継続,0.65,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.1,14.2,33,D,stage=4; position=21; volume=0; shape=5; risk=3,低優先
+7215,"Faltec Co., Ltd.",423.0,👀 監視継続,1.21,✓,✗,✗,✗,✓,✗,✗,✗,✓,✗,-8.0,2.1,33,D,stage=4; position=11; volume=8; shape=0; risk=10,低優先
+7369,"Meiho Holdings,Inc.",356.0,👀 監視継続,0.14,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-15.0,2.8,33,D,stage=4; position=8; volume=8; shape=5; risk=8,低優先
+7687,"MICREED Co.,Ltd.",450.0,👀 監視継続,0.46,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-5.1,6.7,33,D,stage=4; position=20; volume=0; shape=0; risk=9,低優先
+7707,"Precision System Science Co., Ltd.",213.0,👀 監視継続,0.3,✓,✗,✗,✗,✓,✗,✗,✓,✓,✗,-9.4,8.5,33,D,stage=4; position=16; volume=8; shape=0; risk=5,低優先
+8946,Asian Star Co.,74.0,👀 監視継続,0.13,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-8.6,0.0,33,D,stage=4; position=8; volume=8; shape=6; risk=7,低優先
+9218,"Mental Health Technologies Co.,Ltd.",776.0,👀 監視継続,0.72,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.6,6.3,33,D,stage=4; position=20; volume=0; shape=0; risk=9,低優先
+9476,"Chuokeizai-Sha Holdings, Inc.",980.0,👀 監視継続,0.36,✓,✗,✗,✗,✓,✗,✗,✗,✓,✗,-2.0,1.2,33,D,stage=4; position=11; volume=8; shape=0; risk=10,低優先
+9723,"The Kyoto Hotel, Ltd.",635.0,👀 監視継続,0.39,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-0.8,0.8,33,D,stage=4; position=13; volume=8; shape=0; risk=8,低優先
+2179,"Seigakusha Co.,Ltd.",824.0,👀 監視継続,1.7,✗,✗,✗,✗,✓,✗,✗,✓,✓,✗,-7.2,5.0,32,D,stage=4; position=16; volume=2; shape=0; risk=10,低優先
+2916,"Semba Tohka Industries Co., Ltd",745.0,👀 監視継続,0.47,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-0.5,3.9,32,D,stage=4; position=20; volume=0; shape=0; risk=8,低優先
+2917,"Ohmoriya Co.,Ltd.",925.0,👀 監視継続,2.09,✗,✗,✗,✓,✓,✗,✗,✗,✓,✗,-1.8,0.1,32,D,stage=4; position=11; volume=2; shape=5; risk=10,低優先
+3293,"AZUMA HOUSE Co., Ltd.",773.0,👀 監視継続,0.65,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-0.9,1.2,32,D,stage=4; position=20; volume=0; shape=0; risk=8,低優先
+4179,G-NEXT Inc.,356.0,👀 監視継続,0.29,✓,✗,✓,✗,✓,✗,✗,✗,✓,✗,-9.0,14.9,32,D,stage=4; position=11; volume=8; shape=6; risk=3,低優先
+4397,TeamSpirit Inc.,408.0,👀 監視継続,0.59,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-7.5,8.6,32,D,stage=4; position=13; volume=8; shape=0; risk=7,低優先
+4421,"D. I. System Co., Ltd.",944.0,👀 監視継続,0.33,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-0.6,4.6,32,D,stage=4; position=20; volume=0; shape=0; risk=8,低優先
+6049,ItoKuro Inc.,246.0,👀 監視継続,0.11,✓,✗,✗,✗,✓,✗,✓,✗,✗,✗,-0.8,2.4,32,D,stage=4; position=12; volume=8; shape=0; risk=8,低優先
+6094,"FreakOut Holdings, inc.",570.0,👀 監視継続,0.52,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-6.9,8.2,32,D,stage=4; position=13; volume=8; shape=0; risk=7,低優先
+6557,AIAI Group Corporation,755.0,👀 監視継続,0.79,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-5.5,11.1,32,D,stage=4; position=13; volume=8; shape=0; risk=7,低優先
+7077,"ALiNK Internet, Inc.",987.0,👀 監視継続,0.44,✗,✗,✓,✗,✓,✓,✗,✗,✗,✗,-3.3,1.6,32,D,stage=4; position=12; volume=0; shape=6; risk=10,低優先
+7297,"Car Mate Mfg. Co., Ltd.",863.0,👀 監視継続,0.18,✗,✗,✗,✓,✓,✗,✗,✓,✗,✗,-1.9,1.5,32,D,stage=4; position=13; volume=0; shape=5; risk=10,低優先
+7872,"Estelle Holdings Co.,Ltd.",616.0,👀 監視継続,0.35,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-0.6,2.1,32,D,stage=4; position=20; volume=0; shape=0; risk=8,低優先
+220A,Faber Company Inc.,945.0,👀 監視継続,0.3,✗,✗,✗,✗,✓,✗,✓,✓,✗,✗,-4.3,2.1,31,D,stage=4; position=17; volume=0; shape=0; risk=10,低優先
+2338,"Quantum Solutions Co.,Ltd.",121.0,👀 監視継続,0.11,✓,✗,✓,✓,✗,✗,✗,✗,✗,✗,-13.6,4.1,31,D,stage=4; position=0; volume=8; shape=11; risk=8,低優先
+2721,J-Holdings Corp.,108.0,👀 監視継続,0.61,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-16.9,1.9,31,D,stage=4; position=8; volume=8; shape=6; risk=5,低優先
+3238,"Central General Development Co., Ltd.",384.0,👀 監視継続,0.56,✗,✗,✗,✗,✓,✗,✓,✓,✗,✗,-6.3,3.9,31,D,stage=4; position=17; volume=0; shape=0; risk=10,低優先
+3607,"Kuraudia Holdings Co.,Ltd.",351.0,👀 監視継続,0.88,✗,✗,✓,✗,✓,✗,✗,✗,✓,✗,-3.6,1.1,31,D,stage=4; position=11; volume=0; shape=6; risk=10,低優先
+3896,"Awa Paper & Technological Company, Inc.",407.0,👀 監視継続,0.15,✓,✗,✗,✗,✗,✗,✓,✓,✓,✗,-5.1,12.0,31,D,stage=4; position=12; volume=8; shape=0; risk=7,低優先
+4388,"AI,Inc.",370.0,👀 監視継続,0.32,✗,✗,✗,✗,✓,✗,✓,✓,✗,✗,-2.1,4.9,31,D,stage=4; position=17; volume=0; shape=0; risk=10,低優先
+5031,Moi Corporation,337.0,👀 監視継続,0.28,✓,✗,✗,✓,✗,✗,✓,✗,✓,✗,-3.7,8.6,31,D,stage=4; position=7; volume=8; shape=5; risk=7,低優先
+5252,"Nihon Knowledge Co,Ltd.",730.0,👀 監視継続,1.26,✓,✗,✗,✗,✓,✗,✗,✗,✓,✗,-12.2,1.4,31,D,stage=4; position=11; volume=8; shape=0; risk=8,低優先
+6578,"CORREC Co., Ltd.",471.0,👀 監視継続,0.26,✗,✗,✓,✗,✓,✗,✗,✗,✓,✗,-7.6,1.3,31,D,stage=4; position=11; volume=0; shape=6; risk=10,低優先
+6982,"The Lead Co., Inc.",577.0,👀 監視継続,0.23,✗,✗,✗,✓,✓,✓,✗,✗,✗,✗,-4.5,1.4,31,D,stage=4; position=12; volume=0; shape=5; risk=10,低優先
+7601,"Poplar Co., Ltd.",162.0,👀 監視継続,3.37,✗,✓,✗,✗,✓,✗,✗,✗,✗,✗,-3.6,1.2,31,D,stage=4; position=8; volume=9; shape=0; risk=10,低優先
+9656,Greenland Resort Company Limited,600.0,👀 監視継続,0.51,✗,✗,✗,✓,✓,✗,✓,✗,✗,✗,-2.1,3.3,31,D,stage=4; position=12; volume=0; shape=5; risk=10,低優先
+9835,"Juntendo Co.,Ltd.",508.0,👀 監視継続,0.47,✗,✗,✓,✗,✓,✗,✗,✗,✓,✗,-2.7,0.6,31,D,stage=4; position=11; volume=0; shape=6; risk=10,低優先
+9930,"Kitazawa Sangyo Co., Ltd.",397.0,👀 監視継続,0.81,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-5.0,9.3,31,D,stage=4; position=20; volume=0; shape=0; risk=7,低優先
+1418,"Interlife Holdings Co., Ltd.",583.0,👀 監視継続,0.74,✗,✗,✗,✗,✓,✗,✗,✓,✓,✗,-2.5,2.2,30,D,stage=4; position=16; volume=0; shape=0; risk=10,低優先
+2291,"Fukutome Meat Packers, Ltd.",510.0,👀 監視継続,0.19,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-2.7,0.4,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+2304,"CSS Holdings,Ltd.",918.0,👀 監視継続,0.28,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-5.7,2.8,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+2978,TSUKURUBA Inc.,335.0,👀 監視継続,0.27,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-5.1,3.6,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+3266,Fund Creation Group Company Limited,79.0,👀 監視継続,0.02,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.7,2.5,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+3372,"KANMONKAI Co., Ltd.",220.0,👀 監視継続,0.84,✗,✗,✗,✓,✓,✗,✗,✓,✗,✗,-0.9,0.5,30,D,stage=4; position=13; volume=0; shape=5; risk=8,低優先
+339A,"Progress Technologies Group, Inc.",898.0,👀 監視継続,0.64,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-6.4,4.6,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+3627,Tecmira Holdings Inc.,265.0,👀 監視継続,0.12,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-2.9,3.0,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+3779,"J Escom Holdings,Inc.",130.0,👀 監視継続,0.22,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.0,2.3,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+3940,"Nomura System Corporation Co, Ltd.",127.0,👀 監視継続,1.61,✗,✗,✗,✗,✓,✗,✓,✓,✗,✗,-3.8,10.2,30,D,stage=4; position=17; volume=2; shape=0; risk=7,低優先
+3986,"bBreak Systems Company, Limited",474.0,👀 監視継続,1.29,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-5.0,1.1,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+4019,"Stmn, Inc.",636.0,👀 監視継続,1.08,✗,✗,✓,✗,✓,✗,✗,✓,✗,✗,-9.7,5.8,30,D,stage=4; position=13; volume=0; shape=6; risk=7,低優先
+4057,"Interfactory, Inc.",352.0,👀 監視継続,2.25,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-2.2,2.0,30,D,stage=4; position=8; volume=2; shape=6; risk=10,低優先
+4166,Cacco Inc.,630.0,👀 監視継続,0.05,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-2.9,1.0,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+4571,"Nano Holdings, Inc.",99.0,👀 監視継続,0.53,✓,✗,✓,✗,✓,✗,✗,✗,✗,✗,-16.1,6.1,30,D,stage=4; position=8; volume=8; shape=6; risk=4,低優先
+4736,Nippon RAD Inc.,581.0,👀 監視継続,0.53,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.2,1.9,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+4772,"SM ENTERTAINMENT JAPAN Co.,Ltd.",72.0,👀 監視継続,0.22,✓,✗,✗,✓,✓,✗,✗,✗,✗,✗,-14.3,8.3,30,D,stage=4; position=8; volume=8; shape=5; risk=5,低優先
+5588,"Fast Accounting Co.,Ltd.",823.0,👀 監視継続,0.23,✓,✗,✗,✗,✓,✗,✗,✓,✗,✗,-9.2,9.5,30,D,stage=4; position=13; volume=8; shape=0; risk=5,低優先
+6867,Leader Electronics Corporation,407.0,👀 監視継続,0.53,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.3,0.2,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+7037,teno. Holdings Company Limited,810.0,👀 監視継続,0.37,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-6.7,0.7,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+7112,"Cube Co., Ltd.",698.0,👀 監視継続,0.11,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.5,1.1,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+7367,"CELM,Inc.",329.0,👀 監視継続,0.7,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-2.9,0.3,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+7897,"Hokushin Co., Ltd.",105.0,👀 監視継続,0.8,✗,✗,✗,✗,✓,✗,✓,✓,✗,✗,-4.5,5.7,30,D,stage=4; position=17; volume=0; shape=0; risk=9,低優先
+8230,"Hasegawa Co., Ltd.",311.0,👀 監視継続,2.41,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-2.2,0.3,30,D,stage=4; position=8; volume=2; shape=6; risk=10,低優先
+8938,"GLOME Holdings,Inc.",327.0,👀 監視継続,0.15,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-7.6,1.8,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+9225,Bridge Consulting Group Inc.,973.0,👀 監視継続,0.47,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-2.6,2.6,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+9235,"Ureru Net Advertising Group Co.,Ltd.",478.0,👀 監視継続,0.13,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-6.8,1.5,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+9327,"e-LogiT co.,ltd.",189.0,👀 監視継続,0.03,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-7.8,4.8,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+9331,Caster Co.Ltd.,720.0,👀 監視継続,0.17,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-5.4,0.7,30,D,stage=4; position=8; volume=8; shape=0; risk=10,低優先
+9342,Sumasapo Inc.,979.0,👀 監視継続,0.25,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-1.6,19.3,30,D,stage=4; position=17; volume=8; shape=0; risk=1 | risk: stop width >15%,低優先
+2464,"Aoba-BBT, Inc.",372.0,👀 監視継続,0.59,✗,✗,✗,✗,✓,✗,✓,✓,✓,✗,-2.6,12.1,29,D,stage=4; position=20; volume=0; shape=0; risk=5,低優先
+3550,"STUDIO ATAO Co., Ltd.",215.0,👀 監視継続,0.29,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-2.7,0.0,29,D,stage=4; position=8; volume=8; shape=0; risk=9,低優先
+3930,"Hatena Co., Ltd.",761.0,👀 監視継続,0.27,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.5,5.9,29,D,stage=4; position=8; volume=8; shape=0; risk=9,低優先
+3991,"Wantedly, Inc.",972.0,👀 監視継続,0.12,✗,✗,✗,✓,✓,✗,✓,✓,✗,✗,-8.3,12.4,29,D,stage=4; position=17; volume=0; shape=5; risk=3,低優先
+4260,"Hybrid Technologies Co., Ltd.",209.0,👀 監視継続,0.36,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-7.5,7.2,29,D,stage=4; position=8; volume=8; shape=0; risk=9,低優先
+4416,True Data Inc.,417.0,👀 監視継続,0.28,✗,✗,✓,✓,✗,✗,✓,✓,✗,✗,-10.5,8.2,29,D,stage=4; position=9; volume=0; shape=11; risk=5,低優先
+5131,Linkers Corporation,124.0,👀 監視継続,0.12,✓,✗,✓,✗,✓,✗,✓,✗,✗,✗,-21.0,11.3,29,D,stage=4; position=12; volume=8; shape=6; risk=-1 | risk: recent-high drawdown >20%,低優先
+5341,"Asahi Eito Holdings Co.,Ltd.",146.0,👀 監視継続,0.08,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-6.4,7.5,29,D,stage=4; position=8; volume=8; shape=0; risk=9,低優先
+6034,MRT Inc.,630.0,👀 監視継続,2.0,✗,✗,✗,✗,✓,✗,✗,✓,✗,✗,-3.1,0.8,29,D,stage=4; position=13; volume=2; shape=0; risk=10,低優先
+6047,Gunosy Inc.,403.0,👀 監視継続,0.34,✓,✗,✗,✗,✓,✗,✓,✗,✗,✗,-6.9,13.6,29,D,stage=4; position=12; volume=8; shape=0; risk=5,低優先
+7044,Piala Inc.,508.0,👀 監視継続,0.36,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-5.2,5.7,29,D,stage=4; position=8; volume=8; shape=0; risk=9,低優先
+7345,AI Partners Financial Inc.,941.0,👀 監視継続,0.07,✗,✗,✗,✗,✓,✓,✗,✗,✓,✗,-2.5,3.8,29,D,stage=4; position=15; volume=0; shape=0; risk=10,低優先
+7805,Printnet Inc.,714.0,👀 監視継続,0.85,✗,✗,✗,✗,✓,✓,✗,✗,✓,✗,-4.2,1.8,29,D,stage=4; position=15; volume=0; shape=0; risk=10,低優先
+8518,"Japan Asia Investment Co., Ltd.",153.0,👀 監視継続,1.05,✗,✗,✗,✓,✓,✓,✓,✓,✗,✗,-0.6,20.3,29,D,stage=4; position=21; volume=0; shape=5; risk=-1 | risk: stop width >15%,低優先
+9345,"Bizmates, Inc.",586.0,👀 監視継続,0.2,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-7.7,0.0,29,D,stage=4; position=8; volume=8; shape=0; risk=9,低優先
+9565,GLOE Inc.,666.0,👀 監視継続,0.16,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-4.6,5.3,29,D,stage=4; position=8; volume=8; shape=0; risk=9,低優先
+198A,PostPrime Inc.,166.0,👀 監視継続,0.09,✓,✗,✗,✗,✓,✗,✓,✓,✗,✗,-11.7,16.3,28,D,stage=4; position=17; volume=8; shape=0; risk=-1 | risk: stop width >15%,低優先
+3035,ktk Inc.,776.0,👀 監視継続,0.37,✗,✗,✗,✗,✓,✓,✗,✗,✓,✗,-7.1,5.4,28,D,stage=4; position=15; volume=0; shape=0; risk=9,低優先
+3174,"Happiness and D Co.,Ltd.",400.0,👀 監視継続,0.46,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-2.7,2.0,28,D,stage=4; position=8; volume=0; shape=6; risk=10,低優先
+3192,"Shirohato Co., Ltd.",289.0,👀 監視継続,0.16,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-4.3,3.1,28,D,stage=4; position=8; volume=0; shape=6; risk=10,低優先
+3566,"Uniform Next Co., Ltd.",763.0,👀 監視継続,0.2,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-10.9,3.0,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
+3823,"THE WHY HOW DO COMPANY, Inc.",31.0,👀 監視継続,0.05,✓,✗,✗,✓,✗,✗,✓,✗,✗,✗,-3.1,9.7,28,D,stage=4; position=4; volume=8; shape=5; risk=7,低優先
+3927,Fuva Brain Limited,874.0,👀 監視継続,0.43,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-14.1,1.3,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
+3998,"SuRaLa Net Co.,Ltd.",294.0,👀 監視継続,0.07,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-10.1,2.4,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
+4240,"Cluster Technology Co.,Ltd.",314.0,👀 監視継続,0.72,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-10.8,4.5,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
+4492,Genetec Corporation,390.0,👀 監視継続,1.45,✗,✗,✗,✓,✓,✗,✓,✗,✗,✗,-9.3,7.9,28,D,stage=4; position=12; volume=0; shape=5; risk=7,低優先
+4881,FunPep Company Limited,50.0,👀 監視継続,0.47,✓,✗,✗,✓,✗,✗,✓,✗,✗,✗,-7.4,10.0,28,D,stage=4; position=4; volume=8; shape=5; risk=7,低優先
+5028,"SecondXight Analytica, Inc.",355.0,👀 監視継続,0.08,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-9.9,3.4,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
+5591,AVILEN Inc.,845.0,👀 監視継続,0.35,✓,✗,✗,✗,✗,✗,✓,✓,✗,✗,-6.9,9.5,28,D,stage=4; position=9; volume=8; shape=0; risk=7,低優先
+6029,Artra Group Corporation,185.0,👀 監視継続,0.11,✓,✗,✗,✗,✓,✗,✗,✗,✓,✗,-16.7,2.7,28,D,stage=4; position=11; volume=8; shape=0; risk=5,低優先
+6054,Livesense Inc.,112.0,👀 監視継続,0.16,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-10.4,4.5,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
+6699,"Diamond Electric Holdings Co., Ltd.",513.0,👀 監視継続,0.85,✗,✗,✗,✗,✓,✗,✓,✓,✗,✗,-4.1,8.2,28,D,stage=4; position=17; volume=0; shape=0; risk=7,低優先
+6721,Wintest Corp.,72.0,👀 監視継続,0.03,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-12.2,4.2,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
+6731,Pixela Corporation,105.0,👀 監視継続,0.11,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-8.7,1.9,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
+6836,"Plat'Home Co., Ltd.",790.0,👀 監視継続,0.06,✓,✗,✓,✗,✗,✗,✗,✓,✗,✗,-14.3,11.5,28,D,stage=4; position=5; volume=8; shape=6; risk=5,低優先
+7353,"KIYO Learning Co.,Ltd.",540.0,👀 監視継続,0.76,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-4.9,1.5,28,D,stage=4; position=8; volume=0; shape=6; risk=10,低優先
+7771,"Nihon Seimitsu Co., Ltd.",269.0,👀 監視継続,0.16,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-13.2,0.4,28,D,stage=4; position=8; volume=8; shape=0; risk=8,低優先
+8944,"Land Business Co.,Ltd.",241.0,👀 監視継続,1.05,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-4.0,0.8,28,D,stage=4; position=8; volume=0; shape=6; risk=10,低優先
+9212,"Green Earth Institute Co., Ltd.",268.0,👀 監視継続,0.77,✗,✗,✗,✓,✓,✗,✓,✗,✗,✗,-9.2,7.1,28,D,stage=4; position=12; volume=0; shape=5; risk=7,低優先
+9271,"Wagokoro Co., Ltd.",967.0,👀 監視継続,0.25,✓,✗,✗,✗,✓,✗,✗,✗,✓,✗,-16.9,1.7,28,D,stage=4; position=11; volume=8; shape=0; risk=5,低優先
+3917,"iRidge, Inc.",444.0,👀 監視継続,0.27,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-12.1,5.9,27,D,stage=4; position=8; volume=8; shape=0; risk=7,低優先
+4645,"Ichishin Holdings Co.,Ltd.",432.0,👀 監視継続,0.76,✗,✗,✗,✗,✓,✗,✗,✓,✗,✗,-1.1,0.7,27,D,stage=4; position=13; volume=0; shape=0; risk=10,低優先
+4891,"TMS Co., Ltd.",108.0,👀 監視継続,0.84,✗,✗,✓,✗,✓,✗,✓,✗,✗,✗,-4.4,14.8,27,D,stage=4; position=12; volume=0; shape=6; risk=5,低優先
+5133,Terilogy Holdings Corporation,305.0,👀 監視継続,0.58,✗,✗,✗,✗,✓,✗,✗,✓,✗,✗,-6.4,3.6,27,D,stage=4; position=13; volume=0; shape=0; risk=10,低優先
+5619,MRSO Inc.,854.0,👀 監視継続,0.34,✗,✗,✗,✗,✓,✗,✗,✓,✗,✗,-7.2,4.1,27,D,stage=4; position=13; volume=0; shape=0; risk=10,低優先
+7590,"Takasho Co.,Ltd.",398.0,👀 監視継続,0.65,✗,✗,✗,✗,✓,✗,✗,✓,✗,✗,-5.2,2.5,27,D,stage=4; position=13; volume=0; shape=0; risk=10,低優先
+9903,"Kanseki Co., Ltd.",894.0,👀 監視継続,0.39,✗,✗,✗,✓,✓,✗,✗,✗,✗,✗,-2.7,2.2,27,D,stage=4; position=8; volume=0; shape=5; risk=10,低優先
+9973,"KOZO Holdings Co.,Ltd.",20.0,👀 監視継続,0.09,✓,✗,✗,✓,✗,✗,✗,✗,✗,✗,-4.8,5.0,27,D,stage=4; position=0; volume=8; shape=5; risk=10,低優先
+3286,TRUST Holdings Inc.,894.0,👀 監視継続,0.48,✗,✗,✗,✗,✓,✗,✓,✗,✗,✗,-1.2,4.3,26,D,stage=4; position=12; volume=0; shape=0; risk=10,低優先
+3409,"Kitabo Co.,Ltd",90.0,👀 監視継続,0.19,✓,✗,✓,✗,✗,✗,✗,✗,✗,✗,-9.1,3.3,26,D,stage=4; position=0; volume=8; shape=6; risk=8,低優先
+3970,Innovation Inc.,851.0,👀 監視継続,0.84,✗,✗,✗,✗,✓,✗,✓,✓,✗,✗,-12.7,8.3,26,D,stage=4; position=17; volume=0; shape=0; risk=5,低優先
+441A,NE Inc.,251.0,👀 監視継続,0.33,✓,✗,✓,✗,✗,✗,✗,✗,✗,✗,-13.1,3.2,26,D,stage=4; position=0; volume=8; shape=6; risk=8,低優先
+4564,"OncoTherapy Science, Inc.",21.0,👀 監視継続,1.78,✗,✗,✓,✗,✗,✗,✓,✓,✗,✗,-8.7,9.5,26,D,stage=4; position=9; volume=2; shape=6; risk=5,低優先
+5244,"jig.jp Co., Ltd.",175.0,👀 監視継続,0.73,✗,✗,✗,✗,✓,✗,✗,✓,✗,✗,-6.4,5.1,26,D,stage=4; position=13; volume=0; shape=0; risk=9,低優先
+7078,INCLUSIVE Holdings Inc.,349.0,👀 監視継続,0.43,✗,✗,✓,✗,✓,✗,✓,✗,✗,✗,-16.7,5.4,26,D,stage=4; position=12; volume=0; shape=6; risk=4,低優先
+7527,SystemSoft Corporation,52.0,👀 監視継続,0.36,✓,✗,✗,✗,✗,✗,✓,✓,✗,✗,-5.5,13.5,26,D,stage=4; position=9; volume=8; shape=0; risk=5,低優先
+9704,"AGORA Hospitality Group Co., Ltd",29.0,👀 監視継続,0.4,✓,✗,✓,✗,✗,✗,✗,✗,✗,✗,-9.4,3.4,26,D,stage=4; position=0; volume=8; shape=6; risk=8,低優先
+2388,"Wedge Holdings CO.,LTD.",33.0,👀 監視継続,0.42,✓,✗,✓,✗,✗,✗,✗,✗,✗,✗,-13.2,0.0,25,D,stage=4; position=0; volume=8; shape=6; risk=7,低優先
+2762,"Sanko Marketing Foods Co., Ltd.",69.0,👀 監視継続,0.51,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-14.8,0.0,25,D,stage=4; position=8; volume=0; shape=6; risk=7,低優先
+3909,Showcase Inc.,190.0,👀 監視継続,0.15,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-17.4,3.7,25,D,stage=4; position=8; volume=8; shape=0; risk=5,低優先
+3929,"Socialwire Co., Ltd.",238.0,👀 監視継続,0.46,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-17.4,4.6,25,D,stage=4; position=8; volume=8; shape=0; risk=5,低優先
+4582,SymBio Pharmaceuticals Limited,62.0,👀 監視継続,0.08,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-16.2,3.2,25,D,stage=4; position=8; volume=8; shape=0; risk=5,低優先
+5355,"Nippon Crucible Co., Ltd.",670.0,👀 監視継続,1.28,✗,✗,✗,✗,✓,✗,✗,✗,✓,✗,-1.8,0.1,25,D,stage=4; position=11; volume=0; shape=0; risk=10,低優先
+190A,Chordia Therapeutics Inc.,70.0,👀 監視継続,0.35,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-16.7,0.0,24,D,stage=4; position=8; volume=8; shape=0; risk=4,低優先
+3358,"Trailhead Global Holdings,Inc.",95.0,👀 監視継続,0.4,✓,✗,✗,✗,✗,✗,✗,✓,✗,✗,-14.4,7.4,24,D,stage=4; position=5; volume=8; shape=0; risk=7,低優先
+3958,"Sasatoku Printing Co.,Ltd.",547.0,👀 監視継続,2.11,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-2.7,0.2,24,D,stage=4; position=8; volume=2; shape=0; risk=10,低優先
+6495,"Miyairi Valve Mfg. Co., Ltd.",116.0,👀 監視継続,0.21,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-17.7,0.0,24,D,stage=4; position=8; volume=8; shape=0; risk=4,低優先
+7928,"Asahi Kagaku Kogyo Co.,Ltd.",615.0,👀 監視継続,1.26,✗,✗,✗,✗,✓,✗,✗,✗,✓,✗,-6.4,0.0,24,D,stage=4; position=11; volume=0; shape=0; risk=9,低優先
+8181,"Totenko Co., Ltd.",988.0,👀 監視継続,1.65,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.0,0.5,24,D,stage=4; position=8; volume=2; shape=0; risk=10,低優先
+288A,Laxus Technologies Inc.,95.0,👀 監視継続,0.11,✗,✗,✓,✗,✓,✗,✗,✗,✗,✗,-12.0,8.4,23,D,stage=4; position=8; volume=0; shape=6; risk=5,低優先
+3440,"NISSO GROUP Co.,Ltd.",870.0,👀 監視継続,1.99,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-5.5,6.6,23,D,stage=4; position=8; volume=2; shape=0; risk=9,低優先
+3878,Tomoegawa Corporation,859.0,👀 監視継続,0.97,✗,✗,✗,✗,✓,✗,✗,✓,✓,✗,-8.1,12.3,23,D,stage=4; position=16; volume=0; shape=0; risk=3,低優先
+6181,Tameny Inc.,88.0,👀 監視継続,0.83,✗,✗,✗,✓,✗,✗,✓,✓,✗,✗,-4.3,14.8,23,D,stage=4; position=9; volume=0; shape=5; risk=5,低優先
+7120,SHINKO Inc.,995.0,👀 監視継続,1.1,✗,✗,✗,✗,✓,✗,✗,✗,✓,✗,-9.5,2.5,23,D,stage=4; position=11; volume=0; shape=0; risk=8,低優先
+2404,"Tetsujin Holdings, Inc.",528.0,👀 監視継続,2.1,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-9.3,0.8,22,D,stage=4; position=8; volume=2; shape=0; risk=8,低優先
+2440,"Gurunavi, Inc.",124.0,👀 監視継続,1.34,✗,✗,✓,✗,✗,✗,✗,✓,✗,✗,-8.1,5.6,22,D,stage=4; position=5; volume=0; shape=6; risk=7,低優先
+2999,"Home Position Co., Ltd.",533.0,👀 監視継続,1.82,✗,✗,✗,✗,✓,✗,✗,✗,✓,✗,-17.9,0.8,22,D,stage=4; position=11; volume=2; shape=0; risk=5,低優先
+302A,"b-style holdings,Inc.",587.0,👀 監視継続,0.11,✗,✗,✗,✗,✓,✗,✗,✓,✗,✗,-15.7,1.2,22,D,stage=4; position=13; volume=0; shape=0; risk=5,低優先
+3747,"Intertrade Co.,Ltd.",418.0,👀 監視継続,0.04,✓,✗,✗,✗,✓,✗,✗,✗,✗,✗,-16.1,8.6,22,D,stage=4; position=8; volume=8; shape=0; risk=2,低優先
+3815,"Media Kobo, Inc.",429.0,👀 監視継続,1.15,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-7.9,1.9,22,D,stage=4; position=8; volume=0; shape=0; risk=10,低優先
+4437,"gooddays holdings, Inc.",740.0,👀 監視継続,2.33,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-11.6,1.4,22,D,stage=4; position=8; volume=2; shape=0; risk=8,低優先
+4735,"Kyoshin Co., Ltd.",301.0,👀 監視継続,0.26,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-2.6,1.3,22,D,stage=4; position=8; volume=0; shape=0; risk=10,低優先
+5255,Monstarlab Inc.,91.0,👀 監視継続,0.19,✓,✗,✗,✗,✗,✗,✗,✓,✗,✗,-12.5,8.8,22,D,stage=4; position=5; volume=8; shape=0; risk=5,低優先
+6558,"Cookbiz Co.,Ltd.",666.0,👀 監視継続,1.25,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-3.1,4.4,22,D,stage=4; position=8; volume=0; shape=0; risk=10,低優先
+6666,River Eletec Corporation,781.0,👀 監視継続,0.16,✓,✗,✗,✗,✓,✗,✗,✗,✓,✗,-12.0,19.1,22,D,stage=4; position=11; volume=8; shape=0; risk=-1 | risk: stop width >15%,低優先
+7524,Marche Corporation,176.0,👀 監視継続,0.13,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-4.3,1.7,22,D,stage=4; position=8; volume=0; shape=0; risk=10,低優先
+9625,"Cerespo Co., Ltd.",950.0,👀 監視継続,0.31,✗,✗,✗,✓,✓,✗,✗,✗,✗,✗,-4.2,13.2,22,D,stage=4; position=8; volume=0; shape=5; risk=5,低優先
+2437,"Shinwa Wise Holdings Co.,Ltd.",590.0,👀 監視継続,2.25,✗,✗,✗,✗,✗,✗,✗,✓,✓,✗,-14.5,5.8,21,D,stage=4; position=8; volume=2; shape=0; risk=7,低優先
+7865,"People Co., Ltd.",338.0,👀 監視継続,2.85,✗,✓,✗,✗,✗,✗,✗,✗,✗,✗,-8.6,3.0,21,D,stage=4; position=0; volume=9; shape=0; risk=8,低優先
+2736,"Festaria Holdings Co., Ltd.",606.0,👀 監視継続,0.92,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-9.5,0.5,20,D,stage=4; position=8; volume=0; shape=0; risk=8,低優先
+281A,"Informetis Co., Ltd.",427.0,👀 監視継続,0.09,✓,✗,✗,✗,✗,✗,✗,✗,✗,✗,-12.1,4.9,20,D,stage=4; position=0; volume=8; shape=0; risk=8,低優先
+324A,"Booking Resort Co., Ltd.",717.0,👀 監視継続,0.45,✓,✗,✗,✗,✗,✗,✗,✗,✗,✗,-8.9,4.0,20,D,stage=4; position=0; volume=8; shape=0; risk=8,低優先
+3557,"United & Collective Co., Ltd.",514.0,👀 監視継続,0.53,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-10.9,0.2,20,D,stage=4; position=8; volume=0; shape=0; risk=8,低優先
+3682,"Encourage Technologies Co., Ltd.",592.0,👀 監視継続,1.34,✗,✗,✓,✗,✗,✗,✗,✗,✗,✗,-6.8,3.7,20,D,stage=4; position=0; volume=0; shape=6; risk=10,低優先
+3967,"Eltes Co.,Ltd.",568.0,👀 監視継続,0.77,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-8.1,0.5,20,D,stage=4; position=8; volume=0; shape=0; risk=8,低優先
+4069,BlueMeme Inc.,692.0,👀 監視継続,0.94,✗,✗,✗,✓,✗,✗,✓,✗,✗,✗,-7.7,9.7,20,D,stage=4; position=4; volume=0; shape=5; risk=7,低優先
+155A,"Information Strategy and Technology Co.,Ltd.",805.0,👀 監視継続,0.08,✓,✗,✗,✗,✗,✗,✗,✗,✗,✗,-8.5,6.8,19,D,stage=4; position=0; volume=8; shape=0; risk=7,低優先
+2673,"YUMEMITSUKETAI Co.,Ltd.",113.0,👀 監視継続,0.05,✓,✗,✓,✗,✗,✗,✗,✓,✗,✗,-16.3,17.7,19,D,stage=4; position=5; volume=8; shape=6; risk=-4 | risk: stop width >15%,低優先
+7049,"SHIKIGAKU. Co., Ltd.",800.0,👀 監視継続,1.02,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-10.0,0.0,19,D,stage=4; position=8; volume=0; shape=0; risk=7,低優先
+8894,"Revolution Co., Ltd.",20.0,👀 監視継続,0.4,✓,✗,✗,✗,✗,✗,✗,✗,✗,✗,-13.0,0.0,19,D,stage=4; position=0; volume=8; shape=0; risk=7,低優先
+4422,VALUENEX Japan Inc.,570.0,👀 監視継続,0.26,✗,✗,✗,✗,✓,✗,✓,✗,✓,✗,-14.2,17.9,18,D,stage=4; position=15; volume=0; shape=0; risk=-1 | risk: stop width >15%,低優先
+4424,"Amazia,inc.",347.0,👀 監視継続,1.43,✗,✗,✗,✓,✗,✓,✗,✓,✓,✗,-19.3,21.6,17,D,stage=4; position=12; volume=0; shape=5; risk=-4 | risk: stop width >15%,低優先
+4586,"MedRx Co., Ltd",60.0,👀 監視継続,0.29,✓,✗,✗,✗,✗,✗,✗,✗,✗,✗,-16.7,5.0,17,D,stage=4; position=0; volume=8; shape=0; risk=5,低優先
+6563,Mirai Works Inc.,453.0,👀 監視継続,1.13,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-15.6,2.9,17,D,stage=4; position=8; volume=0; shape=0; risk=5,低優先
+7062,"Fureasu Co.,Ltd.",690.0,👀 監視継続,1.42,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-15.3,1.4,17,D,stage=4; position=8; volume=0; shape=0; risk=5,低優先
+7776,CellSeed Inc.,220.0,👀 監視継続,0.32,✓,✗,✗,✗,✗,✗,✗,✗,✗,✗,-9.1,9.1,17,D,stage=4; position=0; volume=8; shape=0; risk=5,低優先
+7886,"Yamato Mobility & Mfg. Co.,Ltd.",623.0,👀 監視継続,0.1,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-16.9,2.7,17,D,stage=4; position=8; volume=0; shape=0; risk=5,低優先
+2693,YKT Corporation,278.0,👀 監視継続,0.57,✗,✗,✗,✗,✓,✗,✗,✗,✗,✗,-16.5,0.0,16,D,stage=4; position=8; volume=0; shape=0; risk=4,低優先
+2193,Cookpad Inc.,127.0,👀 監視継続,1.24,✗,✗,✗,✗,✗,✗,✗,✓,✗,✗,-8.6,10.2,14,D,stage=4; position=5; volume=0; shape=0; risk=5,低優先
+6659,"Media Links Co.,Ltd.",49.0,👀 監視継続,0.86,✗,✗,✗,✗,✗,✗,✓,✗,✗,✗,-10.9,24.5,7,D,stage=4; position=4; volume=0; shape=0; risk=-1 | risk: stop width >15%,低優先
