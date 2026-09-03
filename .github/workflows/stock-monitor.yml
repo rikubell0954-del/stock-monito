@@ -3,8 +3,8 @@ name: Stock Monitor
 on:
   workflow_dispatch:
   schedule:
-    # 17:45 JST = 08:45 UTC, weekdays
-    - cron: "45 8 * * 1-5"
+    # 17:30 JST = 08:30 UTC, weekdays
+    - cron: "30 8 * * 1-5"
 
 permissions:
   contents: write
@@ -43,6 +43,13 @@ jobs:
       - name: Run screener
         run: python stock_screener.py
 
+      - name: Save screener health
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p results
+          if [ -f screener_health.json ]; then cp screener_health.json results/; fi
+
       - name: Run Step2/3 monitor
         run: python step2_3_monitor.py
 
@@ -60,8 +67,14 @@ jobs:
           cp performance_summary.csv results/
           cp enhancer_diagnostics.txt results/
 
+      - name: Validate scoring evidence
+        run: python validate_model.py
+
       - name: Update persistent Step3 history
         run: python track_step3_history.py
+
+      - name: Calculate market regime
+        run: python market_regime.py
 
       - name: Build iPhone report
         run: python build_mobile_report.py
