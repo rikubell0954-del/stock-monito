@@ -1,44 +1,119 @@
-# 急騰株クラウドモニター v3.1（APIなし）
+name: Stock Monitor
 
-## 今回の変更
-- OpenAI API連携を完全に削除
-- Step3履歴機能はそのまま継続
-- iPhoneダッシュボードに「ChatGPTへ貼り付け」欄を追加
-- ワンタップで以下をコピー可能
-  - Sランク銘柄コード
-  - 今日の新規Step3銘柄コード
-  - 現在のStep3銘柄コード
+on:
+  workflow_dispatch:
+  schedule:
+    # 17:30 JST = 08:30 UTC, weekdays
+    - cron: "30 8 * * 1-5"
 
-コピー内容は銘柄コードだけを改行区切りにしています。
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
-例:
-3958
-7928
-4447
+concurrency:
+  group: stock-monitor
+  cancel-in-progress: false
 
-これをそのままChatGPTへ貼り付けて企業分析を依頼できます。
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
 
-## v3/v2から更新するファイル
-以下をGitHubへ上書きしてください。
-- `.github/workflows/stock-monitor.yml`
-- `requirements.txt`
-- `build_mobile_report.py`
-- `README.md`
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-v2から直接更新する場合は追加:
-- `track_step3_history.py`
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
 
-## 不要になったもの
-以前v3を導入済みの場合、以下は削除して構いません。
-- `analyze_s_rank_openai.py`
-- `ai_analysis/` フォルダ
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
 
-GitHub Secretsに `OPENAI_API_KEY` を登録していた場合も削除して構いません。
-v3.1では一切使用しません。
+      - name: Restore persistent files
+        shell: bash
+        run: |
+          if [ -f results/virtual_trade_log.csv ]; then
+            cp results/virtual_trade_log.csv virtual_trade_log.csv
+          fi
 
-## 自動実行
-平日16:30 JST。
+      - name: Run screener
+        run: python stock_screener.py
 
-## Step3履歴
-`results/step3_history.csv` に永続保存します。
-初回突入・継続・離脱・再突入を追跡できます。
+      - name: Save screener health
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p results
+          if [ -f screener_health.json ]; then cp screener_health.json results/; fi
+
+      - name: Run Step2/3 monitor
+        run: python step2_3_monitor.py
+
+      - name: Run ranking and virtual trades
+        run: python stock_pipeline_enhancer_cloud.py
+
+      - name: Collect core outputs
+        shell: bash
+        run: |
+          mkdir -p results docs
+          cp screening_result.csv results/
+          cp step2_3_result.csv results/
+          cp ranked_candidates.csv results/
+          cp virtual_trade_log.csv results/
+          cp performance_summary.csv results/
+          cp enhancer_diagnostics.txt results/
+
+      - name: Validate scoring evidence
+        run: python validate_model.py
+
+      - name: Update persistent Step3 history
+        run: python track_step3_history.py
+
+      - name: Calculate market regime
+        run: python market_regime.py
+
+      - name: Build iPhone report
+        run: python build_mobile_report.py
+
+      - name: Commit persistent results
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results docs/index.html
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update stock monitor results"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Upload downloadable results
+        uses: actions/upload-artifact@v4
+        with:
+          name: stock-monitor-results
+          path: |
+            results/
+            docs/index.html
+          retention-days: 30
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+  deploy-pages:
+    needs: run-monitor
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy iPhone report to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
