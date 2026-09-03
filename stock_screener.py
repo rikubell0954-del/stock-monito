@@ -9,10 +9,13 @@ import time
 import warnings
 import json
 from pathlib import Path
+from io import BytesIO
+from urllib.parse import urljoin
 from datetime import datetime, timedelta
 
 import pandas as pd
 import yfinance as yf
+import requests
 
 warnings.filterwarnings("ignore")
 HEALTH_FILE = Path("screener_health.json")
@@ -40,37 +43,146 @@ CONFIG = {
 
 def get_tse_tickers():
     """
-    JPX公開の銘柄一覧から、
-    東証グロース・スタンダードの銘柄コードを取得
+    JPX公式「東証上場銘柄一覧」から現在のExcelを取得する。
+    固定URLだけに依存せず、公式ページ内の .xls/.xlsx リンクを探索する。
     """
-    url = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
+    landing_url = "https://www.jpx.co.jp/markets/statistics-equities/misc/01.html"
+    legacy_url = (
+        "https://www.jpx.co.jp/markets/statistics-equities/misc/"
+        "tvdivq0000001vg2-att/data_j.xls"
+    )
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/150.0 Safari/537.36"
+        ),
+        "Accept": (
+            "text/html,application/xhtml+xml,application/xml;q=0.9,"
+            "application/vnd.ms-excel,"
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,"
+            "*/*;q=0.8"
+        ),
+        "Accept-Language": "ja,en-US;q=0.8,en;q=0.6",
+    }
+
+    candidates = []
 
     try:
-        df = pd.read_excel(url)
+        page = requests.get(landing_url, headers=headers, timeout=30)
+        page.raise_for_status()
 
-        target_markets = [
-            "グロース（内国株式）",
-            "スタンダード（内国株式）",
-        ]
+        pattern = r'href=["\']([^"\']+\.(?:xls|xlsx)(?:\?[^"\']*)?)["\']'
+        hrefs = re.findall(pattern, page.text, flags=re.IGNORECASE)
 
-        df = df[df["市場・商品区分"].isin(target_markets)]
-
-        tickers = []
-        for code in df["コード"]:
-            code_str = str(code).strip().zfill(4)
-            tickers.append(code_str + ".T")
-
-        if len(tickers) < CONFIG["min_jpx_tickers"]:
-            msg=f"JPX対象銘柄数が異常に少ない: {len(tickers)}"
-            write_health({"status":"FATAL","stage":"JPX","message":msg,"target_count":len(tickers)})
-            raise RuntimeError(msg)
-        print(f"対象銘柄数: {len(tickers)}件")
-        return tickers
-
+        hrefs = sorted(
+            dict.fromkeys(hrefs),
+            key=lambda h: (0 if "data_j" in h.lower() else 1, len(h)),
+        )
+        candidates.extend(urljoin(landing_url, h) for h in hrefs)
     except Exception as e:
-        write_health({"status":"FATAL","stage":"JPX","message":str(e),"target_count":0})
-        raise RuntimeError(f"JPX銘柄リスト取得失敗: {e}")
+        print(f"JPX案内ページからExcel探索に失敗: {e}")
 
+    if legacy_url not in candidates:
+        candidates.append(legacy_url)
+
+    errors = []
+    excel_bytes = None
+    used_url = None
+
+    for url in candidates:
+        try:
+            print(f"JPX Excel取得を試行: {url}")
+            resp = requests.get(url, headers=headers, timeout=45, allow_redirects=True)
+
+            if resp.status_code != 200:
+                errors.append(f"{url} -> HTTP {resp.status_code}")
+                continue
+
+            content = resp.content
+            head = content[:200].lstrip().lower()
+
+            if b"<html" in head or b"<!doctype html" in head:
+                errors.append(f"{url} -> HTML response instead of Excel")
+                continue
+
+            if len(content) < 10000:
+                errors.append(f"{url} -> file too small ({len(content)} bytes)")
+                continue
+
+            excel_bytes = content
+            used_url = url
+            break
+
+        except Exception as e:
+            errors.append(f"{url} -> {type(e).__name__}: {e}")
+
+    if excel_bytes is None:
+        msg = " / ".join(errors[-10:]) if errors else "Excel候補URLなし"
+        write_health({
+            "status": "FATAL",
+            "stage": "JPX",
+            "message": f"JPX Excel取得失敗: {msg}",
+            "target_count": 0,
+        })
+        raise RuntimeError(f"JPX銘柄リスト取得失敗: {msg}")
+
+    try:
+        df = pd.read_excel(BytesIO(excel_bytes))
+    except Exception as e:
+        write_health({
+            "status": "FATAL",
+            "stage": "JPX",
+            "message": f"JPX Excel解析失敗: {e}",
+            "source_url": used_url,
+            "target_count": 0,
+        })
+        raise RuntimeError(f"JPX Excel解析失敗: {e}")
+
+    required = {"市場・商品区分", "コード"}
+    missing = required - set(df.columns)
+    if missing:
+        msg = f"JPX列構成変更の可能性: missing={sorted(missing)}"
+        write_health({
+            "status": "FATAL",
+            "stage": "JPX",
+            "message": msg,
+            "source_url": used_url,
+            "target_count": 0,
+        })
+        raise RuntimeError(msg)
+
+    target_markets = {
+        "グロース（内国株式）",
+        "スタンダード（内国株式）",
+    }
+    target_df = df[df["市場・商品区分"].isin(target_markets)].copy()
+
+    tickers = []
+    for code in target_df["コード"].dropna():
+        s = str(code).strip()
+        if s.endswith(".0"):
+            s = s[:-2]
+        if not s:
+            continue
+        tickers.append(f"{s}.T")
+
+    tickers = list(dict.fromkeys(tickers))
+
+    if len(tickers) < CONFIG["min_jpx_tickers"]:
+        msg = f"JPX対象銘柄数が異常に少ない: {len(tickers)}"
+        write_health({
+            "status": "FATAL",
+            "stage": "JPX",
+            "message": msg,
+            "source_url": used_url,
+            "target_count": len(tickers),
+        })
+        raise RuntimeError(msg)
+
+    print(f"JPX取得元: {used_url}")
+    print(f"対象銘柄数: {len(tickers)}件")
+    return tickers
 
 def to_float(value):
     """
