@@ -50,8 +50,52 @@ jobs:
           mkdir -p results
           if [ -f screener_health.json ]; then cp screener_health.json results/; fi
 
+      - name: Verify screener output
+        shell: bash
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          from pathlib import Path
+          p = Path("screening_result.csv")
+          if not p.exists():
+              raise SystemExit("ERROR: screening_result.csv was not created")
+          df = pd.read_csv(p, encoding="utf-8-sig")
+          if df.empty:
+              raise SystemExit("ERROR: screening_result.csv has 0 data rows")
+          print(f"screening_result.csv OK: {len(df)} rows")
+          PY
+
+      - name: Save screener health
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p results
+          if [ -f screener_health.json ]; then cp screener_health.json results/; fi
+
       - name: Run Step2/3 monitor
         run: python step2_3_monitor.py
+
+      - name: Save Step2/3 health
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p results
+          if [ -f step2_3_health.json ]; then cp step2_3_health.json results/; fi
+
+      - name: Verify Step2/3 output
+        shell: bash
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          from pathlib import Path
+          p = Path("step2_3_result.csv")
+          if not p.exists():
+              raise SystemExit("ERROR: step2_3_result.csv was not created")
+          df = pd.read_csv(p, encoding="utf-8-sig")
+          if df.empty:
+              raise SystemExit("ERROR: step2_3_result.csv has 0 data rows")
+          print(f"step2_3_result.csv OK: {len(df)} rows")
+          PY
 
       - name: Run ranking and virtual trades
         run: python stock_pipeline_enhancer_cloud.py
