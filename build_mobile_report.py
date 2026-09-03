@@ -1,204 +1,692 @@
-# -*- coding: utf-8 -*-
-from pathlib import Path
-from datetime import datetime
-from zoneinfo import ZoneInfo
-import html
-import re
-import pandas as pd
-
-TOKYO = ZoneInfo("Asia/Tokyo")
-ROOT = Path(__file__).resolve().parent
-RESULTS = ROOT / "results"
-DOCS = ROOT / "docs"
-DOCS.mkdir(exist_ok=True)
-
-def read_csv(name):
-    p = RESULTS / name
-    if not p.exists():
-        return pd.DataFrame()
-    for enc in ("utf-8-sig","cp932","utf-8"):
-        try:
-            return pd.read_csv(p, encoding=enc)
-        except Exception:
-            pass
-    return pd.DataFrame()
-
-def esc(v):
-    if pd.isna(v): return ""
-    return html.escape(str(v))
-
-def truth(v):
-    return str(v).strip().lower() in {"true","1","yes","y"}
-
-def norm_code(v):
-    s = str(v).strip().replace(".T","")
-    s = re.sub(r"\.0$","",s)
-    m = re.search(r"\d{4}",s)
-    return m.group(0) if m else s
-
-ranked = read_csv("ranked_candidates.csv")
-trades = read_csv("virtual_trade_log.csv")
-summary = read_csv("performance_summary.csv")
-history = read_csv("step3_history.csv")
-
-now = datetime.now(TOKYO)
-today = now.strftime("%Y-%m-%d")
-updated = now.strftime("%Y-%m-%d %H:%M JST")
-
-rank_counts = {}
-if not ranked.empty and "優先ランク" in ranked.columns:
-    vc = ranked["優先ランク"].value_counts()
-    rank_counts = {r:int(vc.get(r,0)) for r in ["S","A","B","C","D"]}
-
-step3 = ranked[ranked["判定"].astype(str).str.contains("Step3",na=False)].copy() if not ranked.empty else pd.DataFrame()
-s_rank = ranked[ranked["優先ランク"].astype(str).eq("S")].copy() if not ranked.empty else pd.DataFrame()
-top = ranked.head(20).copy() if not ranked.empty else pd.DataFrame()
-
-active_hist = pd.DataFrame()
-new_step3 = pd.DataFrame()
-continuing_step3 = pd.DataFrame()
-if not history.empty:
-    active_hist = history[history["active"].map(truth)].copy()
-    new_step3 = active_hist[active_hist["first_step3_date"].astype(str).eq(today)].copy()
-    continuing_step3 = active_hist[~active_hist["first_step3_date"].astype(str).eq(today)].copy()
-
-open_trades = trades[trades["status"].astype(str).str.upper().eq("OPEN")].copy() if not trades.empty else pd.DataFrame()
-
-s_codes = "\n".join(s_rank["銘柄コード"].map(norm_code).tolist()) if not s_rank.empty else ""
-step3_codes = "\n".join(step3["銘柄コード"].map(norm_code).tolist()) if not step3.empty else ""
-new_step3_codes = "\n".join(new_step3["code"].map(norm_code).tolist()) if not new_step3.empty else ""
-
-def cards():
-    vals = [
-        ("Sランク", rank_counts.get("S",0)),
-        ("新規Step3", len(new_step3)),
-        ("Step3継続", len(continuing_step3)),
-        ("仮想OPEN", len(open_trades)),
-    ]
-    return "".join(f'<div class="card"><div class="label">{esc(k)}</div><div class="num">{v}</div></div>' for k,v in vals)
-
-def ranking_rows(df):
-    if df.empty: return '<tr><td colspan="6">データなし</td></tr>'
-    rows=[]
-    for _,r in df.iterrows():
-        rows.append("<tr>"
-          f"<td><b>{esc(r.get('優先ランク',''))}</b></td>"
-          f"<td>{esc(r.get('急騰期待スコア',''))}</td>"
-          f"<td>{esc(norm_code(r.get('銘柄コード','')))}</td>"
-          f"<td>{esc(r.get('銘柄名',''))}</td>"
-          f"<td>{esc(r.get('株価',''))}</td>"
-          f"<td>{esc(r.get('判定',''))}</td></tr>")
-    return "".join(rows)
-
-def hist_rows(df):
-    if df.empty: return '<tr><td colspan="8">該当銘柄なし</td></tr>'
-    rows=[]
-    for _,r in df.iterrows():
-        re_no = pd.to_numeric(pd.Series([r.get("reentry_no",0)]),errors="coerce").fillna(0).iloc[0]
-        badge = "再突入" if float(re_no) > 0 else "初回"
-        rows.append("<tr>"
-          f"<td><span class='pill'>{badge}</span></td>"
-          f"<td>{esc(r.get('code',''))}</td>"
-          f"<td>{esc(r.get('name',''))}</td>"
-          f"<td>{esc(r.get('first_step3_date',''))}</td>"
-          f"<td>{esc(r.get('days_seen',''))}</td>"
-          f"<td>{esc(r.get('entry_price',''))}</td>"
-          f"<td>{esc(r.get('latest_price',''))}</td>"
-          f"<td>{esc(r.get('latest_score',''))}</td></tr>")
-    return "".join(rows)
-
-def trade_rows(df):
-    if df.empty: return '<tr><td colspan="7">現在OPENの仮想取引はありません</td></tr>'
-    rows=[]
-    for _,r in df.iterrows():
-        rows.append("<tr>"
-          f"<td>{esc(r.get('code',''))}</td><td>{esc(r.get('name',''))}</td>"
-          f"<td>{esc(r.get('signal_date',''))}</td><td>{esc(r.get('entry_price',''))}</td>"
-          f"<td>{esc(r.get('signal_score',''))}</td><td>{esc(r.get('max_gain_pct',''))}</td>"
-          f"<td>{esc(r.get('max_drawdown_pct',''))}</td></tr>")
-    return "".join(rows)
-
-def summary_rows(df):
-    if df.empty: return "<p>集計データなし</p>"
-    return "".join(f"<div class='summary-row'><span>{esc(r.iloc[0])}</span><strong>{esc(r.iloc[1])}</strong></div>" for _,r in df.iterrows())
-
-def copy_box(title, textarea_id, text, note):
-    disabled = " disabled" if not text else ""
-    button_label = "該当銘柄なし" if not text else "コードをコピー"
-    return f"""
-    <div class="copy-box">
-      <div class="copy-head"><div><b>{esc(title)}</b><div class="muted">{esc(note)}</div></div>
-      <button class="copy-btn" onclick="copyCodes('{textarea_id}', this)"{disabled}>{button_label}</button></div>
-      <textarea id="{textarea_id}" readonly>{esc(text)}</textarea>
-    </div>
-    """
-
-copy_sections = (
-    copy_box("Sランク銘柄コード", "sCodes", s_codes, "ChatGPT企業分析用。コードのみ、改行区切り。")
-    + copy_box("今日の新規Step3コード", "newStep3Codes", new_step3_codes, "今日初めてStep3へ入った銘柄だけ。")
-    + copy_box("現在のStep3銘柄コード", "step3Codes", step3_codes, "現在Step3判定の全銘柄。")
-)
-
-page = f"""<!doctype html>
-<html lang="ja"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>急騰株モニター</title>
-<style>
-:root{{color-scheme:light dark}}body{{font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Yu Gothic",sans-serif;margin:0;background:#f5f5f7;color:#111}}
-.wrap{{max-width:1040px;margin:auto;padding:16px}}h1{{font-size:25px;margin:4px 0}}h2{{font-size:20px}}
-.muted{{color:#666;font-size:13px}}.cards{{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:18px 0}}
-.card,section,.copy-box{{background:white;border-radius:16px;box-shadow:0 1px 4px rgba(0,0,0,.08)}}.card{{padding:14px}}.label{{font-size:13px;color:#666}}.num{{font-size:30px;font-weight:800;margin-top:4px}}
-section{{padding:14px;margin:14px 0;overflow:auto}}table{{width:100%;border-collapse:collapse;font-size:13px;min-width:720px}}th,td{{border-bottom:1px solid #ddd;padding:9px 7px;text-align:left}}th{{position:sticky;top:0;background:white}}
-.pill{{display:inline-block;padding:3px 7px;border-radius:999px;background:#eee;font-size:11px}}.summary-row{{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #eee}}
-.copy-box{{padding:14px;margin:10px 0}}.copy-head{{display:flex;gap:10px;justify-content:space-between;align-items:center}}.copy-btn{{border:0;border-radius:12px;padding:11px 14px;font-weight:700;background:#111;color:white;white-space:nowrap}}
-.copy-btn:disabled{{opacity:.4}}textarea{{width:100%;box-sizing:border-box;margin-top:10px;min-height:90px;border:1px solid #ccc;border-radius:12px;padding:12px;font-size:17px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;line-height:1.5;background:transparent;color:inherit}}
-footer{{font-size:12px;color:#777;padding:20px 2px 40px}}
-@media(min-width:700px){{.cards{{grid-template-columns:repeat(4,1fr)}}}}
-@media(prefers-color-scheme:dark){{body{{background:#000;color:#f5f5f7}}.card,section,.copy-box{{background:#1c1c1e}}.label,.muted,footer{{color:#aaa}}th{{background:#1c1c1e}}th,td,.summary-row{{border-color:#333}}.pill{{background:#333}}.copy-btn{{background:#f5f5f7;color:#111}}textarea{{border-color:#444}}}}
-</style>
-<script>
-async function copyCodes(id, btn) {{
-  const el = document.getElementById(id);
-  const text = el.value.trim();
-  if (!text) return;
-  try {{
-    await navigator.clipboard.writeText(text);
-  }} catch(e) {{
-    el.focus(); el.select(); document.execCommand('copy'); el.setSelectionRange(0,0);
-  }}
-  const old = btn.textContent;
-  btn.textContent = 'コピーしました ✓';
-  setTimeout(()=>btn.textContent=old, 1600);
-}}
-</script>
-</head><body><div class="wrap">
-<h1>急騰株モニター</h1><div class="muted">最終更新: {updated}</div>
-<div class="cards">{cards()}</div>
-
-<section><h2>📋 ChatGPTへ貼り付け</h2>{copy_sections}</section>
-
-<section><h2>🆕 今日Step3に突入</h2>
-<table><thead><tr><th>区分</th><th>Code</th><th>銘柄</th><th>突入日</th><th>日数</th><th>突入価格</th><th>現在価格</th><th>Score</th></tr></thead>
-<tbody>{hist_rows(new_step3)}</tbody></table></section>
-
-<section><h2>🔁 Step3継続監視</h2>
-<table><thead><tr><th>区分</th><th>Code</th><th>銘柄</th><th>突入日</th><th>日数</th><th>突入価格</th><th>現在価格</th><th>Score</th></tr></thead>
-<tbody>{hist_rows(continuing_step3)}</tbody></table></section>
-
-<section><h2>優先ランキング TOP20</h2><table>
-<thead><tr><th>Rank</th><th>Score</th><th>Code</th><th>銘柄</th><th>株価</th><th>判定</th></tr></thead>
-<tbody>{ranking_rows(top)}</tbody></table></section>
-
-<section><h2>現在のStep3候補</h2><table>
-<thead><tr><th>Rank</th><th>Score</th><th>Code</th><th>銘柄</th><th>株価</th><th>判定</th></tr></thead>
-<tbody>{ranking_rows(step3)}</tbody></table></section>
-
-<section><h2>仮想取引 OPEN</h2><table>
-<thead><tr><th>Code</th><th>銘柄</th><th>Signal</th><th>Entry</th><th>Score</th><th>最大上昇%</th><th>最大下落%</th></tr></thead>
-<tbody>{trade_rows(open_trades)}</tbody></table></section>
-
-<section><h2>検証成績</h2>{summary_rows(summary)}</section>
-<footer>スクリーニング・検証用です。自動発注は行いません。Sランク等のコードは上のコピーボタンからChatGPTへ貼り付けできます。</footer>
-</div></body></html>"""
-(DOCS/"index.html").write_text(page, encoding="utf-8")
-print(f"Generated: {DOCS/'index.html'}")
+﻿銘柄コード,銘柄名,株価,時価総額(億円),出来高比率,値幅(%),MA5上,MA25上,下値集中,判定
+2186,Sobal Corporation,923.0,72.6,3.1,0.9,✓,✓,✓,★ Step1（初動）
+9340,"ASO International, Inc.",720.0,71.0,3.63,4.3,✓,✓,✓,★ Step1（初動）
+7615,"KYOTO KIMONO YUZEN HOLDINGS Co., Ltd.",104.0,21.5,7.42,14.3,✓,✓,✗,★ Step1（初動）
+7928,"Asahi Kagaku Kogyo Co.,Ltd.",662.0,20.1,4.14,4.9,✓,✓,✓,★ Step1（初動）
+3169,"Misawa & Co., Ltd.",676.0,47.7,3.04,4.3,✓,✓,✓,★ Step1（初動）
+6775,TB Group Inc.,128.0,19.0,29.11,12.3,✓,✓,✗,★ Step1（初動）
+7049,"SHIKIGAKU. Co., Ltd.",886.0,74.5,3.92,4.9,✓,✓,✓,★ Step1（初動）
+7078,INCLUSIVE Holdings Inc.,368.0,37.0,26.01,10.2,✓,✓,✗,★ Step1（初動）
+5619,MRSO Inc.,905.0,31.8,3.17,7.0,✓,✓,✓,★ Step1（初動）
+4447,"PBsystems,Inc.",506.0,29.5,3.58,8.8,✓,✓,✓,★ Step1（初動）
+4241,atect corporation,669.0,29.6,4.61,11.2,✓,✓,✗,★ Step1（初動）
+4370,Mobilus Corporation,313.0,19.0,12.36,17.7,✓,✓,✗,★ Step1（初動）
+4178,Sharing Innovations Inc.,551.0,20.6,4.29,14.5,✓,✓,✗,★ Step1（初動）
+4707,KITAC Corporation,346.0,19.4,10.45,6.8,✓,✓,✗,★ Step1（初動）
+3440,"NISSO GROUP Co.,Ltd.",958.0,61.5,3.51,9.6,✓,✓,✓,★ Step1（初動）
+3396,Felissimo Corporation,880.0,62.7,3.96,2.8,✓,✓,✓,★ Step1（初動）
+3607,"Kuraudia Holdings Co.,Ltd.",366.0,33.2,3.04,4.0,✓,✓,✓,★ Step1（初動）
+3967,"Eltes Co.,Ltd.",612.0,37.8,4.35,3.6,✓,✓,✓,★ Step1（初動）
+3965,"Capital Asset Planning, Inc.",918.0,52.9,5.89,7.4,✓,✓,✓,★ Step1（初動）
+3958,"Sasatoku Printing Co.,Ltd.",554.0,30.1,3.67,1.1,✓,✓,✓,★ Step1（初動）
+4059,"Magmag, Inc.",420.0,12.5,3.45,7.7,✓,✓,✓,★ Step1（初動）
+9330,AGEHA Inc.,880.0,12.6,0.32,2.3,✓,✓,✓,◆ Step0（仕込み）
+9363,"Daiun Co.,Ltd.",543.0,26.3,0.35,5.7,✓,✓,✓,◆ Step0（仕込み）
+9342,Sumasapo Inc.,995.0,23.9,1.5,12.6,✓,✓,✓,◆ Step0（仕込み）
+9331,Caster Co.Ltd.,740.0,14.5,0.1,5.7,✓,✓,✓,◆ Step0（仕込み）
+9475,"Shobunsha Holdings, Inc.",534.0,95.9,0.57,6.0,✓,✓,✓,◆ Step0（仕込み）
+9656,Greenland Resort Company Limited,600.0,62.0,0.36,0.8,✓,✓,✓,◆ Step0（仕込み）
+9514,EF-ON Inc.,352.0,74.5,0.56,9.6,✓,✓,✓,◆ Step0（仕込み）
+206A,"PRISM BioLab Co.,LTD",170.0,62.8,1.27,13.2,✓,✓,✓,◆ Step0（仕込み）
+2156,Saylor Advertising.Inc.,276.0,14.2,0.26,5.3,✓,✓,✓,◆ Step0（仕込み）
+175A,"Will Smart Co.,LTD.",635.0,13.7,0.21,7.6,✓,✓,✓,◆ Step0（仕込み）
+1844,"Ohmori Co.,Ltd.",494.0,92.5,0.55,7.1,✓,✓,✓,◆ Step0（仕込み）
+7897,"Hokushin Co., Ltd.",109.0,30.9,1.12,9.0,✓,✓,✓,◆ Step0（仕込み）
+8835,Taiheiyo Kouhatsu Incorporated,801.0,62.3,0.8,3.6,✓,✓,✓,◆ Step0（仕込み）
+7980,"Shigematsu Works Co., Ltd.",851.0,60.5,0.56,6.6,✓,✓,✓,◆ Step0（仕込み）
+7898,"Wood One Co.,Ltd.",946.0,88.1,0.74,5.7,✓,✓,✓,◆ Step0（仕込み）
+8013,"Naigai Co.,Ltd.",360.0,28.1,0.71,6.4,✓,✓,✓,◆ Step0（仕込み）
+8077,TORQ Inc.,215.0,48.6,0.18,4.3,✓,✓,✓,◆ Step0（仕込み）
+2375,GiG Works Inc.,209.0,41.6,1.09,5.0,✓,✓,✓,◆ Step0（仕込み）
+7992,"The Sailor Pen Co., Ltd.",104.0,30.8,0.82,2.9,✓,✓,✓,◆ Step0（仕込み）
+2408,"KG Intelligence CO., LTD.",859.0,61.6,0.38,4.7,✓,✓,✓,◆ Step0（仕込み）
+2411,Gendai Agency Inc.,472.0,52.0,0.42,2.6,✓,✓,✓,◆ Step0（仕込み）
+2438,"Asukanet Co., Ltd.",356.0,53.4,0.11,9.8,✓,✓,✓,◆ Step0（仕込み）
+7807,"Kowa Co.,Ltd.",886.0,36.8,0.08,5.4,✓,✓,✓,◆ Step0（仕込み）
+7813,"Platz Co., Ltd.",875.0,29.6,0.87,10.8,✓,✓,✓,◆ Step0（仕込み）
+7847,Graphite Design Inc.,686.0,44.5,1.08,5.5,✓,✓,✓,◆ Step0（仕込み）
+7865,"People Co., Ltd.",346.0,13.2,1.7,3.6,✓,✓,✓,◆ Step0（仕込み）
+2385,Soiken Holdings Inc.,225.0,58.9,0.36,6.1,✓,✓,✓,◆ Step0（仕込み）
+7872,"Estelle Holdings Co.,Ltd.",619.0,64.9,0.77,2.5,✓,✓,✓,◆ Step0（仕込み）
+7879,Noda Corporation,676.0,99.0,0.84,4.8,✓,✓,✓,◆ Step0（仕込み）
+2454,"All About, Inc.",349.0,49.2,0.49,3.2,✓,✓,✓,◆ Step0（仕込み）
+7883,"Sun Messe Co., Ltd.",403.0,62.6,0.15,3.8,✓,✓,✓,◆ Step0（仕込み）
+9376,"Eurasia Travel Co., Ltd.",831.0,30.7,0.89,4.0,✓,✓,✓,◆ Step0（仕込み）
+9385,Shoei Corporation,760.0,58.7,0.37,4.4,✓,✓,✓,◆ Step0（仕込み）
+2179,"Seigakusha Co.,Ltd.",860.0,47.7,2.85,9.8,✓,✓,✓,◆ Step0（仕込み）
+220A,Faber Company Inc.,946.0,26.0,1.31,4.6,✓,✓,✓,◆ Step0（仕込み）
+2321,Softfront Holdings,136.0,70.7,1.29,15.0,✓,✓,✓,◆ Step0（仕込み）
+8912,Area Quest Inc.,156.0,24.2,0.1,3.3,✓,✓,✓,◆ Step0（仕込み）
+9193,"Tokyo Kisen Co.,Ltd.",878.0,87.4,0.43,4.3,✓,✓,✓,◆ Step0（仕込み）
+9723,"The Kyoto Hotel, Ltd.",637.0,76.9,0.39,1.3,✓,✓,✓,◆ Step0（仕込み）
+9760,"Shingakukai Holdings Co.,Ltd.",120.0,20.0,1.01,2.5,✓,✓,✓,◆ Step0（仕込み）
+9326,"Kantsu HD Co.,Ltd.",501.0,50.8,1.06,1.8,✓,✓,✓,◆ Step0（仕込み）
+189A,"D & M Company Co., Ltd.",993.0,22.7,0.61,3.7,✓,✓,✓,◆ Step0（仕込み）
+2055,"Nichiwa Sangyo Co., Ltd.",349.0,63.2,1.08,6.9,✓,✓,✓,◆ Step0（仕込み）
+7360,"ONDECK Co., Ltd.",656.0,17.1,1.25,4.3,✓,✓,✓,◆ Step0（仕込み）
+7486,"Sanrin Co., Ltd.",813.0,98.5,0.71,2.8,✓,✓,✓,◆ Step0（仕込み）
+7461,"Kimura Co.,Ltd.",490.0,72.7,0.54,6.3,✓,✓,✓,◆ Step0（仕込み）
+7443,"Yokohama Gyorui Co., Ltd.",666.0,41.7,0.19,5.0,✓,✓,✓,◆ Step0（仕込み）
+7422,"Toho Lamac Co., Ltd.",363.0,18.5,0.69,4.0,✓,✓,✓,◆ Step0（仕込み）
+7150,"The Shimane Bank,Ltd.",532.0,43.7,0.73,13.9,✓,✓,✓,◆ Step0（仕込み）
+2769,"Village Vanguard CO.,LTD.",915.0,71.8,0.92,2.7,✓,✓,✓,◆ Step0（仕込み）
+7367,"CELM,Inc.",336.0,71.3,0.03,2.4,✓,✓,✓,◆ Step0（仕込み）
+7192,Mortgage Service Japan Limited,629.0,92.5,0.19,6.4,✓,✓,✓,◆ Step0（仕込み）
+7162,"ASTMAX Co., Ltd.",267.0,35.1,0.24,16.0,✓,✓,✓,◆ Step0（仕込み）
+7064,"Howtelevision, Inc.",891.0,24.2,1.17,7.3,✓,✓,✓,◆ Step0（仕込み）
+7057,"New Constructor's Network Co., Ltd.",930.0,27.7,0.63,7.8,✓,✓,✓,◆ Step0（仕込み）
+7075,"QLS Holdings Co., Ltd",870.0,65.1,0.5,7.7,✓,✓,✓,◆ Step0（仕込み）
+6778,"Artiza Networks, Inc.",657.0,56.7,0.9,9.9,✓,✓,✓,◆ Step0（仕込み）
+7371,Zenken Corporation,771.0,93.9,1.11,5.3,✓,✓,✓,◆ Step0（仕込み）
+7370,"Enjin Co., Ltd.",716.0,48.2,0.79,2.0,✓,✓,✓,◆ Step0（仕込み）
+6888,Acmos Inc.,503.0,50.0,0.33,5.7,✓,✓,✓,◆ Step0（仕込み）
+6897,Twinbird Corporation,687.0,73.3,0.39,2.1,✓,✓,✓,◆ Step0（仕込み）
+7036,eMnet Japan.co.ltd.,669.0,25.9,0.53,4.5,✓,✓,✓,◆ Step0（仕込み）
+6964,"Sanko Co., Ltd.",705.0,62.6,0.78,4.3,✓,✓,✓,◆ Step0（仕込み）
+3058,Sanyodo Holdings Inc,709.0,51.6,0.17,2.1,✓,✓,✓,◆ Step0（仕込み）
+6658,"Shirai Electronics Industrial Co., Ltd.",462.0,69.3,0.42,8.5,✓,✓,✓,◆ Step0（仕込み）
+6659,"Media Links Co.,Ltd.",51.0,40.1,0.73,15.9,✓,✓,✓,◆ Step0（仕込み）
+2916,"Semba Tohka Industries Co., Ltd",748.0,85.1,1.15,4.0,✓,✓,✓,◆ Step0（仕込み）
+6663,"Taiyo Technolex Co.,Ltd.",317.0,19.2,0.12,10.8,✓,✓,✓,◆ Step0（仕込み）
+6551,"Tsunagu Group Holdings, Inc.",622.0,51.9,0.4,7.2,✓,✓,✓,◆ Step0（仕込み）
+6555,"MS&Consulting Co., Ltd.",429.0,19.3,0.43,2.9,✓,✓,✓,◆ Step0（仕込み）
+6557,AIAI Group Corporation,789.0,51.1,0.43,14.8,✓,✓,✓,◆ Step0（仕込み）
+6578,"CORREC Co., Ltd.",510.0,37.5,2.94,3.2,✓,✓,✓,◆ Step0（仕込み）
+6218,ENSHU Limited,645.0,40.7,0.68,10.5,✓,✓,✓,◆ Step0（仕込み）
+6803,Teac Corporation,100.0,28.8,0.72,4.2,✓,✓,✓,◆ Step0（仕込み）
+7399,"Nansin Co., Ltd.",609.0,39.0,1.15,2.7,✓,✓,✓,◆ Step0（仕込み）
+6292,"Kawata Mfg. Co., Ltd.",857.0,59.9,0.13,7.2,✓,✓,✓,◆ Step0（仕込み）
+6233,KLASS Corporation,395.0,20.6,0.45,2.3,✓,✓,✓,◆ Step0（仕込み）
+6424,"Takamisawa Cybernetics Company, Ltd.",898.0,37.5,0.55,1.5,✓,✓,✓,◆ Step0（仕込み）
+6307,"Sansei Co.,Ltd.",485.0,37.7,0.28,8.6,✓,✓,✓,◆ Step0（仕込み）
+6467,Nichidai Corporation,349.0,31.5,0.77,7.1,✓,✓,✓,◆ Step0（仕込み）
+3071,"Stream Co.,Ltd.",105.0,29.0,0.72,4.0,✓,✓,✓,◆ Step0（仕込み）
+3111,"Omikenshi Co., Ltd.",181.0,11.9,1.15,8.3,✓,✓,✓,◆ Step0（仕込み）
+6334,"Meiji Machine Co., Ltd.",520.0,56.0,2.04,9.5,✓,✓,✓,◆ Step0（仕込み）
+3160,"Oomitsu Co., Ltd.",580.0,82.8,0.72,0.5,✓,✓,✓,◆ Step0（仕込み）
+6049,ItoKuro Inc.,247.0,50.1,0.04,2.1,✓,✓,✓,◆ Step0（仕込み）
+6054,Livesense Inc.,116.0,32.0,0.43,10.7,✓,✓,✓,◆ Step0（仕込み）
+6059,"UCHIYAMA HOLDINGS Co.,Ltd.",364.0,70.6,0.7,5.5,✓,✓,✓,◆ Step0（仕込み）
+6081,"Allied Architects, Inc.",168.0,29.3,0.62,11.3,✓,✓,✓,◆ Step0（仕込み）
+6155,"Takamatsu Machinery Co., Ltd.",542.0,58.5,0.11,8.9,✓,✓,✓,◆ Step0（仕込み）
+6186,"Ichikura Co., Ltd.",387.0,21.4,0.12,3.5,✓,✓,✓,◆ Step0（仕込み）
+6428,OIZUMI Corporation,329.0,74.0,1.73,4.8,✓,✓,✓,◆ Step0（仕込み）
+5928,"Almetax Manufacturing Co., Ltd.",288.0,30.2,0.07,3.2,✓,✓,✓,◆ Step0（仕込み）
+5936,"Toyo Shutter Co., Ltd.",900.0,57.0,0.43,6.3,✓,✓,✓,◆ Step0（仕込み）
+5952,Amatei Incorporated,193.0,22.9,0.25,5.5,✓,✓,✓,◆ Step0（仕込み）
+5940,"Fujisash Co.,Ltd.",766.0,96.0,0.35,7.7,✓,✓,✓,◆ Step0（仕込み）
+2459,"AUN CONSULTING, Inc.",178.0,13.4,0.29,6.6,✓,✓,✓,◆ Step0（仕込み）
+2481,"Townnews-Sha Co.,Ltd.",669.0,36.7,0.83,6.0,✓,✓,✓,◆ Step0（仕込み）
+7590,"Takasho Co.,Ltd.",408.0,68.8,2.31,4.9,✓,✓,✓,◆ Step0（仕込み）
+7604,"Umenohana Group Co.,Ltd.",897.0,79.7,1.07,1.2,✓,✓,✓,◆ Step0（仕込み）
+7619,"Tanaka Co.,Ltd.",967.0,78.8,1.51,6.3,✓,✓,✓,◆ Step0（仕込み）
+7692,Earth Infinity Co.Ltd.,80.0,88.1,0.37,7.9,✓,✓,✓,◆ Step0（仕込み）
+7782,"Sincere Co., LTD.",470.0,30.9,1.85,3.7,✓,✓,✓,◆ Step0（仕込み）
+9215,"CaSy Co., Ltd.",976.0,18.3,2.98,5.1,✓,✓,✓,◆ Step0（仕込み）
+9218,"Mental Health Technologies Co.,Ltd.",784.0,82.4,2.12,7.0,✓,✓,✓,◆ Step0（仕込み）
+9225,Bridge Consulting Group Inc.,982.0,20.4,1.22,3.1,✓,✓,✓,◆ Step0（仕込み）
+9423,Forval RealStraight Inc.,105.0,25.5,0.97,2.9,✓,✓,✓,◆ Step0（仕込み）
+9446,"SAKAI Holdings CO.,LTD",702.0,53.0,0.32,4.2,✓,✓,✓,◆ Step0（仕込み）
+5616,"Ame Kaze Taiyo, Inc.",655.0,15.9,0.96,6.3,✓,✓,✓,◆ Step0（仕込み）
+5527,Property Technologies Inc.,718.0,89.4,1.72,6.7,✓,✓,✓,◆ Step0（仕込み）
+3266,Fund Creation Group Company Limited,81.0,30.5,2.77,3.8,✓,✓,✓,◆ Step0（仕込み）
+3261,"GRANDES, Inc.",409.0,16.8,1.22,4.6,✓,✓,✓,◆ Step0（仕込み）
+3246,"KOSE R.E. Co.,Ltd.",683.0,69.4,0.82,5.4,✓,✓,✓,◆ Step0（仕込み）
+324A,"Booking Resort Co., Ltd.",750.0,40.6,0.75,9.9,✓,✓,✓,◆ Step0（仕込み）
+3241,"WILL,Co.,Ltd.",605.0,69.9,0.65,5.0,✓,✓,✓,◆ Step0（仕込み）
+3238,"Central General Development Co., Ltd.",387.0,37.2,0.48,7.8,✓,✓,✓,◆ Step0（仕込み）
+5974,"Chugokukogyo Co.,Ltd.",852.0,27.8,0.38,3.1,✓,✓,✓,◆ Step0（仕込み）
+3223,"SLD Entertainment, Inc.",944.0,14.7,1.27,3.6,✓,✓,✓,◆ Step0（仕込み）
+3204,Toabo Corporation,504.0,44.0,0.61,3.3,✓,✓,✓,◆ Step0（仕込み）
+6038,"IID, Inc.",832.0,40.8,0.14,4.5,✓,✓,✓,◆ Step0（仕込み）
+5287,"Ito Yogyo Co., Ltd",852.0,25.2,0.45,10.8,✓,✓,✓,◆ Step0（仕込み）
+4990,"Showa Chemical Industry Co., Ltd.",505.0,53.8,0.13,5.0,✓,✓,✓,◆ Step0（仕込み）
+5031,Moi Corporation,334.0,57.8,0.13,10.0,✓,✓,✓,◆ Step0（仕込み）
+5900,"Daiken Co.,Ltd.",899.0,49.3,0.13,6.5,✓,✓,✓,◆ Step0（仕込み）
+4892,Cyfuse Biomedical K.K.,570.0,57.5,0.62,14.4,✓,✓,✓,◆ Step0（仕込み）
+4885,Muromachi Chemicals Inc.,905.0,36.4,0.27,3.7,✓,✓,✓,◆ Step0（仕込み）
+3439,Mitsuchi Corporation,677.0,31.7,1.81,5.0,✓,✓,✓,◆ Step0（仕込み）
+4893,Noile-Immune Biotech Inc.,148.0,64.2,0.36,10.4,✓,✓,✓,◆ Step0（仕込み）
+3474,"G-Factory Co.,Ltd.",587.0,38.4,0.81,2.3,✓,✓,✓,◆ Step0（仕込み）
+352A,"LOIVE Co.,Ltd.",549.0,71.1,0.27,12.5,✓,✓,✓,◆ Step0（仕込み）
+3571,"Sotoh Co., Ltd.",725.0,88.4,1.35,2.5,✓,✓,✓,◆ Step0（仕込み）
+3461,"Palma Co., Ltd.",610.0,41.3,1.15,4.3,✓,✓,✓,◆ Step0（仕込み）
+4664,Japan Reliance Service Corporation,976.0,29.4,0.32,14.1,✓,✓,✓,◆ Step0（仕込み）
+4705,CLIP Corporation,797.0,28.7,0.42,3.0,✓,✓,✓,◆ Step0（仕込み）
+4735,"Kyoshin Co., Ltd.",304.0,23.4,0.13,2.0,✓,✓,✓,◆ Step0（仕込み）
+477A,"Startline CO.,LTD.",681.0,28.1,0.92,16.8,✓,✓,✓,◆ Step0（仕込み）
+3377,BIKE O & COMPANY Ltd.,397.0,56.8,0.66,7.6,✓,✓,✓,◆ Step0（仕込み）
+339A,"Progress Technologies Group, Inc.",935.0,71.2,0.33,8.4,✓,✓,✓,◆ Step0（仕込み）
+3293,"AZUMA HOUSE Co., Ltd.",779.0,62.7,1.49,1.6,✓,✓,✓,◆ Step0（仕込み）
+3286,TRUST Holdings Inc.,899.0,34.8,0.57,3.9,✓,✓,✓,◆ Step0（仕込み）
+463A,"INTELLEX HOLDINGS Co.,Ltd.",995.0,99.2,0.56,10.0,✓,✓,✓,◆ Step0（仕込み）
+4625,"Atomix Co.,Ltd.",800.0,42.6,0.92,8.5,✓,✓,✓,◆ Step0（仕込み）
+4615,"Shinto Paint Company, Limited",134.0,45.6,1.98,3.9,✓,✓,✓,◆ Step0（仕込み）
+4586,"MedRx Co., Ltd",67.0,44.4,0.73,6.2,✓,✓,✓,◆ Step0（仕込み）
+4531,"Yuki Gosei Kogyo Co., Ltd.",364.0,78.7,0.1,8.7,✓,✓,✓,◆ Step0（仕込み）
+3627,Tecmira Holdings Inc.,268.0,32.3,0.28,4.6,✓,✓,✓,◆ Step0（仕込み）
+3598,"Yamaki Co.,Ltd.",163.0,23.1,0.26,2.5,✓,✓,✓,◆ Step0（仕込み）
+4645,"Ichishin Holdings Co.,Ltd.",437.0,35.1,1.38,1.4,✓,✓,✓,◆ Step0（仕込み）
+3646,"Ekitan & Co., Ltd.",348.0,16.5,0.43,4.8,✓,✓,✓,◆ Step0（仕込み）
+3674,"Aucfan Co., Ltd.",339.0,35.7,1.49,7.6,✓,✓,✓,◆ Step0（仕込み）
+4421,"D. I. System Co., Ltd.",948.0,27.6,0.45,3.4,✓,✓,✓,◆ Step0（仕込み）
+441A,NE Inc.,275.0,90.9,0.45,14.0,✓,✓,✓,◆ Step0（仕込み）
+442A,"Classico, Inc.",980.0,20.3,0.17,4.1,✓,✓,✓,◆ Step0（仕込み）
+3639,Voltage Incorporation,229.0,14.9,0.63,3.6,✓,✓,✓,◆ Step0（仕込み）
+3645,"Medical Net, Inc.",245.0,22.7,0.79,1.7,✓,✓,✓,◆ Step0（仕込み）
+3622,Netyear Group Corporation,500.0,35.0,0.27,3.9,✓,✓,✓,◆ Step0（仕込み）
+4317,Ray Corporation,566.0,74.5,0.5,16.7,✓,✓,✓,◆ Step0（仕込み）
+4308,J-Stream Inc.,361.0,89.8,0.64,2.8,✓,✓,✓,◆ Step0（仕込み）
+4444,infoNet inc.,950.0,19.2,0.11,8.6,✓,✓,✓,◆ Step0（仕込み）
+4334,"YUKE'S Co.,Ltd.",385.0,32.4,0.19,3.2,✓,✓,✓,◆ Step0（仕込み）
+3758,Aeria Inc.,247.0,50.3,0.52,3.8,✓,✓,✓,◆ Step0（仕込み）
+3768,Riskmonster.com,570.0,42.2,0.91,3.6,✓,✓,✓,◆ Step0（仕込み）
+4388,"AI,Inc.",373.0,22.5,0.8,5.1,✓,✓,✓,◆ Step0（仕込み）
+4394,"eXmotion Co., Ltd.",559.0,33.8,0.58,3.5,✓,✓,✓,◆ Step0（仕込み）
+3802,"Ecomic Co., Ltd",501.0,17.2,0.65,2.7,✓,✓,✓,◆ Step0（仕込み）
+3779,"J Escom Holdings,Inc.",133.0,15.4,0.05,3.9,✓,✓,✓,◆ Step0（仕込み）
+4075,"Brains Technology, Inc.",906.0,52.9,0.22,12.3,✓,✓,✓,◆ Step0（仕込み）
+3804,System D Inc.,464.0,89.3,0.81,6.6,✓,✓,✓,◆ Step0（仕込み）
+478A,Hutzper Inc.,785.0,80.0,0.64,7.0,✓,✓,✓,◆ Step0（仕込み）
+4829,"Nihon Enterprise Co.,Ltd.",112.0,43.2,0.41,7.7,✓,✓,✓,◆ Step0（仕込み）
+5216,"Kuramoto Co., Ltd.",156.0,85.2,0.08,6.6,✓,✓,✓,◆ Step0（仕込み）
+5248,"TECHNOLOGIES, Inc.",501.0,84.8,0.4,12.2,✓,✓,✓,◆ Step0（仕込み）
+4016,"MIT Holdings Co., Ltd.",999.0,20.0,2.48,6.8,✓,✓,✓,◆ Step0（仕込み）
+4287,Just Planning Inc.,496.0,55.9,0.56,5.3,✓,✓,✓,◆ Step0（仕込み）
+4284,"SOLXYZ Co., Ltd.",441.0,88.5,0.53,5.0,✓,✓,✓,◆ Step0（仕込み）
+4245,"Daiki Axis Co., Ltd.",723.0,96.1,1.1,7.4,✓,✓,✓,◆ Step0（仕込み）
+3896,"Awa Paper & Technological Company, Inc.",419.0,41.9,1.25,17.0,✓,✓,✓,◆ Step0（仕込み）
+4057,"Interfactory, Inc.",358.0,14.4,0.68,3.2,✓,✓,✓,◆ Step0（仕込み）
+3815,"Media Kobo, Inc.",462.0,50.0,2.62,4.7,✓,✓,✓,◆ Step0（仕込み）
+3839,"ODK Solutions Company, Ltd.",644.0,52.8,1.47,2.9,✓,✓,✓,◆ Step0（仕込み）
+3955,"IMURA & Co.,Ltd.",845.0,84.5,1.22,3.2,✓,✓,✓,◆ Step0（仕込み）
+3953,"Ohmura Shigyo Co.,Ltd.",804.0,28.6,0.66,3.7,✓,✓,✓,◆ Step0（仕込み）
+3940,"Nomura System Corporation Co, Ltd.",130.0,58.6,0.68,11.1,✓,✓,✓,◆ Step0（仕込み）
+3974,SCAT Inc.,671.0,21.0,1.01,3.1,✓,✓,✓,◆ Step0（仕込み）
+3985,TEMONA.inc.,188.0,20.1,1.71,5.6,✓,✓,✓,◆ Step0（仕込み）
+145A,L is B corp.,910.0,46.8,1.93,13.8,✓,✓,✓,◆ Step0（仕込み）
+149A,"Thinca Co.,Ltd.",800.0,27.3,0.32,9.3,✓,✓,✓,◆ Step0（仕込み）
+151A,Dive Group Inc.,652.0,54.8,1.01,5.1,✓,✓,✓,◆ Step0（仕込み）
+156A,Material Group Inc.,864.0,81.6,2.64,5.8,✓,✓,✓,◆ Step0（仕込み）
+9827,"Lilycolor Co., Ltd.",641.0,79.0,0.76,2.9,✓,✓,✓,◆ Step0（仕込み）
+9853,"Ginza Renoir Co., Ltd.",910.0,55.6,0.44,0.7,✓,✓,✓,◆ Step0（仕込み）
+9854,"Aigan Co.,Ltd.",282.0,54.7,0.16,14.5,✓,✓,✓,◆ Step0（仕込み）
+9872,"Kitakei Co., Ltd.",964.0,89.5,0.99,2.6,✓,✓,✓,◆ Step0（仕込み）
+9904,"Verite Co., Ltd.",248.0,67.3,0.43,7.1,✓,✓,✓,◆ Step0（仕込み）
+9972,"Altech Co., Ltd.",281.0,38.7,0.2,4.4,✗,✓,✓,監視候補
+9969,"Shokubun Co., Ltd.",234.0,35.9,0.93,2.2,✓,✗,✓,監視候補
+9930,"Kitazawa Sangyo Co., Ltd.",399.0,74.2,0.75,12.4,✗,✓,✗,監視候補
+9929,"Heiwa Paper Co.,Ltd.",473.0,43.8,0.34,2.8,✗,✓,✓,監視候補
+9903,"Kanseki Co., Ltd.",890.0,66.4,4.07,2.9,✗,✗,✓,監視候補
+9885,"Charle Co.,Ltd.",334.0,49.7,2.68,1.8,✗,✗,✓,監視候補
+9878,"SEKIDO Co., Ltd.",410.0,13.1,1.56,2.0,✗,✗,✓,監視候補
+9876,"Cox Co., Ltd.",222.0,61.3,0.62,3.7,✓,✗,✓,監視候補
+9835,"Juntendo Co.,Ltd.",514.0,41.7,3.1,1.4,✗,✓,✓,監視候補
+9816,Striders Corporation,258.0,23.0,0.17,8.8,✗,✓,✗,監視候補
+9812,"T.O. Holdings CO.,LTD.",243.0,15.6,2.07,7.0,✗,✓,✗,監視候補
+1711,"SDS HOLDINGS Co.,Ltd.",239.0,24.9,1.28,3.8,✗,✗,✓,監視候補
+157A,Green Monster Inc.,724.0,24.0,0.13,16.1,✓,✗,✗,監視候補
+155A,"Information Strategy and Technology Co.,Ltd.",848.0,87.2,0.56,10.1,✓,✓,✗,監視候補
+1446,"CANDEAL Co.,Ltd",539.0,50.2,0.94,2.4,✗,✗,✓,監視候補
+1443,"Giken Holdings Co., Ltd.",285.0,46.3,0.39,14.9,✓,✓,✗,監視候補
+143A,"Ishin Co., Ltd.",701.0,13.5,0.4,5.3,✓,✓,✗,監視候補
+142A,"JINJIB Co., Ltd.",843.0,24.5,2.15,13.1,✗,✓,✗,監視候補
+1420,Sanyo Homes Corporation,636.0,78.9,0.53,2.9,✓,✗,✓,監視候補
+1418,"Interlife Holdings Co., Ltd.",603.0,92.0,2.38,2.9,✗,✓,✓,監視候補
+1380,"Akikawa Foods & Farms Co., Ltd.",999.0,41.6,2.99,1.0,✗,✗,✓,監視候補
+137A,"Cocolive, Inc.",691.0,20.2,0.11,9.2,✗,✗,✗,監視候補
+9973,"KOZO Holdings Co.,Ltd.",20.0,59.4,1.1,0.0,✗,✗,✗,監視候補
+3970,Innovation Inc.,856.0,23.0,0.66,11.2,✗,✓,✓,監視候補
+3935,"Edia Co., Ltd.",677.0,39.2,0.24,6.0,✓,✗,✓,監視候補
+3930,"Hatena Co., Ltd.",776.0,23.3,0.28,16.2,✓,✗,✗,監視候補
+3929,"Socialwire Co., Ltd.",242.0,28.3,0.18,18.9,✗,✗,✗,監視候補
+3928,Mynet Inc.,236.0,22.5,0.43,14.0,✓,✗,✓,監視候補
+3927,Fuva Brain Limited,915.0,49.1,0.89,10.6,✓,✗,✗,監視候補
+3920,"Internetworking and Broadband Consulting Co.,Ltd.",983.0,54.6,0.07,2.7,✓,✗,✓,監視候補
+3917,"iRidge, Inc.",473.0,37.0,0.72,17.4,✗,✗,✗,監視候補
+3911,Aiming Inc.,184.0,85.9,0.41,8.8,✓,✓,✗,監視候補
+3910,MKSystem Corporation,280.0,15.2,0.88,4.0,✗,✓,✓,監視候補
+3909,Showcase Inc.,191.0,16.4,0.33,11.9,✓,✗,✗,監視候補
+3908,Collabos Corporation,351.0,16.3,1.82,5.6,✗,✓,✓,監視候補
+3904,KAYAC Inc.,428.0,65.9,0.67,5.9,✗,✓,✓,監視候補
+387A,"Fuller, Inc.",923.0,16.0,0.83,14.8,✗,✗,✗,監視候補
+3878,Tomoegawa Corporation,877.0,86.0,0.67,13.4,✗,✓,✓,監視候補
+3858,Ubiquitous AI Corporation,295.0,30.9,0.1,6.4,✗,✓,✓,監視候補
+3848,"Data Applications Company, Limited",844.0,53.8,0.16,4.1,✗,✓,✓,監視候補
+3840,Path Corporation,57.0,47.1,1.4,9.1,✗,✓,✗,監視候補
+3826,System Integrator Corp.,496.0,54.2,7.0,12.2,✗,✓,✓,監視候補
+3823,"THE WHY HOW DO COMPANY, Inc.",31.0,40.7,0.15,10.3,✗,✓,✗,監視候補
+3807,Fisco Ltd.,87.0,39.9,1.06,9.8,✗,✓,✓,監視候補
+4069,BlueMeme Inc.,689.0,23.0,0.88,10.2,✓,✓,✗,監視候補
+4056,Neural Group Inc.,219.0,37.6,0.52,7.2,✓,✓,✗,監視候補
+4054,"Japan PropTech Co.,Ltd.",517.0,71.2,2.65,11.0,✗,✗,✓,監視候補
+4019,"Stmn, Inc.",641.0,56.3,1.68,9.5,✓,✓,✗,監視候補
+4017,Creema Ltd.,215.0,14.5,0.45,4.8,✓,✓,✗,監視候補
+4015,Paycloud Holdings Inc.,538.0,82.9,1.34,8.4,✗,✗,✓,監視候補
+4014,"Karadanote, Inc.",508.0,34.0,0.9,4.9,✓,✗,✗,監視候補
+3998,"SuRaLa Net Co.,Ltd.",301.0,19.0,0.2,13.9,✓,✗,✓,監視候補
+3996,Signpost Corporation,203.0,26.0,2.52,7.8,✓,✓,✗,監視候補
+3991,"Wantedly, Inc.",939.0,89.3,0.22,5.5,✗,✓,✓,監視候補
+3988,"SYS Holdings Co., Ltd.",550.0,58.2,0.35,4.8,✗,✗,✓,監視候補
+3987,Ecomott Inc.,657.0,33.9,4.03,6.8,✗,✓,✓,監視候補
+3986,"bBreak Systems Company, Limited",478.0,21.8,0.48,4.4,✓,✗,✓,監視候補
+4265,Institution for a Global Society Corporation,289.0,13.8,0.05,9.6,✗,✗,✗,監視候補
+4260,"Hybrid Technologies Co., Ltd.",214.0,24.2,0.38,10.3,✓,✓,✗,監視候補
+4240,"Cluster Technology Co.,Ltd.",325.0,18.5,0.18,16.3,✗,✓,✗,監視候補
+4198,"TENDA Co.,LTD.",495.0,32.8,0.14,3.3,✗,✓,✓,監視候補
+4192,SpiderPlus & Co.,276.0,98.1,0.51,7.0,✗,✗,✓,監視候補
+4176,coconala Inc.,286.0,64.1,0.4,13.2,✗,✓,✗,監視候補
+4168,"Yappli, Inc.",762.0,98.1,0.56,11.2,✓,✗,✓,監視候補
+4167,Kokopelli Inc.,330.0,25.1,0.5,16.2,✓,✓,✗,監視候補
+4166,Cacco Inc.,634.0,17.6,0.19,2.1,✓,✗,✓,監視候補
+407A,"Unicon Holdings Co., Ltd.",943.0,93.3,0.52,10.4,✓,✓,✗,監視候補
+3803,Image Information Inc.,595.0,19.7,0.46,19.7,✓,✓,✗,監視候補
+3796,"e-Seikatsu Co.,Ltd.",310.0,42.8,0.33,7.9,✗,✓,✗,監視候補
+3760,"CAVE Interactive CO.,LTD.",730.0,44.0,1.06,7.8,✗,✗,✗,監視候補
+3750,ADR Biomedical Holdings Inc.,780.0,69.6,0.76,4.6,✓,✗,✓,監視候補
+3727,Aplix Corporation,155.0,67.6,0.7,13.0,✓,✓,✗,監視候補
+3726,"4Cs HD Co., Ltd.",403.0,52.9,1.97,9.3,✗,✓,✓,監視候補
+3710,"Jorudan Co.,Ltd.",643.0,32.8,0.4,7.8,✗,✓,✓,監視候補
+3690,YRGLM Inc.,564.0,35.2,0.66,6.4,✗,✓,✓,監視候補
+3686,DLE Inc.,59.0,25.6,0.43,8.8,✗,✗,✗,監視候補
+3682,"Encourage Technologies Co., Ltd.",593.0,39.5,0.14,6.6,✓,✗,✓,監視候補
+3680,"Hottolink, Inc.",210.0,32.1,1.43,3.4,✗,✗,✓,監視候補
+4397,TeamSpirit Inc.,426.0,65.0,0.68,9.2,✓,✓,✗,監視候補
+4395,Accrete Inc.,716.0,53.7,0.23,14.3,✓,✓,✗,監視候補
+4387,"ZUU Co.,Ltd.",503.0,23.9,0.17,8.0,✗,✓,✗,監視候補
+4386,"SIG Group Co., Ltd.",898.0,51.4,0.32,7.6,✗,✓,✓,監視候補
+4379,Photosynth inc.,445.0,68.8,0.54,15.0,✓,✓,✗,監視候補
+4378,CINC Corp.,531.0,15.7,0.06,16.2,✓,✓,✗,監視候補
+4376,Kufu Company Holdings Inc.,164.0,98.9,2.28,9.7,✗,✓,✗,監視候補
+4351,Yamada Servicer Synthetic Office,827.0,35.2,0.36,4.6,✓,✗,✓,監視候補
+4341,Seiryo Electric Corporation,893.0,30.2,0.54,5.4,✗,✓,✓,監視候補
+4288,"Asgent, Inc.",470.0,17.9,0.4,19.6,✗,✓,✗,監視候補
+4487,"Spacemarket,Inc.",231.0,28.0,0.69,9.1,✓,✓,✗,監視候補
+4486,Unite and Grow Inc.,706.0,55.9,0.8,11.9,✓,✓,✗,監視候補
+4484,"Lancers, Inc.",288.0,45.8,1.29,3.2,✗,✗,✓,監視候補
+4442,"Valtes Holdings Co.,Ltd.",401.0,79.4,0.5,3.8,✗,✗,✓,監視候補
+4438,Welby Inc.,257.0,21.7,0.05,9.1,✗,✓,✓,監視候補
+4437,"gooddays holdings, Inc.",778.0,58.9,1.28,5.9,✗,✗,✓,監視候補
+4436,"MINKABU THE INFONOID, Inc.",412.0,63.3,0.51,14.6,✗,✗,✗,監視候補
+4429,"Ricksoft Co., Ltd.",725.0,32.6,0.17,5.9,✗,✓,✓,監視候補
+4428,sinops Inc.,720.0,44.6,0.73,8.8,✓,✓,✗,監視候補
+4427,"EduLab, Inc.",229.0,23.4,0.35,16.2,✓,✓,✗,監視候補
+4416,True Data Inc.,413.0,20.0,1.89,12.4,✓,✓,✗,監視候補
+3672,AltPlus Inc.,29.0,26.1,0.59,19.2,✗,✓,✗,監視候補
+3671,"Softmax Co., Ltd",311.0,74.8,0.2,12.8,✓,✗,✓,監視候補
+3667,"enish,inc.",27.0,14.7,0.35,15.4,✗,✗,✗,監視候補
+365A,"Izawa Towel Co.,Ltd.",793.0,72.2,3.42,4.4,✗,✗,✓,監視候補
+3641,"Papyless Co., Ltd.",978.0,84.6,0.91,2.1,✗,✓,✓,監視候補
+3634,Sockets Inc.,600.0,14.7,0.23,4.8,✗,✓,✓,監視候補
+3625,Techfirm Holdings Inc.,669.0,47.6,0.25,16.1,✓,✓,✗,監視候補
+3577,Tokai Senko K.K.,937.0,29.6,1.95,4.3,✗,✗,✓,監視候補
+4598,"Delta-Fly Pharma, Inc.",104.0,14.8,0.4,13.4,✗,✗,✗,監視候補
+4594,"BrightPath Biotherapeutics Co., Ltd.",54.0,75.0,0.4,19.6,✓,✓,✗,監視候補
+4582,SymBio Pharmaceuticals Limited,63.0,50.5,0.31,17.7,✗,✗,✗,監視候補
+4576,"D. Western Therapeutics Institute, Inc.",88.0,50.6,0.29,18.7,✗,✓,✗,監視候補
+4571,"Nano Holdings, Inc.",104.0,86.8,1.44,13.5,✗,✓,✓,監視候補
+4564,"OncoTherapy Science, Inc.",22.0,89.8,0.81,15.8,✓,✓,✗,監視候補
+4558,"Chukyoiyakuhin Co.,Ltd.",200.0,21.4,0.66,1.5,✗,✗,✓,監視候補
+4496,Commerce One Holdings Inc.,778.0,53.7,0.28,8.5,✓,✗,✓,監視候補
+4492,Genetec Corporation,378.0,43.8,0.77,7.6,✓,✗,✗,監視候補
+4490,VisasQ Inc.,651.0,60.3,0.71,7.2,✗,✗,✗,監視候補
+4777,Gala Incorporated,200.0,56.0,0.05,6.1,✓,✗,✓,監視候補
+4772,"SM ENTERTAINMENT JAPAN Co.,Ltd.",71.0,82.3,0.21,18.8,✓,✗,✓,監視候補
+4766,"PA Co., Ltd.",208.0,22.4,0.81,9.5,✓,✓,✗,監視候補
+4750,"Daisan Co., Ltd.",572.0,36.7,0.11,3.8,✗,✓,✓,監視候補
+4736,Nippon RAD Inc.,585.0,30.9,0.08,10.2,✗,✗,✓,監視候補
+472A,Mirrativ Inc.,575.0,97.7,0.88,18.6,✓,✓,✗,監視候補
+4728,"Tose Co., Ltd.",645.0,48.9,13.45,1.6,✗,✗,✓,監視候補
+4720,"Johnan Academic Preparatory Institute, Inc.",242.0,19.4,0.37,2.1,✗,✗,✓,監視候補
+4679,"TAYA Co.,Ltd.",262.0,19.5,0.95,5.6,✗,✓,✓,監視候補
+4678,"SHUEI YOBIKO Co., Ltd.",330.0,22.1,0.47,4.1,✗,✓,✓,監視候補
+4657,"Environmental Control Center Co.,Ltd.",471.0,22.6,0.48,8.1,✗,✗,✓,監視候補
+4650,"SD ENTERTAINMENT,Inc.",266.0,23.8,1.51,3.0,✗,✗,✓,監視候補
+3566,"Uniform Next Co., Ltd.",766.0,77.5,0.39,19.2,✓,✗,✓,監視候補
+3559,p-ban.com Corp.,458.0,21.5,0.12,11.2,✓,✓,✗,監視候補
+3557,"United & Collective Co., Ltd.",536.0,26.6,2.81,6.9,✗,✗,✗,監視候補
+3550,"STUDIO ATAO Co., Ltd.",216.0,29.9,0.63,2.3,✗,✗,✓,監視候補
+3536,"Axas Holdings Co.,Ltd.",129.0,39.1,6.4,1.6,✗,✗,✓,監視候補
+3521,"Thermae-Yu Holdings Co., Ltd.",156.0,41.3,0.46,2.6,✗,✓,✓,監視候補
+3494,"Mullion Co., Ltd.",443.0,34.7,0.22,7.5,✓,✓,✗,監視候補
+3477,"FORLIFE Co., Ltd.",884.0,35.4,0.69,3.7,✗,✓,✓,監視候補
+3469,"Dualtap Co., Ltd.",897.0,39.3,0.29,1.5,✗,✗,✓,監視候補
+3423,SE Corporation,276.0,83.4,0.47,2.9,✗,✓,✓,監視候補
+4929,"Adjuvant Holdings Co.,Ltd.",739.0,59.1,0.34,1.1,✗,✓,✓,監視候補
+4918,Ivy Cosmetics Corporation,300.0,18.8,0.29,10.4,✓,✗,✓,監視候補
+4896,"K Pharma,Inc.",760.0,88.3,0.65,9.3,✗,✓,✓,監視候補
+4891,"TMS Co., Ltd.",110.0,51.0,1.32,17.9,✓,✓,✗,監視候補
+4883,Modalis Therapeutics Corporation,33.0,34.4,0.12,10.0,✗,✓,✓,監視候補
+4882,Perseus Proteomics Inc.,149.0,27.5,0.23,8.7,✓,✓,✗,監視候補
+4881,FunPep Company Limited,50.0,25.3,0.65,13.3,✓,✗,✓,監視候補
+4880,"CellSource Co., Ltd.",343.0,68.1,0.66,16.3,✗,✓,✓,監視候補
+4845,"Scala, Inc.",353.0,60.4,0.7,10.4,✗,✓,✗,監視候補
+4814,Nextware Ltd.,167.0,21.2,0.48,11.3,✓,✓,✗,監視候補
+5134,"POPER Co.,Ltd.",484.0,18.8,1.03,8.9,✗,✗,✓,監視候補
+5133,Terilogy Holdings Corporation,321.0,54.9,0.4,8.0,✓,✓,✗,監視候補
+5129,FIXER Inc.,262.0,38.8,0.79,14.7,✓,✓,✗,監視候補
+5125,Fines inc.,469.0,21.0,0.5,3.4,✗,✗,✓,監視候補
+5035,HOUSEI Inc.,360.0,24.1,0.87,2.5,✗,✓,✓,監視候補
+5033,Nulab Inc.,915.0,58.1,1.22,12.3,✓,✓,✗,監視候補
+5028,"SecondXight Analytica, Inc.",362.0,29.2,0.42,11.5,✗,✗,✗,監視候補
+5026,"Tripleize Co.,Ltd.",602.0,50.5,0.22,12.1,✗,✓,✗,監視候補
+5025,MERCURY Inc.,597.0,15.9,1.19,8.5,✓,✓,✗,監視候補
+4960,"Chemipro Kasei Kaisha, Ltd.",517.0,83.3,0.49,12.8,✓,✗,✗,監視候補
+4936,AXXZIA Inc.,325.0,74.3,0.47,2.5,✓,✗,✓,監視候補
+4935,"Liberta Co.,Ltd.",214.0,73.1,0.17,17.1,✓,✗,✗,監視候補
+4934,"Premier Anti-Aging Co., Ltd.",597.0,52.1,0.41,4.4,✗,✗,✓,監視候補
+4932,"Almado, Inc.",760.0,70.3,1.06,9.1,✓,✓,✗,監視候補
+5491,"Nippon Kinzoku Co., Ltd.",932.0,60.2,0.19,6.4,✗,✓,✓,監視候補
+548A,"SystemEXE,Inc.",946.0,49.5,0.48,10.0,✗,✗,✓,監視候補
+5355,"Nippon Crucible Co., Ltd.",674.0,44.8,0.66,1.0,✗,✗,✓,監視候補
+5341,"Asahi Eito Holdings Co.,Ltd.",148.0,13.6,0.32,10.0,✗,✗,✓,監視候補
+5255,Monstarlab Inc.,92.0,59.5,1.0,17.2,✓,✗,✗,監視候補
+5252,"Nihon Knowledge Co,Ltd.",770.0,32.0,1.0,7.8,✗,✗,✗,監視候補
+5247,"BTM, Inc.",582.0,16.4,0.17,8.6,✓,✓,✗,監視候補
+5244,"jig.jp Co., Ltd.",183.0,75.4,0.65,8.8,✓,✓,✗,監視候補
+520A,"J-Pharma Co., Ltd.",284.0,51.1,0.69,12.6,✓,✓,✗,監視候補
+519A,Basic Inc.,496.0,29.3,0.79,13.2,✗,✗,✗,監視候補
+5194,"Sagami Rubber Industries Co., Ltd.",633.0,68.7,0.39,5.4,✓,✗,✓,監視候補
+5162,Asahi Rubber Inc.,800.0,35.9,0.68,4.7,✓,✓,✗,監視候補
+5138,"Rebase, Inc.",463.0,22.8,0.36,17.8,✓,✓,✗,監視候補
+3416,PIXTA Inc.,900.0,15.6,1.95,8.0,✓,✓,✗,監視候補
+340A,"zig-zag,Inc.",338.0,26.2,0.22,11.9,✓,✓,✗,監視候補
+3409,"Kitabo Co.,Ltd",93.0,29.3,0.83,10.2,✗,✓,✗,監視候補
+3372,"KANMONKAI Co., Ltd.",220.0,30.1,0.77,0.9,✗,✗,✓,監視候補
+3370,"FUJITA CORPORATION Co.,Ltd.",468.0,16.1,0.46,5.2,✓,✗,✓,監視候補
+3359,"cotta CO.,LTD",522.0,55.4,0.64,3.3,✗,✓,✓,監視候補
+3358,"Trailhead Global Holdings,Inc.",100.0,37.3,0.42,11.1,✓,✓,✗,監視候補
+3326,"Runsystem Co.,Ltd.",645.0,27.4,1.14,3.9,✗,✗,✓,監視候補
+331A,Medix Inc.,485.0,35.5,1.82,4.3,✗,✗,✓,監視候補
+330A,TalentX Inc.,496.0,27.5,0.15,10.2,✗,✓,✗,監視候補
+3280,"STrust Co.,Ltd.",934.0,56.6,10.33,4.9,✗,✓,✓,監視候補
+5742,"NIC Autotec, Inc.",749.0,40.8,0.33,5.5,✗,✓,✓,監視候補
+5704,JMC Corporation,384.0,21.4,1.2,8.2,✗,✗,✓,監視候補
+5697,"Sanyu Co., Ltd.",821.0,49.6,1.0,14.9,✗,✓,✓,監視候補
+5618,Nyle Inc.,282.0,24.1,0.23,8.7,✗,✗,✓,監視候補
+5609,Nippon Chuzo K. K.,930.0,44.8,0.65,3.1,✓,✗,✓,監視候補
+5599,S&J Corporation,998.0,55.6,0.4,16.6,✓,✗,✓,監視候補
+5591,AVILEN Inc.,852.0,52.0,0.37,9.6,✗,✓,✗,監視候補
+5588,"Fast Accounting Co.,Ltd.",831.0,92.1,0.42,11.7,✓,✓,✗,監視候補
+5587,Inbound Platform Corp.,830.0,28.6,0.54,20.0,✓,✗,✗,監視候補
+5578,"AR advanced technology, Inc.",837.0,82.1,1.0,11.2,✗,✓,✓,監視候補
+5570,"Jenoba Co.,Ltd.",618.0,81.8,0.4,4.1,✗,✓,✓,監視候補
+549A,"HITO-TO-HITO Holdings Co.,Ltd.",521.0,72.9,0.46,11.3,✓,✓,✗,監視候補
+3267,"Phil Company, Inc.",650.0,34.9,1.09,8.7,✗,✓,✓,監視候補
+3248,"Early Age Co., Ltd.",882.0,28.1,0.36,1.8,✗,✗,✓,監視候補
+323A,Flier Inc.,382.0,13.1,0.73,14.1,✓,✓,✗,監視候補
+3237,"Intrance Co., Ltd.",97.0,45.1,0.47,16.3,✗,✗,✗,監視候補
+3236,"Properst Co., Ltd.",298.0,98.6,0.73,9.2,✓,✓,✗,監視候補
+3224,"General Oyster, Inc.",684.0,36.5,3.61,2.5,✗,✗,✓,監視候補
+3202,"Daitobo Co., Ltd.",128.0,38.2,0.13,3.2,✗,✓,✓,監視候補
+3192,"Shirohato Co., Ltd.",295.0,19.6,0.44,7.1,✗,✓,✗,監視候補
+6046,Linkbal Inc.,145.0,27.2,0.12,13.3,✓,✓,✗,監視候補
+6034,MRT Inc.,636.0,34.8,2.1,3.7,✗,✓,✓,監視候補
+6031,Zeta Inc.,269.0,54.9,0.05,15.8,✓,✓,✗,監視候補
+6029,Artra Group Corporation,190.0,19.9,0.76,8.8,✓,✗,✗,監視候補
+5997,Kyoritsu Air Tech Inc.,913.0,44.1,0.56,7.0,✗,✗,✓,監視候補
+5986,"Molitec Steel Co., Ltd.",256.0,57.4,1.51,6.5,✗,✓,✓,監視候補
+5973,Toami Corporation,612.0,34.7,1.63,6.9,✗,✓,✓,監視候補
+5967,"Tone Co., Ltd.",456.0,98.8,0.76,7.7,✗,✗,✗,監視候補
+5956,"Toso Company, Limited",569.0,50.3,3.2,5.3,✗,✗,✓,監視候補
+5950,"Japan Power Fastening Co.,Ltd.",158.0,21.8,0.51,9.7,✓,✓,✗,監視候補
+6185,SMN Corporation,370.0,54.1,0.26,11.7,✗,✗,✓,監視候補
+6182,MetaReal Corporation,494.0,53.8,0.34,14.6,✓,✓,✗,監視候補
+6181,Tameny Inc.,86.0,38.7,0.56,10.3,✓,✓,✗,監視候補
+6177,AppBank Inc.,85.0,21.4,0.56,10.4,✓,✓,✗,監視候補
+6171,C.E.Management Integrated Laboratory Co.Ltd,372.0,52.9,1.44,6.2,✗,✗,✓,監視候補
+6166,"Nakamura Choukou Co., Ltd.",688.0,75.8,0.84,14.9,✓,✓,✗,監視候補
+6093,"MITRA Group, Inc.",165.0,71.9,1.35,5.7,✗,✓,✓,監視候補
+6090,"Human Metabolome Technologies, Inc.",625.0,33.9,0.19,9.3,✗,✓,✗,監視候補
+6074,JSS Corporation,517.0,20.8,0.87,2.1,✓,✗,✓,監視候補
+6069,"Trenders, Inc.",704.0,54.6,0.2,8.0,✓,✓,✗,監視候補
+3190,"HOTMAN Co.,Ltd.",581.0,41.0,4.08,3.6,✗,✗,✓,監視候補
+3185,"Dream Vision Co.,Ltd.",144.0,26.4,0.28,10.6,✗,✗,✗,監視候補
+3174,"Happiness and D Co.,Ltd.",402.0,12.6,1.19,4.8,✗,✗,✓,監視候補
+3161,AZEARTH Corporation,673.0,38.4,0.84,4.4,✗,✓,✓,監視候補
+3143,O'will Corporation,686.0,61.9,2.4,2.9,✗,✗,✓,監視候補
+3137,"Fundely Co., Ltd.",207.0,26.2,0.36,9.8,✗,✗,✓,監視候補
+3134,Hamee Corp.,323.0,51.7,0.4,12.9,✓,✓,✗,監視候補
+3123,"Saibo Co., Ltd.",653.0,82.9,0.15,4.3,✗,✓,✓,監視候補
+3113,UNIVA Oak Holdings Limited,83.0,77.4,0.77,16.9,✓,✓,✗,監視候補
+3079,DVx Inc.,930.0,97.7,5.16,2.6,✗,✗,✓,監視候補
+3070,"JELLY BEANS GROUP Co., Ltd.",70.0,56.5,0.14,13.4,✗,✗,✓,監視候補
+3069,JFLA Holdings Inc.,168.0,81.0,1.17,6.9,✗,✓,✓,監視候補
+6400,"Fuji Seiki Co.,Ltd.",288.0,23.3,0.6,12.3,✗,✓,✓,監視候補
+6347,"Placo Co., Ltd.",265.0,25.5,0.37,14.6,✓,✓,✗,監視候補
+6343,Freesia Macross Corporation,151.0,68.0,0.05,7.0,✗,✓,✓,監視候補
+6325,"Takakita Co., Ltd.",415.0,46.9,0.31,4.7,✗,✓,✓,監視候補
+6228,"J.E.T. Co., Ltd.",492.0,64.6,0.59,15.8,✗,✗,✓,監視候補
+6198,"CAREER CO., LTD.",206.0,17.3,0.29,6.4,✗,✗,✗,監視候補
+6195,"Hope, Inc.",204.0,27.6,0.49,9.0,✓,✗,✓,監視候補
+6190,"PhoenixBio Co., Ltd.",338.0,13.8,0.93,4.1,✗,✗,✓,監視候補
+6614,"Shikino High-Tech CO.,LTD.",847.0,37.2,0.76,11.1,✗,✗,✗,監視候補
+6612,BALMUDA Inc.,590.0,50.2,2.64,7.8,✗,✗,✓,監視候補
+6579,"logly,Inc.",342.0,13.0,0.12,6.7,✗,✗,✓,監視候補
+6563,Mirai Works Inc.,471.0,24.7,0.77,14.7,✗,✗,✗,監視候補
+6558,"Cookbiz Co.,Ltd.",680.0,19.0,1.88,4.7,✓,✗,✓,監視候補
+6552,GameWith Inc.,175.0,30.6,0.53,5.3,✗,✓,✓,監視候補
+6548,Tabikobo Co. Ltd.,114.0,22.5,0.24,12.5,✗,✓,✗,監視候補
+6545,internet infinity Inc.,815.0,43.6,0.57,10.7,✗,✗,✗,監視候補
+6538,Disruptors Inc.,240.0,49.1,0.75,13.5,✗,✗,✗,監視候補
+6537,"Washhouse Co.,Ltd.",293.0,20.3,1.18,5.1,✗,✗,✓,監視候補
+6495,"Miyairi Valve Mfg. Co., Ltd.",120.0,57.8,1.37,10.8,✗,✗,✗,監視候補
+6494,"NFK Holdings Co., Ltd.",97.0,47.3,0.25,7.4,✓,✗,✗,監視候補
+6771,"Ikegami Tsushinki Co., Ltd.",669.0,44.8,0.63,7.8,✗,✓,✓,監視候補
+6757,"OSG Corporation Co., Ltd.",880.0,45.9,0.75,3.0,✗,✓,✓,監視候補
+6731,Pixela Corporation,107.0,17.2,0.1,10.6,✗,✗,✓,監視候補
+6721,Wintest Corp.,73.0,43.0,0.28,14.1,✓,✗,✗,監視候補
+6699,"Diamond Electric Holdings Co., Ltd.",523.0,57.2,0.51,10.9,✗,✓,✓,監視候補
+6696,TRaaS On Product Inc.,316.0,15.3,0.14,18.2,✓,✓,✗,監視候補
+6694,Zoom Corporation,715.0,30.9,3.15,19.2,✗,✓,✓,監視候補
+6664,"Optoelectronics Co., Ltd.",255.0,38.2,0.51,10.7,✓,✓,✗,監視候補
+6662,"Ubiteq, Inc.",225.0,33.3,0.39,6.1,✗,✓,✓,監視候補
+6635,"Di-Nikko Engineering Co., Ltd.",649.0,43.0,0.36,11.9,✗,✗,✓,監視候補
+6634,JN Group Inc.,71.0,32.8,0.11,15.4,✗,✓,✗,監視候補
+6633,Cgs Holdings Inc.,322.0,30.6,0.52,4.1,✓,✗,✓,監視候補
+3067,"Tokyo Ichiban Foods Co., Ltd.",458.0,40.9,1.27,2.9,✗,✓,✓,監視候補
+3059,"Hiraki Co.,Ltd.",709.0,34.5,0.74,0.7,✓,✗,✓,監視候補
+3042,SecuAvail Inc.,300.0,23.1,0.28,7.3,✗,✓,✓,監視候補
+3041,"Beauty Kadan Holdings Co., Ltd.",402.0,16.5,0.24,2.5,✓,✗,✓,監視候補
+303A,visumo Inc.,600.0,12.3,0.59,10.6,✗,✗,✗,監視候補
+3035,ktk Inc.,779.0,42.6,2.76,9.1,✓,✗,✗,監視候補
+302A,"b-style holdings,Inc.",630.0,18.3,0.03,11.3,✗,✓,✗,監視候補
+3011,"Banners Co., Ltd.",145.0,22.2,0.28,1.4,✗,✓,✓,監視候補
+2999,"Home Position Co., Ltd.",619.0,58.2,4.8,6.9,✓,✗,✓,監視候補
+298A,"GVA TECH,Inc.",317.0,14.7,0.97,16.7,✗,✗,✗,監視候補
+2984,"Yamaichi Real Estate Co., Ltd",765.0,66.3,1.13,2.9,✗,✓,✓,監視候補
+2978,TSUKURUBA Inc.,345.0,40.4,0.12,8.5,✗,✗,✓,監視候補
+2926,"Shinozakiya, Inc.",126.0,17.8,0.62,14.2,✗,✓,✗,監視候補
+2917,"Ohmoriya Co.,Ltd.",925.0,45.9,1.25,2.2,✗,✗,✓,監視候補
+7037,teno. Holdings Company Limited,822.0,37.6,2.88,5.8,✗,✗,✓,監視候補
+7035,"and factory,inc.",267.0,30.1,2.42,17.3,✗,✓,✗,監視候補
+7031,Inbound Tech Inc.,719.0,19.9,1.54,8.1,✓,✓,✗,監視候補
+6982,"The Lead Co., Inc.",576.0,14.9,0.65,7.2,✗,✗,✓,監視候補
+6926,"Okaya Electric Industries Co., Ltd.",188.0,42.1,0.36,3.2,✗,✓,✓,監視候補
+6867,Leader Electronics Corporation,411.0,17.6,0.37,2.4,✓,✗,✓,監視候補
+6858,"Ono Sokki Co., Ltd.",826.0,85.6,0.47,10.1,✓,✗,✗,監視候補
+6819,"Izu Shaboten Resort Co.,Ltd",475.0,87.9,0.86,1.5,✓,✗,✓,監視候補
+6786,RVH Inc.,48.0,12.2,0.19,4.2,✗,✗,✓,監視候補
+6776,"Tensho Electric Industries Co., Ltd.",284.0,48.3,1.33,5.6,✓,✓,✗,監視候補
+7077,"ALiNK Internet, Inc.",998.0,18.0,7.33,2.3,✗,✗,✓,監視候補
+7074,Twenty-four seven Holdings Inc.,187.0,15.9,0.35,12.0,✗,✗,✗,監視候補
+7066,"Peers Co.,Ltd.",439.0,39.5,0.58,12.4,✓,✗,✗,監視候補
+7062,"Fureasu Co.,Ltd.",700.0,18.3,1.88,16.0,✗,✗,✗,監視候補
+7060,geechs inc.,595.0,60.4,0.35,7.0,✗,✗,✓,監視候補
+7048,VELTRA Corporation,154.0,56.4,0.12,10.3,✗,✗,✗,監視候補
+7044,Piala Inc.,525.0,37.6,0.17,9.0,✗,✓,✓,監視候補
+7043,"Alue Co.,Ltd.",943.0,24.1,1.94,10.1,✗,✓,✓,監視候補
+7042,"Access Group Holdings Co., Ltd.",697.0,24.1,0.42,13.7,✗,✓,✓,監視候補
+7041,"CRG Holdings Co.,Ltd.",345.0,19.2,0.32,4.4,✗,✗,✓,監視候補
+7040,"Sun-Life Holding Co.,Ltd.",973.0,59.6,0.32,2.9,✗,✗,✓,監視候補
+7217,"Tein, Inc.",453.0,44.4,13.73,11.2,✗,✓,✓,監視候補
+7215,"Faltec Co., Ltd.",441.0,41.4,1.59,7.9,✗,✓,✓,監視候補
+7196,Casa Inc.,743.0,67.5,0.38,3.3,✗,✗,✓,監視候補
+7183,"Anshin Guarantor Service Co., Ltd.",254.0,44.1,0.26,0.0,✗,✗,✓,監視候補
+7140,Petgo Corporation,800.0,17.7,0.28,2.0,✗,✗,✓,監視候補
+7127,"Ikka Holdings Co.,Ltd.",703.0,51.7,1.62,1.6,✗,✓,✓,監視候補
+7114,"Foodison, Inc.",773.0,34.5,1.55,4.8,✗,✗,✓,監視候補
+7112,"Cube Co., Ltd.",699.0,42.8,1.56,3.2,✗,✗,✓,監視候補
+7111,"INEST, Inc.",513.0,37.4,1.11,7.7,✓,✓,✗,監視候補
+7096,StemCell Institute Inc.,763.0,76.8,0.62,10.6,✗,✓,✓,監視候補
+7093,"adish Co., Ltd.",580.0,12.5,1.04,10.7,✓,✓,✗,監視候補
+7090,Ligua Inc.,919.0,14.6,0.19,15.0,✓,✓,✗,監視候補
+7080,"Sportsfield Co., Ltd.",841.0,61.7,0.86,7.0,✗,✓,✗,監視候補
+2894,"Ishii Food Co., Ltd.",352.0,58.6,0.85,6.3,✗,✓,✓,監視候補
+288A,Laxus Technologies Inc.,97.0,25.2,3.25,6.4,✗,✓,✓,監視候補
+2877,NittoBest Corporation,745.0,90.1,0.67,2.6,✗,✓,✓,監視候補
+2876,Delsole Corporation,475.0,42.3,0.17,7.0,✓,✗,✗,監視候補
+281A,"Informetis Co., Ltd.",438.0,26.6,0.11,15.1,✗,✗,✗,監視候補
+2796,Pharmarise Holdings Corporation,500.0,57.5,0.61,3.1,✗,✓,✓,監視候補
+2795,Nippon Primex Inc.,960.0,49.7,0.58,4.3,✗,✗,✓,監視候補
+2789,"Karula Co.,LTD.",474.0,27.3,0.75,1.9,✗,✗,✓,監視候補
+2788,"Apple International Co., Ltd.",434.0,56.1,2.26,12.6,✓,✓,✗,監視候補
+2778,"Palemo Holdings Co.,Ltd.",114.0,13.5,0.59,6.5,✗,✓,✓,監視候補
+2776,"SHINTO Holdings, Inc.",97.0,51.7,0.75,14.4,✗,✓,✗,監視候補
+2762,"Sanko Marketing Foods Co., Ltd.",70.0,28.4,0.45,17.1,✗,✗,✗,監視候補
+2736,"Festaria Holdings Co., Ltd.",665.0,23.8,4.44,2.3,✗,✗,✓,監視候補
+2735,"Watts Co., Ltd.",710.0,94.2,4.63,7.2,✗,✓,✗,監視候補
+2722,"IK HOLDINGS Co.,Ltd.",358.0,27.1,1.49,0.8,✗,✓,✓,監視候補
+7372,Decollte Holdings Corporation,389.0,20.0,0.3,8.9,✗,✓,✓,監視候補
+7369,"Meiho Holdings,Inc.",353.0,16.6,0.21,11.5,✗,✗,✓,監視候補
+7362,Terminalcare Support Institute Inc.,876.0,13.4,0.34,5.7,✓,✓,✗,監視候補
+7356,Retty Inc.,117.0,17.5,1.89,10.6,✗,✗,✓,監視候補
+7353,"KIYO Learning Co.,Ltd.",550.0,37.8,1.2,3.9,✓,✗,✓,監視候補
+7351,"Goodpatch, Inc.",460.0,40.2,0.65,9.7,✗,✓,✗,監視候補
+7345,AI Partners Financial Inc.,945.0,31.2,4.74,4.6,✓,✗,✓,監視候補
+7325,IRRC Corporation,697.0,57.0,0.23,8.4,✗,✗,✗,監視候補
+7297,"Car Mate Mfg. Co., Ltd.",859.0,60.6,0.77,3.9,✗,✗,✓,監視候補
+7291,"Nihon Plast Co., Ltd.",460.0,86.5,0.72,8.8,✓,✗,✓,監視候補
+7255,Sakurai Ltd.,506.0,16.3,1.12,10.3,✗,✗,✗,監視候補
+7585,Kan-Nanmaru Corporation,407.0,15.5,0.66,1.2,✗,✗,✓,監視候補
+7578,"Nichiryoku Co.,Ltd.",75.0,13.8,0.3,15.4,✓,✓,✗,監視候補
+7571,Yamano Holdings Corporation,92.0,32.1,1.17,14.8,✓,✓,✗,監視候補
+7555,"Ota Floriculture Auction Co.,Ltd.",744.0,37.9,0.06,0.7,✗,✓,✓,監視候補
+7544,"Three F Co.,Ltd.",558.0,42.3,1.22,2.9,✓,✗,✓,監視候補
+7538,"Daisui Co.,Ltd.",390.0,47.5,0.68,5.6,✗,✓,✓,監視候補
+7527,SystemSoft Corporation,53.0,56.1,0.77,17.0,✗,✓,✓,監視候補
+7524,Marche Corporation,177.0,28.4,1.78,3.4,✗,✗,✓,監視候補
+7494,"Konaka Co.,Ltd.",246.0,83.1,1.05,5.1,✓,✓,✗,監視候補
+7462,CAPITA Inc.,387.0,31.8,0.72,12.4,✓,✗,✗,監視候補
+7442,"Nakayamafuku Co.,Ltd.",484.0,91.6,1.4,2.9,✗,✗,✓,監視候補
+7427,"Echo Trading Co., Ltd.",836.0,50.8,0.95,3.7,✗,✓,✓,監視候補
+7776,CellSeed Inc.,231.0,91.1,0.41,14.4,✗,✓,✓,監視候補
+7771,"Nihon Seimitsu Co., Ltd.",279.0,66.9,0.56,11.2,✗,✗,✗,監視候補
+7707,"Precision System Science Co., Ltd.",219.0,60.1,0.36,15.4,✗,✓,✓,監視候補
+7687,"MICREED Co.,Ltd.",461.0,30.5,2.09,9.4,✓,✓,✗,監視候補
+7640,"TOP CULTURE Co.,Ltd.",194.0,30.3,0.95,14.1,✓,✓,✗,監視候補
+7625,"Global-Dining, Inc.",474.0,49.4,0.37,6.5,✓,✗,✓,監視候補
+7624,"Naito & Co., Ltd.",153.0,83.8,0.93,12.2,✗,✓,✗,監視候補
+7610,"Tay Two Co., Ltd.",143.0,88.5,0.84,7.3,✓,✗,✓,監視候補
+7602,"Ledax Co.,Ltd.",166.0,34.4,0.12,7.5,✓,✗,✗,監視候補
+7601,"Poplar Co., Ltd.",165.0,19.4,1.12,1.8,✗,✗,✓,監視候補
+2693,YKT Corporation,293.0,34.0,0.86,13.7,✗,✗,✗,監視候補
+2687,CVS Bay Area Inc.,501.0,24.7,8.83,2.6,✗,✗,✓,監視候補
+2673,"YUMEMITSUKETAI Co.,Ltd.",119.0,12.0,0.12,11.9,✓,✓,✗,監視候補
+2667,"ImageONE Co., Ltd.",101.0,15.3,0.12,18.0,✗,✗,✗,監視候補
+2666,"AUTOWAVE Co., Ltd.",183.0,26.4,0.28,9.6,✓,✗,✗,監視候補
+265A,Hmcomm Inc.,701.0,28.3,0.21,14.2,✗,✓,✓,監視候補
+2654,Asmo Corporation,425.0,57.2,1.32,4.9,✗,✓,✓,監視候補
+2499,"Nihonwasou Holdings, Inc.",294.0,26.7,0.74,2.4,✗,✓,✓,監視候補
+2493,"E-SUPPORTLINK, Ltd.",945.0,41.8,0.5,1.0,✗,✓,✓,監視候補
+248A,KIDS STAR Inc.,812.0,21.3,0.28,4.2,✗,✗,✓,監視候補
+2479,JTEC Corporation,243.0,19.5,0.54,4.7,✗,✓,✓,監視候補
+2464,"Aoba-BBT, Inc.",377.0,47.7,2.64,15.3,✓,✓,✗,監視候補
+2440,"Gurunavi, Inc.",131.0,73.9,1.08,13.6,✗,✓,✓,監視候補
+7863,"Hiraga Co.,Ltd.",944.0,27.1,1.57,5.3,✓,✗,✓,監視候補
+7850,"Sougou Shouken Co.,Ltd.",810.0,24.3,0.95,2.9,✗,✗,✓,監視候補
+7837,"R. C. Core Co., Ltd.",334.0,13.8,0.77,7.6,✗,✗,✓,監視候補
+7836,"AVIX,Inc.",77.0,27.0,0.22,7.8,✗,✗,✗,監視候補
+7833,IFIS Japan Ltd.,651.0,62.7,0.49,2.8,✗,✓,✓,監視候補
+7831,Wellco Holdings Corporation,67.0,10.4,0.23,6.1,✗,✗,✓,監視候補
+7805,Printnet Inc.,731.0,35.3,9.69,4.7,✗,✗,✓,監視候補
+7795,"Kyoritsu Co.,Ltd.",225.0,94.5,0.74,12.3,✗,✓,✗,監視候補
+7791,"Dreambed Co.,Ltd.",827.0,33.6,0.59,5.7,✗,✓,✓,監視候補
+2437,"Shinwa Wise Holdings Co.,Ltd.",622.0,68.5,0.39,19.2,✓,✗,✗,監視候補
+2435,"CEDAR.Co.,Ltd.",210.0,23.6,0.99,5.3,✗,✗,✓,監視候補
+2425,"Care Service Co.,Ltd.",660.0,25.0,0.52,4.3,✗,✗,✓,監視候補
+2424,Brass Corporation,597.0,31.8,1.54,1.5,✗,✗,✓,監視候補
+241A,"ROXX,inc.",433.0,31.5,0.76,8.5,✓,✓,✗,監視候補
+2404,"Tetsujin Holdings, Inc.",550.0,73.5,12.48,7.3,✗,✗,✓,監視候補
+2388,"Wedge Holdings CO.,LTD.",35.0,14.9,0.11,8.8,✗,✗,✓,監視候補
+2376,Scinex Corporation,776.0,43.5,0.04,7.3,✗,✓,✓,監視候補
+2373,Care Twentyone Corporation,407.0,55.0,0.34,1.7,✗,✓,✓,監視候補
+2370,"MEDINET Co., Ltd.",25.0,70.4,1.7,4.0,✗,✗,✓,監視候補
+2351,ASJ Inc.,325.0,25.4,0.17,8.7,✗,✓,✓,監視候補
+8119,Sanyei Corporation,772.0,73.4,0.35,3.1,✓,✗,✓,監視候補
+8107,Kimuratan Corporation,31.0,85.4,0.17,3.2,✗,✗,✓,監視候補
+8105,Bitcoin Japan Corporation,88.0,56.7,0.19,10.3,✗,✗,✗,監視候補
+7953,"Kikusui Chemical Industries Co., Ltd.",400.0,50.2,0.46,5.2,✗,✓,✓,監視候補
+7939,"Kensoh Co.,Ltd.",602.0,22.8,0.71,4.1,✗,✗,✓,監視候補
+7919,"Nozaki Insatsu Shigyo Co., Ltd.",227.0,36.6,0.36,11.3,✓,✓,✗,監視候補
+7918,"VIA Holdings,Inc.",106.0,48.4,0.41,4.9,✗,✓,✓,監視候補
+7896,"Seven Industries Co., Ltd.",510.0,22.8,1.02,2.4,✗,✓,✓,監視候補
+7886,"Yamato Mobility & Mfg. Co.,Ltd.",648.0,10.7,1.6,11.4,✗,✗,✗,監視候補
+8894,"Revolution Co., Ltd.",22.0,33.2,0.27,9.5,✗,✗,✓,監視候補
+8836,RISE Inc.,27.0,25.9,0.08,7.7,✗,✓,✓,監視候補
+8769,"Advantage Risk Management Co., Ltd.",501.0,78.7,0.25,6.9,✓,✗,✗,監視候補
+8746,"Unbanked,Inc.",100.0,18.2,0.11,12.1,✓,✓,✗,監視候補
+8742,"Kobayashi Yoko Co., Ltd.",556.0,65.2,0.24,4.1,✗,✓,✓,監視候補
+8617,"The Kosei Securities Co., Ltd.",620.0,58.5,1.39,12.9,✓,✓,✗,監視候補
+8518,"Japan Asia Investment Co., Ltd.",137.0,37.7,0.63,14.4,✗,✓,✓,監視候補
+8260,"Izutsuya Co., Ltd.",373.0,41.4,3.24,3.0,✗,✗,✓,監視候補
+8247,"Daiwa Co.,Ltd.",315.0,17.7,0.78,10.8,✗,✓,✗,監視候補
+8230,"Hasegawa Co., Ltd.",313.0,56.9,1.12,1.9,✓,✗,✓,監視候補
+8226,Rikei Corporation,391.0,59.1,0.39,12.8,✗,✓,✓,監視候補
+8181,"Totenko Co., Ltd.",996.0,25.6,1.19,2.9,✓,✗,✓,監視候補
+8166,"Taka-Q Co., Ltd.",78.0,32.5,0.95,2.6,✗,✗,✓,監視候補
+8165,"Senshukai Co., Ltd.",105.0,49.1,0.67,8.6,✗,✗,✓,監視候補
+8135,Zett Corporation,444.0,86.9,0.3,6.9,✗,✓,✓,監視候補
+9250,GRCS Inc.,963.0,14.4,0.81,11.7,✓,✓,✗,監視候補
+9240,Delivery Consulting Inc.,440.0,21.3,0.99,15.5,✗,✓,✗,監視候補
+9237,"Emimen Co., Ltd.",960.0,37.4,0.32,18.0,✓,✓,✗,監視候補
+9235,"Ureru Net Advertising Group Co.,Ltd.",495.0,47.7,0.32,6.1,✓,✗,✓,監視候補
+9223,"ASNOVA Co., Ltd.",447.0,55.6,0.66,4.4,✗,✓,✓,監視候補
+9219,GiXo Ltd.,875.0,49.0,4.35,2.3,✗,✗,✓,監視候補
+9212,"Green Earth Institute Co., Ltd.",263.0,29.9,0.37,10.0,✗,✗,✓,監視候補
+9162,"Bleach, Inc.",230.0,59.2,32.26,1.8,✗,✗,✓,監視候補
+8946,Asian Star Co.,75.0,20.0,0.36,9.5,✗,✗,✓,監視候補
+8944,"Land Business Co.,Ltd.",242.0,48.0,0.94,2.1,✗,✗,✓,監視候補
+8938,"GLOME Holdings,Inc.",334.0,34.8,0.13,8.7,✗,✗,✓,監視候補
+2341,"Arbeit-Times Co., Ltd.",172.0,31.5,0.54,7.5,✗,✓,✓,監視候補
+2338,"Quantum Solutions Co.,Ltd.",116.0,61.7,0.44,19.0,✗,✗,✗,監視候補
+2311,"EPCO Co.,Ltd.",784.0,70.2,0.88,1.8,✗,✓,✓,監視候補
+2304,"CSS Holdings,Ltd.",921.0,45.7,1.25,6.9,✓,✗,✓,監視候補
+2300,"Kyokuto Co., Ltd.",498.0,26.2,0.92,2.4,✗,✗,✓,監視候補
+2291,"Fukutome Meat Packers, Ltd.",511.0,17.0,0.49,2.7,✗,✗,✓,監視候補
+2286,"Hayashikane Sangyo Co.,Ltd.",916.0,74.8,0.94,11.4,✗,✓,✗,監視候補
+2215,"First Baking Co., Ltd.",607.0,42.0,0.56,7.3,✗,✗,✗,監視候補
+2195,"Amita Holdings Co.,Ltd.",379.0,66.5,2.34,17.3,✓,✓,✗,監視候補
+2193,Cookpad Inc.,131.0,94.2,1.25,16.0,✗,✓,✗,監視候補
+2183,"Linical Co., Ltd.",207.0,46.8,1.1,4.4,✗,✗,✓,監視候補
+2164,"Chiikishinbunsha Co.,Ltd.",157.0,24.3,6.96,15.8,✓,✗,✗,監視候補
+9421,NJ Holdings Inc.,508.0,26.9,0.27,2.2,✗,✓,✓,監視候補
+9419,"WirelessGate, Inc.",293.0,31.9,0.64,6.0,✗,✓,✓,監視候補
+9417,"Smartvalue Co., Ltd.",329.0,32.7,0.05,12.3,✗,✗,✗,監視候補
+9345,"Bizmates, Inc.",594.0,19.3,2.69,9.3,✗,✗,✗,監視候補
+9327,"e-LogiT co.,ltd.",190.0,30.1,0.93,11.5,✗,✓,✓,監視候補
+9262,"Silver Life Co., Ltd.",690.0,75.4,0.44,8.4,✗,✓,✓,監視候補
+9259,"TAKAYOSHI Holdings, INC.",837.0,47.0,0.73,8.7,✗,✗,✓,監視候補
+9253,Slogan Inc.,729.0,18.2,0.2,5.2,✗,✓,✓,監視候補
+9704,"AGORA Hospitality Group Co., Ltd",30.0,80.0,0.29,10.3,✓,✗,✗,監視候補
+9685,"KYCOM Holdings Co., Ltd.",560.0,28.4,0.99,3.9,✗,✗,✓,監視候補
+9565,GLOE Inc.,675.0,18.7,0.16,6.1,✓,✓,✗,監視候補
+9561,GLAD CUBE Inc.,417.0,35.2,1.81,8.9,✓,✓,✗,監視候補
+9478,"SE Holdings and Incubations Co., Ltd.",508.0,76.7,0.57,10.5,✗,✗,✗,監視候補
+9476,"Chuokeizai-Sha Holdings, Inc.",983.0,38.1,0.19,3.8,✗,✗,✓,監視候補
+9466,Aidma Marketing Communication Corporation,239.0,31.3,0.35,9.0,✗,✓,✗,監視候補
+9445,"Forval Telecom,Inc.",535.0,89.6,0.97,2.1,✗,✗,✓,監視候補
+9439,M H Group Ltd.,230.0,26.5,0.04,7.7,✗,✓,✓,監視候補
+2139,"Chuco Co., Ltd.",525.0,35.7,0.66,1.5,✓,✗,✓,監視候補
+2138,"CROOZ, Inc.",454.0,43.4,0.41,4.5,✗,✗,✓,監視候補
+1994,Takahashi Curtain Wall Corporation,604.0,47.9,0.66,11.3,✗,✓,✗,監視候補
+198A,PostPrime Inc.,171.0,21.1,0.42,12.5,✓,✓,✗,監視候補
+190A,Chordia Therapeutics Inc.,72.0,54.2,0.77,13.9,✗,✗,✗,監視候補
+184A,"Manabi-aid Co.,Ltd.",322.0,11.0,0.03,19.5,✓,✗,✓,監視候補
+1840,"Tsuchiya Holdings Co., Ltd.",252.0,65.0,1.83,4.5,✗,✓,✓,監視候補
+1783,"Fantasista Co., Ltd.",48.0,92.8,0.38,6.4,✗,✗,✓,監視候補
+177A,"Kohjin Bio Co., Ltd.",845.0,43.2,0.74,7.2,✗,✗,✓,監視候補
+1724,Synclayer Inc.,712.0,31.9,0.23,5.3,✗,✓,✓,監視候補
+9978,"Bunkyodo Group Holdings Co., Ltd.",44.0,19.3,2.02,4.5,✗,✗,✓,監視候補
+9980,MRK Holdings Inc.,95.0,86.7,1.18,4.3,✓,✗,✓,監視候補
+130A,Veritas In Silico Inc.,426.0,27.6,0.25,11.7,✗,✓,✗,監視候補

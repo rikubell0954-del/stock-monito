@@ -1,0 +1,1 @@
+{"status": "OK", "target_count": 1500, "judged_count": 1482, "candidate_count": 691, "fetch_error_count": 18, "success_rate": 0.988}

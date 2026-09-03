@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>急騰株モニター</title>
+<style>
+:root{color-scheme:light dark}body{font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Yu Gothic",sans-serif;margin:0;background:#f5f5f7;color:#111}
+.wrap{max-width:1040px;margin:auto;padding:16px}h1{font-size:25px;margin:4px 0}h2{font-size:20px}
+.muted{color:#666;font-size:13px}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:18px 0}
+.card,section,.copy-box{background:white;border-radius:16px;box-shadow:0 1px 4px rgba(0,0,0,.08)}.card{padding:14px}.label{font-size:13px;color:#666}.num{font-size:30px;font-weight:800;margin-top:4px}
+section{padding:14px;margin:14px 0;overflow:auto}table{width:100%;border-collapse:collapse;font-size:13px;min-width:720px}th,td{border-bottom:1px solid #ddd;padding:9px 7px;text-align:left}th{position:sticky;top:0;background:white}
+.pill{display:inline-block;padding:3px 7px;border-radius:999px;background:#eee;font-size:11px}.summary-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #eee}
+.copy-box{padding:14px;margin:10px 0}.copy-head{display:flex;gap:10px;justify-content:space-between;align-items:center}.copy-btn{border:0;border-radius:12px;padding:11px 14px;font-weight:700;background:#111;color:white;white-space:nowrap}
+.copy-btn:disabled{opacity:.4}textarea{width:100%;box-sizing:border-box;margin-top:10px;min-height:90px;border:1px solid #ccc;border-radius:12px;padding:12px;font-size:17px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;line-height:1.5;background:transparent;color:inherit}
+footer{font-size:12px;color:#777;padding:20px 2px 40px}
+.edinet-btn{border:1px solid #bbb;background:transparent;color:inherit;border-radius:10px;padding:6px 8px;font-weight:700;font-size:11px;white-space:nowrap}
+.regime-wrap{display:flex;align-items:center;justify-content:space-between;gap:16px}.regime-title{font-size:25px;font-weight:800}.regime-sub{margin-top:6px;font-size:14px}
+.score-circle{font-size:30px;font-weight:800;white-space:nowrap}.score-circle small{font-size:12px;font-weight:400;color:#777}
+.meter{height:11px;border-radius:999px;background:#e5e5ea;overflow:hidden;margin:14px 0}.meter-fill{height:100%;background:linear-gradient(90deg,#d33,#e7a32b,#41a55b);border-radius:999px}
+.market-table{min-width:650px}.market-note{margin-top:8px}
+.alert{padding:12px;border-radius:12px;margin:8px 0;line-height:1.5}.alert.ok{background:#e8f7ed}.alert.warn{background:#fff4d6}.alert.bad{background:#fde8e8}
+@media(min-width:700px){.cards{grid-template-columns:repeat(4,1fr)}}
+@media(prefers-color-scheme:dark){body{background:#000;color:#f5f5f7}.card,section,.copy-box{background:#1c1c1e}.label,.muted,footer{color:#aaa}th{background:#1c1c1e}th,td,.summary-row{border-color:#333}.pill{background:#333}.copy-btn{background:#f5f5f7;color:#111}textarea{border-color:#444}}
+</style>
+<script>
+async function copyCodes(id, btn) {
+  const el = document.getElementById(id);
+  const text = el.value.trim();
+  if (!text) return;
+  try {
+    await navigator.clipboard.writeText(text);
+  } catch(e) {
+    el.focus(); el.select(); document.execCommand('copy'); el.setSelectionRange(0,0);
+  }
+  const old = btn.textContent;
+  btn.textContent = 'コピーしました ✓';
+  setTimeout(()=>btn.textContent=old, 1600);
+}
+async function openEdinet(code,btn) {
+  try { await navigator.clipboard.writeText(code); } catch(e) {}
+  const old=btn.textContent; btn.textContent='コピー済 ✓';
+  setTimeout(()=>btn.textContent=old,1600);
+  window.open('https://edinetdb.jp/','_blank','noopener');
+}
+</script>
+</head><body><div class="wrap">
+<h1>急騰株モニター</h1><div class="muted">最終更新: 2026-09-03 09:55 JST</div>
+<div class="cards"><div class="card"><div class="label">Sランク</div><div class="num">2</div></div><div class="card"><div class="label">新規Step3</div><div class="num">0</div></div><div class="card"><div class="label">Step3継続</div><div class="num">11</div></div><div class="card"><div class="label">仮想OPEN</div><div class="num">20</div></div></div>
+
+<section><h2>🔧 システム状態・検証状況</h2><div class="alert ok"><b>スクリーナー状態：OK</b><br>JPX対象 1500件 / 判定可能 1482件 (98.8%) / 明示的取得失敗 18件</div><div class="alert warn"><b>スコア検証：n=21</b><br>30件未満のためスコア有効性は評価しません。<br><span class="muted">配点は検証前の仮説として維持。自動最適化はしていません。</span></div></section>
+
+<section><h2>🌏 本日の市場環境</h2><p class="muted">次回実行後に表示されます。</p></section>
+
+<section><h2>📋 ChatGPTへ貼り付け</h2>
+    <div class="copy-box">
+      <div class="copy-head"><div><b>Sランク銘柄コード</b><div class="muted">ChatGPT企業分析用。コードのみ、改行区切り。</div></div>
+      <button class="copy-btn" onclick="copyCodes('sCodes', this)">コードをコピー</button></div>
+      <textarea id="sCodes" readonly>3958
+7928</textarea>
+    </div>
+    
+    <div class="copy-box">
+      <div class="copy-head"><div><b>今日の新規Step3コード</b><div class="muted">今日初めてStep3へ入った銘柄だけ。</div></div>
+      <button class="copy-btn" onclick="copyCodes('newStep3Codes', this)" disabled>該当銘柄なし</button></div>
+      <textarea id="newStep3Codes" readonly></textarea>
+    </div>
+    
+    <div class="copy-box">
+      <div class="copy-head"><div><b>現在のStep3銘柄コード</b><div class="muted">現在Step3判定の全銘柄。</div></div>
+      <button class="copy-btn" onclick="copyCodes('step3Codes', this)">コードをコピー</button></div>
+      <textarea id="step3Codes" readonly>3958
+7928
+4447
+2179
+2186
+3607
+4707
+3967
+3440
+2464
+4178</textarea>
+    </div>
+    </section>
+
+<section><h2>🆕 今日Step3に突入</h2>
+<table><thead><tr><th>区分</th><th>Code</th><th>銘柄</th><th>突入日</th><th>日数</th><th>突入価格</th><th>現在価格</th><th>Score</th></tr></thead>
+<tbody><tr><td colspan="8">該当銘柄なし</td></tr></tbody></table></section>
+
+<section><h2>🔁 Step3継続監視</h2>
+<table><thead><tr><th>区分</th><th>Code</th><th>銘柄</th><th>突入日</th><th>日数</th><th>突入価格</th><th>現在価格</th><th>Score</th></tr></thead>
+<tbody><tr><td><span class='pill'>初回</span></td><td>3958</td><td>Sasatoku Printing Co.,Ltd.</td><td>2026-08-28</td><td>2</td><td>554.0</td><td>554.0</td><td>89</td></tr><tr><td><span class='pill'>初回</span></td><td>7928</td><td>Asahi Kagaku Kogyo Co.,Ltd.</td><td>2026-08-28</td><td>2</td><td>662.0</td><td>662.0</td><td>86</td></tr><tr><td><span class='pill'>初回</span></td><td>4447</td><td>PBsystems,Inc.</td><td>2026-08-28</td><td>2</td><td>506.0</td><td>506.0</td><td>84</td></tr><tr><td><span class='pill'>初回</span></td><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>2026-08-28</td><td>2</td><td>860.0</td><td>860.0</td><td>82</td></tr><tr><td><span class='pill'>初回</span></td><td>2186</td><td>Sobal Corporation</td><td>2026-08-28</td><td>2</td><td>923.0</td><td>923.0</td><td>81</td></tr><tr><td><span class='pill'>初回</span></td><td>3607</td><td>Kuraudia Holdings Co.,Ltd.</td><td>2026-08-28</td><td>2</td><td>366.0</td><td>366.0</td><td>81</td></tr><tr><td><span class='pill'>初回</span></td><td>4707</td><td>KITAC Corporation</td><td>2026-08-28</td><td>2</td><td>346.0</td><td>346.0</td><td>81</td></tr><tr><td><span class='pill'>初回</span></td><td>3967</td><td>Eltes Co.,Ltd.</td><td>2026-08-28</td><td>2</td><td>612.0</td><td>612.0</td><td>80</td></tr><tr><td><span class='pill'>初回</span></td><td>3440</td><td>NISSO GROUP Co.,Ltd.</td><td>2026-08-28</td><td>2</td><td>958.0</td><td>958.0</td><td>78</td></tr><tr><td><span class='pill'>初回</span></td><td>2464</td><td>Aoba-BBT, Inc.</td><td>2026-08-28</td><td>2</td><td>377.0</td><td>377.0</td><td>74</td></tr><tr><td><span class='pill'>初回</span></td><td>4178</td><td>Sharing Innovations Inc.</td><td>2026-08-28</td><td>2</td><td>551.0</td><td>551.0</td><td>73</td></tr></tbody></table></section>
+
+<section><h2>優先ランキング TOP20</h2><table>
+<thead><tr><th>Rank</th><th>Score</th><th>Code</th><th>銘柄</th><th>株価</th><th>判定</th><th>財務</th></tr></thead>
+<tbody><tr><td><b>S</b></td><td>89</td><td>3958</td><td>Sasatoku Printing Co.,Ltd.</td><td>554.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('3958',this)">EDINET DB</button></td></tr><tr><td><b>S</b></td><td>86</td><td>7928</td><td>Asahi Kagaku Kogyo Co.,Ltd.</td><td>662.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('7928',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>84</td><td>4447</td><td>PBsystems,Inc.</td><td>506.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('4447',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>82</td><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>860.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('2179',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>81</td><td>2186</td><td>Sobal Corporation</td><td>923.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('2186',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>81</td><td>3607</td><td>Kuraudia Holdings Co.,Ltd.</td><td>366.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('3607',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>81</td><td>4707</td><td>KITAC Corporation</td><td>346.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('4707',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>81</td><td>156A</td><td>Material Group Inc.</td><td>864.0</td><td>⏳ Step2完了（次の急騰待ち）</td><td><button class="edinet-btn" onclick="openEdinet('156A',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>80</td><td>3967</td><td>Eltes Co.,Ltd.</td><td>612.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('3967',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>80</td><td>151A</td><td>Dive Group Inc.</td><td>652.0</td><td>⏳ Step2完了（次の急騰待ち）</td><td><button class="edinet-btn" onclick="openEdinet('151A',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>80</td><td>3494</td><td>Mullion Co., Ltd.</td><td>443.0</td><td>⏳ Step2完了（次の急騰待ち）</td><td><button class="edinet-btn" onclick="openEdinet('3494',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>80</td><td>8013</td><td>Naigai Co.,Ltd.</td><td>360.0</td><td>⏳ Step2完了（次の急騰待ち）</td><td><button class="edinet-btn" onclick="openEdinet('8013',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>80</td><td>9385</td><td>Shoei Corporation</td><td>760.0</td><td>⏳ Step2完了（次の急騰待ち）</td><td><button class="edinet-btn" onclick="openEdinet('9385',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>79</td><td>3241</td><td>WILL,Co.,Ltd.</td><td>605.0</td><td>⏳ Step2完了（次の急騰待ち）</td><td><button class="edinet-btn" onclick="openEdinet('3241',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>79</td><td>9363</td><td>Daiun Co.,Ltd.</td><td>543.0</td><td>⏳ Step2完了（次の急騰待ち）</td><td><button class="edinet-btn" onclick="openEdinet('9363',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>78</td><td>3440</td><td>NISSO GROUP Co.,Ltd.</td><td>958.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('3440',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>78</td><td>3646</td><td>Ekitan &amp; Co., Ltd.</td><td>348.0</td><td>⏳ Step2完了（次の急騰待ち）</td><td><button class="edinet-btn" onclick="openEdinet('3646',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>78</td><td>3839</td><td>ODK Solutions Company, Ltd.</td><td>644.0</td><td>⏳ Step2完了（次の急騰待ち）</td><td><button class="edinet-btn" onclick="openEdinet('3839',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>78</td><td>6186</td><td>Ichikura Co., Ltd.</td><td>387.0</td><td>⏳ Step2完了（次の急騰待ち）</td><td><button class="edinet-btn" onclick="openEdinet('6186',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>78</td><td>7872</td><td>Estelle Holdings Co.,Ltd.</td><td>619.0</td><td>⏳ Step2完了（次の急騰待ち）</td><td><button class="edinet-btn" onclick="openEdinet('7872',this)">EDINET DB</button></td></tr></tbody></table></section>
+
+<section><h2>現在のStep3候補</h2><table>
+<thead><tr><th>Rank</th><th>Score</th><th>Code</th><th>銘柄</th><th>株価</th><th>判定</th><th>財務</th></tr></thead>
+<tbody><tr><td><b>S</b></td><td>89</td><td>3958</td><td>Sasatoku Printing Co.,Ltd.</td><td>554.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('3958',this)">EDINET DB</button></td></tr><tr><td><b>S</b></td><td>86</td><td>7928</td><td>Asahi Kagaku Kogyo Co.,Ltd.</td><td>662.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('7928',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>84</td><td>4447</td><td>PBsystems,Inc.</td><td>506.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('4447',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>82</td><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>860.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('2179',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>81</td><td>2186</td><td>Sobal Corporation</td><td>923.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('2186',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>81</td><td>3607</td><td>Kuraudia Holdings Co.,Ltd.</td><td>366.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('3607',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>81</td><td>4707</td><td>KITAC Corporation</td><td>346.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('4707',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>80</td><td>3967</td><td>Eltes Co.,Ltd.</td><td>612.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('3967',this)">EDINET DB</button></td></tr><tr><td><b>A</b></td><td>78</td><td>3440</td><td>NISSO GROUP Co.,Ltd.</td><td>958.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('3440',this)">EDINET DB</button></td></tr><tr><td><b>B</b></td><td>74</td><td>2464</td><td>Aoba-BBT, Inc.</td><td>377.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('2464',this)">EDINET DB</button></td></tr><tr><td><b>B</b></td><td>73</td><td>4178</td><td>Sharing Innovations Inc.</td><td>551.0</td><td>🚀 Step3（エントリー候補）</td><td><button class="edinet-btn" onclick="openEdinet('4178',this)">EDINET DB</button></td></tr></tbody></table></section>
+
+<section><h2>仮想取引 OPEN</h2><table>
+<thead><tr><th>Code</th><th>銘柄</th><th>Signal</th><th>Entry</th><th>Score</th><th>最大上昇%</th><th>最大下落%</th></tr></thead>
+<tbody><tr><td>2179</td><td>Seigakusha Co.,Ltd.</td><td>2026-08-11</td><td>837.0</td><td>87</td><td>6.09</td><td>-0.84</td></tr><tr><td>4243</td><td>Nix, Inc.</td><td>2026-08-11</td><td>985.0</td><td>87</td><td>16.65</td><td>-2.44</td></tr><tr><td>5542</td><td>Shinhokoku Material Corp.</td><td>2026-08-11</td><td>873.0</td><td>86</td><td>18.44</td><td>0.0</td></tr><tr><td>6155</td><td>Takamatsu Machinery Co., Ltd.</td><td>2026-08-11</td><td>538.0</td><td>85</td><td>3.35</td><td>-3.72</td></tr><tr><td>6964</td><td>Sanko Co., Ltd.</td><td>2026-08-11</td><td>698.0</td><td>82</td><td>1.58</td><td>-0.72</td></tr><tr><td>2464</td><td>Aoba-BBT, Inc.</td><td>2026-08-11</td><td>343.0</td><td>81</td><td>11.08</td><td>-2.04</td></tr><tr><td>3238</td><td>Central General Development Co., Ltd.</td><td>2026-08-11</td><td>401.0</td><td>81</td><td>0.0</td><td>-5.99</td></tr><tr><td>2481</td><td>Townnews-Sha Co.,Ltd.</td><td>2026-08-11</td><td>666.0</td><td>80</td><td>1.35</td><td>-2.55</td></tr><tr><td>4360</td><td>MANAC Chemical Partners Co.,Ltd</td><td>2026-08-11</td><td>909.0</td><td>80</td><td>12.65</td><td>-6.49</td></tr><tr><td>4447</td><td>PBsystems,Inc.</td><td>2026-08-11</td><td>473.0</td><td>80</td><td>7.82</td><td>-0.21</td></tr><tr><td>4245</td><td>Daiki Axis Co., Ltd.</td><td>2026-08-11</td><td>715.0</td><td>79</td><td>1.12</td><td>-2.38</td></tr><tr><td>7217</td><td>Tein, Inc.</td><td>2026-08-11</td><td>457.0</td><td>79</td><td>2.19</td><td>-3.06</td></tr><tr><td>3958</td><td>Sasatoku Printing Co.,Ltd.</td><td>2026-08-27</td><td>554.0</td><td>89</td><td>0.0</td><td>0.0</td></tr><tr><td>7928</td><td>Asahi Kagaku Kogyo Co.,Ltd.</td><td>2026-08-27</td><td>662.0</td><td>86</td><td>0.0</td><td>0.0</td></tr><tr><td>2186</td><td>Sobal Corporation</td><td>2026-08-27</td><td>923.0</td><td>81</td><td>0.0</td><td>0.0</td></tr><tr><td>3607</td><td>Kuraudia Holdings Co.,Ltd.</td><td>2026-08-27</td><td>366.0</td><td>81</td><td>0.0</td><td>0.0</td></tr><tr><td>4707</td><td>KITAC Corporation</td><td>2026-08-27</td><td>346.0</td><td>81</td><td>0.0</td><td>0.0</td></tr><tr><td>3967</td><td>Eltes Co.,Ltd.</td><td>2026-08-27</td><td>612.0</td><td>80</td><td>0.0</td><td>0.0</td></tr><tr><td>3440</td><td>NISSO GROUP Co.,Ltd.</td><td>2026-08-27</td><td>958.0</td><td>78</td><td>0.0</td><td>0.0</td></tr><tr><td>4178</td><td>Sharing Innovations Inc.</td><td>2026-08-27</td><td>551.0</td><td>73</td><td>0.0</td><td>0.0</td></tr></tbody></table></section>
+
+<section><h2>検証成績</h2><div class='summary-row'><span>仮想取引数</span><strong>21</strong></div><div class='summary-row'><span>OPEN件数</span><strong>20</strong></div><div class='summary-row'><span>CLOSED件数</span><strong>1</strong></div><div class='summary-row'><span>+10%到達件数</span><strong>4</strong></div><div class='summary-row'><span>+10%到達率</span><strong>19.0%</strong></div><div class='summary-row'><span>+20%到達件数</span><strong>0</strong></div><div class='summary-row'><span>+20%到達率</span><strong>0.0%</strong></div><div class='summary-row'><span>+30%到達件数</span><strong>0</strong></div><div class='summary-row'><span>+30%到達率</span><strong>0.0%</strong></div><div class='summary-row'><span>損切り到達件数</span><strong>1</strong></div><div class='summary-row'><span>損切り到達率</span><strong>4.8%</strong></div><div class='summary-row'><span>平均最大上昇率</span><strong>3.92%</strong></div><div class='summary-row'><span>平均最大下落率</span><strong>-1.69%</strong></div></section>
+<footer>スクリーニング・検証用です。自動発注は行いません。Sランク等のコードは上のコピーボタンからChatGPTへ貼り付けできます。</footer>
+</div></body></html>

@@ -1,0 +1,26 @@
+{
+  "trade_count": 21,
+  "evidence_level": "DATA_INSUFFICIENT",
+  "message": "30件未満のためスコア有効性は評価しません。",
+  "rank_groups": [
+    {
+      "rank": "A",
+      "n": 13,
+      "hit10_rate": 0.1538,
+      "avg_max_gain_pct": 2.91
+    },
+    {
+      "rank": "B",
+      "n": 1,
+      "hit10_rate": 0.0,
+      "avg_max_gain_pct": 0.0
+    },
+    {
+      "rank": "S",
+      "n": 7,
+      "hit10_rate": 0.2857,
+      "avg_max_gain_pct": 6.36
+    }
+  ],
+  "policy": "現行条件・ランク閾値・地合い配点は仮説として維持。十分な母数まで自動最適化しない。"
+}
