@@ -8,6 +8,7 @@
 import time
 import warnings
 import json
+import re
 from pathlib import Path
 from io import BytesIO
 from urllib.parse import urljoin
