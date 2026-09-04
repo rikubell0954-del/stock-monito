@@ -1,0 +1,32 @@
+{
+  "trade_count": 42,
+  "evidence_level": "PRELIMINARY",
+  "message": "予備的傾向のみ。配点はまだ変更しません。",
+  "rank_groups": [
+    {
+      "rank": "A",
+      "n": 26,
+      "hit10_rate": 0.1154,
+      "avg_max_gain_pct": 3.03
+    },
+    {
+      "rank": "B",
+      "n": 7,
+      "hit10_rate": 0.2857,
+      "avg_max_gain_pct": 5.01
+    },
+    {
+      "rank": "C",
+      "n": 2,
+      "hit10_rate": 0.5,
+      "avg_max_gain_pct": 11.7
+    },
+    {
+      "rank": "S",
+      "n": 7,
+      "hit10_rate": 0.2857,
+      "avg_max_gain_pct": 6.36
+    }
+  ],
+  "policy": "現行条件・ランク閾値・地合い配点は仮説として維持。十分な母数まで自動最適化しない。"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "OK",
+  "stage": "SCREENER",
+  "target_count": 2151,
+  "judged_count": 2151,
+  "candidate_count": 1043,
+  "fetch_error_count": 0,
+  "success_rate": 1.0,
+  "fetch_errors": []
+}
