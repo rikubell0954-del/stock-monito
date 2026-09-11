@@ -72,6 +72,10 @@ if not history.empty:
 
 open_trades = trades[trades["status"].astype(str).str.upper().eq("OPEN")].copy() if not trades.empty else pd.DataFrame()
 
+summary_map = {}
+if not summary.empty and summary.shape[1] >= 2:
+    summary_map = {str(r.iloc[0]): r.iloc[1] for _, r in summary.iterrows()}
+
 s_codes = "\n".join(s_rank["銘柄コード"].map(norm_code).tolist()) if not s_rank.empty else ""
 step3_codes = "\n".join(step3["銘柄コード"].map(norm_code).tolist()) if not step3.empty else ""
 new_step3_codes = "\n".join(new_step3["code"].map(norm_code).tolist()) if not new_step3.empty else ""
@@ -116,12 +120,16 @@ def hist_rows(df):
     return "".join(rows)
 
 def trade_rows(df):
-    if df.empty: return '<tr><td colspan="7">現在OPENの仮想取引はありません</td></tr>'
+    if df.empty: return '<tr><td colspan="9">現在OPENの仮想取引はありません</td></tr>'
     rows=[]
     for _,r in df.iterrows():
+        pnl = pd.to_numeric(pd.Series([r.get("unrealized_pnl", None)]), errors="coerce").iloc[0]
+        pnl_class = "pnl-pos" if pd.notna(pnl) and pnl > 0 else ("pnl-neg" if pd.notna(pnl) and pnl < 0 else "")
+        pnl_text = f"{pnl:+,.0f}円" if pd.notna(pnl) else "-"
         rows.append("<tr>"
           f"<td>{esc(r.get('code',''))}</td><td>{esc(r.get('name',''))}</td>"
           f"<td>{esc(r.get('signal_date',''))}</td><td>{esc(r.get('entry_price',''))}</td>"
+          f"<td>{esc(r.get('current_price',''))}</td><td class='{pnl_class}'>{pnl_text}</td>"
           f"<td>{esc(r.get('signal_score',''))}</td><td>{esc(r.get('max_gain_pct',''))}</td>"
           f"<td>{esc(r.get('max_drawdown_pct',''))}</td></tr>")
     return "".join(rows)
@@ -129,6 +137,54 @@ def trade_rows(df):
 def summary_rows(df):
     if df.empty: return "<p>集計データなし</p>"
     return "".join(f"<div class='summary-row'><span>{esc(r.iloc[0])}</span><strong>{esc(r.iloc[1])}</strong></div>" for _,r in df.iterrows())
+
+def fmt_yen(v):
+    n = pd.to_numeric(pd.Series([v]), errors="coerce").iloc[0]
+    if pd.isna(n): return "-"
+    return f"{n:+,.0f}円" if n != 0 else "0円"
+
+def fmt_yen_plain(v):
+    n = pd.to_numeric(pd.Series([v]), errors="coerce").iloc[0]
+    if pd.isna(n): return "-"
+    return f"{n:,.0f}円"
+
+def pnl_class(v):
+    n = pd.to_numeric(pd.Series([v]), errors="coerce").iloc[0]
+    if pd.isna(n) or n == 0: return ""
+    return "pnl-pos" if n > 0 else "pnl-neg"
+
+def paper_pnl_section():
+    if not summary_map:
+        return '<section><h2>💰 100株仮想運用成績</h2><p class="muted">集計データなし</p></section>'
+
+    realized = summary_map.get("実現損益", 0)
+    unrealized = summary_map.get("含み損益", 0)
+    total = summary_map.get("総合損益", 0)
+    total_pct = summary_map.get("総合損益率", "-")
+    invested = summary_map.get("仮想購入総額", 0)
+    open_n = summary_map.get("OPEN件数", 0)
+    open_eval = summary_map.get("OPEN価格取得件数", 0)
+    closed_n = summary_map.get("CLOSED件数", 0)
+    wins = summary_map.get("CLOSED勝ち件数", 0)
+    losses = summary_map.get("CLOSED負け件数", 0)
+    win_rate = summary_map.get("CLOSED勝率", "-")
+
+    try:
+        eval_note = "" if int(float(open_n)) == int(float(open_eval)) else f"<div class='alert warn'>⚠️ OPEN {esc(open_n)}件中、現在値を取得できたのは {esc(open_eval)}件です。含み損益・総合損益は取得済み銘柄分のみです。</div>"
+    except Exception:
+        eval_note = ""
+
+    return f'''<section><h2>💰 100株仮想運用成績</h2>
+    <div class="pnl-grid">
+      <div class="pnl-card"><span>総合損益</span><strong class="{pnl_class(total)}">{fmt_yen(total)}</strong><small>{esc(total_pct)}</small></div>
+      <div class="pnl-card"><span>実現損益</span><strong class="{pnl_class(realized)}">{fmt_yen(realized)}</strong><small>CLOSED分</small></div>
+      <div class="pnl-card"><span>含み損益</span><strong class="{pnl_class(unrealized)}">{fmt_yen(unrealized)}</strong><small>OPEN分</small></div>
+      <div class="pnl-card"><span>仮想購入総額</span><strong>{fmt_yen_plain(invested)}</strong><small>全取引×100株</small></div>
+    </div>
+    <div class="pnl-stats"><span>CLOSED <b>{esc(closed_n)}</b>件</span><span>OPEN <b>{esc(open_n)}</b>件</span><span>勝敗 <b>{esc(wins)}勝 {esc(losses)}敗</b></span><span>勝率 <b>{esc(win_rate)}</b></span></div>
+    {eval_note}
+    <div class="muted market-note">※各Step3シグナルで100株を仮想購入。CLOSEDは決済価格、OPENは取得できた最新終値で評価します。手数料・税金・スリッページは含みません。</div>
+    </section>'''
 
 def copy_box(title, textarea_id, text, note):
     disabled = " disabled" if not text else ""
@@ -199,8 +255,9 @@ footer{{font-size:12px;color:#777;padding:20px 2px 40px}}
 .meter{{height:11px;border-radius:999px;background:#e5e5ea;overflow:hidden;margin:14px 0}}.meter-fill{{height:100%;background:linear-gradient(90deg,#d33,#e7a32b,#41a55b);border-radius:999px}}
 .market-table{{min-width:650px}}.market-note{{margin-top:8px}}
 .alert{{padding:12px;border-radius:12px;margin:8px 0;line-height:1.5}}.alert.ok{{background:#e8f7ed}}.alert.warn{{background:#fff4d6}}.alert.bad{{background:#fde8e8}}
+.pnl-grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:10px 0}}.pnl-card{{border:1px solid #e5e5ea;border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:4px}}.pnl-card span,.pnl-card small{{font-size:12px;color:#777}}.pnl-card strong{{font-size:23px}}.pnl-pos{{color:#128a3e!important;font-weight:800}}.pnl-neg{{color:#c62828!important;font-weight:800}}.pnl-stats{{display:flex;flex-wrap:wrap;gap:8px 16px;padding:10px 0;font-size:14px}}
 @media(min-width:700px){{.cards{{grid-template-columns:repeat(4,1fr)}}}}
-@media(prefers-color-scheme:dark){{body{{background:#000;color:#f5f5f7}}.card,section,.copy-box{{background:#1c1c1e}}.label,.muted,footer{{color:#aaa}}th{{background:#1c1c1e}}th,td,.summary-row{{border-color:#333}}.pill{{background:#333}}.copy-btn{{background:#f5f5f7;color:#111}}textarea{{border-color:#444}}}}
+@media(prefers-color-scheme:dark){{body{{background:#000;color:#f5f5f7}}.card,section,.copy-box{{background:#1c1c1e}}.label,.muted,footer{{color:#aaa}}th{{background:#1c1c1e}}th,td,.summary-row{{border-color:#333}}.pill{{background:#333}}.pnl-card{{border-color:#333}}.copy-btn{{background:#f5f5f7;color:#111}}textarea{{border-color:#444}}}}
 </style>
 <script>
 async function copyCodes(id, btn) {{
@@ -229,6 +286,8 @@ async function openEdinet(code,btn) {{
 
 {market_section()}
 
+{paper_pnl_section()}
+
 <section><h2>📋 ChatGPTへ貼り付け</h2>{copy_sections}</section>
 
 <section><h2>🆕 今日Step3に突入</h2>
@@ -248,7 +307,7 @@ async function openEdinet(code,btn) {{
 <tbody>{ranking_rows(step3)}</tbody></table></section>
 
 <section><h2>仮想取引 OPEN</h2><table>
-<thead><tr><th>Code</th><th>銘柄</th><th>Signal</th><th>Entry</th><th>Score</th><th>最大上昇%</th><th>最大下落%</th></tr></thead>
+<thead><tr><th>Code</th><th>銘柄</th><th>Signal</th><th>Entry</th><th>現在値</th><th>含み損益</th><th>Score</th><th>最大上昇%</th><th>最大下落%</th></tr></thead>
 <tbody>{trade_rows(open_trades)}</tbody></table></section>
 
 <section><h2>検証成績</h2>{summary_rows(summary)}</section>

@@ -37,7 +37,7 @@ try:
 except Exception:
     yf = None
 
-VERSION = "2.1.0-cloud"
+VERSION = "2.2.0-cloud"
 
 CONFIG = {
     "input_csv": "step2_3_result.csv",
@@ -75,6 +75,8 @@ TRADE_COLUMNS = [
     "signal_score", "signal_rank", "stop_price", "target10", "target20", "target30",
     "status", "days_observed", "max_high", "min_low", "max_gain_pct", "max_drawdown_pct",
     "hit_10", "hit_20", "hit_30", "hit_stop", "exit_date", "exit_price", "exit_reason",
+    "shares", "investment_amount", "current_price",
+    "unrealized_pnl", "unrealized_pnl_pct", "realized_pnl", "realized_pnl_pct",
     "last_update",
 ]
 
@@ -399,6 +401,13 @@ def add_new_virtual_trades(ranked: pd.DataFrame, log: pd.DataFrame, signal_date:
             "exit_date": "",
             "exit_price": "",
             "exit_reason": "",
+            "shares": 100,
+            "investment_amount": round(entry * 100, 2),
+            "current_price": round(entry, 2),
+            "unrealized_pnl": 0.0,
+            "unrealized_pnl_pct": 0.0,
+            "realized_pnl": 0.0,
+            "realized_pnl_pct": 0.0,
             "last_update": day,
         })
         existing_same_day.add((code, day))
@@ -467,6 +476,7 @@ def update_one_trade(tr: pd.Series, hist: pd.DataFrame) -> dict:
     exit_date = ""
     exit_price = ""
     exit_reason = ""
+    last_close = None
 
     days = 0
     for _, day in obs.iterrows():
@@ -475,6 +485,7 @@ def update_one_trade(tr: pd.Series, hist: pd.DataFrame) -> dict:
         close = to_num(day.get("Close"))
         if high is None or low is None or close is None:
             continue
+        last_close = close
         days += 1
         max_high = max(max_high, high)
         min_low = min(min_low, low)
@@ -516,6 +527,7 @@ def update_one_trade(tr: pd.Series, hist: pd.DataFrame) -> dict:
         "hit_20": bool(hit20),
         "hit_30": bool(hit30),
         "hit_stop": bool(hitstop),
+        "current_price": round(last_close, 2) if last_close is not None else tr.get("current_price", ""),
         "last_update": tokyo_today().strftime("%Y-%m-%d"),
     })
     if exit_reason:
@@ -524,6 +536,7 @@ def update_one_trade(tr: pd.Series, hist: pd.DataFrame) -> dict:
             "exit_date": exit_date,
             "exit_price": exit_price,
             "exit_reason": exit_reason,
+            "current_price": exit_price,
         })
     return changes
 
@@ -548,6 +561,44 @@ def update_virtual_trades(log: pd.DataFrame) -> Tuple[pd.DataFrame, int, int]:
     return log[TRADE_COLUMNS], attempted, updated
 
 
+def refresh_trade_pnl_columns(log: pd.DataFrame) -> pd.DataFrame:
+    """Calculate 100-share paper-trading P/L without changing entry/exit rules."""
+    if log.empty:
+        return log
+
+    for i, tr in log.iterrows():
+        shares = 100
+        entry = to_num(tr.get("entry_price"))
+        status = str(tr.get("status", "")).upper()
+        current = to_num(tr.get("current_price"))
+        exit_price = to_num(tr.get("exit_price"))
+
+        log.at[i, "shares"] = shares
+        if entry is None or entry <= 0:
+            continue
+
+        log.at[i, "investment_amount"] = round(entry * shares, 2)
+
+        if status == "CLOSED" and exit_price is not None:
+            realized = (exit_price - entry) * shares
+            log.at[i, "current_price"] = round(exit_price, 2)
+            log.at[i, "unrealized_pnl"] = 0.0
+            log.at[i, "unrealized_pnl_pct"] = 0.0
+            log.at[i, "realized_pnl"] = round(realized, 2)
+            log.at[i, "realized_pnl_pct"] = round((exit_price / entry - 1) * 100, 2)
+        else:
+            # For OPEN trades, current_price is the latest observed close.
+            # If no new quote is available, preserve the previous known price.
+            if current is not None and current > 0:
+                unrealized = (current - entry) * shares
+                log.at[i, "unrealized_pnl"] = round(unrealized, 2)
+                log.at[i, "unrealized_pnl_pct"] = round((current / entry - 1) * 100, 2)
+            log.at[i, "realized_pnl"] = 0.0
+            log.at[i, "realized_pnl_pct"] = 0.0
+
+    return log[TRADE_COLUMNS]
+
+
 def truthy_series(s: pd.Series) -> pd.Series:
     return s.astype(str).str.lower().isin(["true", "1", "yes", "y"])
 
@@ -556,11 +607,19 @@ def make_summary(log: pd.DataFrame) -> pd.DataFrame:
     if log.empty:
         return pd.DataFrame([
             ["仮想取引数", 0], ["OPEN件数", 0], ["CLOSED件数", 0],
+            ["仮想購入総額", 0], ["実現損益", 0], ["含み損益", 0], ["総合損益", 0],
+            ["総合損益率", "-"], ["CLOSED勝率", "-"],
             ["+10%到達率", "-"], ["+20%到達率", "-"], ["+30%到達率", "-"],
             ["損切り到達率", "-"], ["平均最大上昇率", "-"], ["平均最大下落率", "-"],
         ], columns=["指標", "値"])
 
+    log = refresh_trade_pnl_columns(log.copy())
     n = len(log)
+    open_mask = log["status"].astype(str).str.upper().eq("OPEN")
+    closed_mask = log["status"].astype(str).str.upper().eq("CLOSED")
+    open_n = int(open_mask.sum())
+    closed_n = int(closed_mask.sum())
+
     hit10 = int(truthy_series(log["hit_10"]).sum())
     hit20 = int(truthy_series(log["hit_20"]).sum())
     hit30 = int(truthy_series(log["hit_30"]).sum())
@@ -569,10 +628,41 @@ def make_summary(log: pd.DataFrame) -> pd.DataFrame:
     dds = pd.to_numeric(log["max_drawdown_pct"], errors="coerce")
     rate = lambda x: f"{x / n * 100:.1f}%" if n else "-"
 
+    investment = pd.to_numeric(log["investment_amount"], errors="coerce").fillna(0)
+    realized = pd.to_numeric(log["realized_pnl"], errors="coerce").fillna(0)
+    unrealized = pd.to_numeric(log["unrealized_pnl"], errors="coerce")
+    current_price = pd.to_numeric(log["current_price"], errors="coerce")
+
+    total_investment = float(investment.sum())
+    realized_total = float(realized[closed_mask].sum())
+    evaluable_open = open_mask & current_price.notna() & current_price.gt(0)
+    evaluable_open_n = int(evaluable_open.sum())
+    unrealized_total = float(unrealized[evaluable_open].fillna(0).sum())
+    total_pnl = realized_total + unrealized_total
+    total_pnl_pct = (total_pnl / total_investment * 100) if total_investment > 0 else None
+
+    closed_realized = realized[closed_mask]
+    wins = int((closed_realized > 0).sum())
+    losses = int((closed_realized < 0).sum())
+    draws = int((closed_realized == 0).sum())
+    win_rate = f"{wins / closed_n * 100:.1f}%" if closed_n else "-"
+    avg_realized = float(closed_realized.mean()) if closed_n else 0.0
+
     rows = [
         ["仮想取引数", n],
-        ["OPEN件数", int((log["status"].astype(str).str.upper() == "OPEN").sum())],
-        ["CLOSED件数", int((log["status"].astype(str).str.upper() == "CLOSED").sum())],
+        ["OPEN件数", open_n],
+        ["OPEN価格取得件数", evaluable_open_n],
+        ["CLOSED件数", closed_n],
+        ["CLOSED勝ち件数", wins],
+        ["CLOSED負け件数", losses],
+        ["CLOSED引分け件数", draws],
+        ["CLOSED勝率", win_rate],
+        ["仮想購入総額", round(total_investment)],
+        ["実現損益", round(realized_total)],
+        ["含み損益", round(unrealized_total)],
+        ["総合損益", round(total_pnl)],
+        ["総合損益率", f"{total_pnl_pct:.2f}%" if total_pnl_pct is not None else "-"],
+        ["CLOSED 1取引平均損益", round(avg_realized)],
         ["+10%到達件数", hit10], ["+10%到達率", rate(hit10)],
         ["+20%到達件数", hit20], ["+20%到達率", rate(hit20)],
         ["+30%到達件数", hit30], ["+30%到達率", rate(hit30)],
@@ -691,6 +781,7 @@ def main() -> int:
         before = len(log)
         log = add_new_virtual_trades(ranked, log)
         added = len(log) - before
+        log = refresh_trade_pnl_columns(log)
         log.to_csv(CONFIG["trade_log_csv"], index=False, encoding="utf-8-sig")
         print(f"[3/5] Trade log saved: {CONFIG['trade_log_csv']} (added={added}, total={len(log)})")
 
