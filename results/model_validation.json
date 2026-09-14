@@ -1,25 +1,25 @@
 {
-  "trade_count": 63,
+  "trade_count": 70,
   "evidence_level": "PRELIMINARY",
   "message": "予備的傾向のみ。配点はまだ変更しません。",
   "rank_groups": [
     {
       "rank": "A",
-      "n": 34,
-      "hit10_rate": 0.1471,
-      "avg_max_gain_pct": 3.14
+      "n": 38,
+      "hit10_rate": 0.1316,
+      "avg_max_gain_pct": 3.0
     },
     {
       "rank": "B",
-      "n": 16,
-      "hit10_rate": 0.3125,
-      "avg_max_gain_pct": 7.56
+      "n": 19,
+      "hit10_rate": 0.3158,
+      "avg_max_gain_pct": 7.98
     },
     {
       "rank": "C",
       "n": 4,
       "hit10_rate": 0.75,
-      "avg_max_gain_pct": 10.32
+      "avg_max_gain_pct": 14.39
     },
     {
       "rank": "S",
