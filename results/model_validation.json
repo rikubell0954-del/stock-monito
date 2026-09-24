@@ -6,14 +6,14 @@
     {
       "rank": "A",
       "n": 46,
-      "hit10_rate": 0.1304,
-      "avg_max_gain_pct": 4.04
+      "hit10_rate": 0.1522,
+      "avg_max_gain_pct": 4.15
     },
     {
       "rank": "B",
       "n": 23,
       "hit10_rate": 0.3478,
-      "avg_max_gain_pct": 9.63
+      "avg_max_gain_pct": 10.18
     },
     {
       "rank": "C",
@@ -25,7 +25,7 @@
       "rank": "S",
       "n": 10,
       "hit10_rate": 0.2,
-      "avg_max_gain_pct": 4.48
+      "avg_max_gain_pct": 4.86
     }
   ],
   "policy": "現行条件・ランク閾値・地合い配点は仮説として維持。十分な母数まで自動最適化しない。"
