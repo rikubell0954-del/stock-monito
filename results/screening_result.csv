@@ -1,1058 +1,1055 @@
 ﻿銘柄コード,銘柄名,株価,時価総額(億円),出来高比率,値幅(%),MA5上,MA25上,下値集中,判定
-9258,"CS-C.Co.,Ltd.",302.0,20.1,0.31,8.0,✓,✓,✓,◆ Step0（仕込み）
 7255,Sakurai Ltd.,530.0,16.9,1.83,6.0,✓,✓,✓,◆ Step0（仕込み）
-5900,"Daiken Co.,Ltd.",878.0,48.1,0.44,7.6,✓,✓,✓,◆ Step0（仕込み）
-3439,Mitsuchi Corporation,684.0,32.1,0.42,2.2,✓,✓,✓,◆ Step0（仕込み）
-9978,"Bunkyodo Group Holdings Co., Ltd.",,19.3,1.78,4.5,✗,✗,✓,監視候補
-9976,"Sekichu Co., Ltd.",,57.3,0.49,13.1,✗,✗,✗,監視候補
-9973,"KOZO Holdings Co.,Ltd.",,56.5,3.74,5.3,✗,✗,✓,監視候補
-9972,"Altech Co., Ltd.",,39.2,0.54,6.6,✗,✗,✓,監視候補
-9969,"Shokubun Co., Ltd.",,36.2,1.21,1.7,✗,✗,✓,監視候補
-9950,"Hachi-Ban Co., Ltd.",,97.9,0.99,3.2,✗,✗,✓,監視候補
-9941,"Taiyo Bussan Kaisha,Ltd.",,26.2,0.13,19.4,✗,✗,✗,監視候補
-9930,"Kitazawa Sangyo Co., Ltd.",,72.1,0.85,4.9,✗,✗,✓,監視候補
-9929,"Heiwa Paper Co.,Ltd.",,43.5,0.55,2.4,✗,✗,✓,監視候補
-9904,"Verite Co., Ltd.",,62.4,0.26,7.0,✗,✗,✗,監視候補
-9903,"Kanseki Co., Ltd.",,67.3,0.32,3.7,✗,✗,✓,監視候補
-9895,Consec Corporation,,22.1,2.47,3.3,✗,✗,✓,監視候補
-9890,"Makiya Co., Ltd.",,99.7,0.9,5.1,✗,✗,✓,監視候補
-9885,"Charle Co.,Ltd.",,49.6,0.16,1.2,✗,✗,✓,監視候補
-9878,"SEKIDO Co., Ltd.",,12.2,1.96,9.7,✗,✗,✓,監視候補
-9876,"Cox Co., Ltd.",,62.2,0.23,4.7,✗,✗,✓,監視候補
-151A,Dive Group Inc.,,52.5,1.66,6.2,✗,✗,✓,監視候補
-149A,"Thinca Co.,Ltd.",,27.5,1.02,5.0,✗,✗,✓,監視候補
-148A,"Hatch Work Co.,Ltd.",,35.0,0.9,12.6,✗,✗,✗,監視候補
-145A,L is B corp.,,45.2,1.45,3.5,✗,✗,✓,監視候補
-1446,"CANDEAL Co.,Ltd",,50.3,0.67,2.9,✗,✗,✓,監視候補
-1444,"Nissou Co.,Ltd.",,31.2,0.06,8.8,✗,✗,✗,監視候補
-1443,"Giken Holdings Co., Ltd.",,44.0,0.75,4.5,✗,✗,✓,監視候補
-143A,"Ishin Co., Ltd.",,13.5,0.41,6.3,✗,✗,✗,監視候補
-1438,"Gifu landscape architect Co., Ltd.",,72.2,0.05,5.9,✗,✗,✓,監視候補
-1420,Sanyo Homes Corporation,,78.1,0.45,0.6,✗,✗,✓,監視候補
-1418,"Interlife Holdings Co., Ltd.",,91.7,0.68,5.6,✗,✗,✓,監視候補
-138A,"Hikari Food Service Co., Ltd.",,31.3,0.63,3.6,✗,✗,✓,監視候補
-1383,"Berg Earth Co.,Ltd.",,48.3,1.3,2.8,✗,✗,✓,監視候補
-1380,"Akikawa Foods & Farms Co., Ltd.",,41.6,0.79,0.5,✗,✗,✓,監視候補
-137A,"Cocolive, Inc.",,20.5,0.17,6.3,✗,✗,✓,監視候補
-9980,MRK Holdings Inc.,,81.7,0.29,7.9,✗,✗,✗,監視候補
-2138,"CROOZ, Inc.",,39.7,0.29,8.5,✗,✗,✓,監視候補
-2136,HIP Corporation,,53.5,0.15,2.6,✗,✗,✓,監視候補
-2122,"Interspace Co.,Ltd.",,82.7,0.61,12.0,✗,✗,✗,監視候補
-211A,Cados Corporation,,31.4,0.35,9.8,✗,✗,✓,監視候補
-205A,Logos Holdings Inc.,,63.1,0.4,4.9,✗,✗,✓,監視候補
-2055,"Nichiwa Sangyo Co., Ltd.",,62.5,0.13,2.6,✗,✗,✓,監視候補
-1997,"Akatsuki Eazima Co., Ltd.",,85.5,0.37,12.5,✗,✗,✗,監視候補
-1994,Takahashi Curtain Wall Corporation,,48.0,0.2,4.0,✗,✗,✓,監視候補
-1992,"Kanda Tsushinki Co., Ltd.",,67.0,0.8,1.7,✗,✗,✓,監視候補
-198A,PostPrime Inc.,,19.6,0.48,5.6,✗,✗,✓,監視候補
-195A,MUSCAT GROUP Inc.,,23.9,0.74,16.3,✗,✗,✗,監視候補
-192A,Integroup Inc.,,28.3,0.66,14.3,✗,✗,✓,監視候補
-1905,Tenox Corporation,,96.4,3.23,3.2,✗,✗,✓,監視候補
-189A,"D & M Company Co., Ltd.",,24.7,1.48,7.1,✗,✗,✓,監視候補
-1897,"The Kaneshita Construction Co.,Ltd.",,73.6,3.42,20.0,✗,✗,✗,監視候補
-184A,"Manabi-aid Co.,Ltd.",,11.2,0.05,6.0,✗,✗,✓,監視候補
-2303,Dawn Corp.,,79.7,0.4,4.2,✗,✗,✓,監視候補
-2300,"Kyokuto Co., Ltd.",,26.6,0.5,2.2,✗,✗,✓,監視候補
-2293,"Takizawa Ham Co., Ltd.",,54.6,1.11,2.3,✗,✗,✓,監視候補
-2291,"Fukutome Meat Packers, Ltd.",,16.9,0.88,1.0,✗,✗,✓,監視候補
-228A,"OPRO Co., Ltd.",,40.3,1.06,4.7,✗,✗,✓,監視候補
-2286,"Hayashikane Sangyo Co.,Ltd.",,72.8,0.32,2.2,✗,✗,✓,監視候補
-2215,"First Baking Co., Ltd.",,42.4,0.72,2.0,✗,✗,✓,監視候補
-220A,Faber Company Inc.,,25.4,0.64,4.5,✗,✗,✓,監視候補
-2195,"Amita Holdings Co.,Ltd.",,67.6,0.57,8.9,✗,✗,✓,監視候補
-2193,Cookpad Inc.,,87.7,1.64,8.3,✗,✗,✗,監視候補
-2186,Sobal Corporation,,70.4,0.49,1.0,✗,✗,✓,監視候補
-2183,"Linical Co., Ltd.",,45.9,3.01,3.0,✗,✗,✓,監視候補
-2179,"Seigakusha Co.,Ltd.",,45.7,0.2,3.5,✗,✗,✓,監視候補
-2164,"Chiikishinbunsha Co.,Ltd.",,21.8,0.17,13.3,✗,✗,✗,監視候補
-2156,Saylor Advertising.Inc.,,13.8,0.16,6.6,✗,✗,✓,監視候補
-2139,"Chuco Co., Ltd.",,33.0,1.66,6.4,✗,✗,✗,監視候補
-2408,"KG Intelligence CO., LTD.",,59.4,1.38,5.6,✗,✗,✓,監視候補
-2404,"Tetsujin Holdings, Inc.",,70.7,0.26,2.7,✗,✗,✓,監視候補
-2391,"Planet, Inc.",,76.4,0.77,1.1,✗,✗,✓,監視候補
-2385,Soiken Holdings Inc.,,58.1,0.28,14.1,✗,✗,✓,監視候補
-2376,Scinex Corporation,,43.3,0.63,5.5,✗,✗,✗,監視候補
-2375,GiG Works Inc.,,41.4,0.34,18.8,✗,✗,✗,監視候補
-2373,Care Twentyone Corporation,,58.4,1.11,12.2,✗,✗,✓,監視候補
-2370,"MEDINET Co., Ltd.",,67.6,0.84,4.2,✗,✗,✓,監視候補
-2351,ASJ Inc.,,25.9,0.43,6.4,✗,✗,✓,監視候補
-2345,"HODL 1,inc.",,16.4,0.99,18.1,✗,✗,✗,監視候補
-2342,Transgenic Group Inc.,,39.8,0.18,8.8,✗,✗,✗,監視候補
-2341,"Arbeit-Times Co., Ltd.",,32.9,0.96,5.9,✗,✗,✗,監視候補
-2332,"Quest Co., Ltd.",,90.2,0.4,6.8,✗,✗,✗,監視候補
-2323,fonfun corporation,,73.9,0.6,14.4,✗,✗,✗,監視候補
-2311,"EPCO Co.,Ltd.",,69.8,0.7,2.3,✗,✗,✓,監視候補
-2304,"CSS Holdings,Ltd.",,44.5,0.28,2.5,✗,✗,✓,監視候補
-2483,Honyaku Center Inc.,,74.9,0.15,6.0,✗,✗,✓,監視候補
-2481,"Townnews-Sha Co.,Ltd.",,39.5,0.22,8.2,✗,✗,✗,監視候補
-2479,JTEC Corporation,,20.5,0.54,6.3,✗,✗,✗,監視候補
-2464,"Aoba-BBT, Inc.",,46.2,0.51,5.0,✗,✗,✓,監視候補
-245A,INGS inc.,,62.6,0.39,2.7,✗,✗,✓,監視候補
-2459,"AUN CONSULTING, Inc.",,13.0,0.24,5.3,✗,✗,✓,監視候補
-2454,"All About, Inc.",,46.2,0.7,8.3,✗,✗,✗,監視候補
-244A,"Growth X Partners,Inc.",,41.9,0.61,10.7,✗,✗,✗,監視候補
-2440,"Gurunavi, Inc.",,63.1,1.15,9.7,✗,✗,✗,監視候補
-2438,"Asukanet Co., Ltd.",,51.0,0.56,9.4,✗,✗,✓,監視候補
-2437,"Shinwa Wise Holdings Co.,Ltd.",,69.6,1.9,4.8,✗,✗,✗,監視候補
-2435,"CEDAR.Co.,Ltd.",,22.9,0.12,3.4,✗,✗,✓,監視候補
-2425,"Care Service Co.,Ltd.",,25.7,0.31,4.5,✗,✗,✓,監視候補
-2424,Brass Corporation,,32.7,0.67,10.4,✗,✗,✓,監視候補
-241A,"ROXX,inc.",,34.7,1.84,10.1,✗,✗,✓,監視候補
-2411,Gendai Agency Inc.,,50.1,23.18,2.6,✗,✗,✓,監視候補
-2693,YKT Corporation,,32.2,0.15,4.7,✗,✗,✓,監視候補
-2687,CVS Bay Area Inc.,,24.0,0.33,2.2,✗,✗,✓,監視候補
-2683,"UOGroup CO.,LTD.",,25.0,0.34,0.5,✗,✗,✓,監視候補
-2673,"YUMEMITSUKETAI Co.,Ltd.",,10.4,0.08,8.8,✗,✗,✓,監視候補
-2668,Tabio Corporation,,86.6,0.18,1.3,✗,✗,✓,監視候補
-2666,"AUTOWAVE Co., Ltd.",,27.5,0.12,3.8,✗,✗,✓,監視候補
-265A,Hmcomm Inc.,,30.8,0.29,12.8,✗,✗,✗,監視候補
-2656,Vector HOLDINGS Inc.,,47.8,2.76,6.5,✗,✗,✗,監視候補
-2654,Asmo Corporation,,52.8,0.57,15.7,✗,✗,✗,監視候補
-254A,Ai Fusion Capital Group Corp.,,99.6,0.17,7.5,✗,✗,✗,監視候補
-253A,"ETS Group Co.,Ltd",,66.1,0.17,4.0,✗,✗,✓,監視候補
-2499,"Nihonwasou Holdings, Inc.",,28.1,1.18,3.3,✗,✗,✓,監視候補
-2493,"E-SUPPORTLINK, Ltd.",,41.8,1.14,4.0,✗,✗,✓,監視候補
-248A,KIDS STAR Inc.,,21.1,1.84,1.2,✗,✗,✓,監視候補
-2488,"JTP Co.,Ltd.",,74.8,2.11,4.4,✗,✗,✓,監視候補
-2485,Tear Corporation,,97.0,0.69,2.1,✗,✗,✓,監視候補
-280A,TMH Inc.,,40.7,0.27,10.3,✗,✗,✓,監視候補
-2798,Y's Table Corporation,,98.7,0.46,0.5,✗,✗,✓,監視候補
-2796,Pharmarise Holdings Corporation,,58.5,0.16,3.0,✗,✗,✓,監視候補
-2795,Nippon Primex Inc.,,51.5,0.18,7.2,✗,✗,✓,監視候補
-2789,"Karula Co.,LTD.",,27.5,1.13,3.6,✗,✗,✓,監視候補
-2788,"Apple International Co., Ltd.",,53.2,0.36,9.4,✗,✗,✓,監視候補
-2778,"Palemo Holdings Co.,Ltd.",,14.8,0.89,14.2,✗,✗,✗,監視候補
-2776,"SHINTO Holdings, Inc.",,53.0,1.61,15.6,✗,✗,✓,監視候補
-2769,"Village Vanguard CO.,LTD.",,73.2,0.68,2.1,✗,✗,✓,監視候補
-2762,"Sanko Marketing Foods Co., Ltd.",,29.4,0.54,9.2,✗,✗,✓,監視候補
-2747,"Hokuyu Lucky Co.,Ltd.",,39.9,0.44,3.9,✗,✗,✓,監視候補
-2736,"Festaria Holdings Co., Ltd.",,21.4,0.4,3.0,✗,✗,✓,監視候補
-2722,"IK HOLDINGS Co.,Ltd.",,27.2,0.41,1.1,✗,✗,✓,監視候補
-2721,J-Holdings Corp.,,16.5,0.19,9.2,✗,✗,✓,監視候補
-2708,"Kuze Co., Ltd.",,86.2,3.88,2.6,✗,✗,✓,監視候補
-269A,Sapeet Inc.,,51.1,2.33,15.5,✗,✗,✓,監視候補
-2984,"Yamaichi Real Estate Co., Ltd",,66.3,0.31,8.0,✗,✗,✓,監視候補
-2978,TSUKURUBA Inc.,,37.3,0.13,9.9,✗,✗,✓,監視候補
-2961,Nitcho Corporation,,64.8,0.13,6.4,✗,✗,✗,監視候補
-2926,"Shinozakiya, Inc.",,15.3,0.45,15.5,✗,✗,✗,監視候補
-291A,Reskill Corp.,,41.1,1.41,4.3,✗,✗,✓,監視候補
-2917,"Ohmoriya Co.,Ltd.",,44.6,0.65,4.5,✗,✗,✓,監視候補
-2916,"Semba Tohka Industries Co., Ltd",,82.1,0.28,3.6,✗,✗,✓,監視候補
-2911,"Asahimatsu Foods Co., Ltd.",,39.7,0.52,2.2,✗,✗,✓,監視候補
-2901,Wel-Dish.Incorporated,,36.9,0.73,13.4,✗,✗,✗,監視候補
-2894,"Ishii Food Co., Ltd.",,59.9,0.53,3.4,✗,✗,✓,監視候補
-288A,Laxus Technologies Inc.,,24.7,0.48,4.3,✗,✗,✓,監視候補
-2877,NittoBest Corporation,,90.1,0.38,2.7,✗,✗,✓,監視候補
-2876,Delsole Corporation,,41.8,0.22,3.9,✗,✗,✓,監視候補
-2872,"Seihyo Co., Ltd.",,26.7,0.24,1.6,✗,✗,✓,監視候補
-281A,"Informetis Co., Ltd.",,23.9,0.3,12.5,✗,✗,✗,監視候補
-2813,"Wakou Shokuhin Co., Ltd.",,98.1,0.88,2.3,✗,✗,✓,監視候補
-3059,"Hiraki Co.,Ltd.",,34.5,0.44,1.7,✗,✗,✓,監視候補
-3058,Sanyodo Holdings Inc,,51.9,2.08,2.1,✗,✗,✓,監視候補
-3054,HYPER Inc.,,37.2,0.08,10.0,✗,✗,✓,監視候補
-304A,"FORCIA, Inc.",,26.8,0.76,12.5,✗,✗,✗,監視候補
-3045,"Kawasaki & Co., Ltd.",,31.1,0.07,1.2,✗,✗,✓,監視候補
-3041,"Beauty Kadan Holdings Co., Ltd.",,16.3,0.64,3.3,✗,✗,✓,監視候補
-303A,visumo Inc.,,12.3,0.77,9.2,✗,✗,✗,監視候補
-3035,ktk Inc.,,40.2,0.26,9.1,✗,✗,✗,監視候補
-302A,"b-style holdings,Inc.",,17.4,0.06,10.6,✗,✗,✗,監視候補
-3024,Create Corporation,,45.4,1.06,10.0,✗,✗,✗,監視候補
-3021,"Pacific Net Co.,Ltd.",,84.3,0.47,5.6,✗,✗,✓,監視候補
-3011,"Banners Co., Ltd.",,21.6,0.35,2.9,✗,✗,✓,監視候補
-3004,Shinyei Kaisha,,80.1,0.43,3.9,✗,✗,✓,監視候補
-2999,"Home Position Co., Ltd.",,48.9,0.11,5.8,✗,✗,✓,監視候補
-2997,"STORAGE-OH Co.,Ltd.",,25.0,0.01,0.2,✗,✗,✓,監視候補
-2993,Choei Inc.,,95.0,0.11,3.9,✗,✗,✓,監視候補
-3169,"Misawa & Co., Ltd.",,49.4,2.45,3.9,✗,✗,✓,監視候補
-3161,AZEARTH Corporation,,40.0,4.56,4.5,✗,✗,✓,監視候補
-3160,"Oomitsu Co., Ltd.",,82.5,0.72,4.0,✗,✗,✓,監視候補
-3138,"Fujisan Magazine Service Co., Ltd.",,39.6,1.99,7.7,✗,✗,✓,監視候補
-3137,"Fundely Co., Ltd.",,27.3,0.79,8.3,✗,✗,✓,監視候補
-3135,"MarketEnterprise Co.,Ltd",,60.7,0.56,5.1,✗,✗,✗,監視候補
-3134,Hamee Corp.,,46.9,0.45,10.3,✗,✗,✓,監視候補
-3123,"Saibo Co., Ltd.",,80.4,1.8,2.5,✗,✗,✓,監視候補
-3121,"MBK Co.,Ltd.",,76.9,1.62,10.0,✗,✗,✓,監視候補
-3113,UNIVA Oak Holdings Limited,,74.6,0.22,10.1,✗,✗,✓,監視候補
-3111,"Omikenshi Co., Ltd.",,11.4,0.1,6.5,✗,✗,✓,監視候補
-3089,"Techno Alpha Co., Ltd.",,17.9,0.6,10.2,✗,✗,✗,監視候補
-3071,"Stream Co.,Ltd.",,28.5,0.18,7.0,✗,✗,✓,監視候補
-3069,JFLA Holdings Inc.,,75.2,0.52,7.7,✗,✗,✓,監視候補
-3067,"Tokyo Ichiban Foods Co., Ltd.",,40.5,0.31,3.8,✗,✗,✓,監視候補
-3065,"Life Foods Co., Ltd.",,49.1,0.98,0.3,✗,✗,✓,監視候補
-3246,"KOSE R.E. Co.,Ltd.",,70.3,0.28,1.9,✗,✗,✓,監視候補
-3241,"WILL,Co.,Ltd.",,69.6,0.24,3.8,✗,✗,✓,監視候補
-323A,Flier Inc.,,13.1,0.41,4.1,✗,✗,✓,監視候補
-3238,"Central General Development Co., Ltd.",,36.8,0.17,3.2,✗,✗,✓,監視候補
-3237,"Intrance Co., Ltd.",,42.8,1.04,9.1,✗,✗,✗,監視候補
-3236,"Properst Co., Ltd.",,90.3,0.62,5.5,✗,✗,✓,監視候補
-3224,"General Oyster, Inc.",,35.0,0.37,6.7,✗,✗,✓,監視候補
-3223,"SLD Entertainment, Inc.",,15.5,1.57,4.0,✗,✗,✓,監視候補
-3204,Toabo Corporation,,43.5,0.67,2.6,✗,✗,✓,監視候補
-3202,"Daitobo Co., Ltd.",,37.9,0.3,3.1,✗,✗,✓,監視候補
-3190,"HOTMAN Co.,Ltd.",,40.4,0.33,3.5,✗,✗,✓,監視候補
-3187,miratap inc.,,69.0,0.31,16.8,✗,✗,✓,監視候補
-3184,"International Conglomerate of Distribution for Automobile Holdings Co., Ltd.",,86.0,0.32,2.6,✗,✗,✓,監視候補
-3181,"Kaitori Okoku Co., Ltd.",,39.2,0.25,3.8,✗,✗,✓,監視候補
-3174,"Happiness and D Co.,Ltd.",,10.5,0.4,19.4,✗,✗,✗,監視候補
-3172,"Tea Life Co., Ltd.",,48.2,0.22,1.1,✗,✗,✓,監視候補
-334A,"Visual Processing Japan Co., Ltd.",,38.4,1.37,17.5,✗,✗,✗,監視候補
-3326,"Runsystem Co.,Ltd.",,27.6,1.88,5.2,✗,✗,✓,監視候補
-3323,"Recomm Co., Ltd.",,75.1,0.1,4.4,✗,✗,✓,監視候補
-3320,Cross Plus Inc.,,96.9,0.24,1.6,✗,✗,✓,監視候補
-331A,Medix Inc.,,34.9,0.73,1.5,✗,✗,✓,監視候補
-3317,"Flying Garden Co., Ltd.",,42.9,0.77,1.4,✗,✗,✓,監視候補
-330A,TalentX Inc.,,29.0,0.8,9.0,✗,✗,✗,監視候補
-3297,"Toubujyuhan Co.,Ltd.",,31.4,1.69,3.0,✗,✗,✓,監視候補
-3293,"AZUMA HOUSE Co., Ltd.",,59.8,1.87,1.5,✗,✗,✓,監視候補
-3286,TRUST Holdings Inc.,,31.3,0.93,2.1,✗,✗,✓,監視候補
-3280,"STrust Co.,Ltd.",,56.5,0.05,1.8,✗,✗,✓,監視候補
-3267,"Phil Company, Inc.",,33.2,0.55,6.7,✗,✗,✓,監視候補
-3266,Fund Creation Group Company Limited,,29.7,0.47,2.5,✗,✗,✓,監視候補
-3261,"GRANDES, Inc.",,18.6,0.92,9.1,✗,✗,✓,監視候補
-324A,"Booking Resort Co., Ltd.",,38.2,0.75,6.6,✗,✗,✓,監視候補
-3248,"Early Age Co., Ltd.",,28.4,0.71,1.9,✗,✗,✓,監視候補
-3423,SE Corporation,,80.7,0.71,3.8,✗,✗,✓,監視候補
-3422,"J-MAX Co.,Ltd.",,77.3,0.26,14.6,✗,✗,✗,監視候補
-3416,PIXTA Inc.,,15.6,0.35,5.5,✗,✗,✓,監視候補
-340A,"zig-zag,Inc.",,26.0,0.14,8.0,✗,✗,✗,監視候補
-3409,"Kitabo Co.,Ltd",,24.0,0.53,19.7,✗,✗,✗,監視候補
-339A,"Progress Technologies Group, Inc.",,70.3,0.49,6.3,✗,✗,✓,監視候補
-3396,Felissimo Corporation,,61.3,3.22,2.7,✗,✗,✓,監視候補
-3386,"Cosmo Bio Company,Limited",,71.8,0.66,3.9,✗,✗,✓,監視候補
-3377,BIKE O & COMPANY Ltd.,,59.7,2.41,10.8,✗,✗,✗,監視候補
-3375,Zoa Corporation,,22.0,0.45,4.7,✗,✗,✓,監視候補
-3372,"KANMONKAI Co., Ltd.",,29.5,0.73,3.3,✗,✗,✓,監視候補
-3370,"FUJITA CORPORATION Co.,Ltd.",,15.8,0.38,7.0,✗,✗,✓,監視候補
-335A,Mirairo Inc.,,35.5,0.11,4.8,✗,✗,✓,監視候補
-3359,"cotta CO.,LTD",,52.3,0.35,5.6,✗,✗,✓,監視候補
-3358,"Trailhead Global Holdings,Inc.",,34.7,0.46,3.3,✗,✗,✓,監視候補
-3352,"Buffalo Co.,Ltd.",,41.7,0.48,3.8,✗,✗,✓,監視候補
-3536,"Axas Holdings Co.,Ltd.",,38.8,0.2,1.6,✗,✗,✓,監視候補
-352A,"LOIVE Co.,Ltd.",,69.6,0.62,2.6,✗,✗,✗,監視候補
-3524,"Nitto Seimo Co., Ltd.",,38.2,0.28,1.6,✗,✗,✓,監視候補
-3521,"Thermae-Yu Holdings Co., Ltd.",,41.8,0.56,1.3,✗,✗,✓,監視候補
-3495,"Koryojyuhan Co., Ltd.",,63.1,0.18,4.6,✗,✗,✓,監視候補
-3494,"Mullion Co., Ltd.",,32.2,0.24,10.7,✗,✗,✗,監視候補
-3490,"Azplanning Co.,Ltd.",,48.2,0.57,6.0,✗,✗,✓,監視候補
-3477,"FORLIFE Co., Ltd.",,35.3,0.13,3.1,✗,✗,✓,監視候補
-3474,"G-Factory Co.,Ltd.",,38.8,0.33,2.0,✗,✗,✓,監視候補
-3469,"Dualtap Co., Ltd.",,37.0,13.83,3.1,✗,✗,✓,監視候補
-3461,"Palma Co., Ltd.",,38.4,0.92,13.1,✗,✗,✗,監視候補
-3446,JTEC Corporation,,90.8,0.45,9.5,✗,✗,✓,監視候補
-3440,"NISSO GROUP Co.,Ltd.",,54.4,0.6,4.5,✗,✗,✓,監視候補
-343A,IACE TRAVEL Corporation.,,59.4,2.79,4.9,✗,✗,✓,監視候補
-3426,"Atom Livin Tech Co., Ltd.",,52.3,0.46,2.3,✗,✗,✓,監視候補
-3625,Techfirm Holdings Inc.,,49.7,0.42,17.9,✗,✗,✗,監視候補
-3624,Axel Mark Inc.,,56.2,0.46,15.7,✗,✗,✗,監視候補
-3623,Billing System Corporation,,76.9,0.4,7.0,✗,✗,✓,監視候補
-3622,Netyear Group Corporation,,34.4,0.42,2.2,✗,✗,✓,監視候補
-3607,"Kuraudia Holdings Co.,Ltd.",,31.4,0.66,8.6,✗,✗,✗,監視候補
-3600,FUJIX Ltd.,,24.2,1.44,4.7,✗,✗,✓,監視候補
-3598,"Yamaki Co.,Ltd.",,22.0,0.41,8.4,✗,✗,✗,監視候補
-3583,AuBEX CORPORATION,,37.1,0.27,2.6,✗,✗,✓,監視候補
-3577,Tokai Senko K.K.,,29.2,0.27,1.9,✗,✗,✓,監視候補
-3571,"Sotoh Co., Ltd.",,85.3,1.96,2.3,✗,✗,✓,監視候補
-3566,"Uniform Next Co., Ltd.",,69.5,0.67,6.2,✗,✗,✗,監視候補
-3559,p-ban.com Corp.,,22.3,0.24,5.6,✗,✗,✗,監視候補
-3557,"United & Collective Co., Ltd.",,24.3,0.61,4.5,✗,✗,✓,監視候補
-3550,"STUDIO ATAO Co., Ltd.",,30.3,0.49,4.2,✗,✗,✓,監視候補
-3538,WILLPLUS Holdings Corporation,,90.9,0.92,4.7,✗,✗,✓,監視候補
-3537,"Shoei Yakuhin Co.,Ltd.",,58.7,0.68,6.9,✗,✗,✗,監視候補
-3686,DLE Inc.,,24.3,0.57,10.5,✗,✗,✗,監視候補
-3682,"Encourage Technologies Co., Ltd.",,42.2,9.52,9.3,✗,✗,✓,監視候補
-3680,"Hottolink, Inc.",,31.2,0.49,2.5,✗,✗,✓,監視候補
-3674,"Aucfan Co., Ltd.",,34.7,0.45,4.0,✗,✗,✓,監視候補
-3672,AltPlus Holdings Inc.,,25.2,0.25,7.1,✗,✗,✓,監視候補
-3671,"Softmax Co., Ltd",,75.8,1.84,6.0,✗,✗,✓,監視候補
-3667,"enish,inc.",,14.1,0.87,3.7,✗,✗,✓,監視候補
-3664,Wize Inc.,,20.3,1.82,18.2,✗,✗,✗,監視候補
-365A,"Izawa Towel Co.,Ltd.",,70.3,0.34,3.8,✗,✗,✓,監視候補
-3647,"ASULINA Co.,Ltd.",,24.1,0.21,7.1,✗,✗,✓,監視候補
-3646,"Ekitan & Co., Ltd.",,16.3,0.35,6.2,✗,✗,✗,監視候補
-3645,"Medical Net, Inc.",,23.8,0.39,10.8,✗,✗,✓,監視候補
-3641,"Papyless Co., Ltd.",,77.5,0.27,1.8,✗,✗,✓,監視候補
-3639,Voltage Incorporation,,14.7,0.82,4.8,✗,✗,✓,監視候補
-3628,"Data Horizon Co.,Ltd.",,91.9,0.37,11.2,✗,✗,✗,監視候補
-3627,Tecmira Holdings Inc.,,32.0,0.64,5.3,✗,✗,✓,監視候補
-3779,"J Escom Holdings,Inc.",,14.0,0.84,10.2,✗,✗,✓,監視候補
-3768,Riskmonster.com,,41.6,0.38,4.0,✗,✗,✗,監視候補
-3760,"CAVE Interactive CO.,LTD.",,43.9,0.45,7.4,✗,✗,✓,監視候補
-3758,Aeria Inc.,,49.1,0.94,2.4,✗,✗,✓,監視候補
-3753,FLIGHT SOLUTIONS Inc.,,33.3,1.8,8.8,✗,✗,✗,監視候補
-3750,ADR Biomedical Holdings Inc.,,69.6,1.87,11.3,✗,✗,✗,監視候補
-3747,"Intertrade Co.,Ltd.",,31.5,1.99,13.5,✗,✗,✗,監視候補
-3744,SIOS Corporation,,40.4,0.59,3.8,✗,✗,✓,監視候補
-373A,"LIPPS Co.,Ltd",,40.3,0.89,6.2,✗,✗,✓,監視候補
-3727,Aplix Corporation,,70.2,0.66,8.8,✗,✗,✓,監視候補
-3719,"AI storm Co., Ltd.",,30.5,3.05,5.3,✗,✗,✓,監視候補
-3710,"Jorudan Co.,Ltd.",,32.6,0.22,2.8,✗,✗,✓,監視候補
-3698,"CRI Middleware Co., Ltd.",,64.3,0.5,3.9,✗,✗,✓,監視候補
-3695,"GMO Product Platform, Inc.",,67.2,3.68,9.5,✗,✗,✗,監視候補
-3691,"DIGITAL PLUS, Inc.",,80.0,0.48,8.0,✗,✗,✗,監視候補
-3690,YRGLM Inc.,,34.1,0.29,8.6,✗,✗,✓,監視候補
-386A,"Minoya Co., Ltd.",,45.2,0.39,0.6,✗,✗,✓,監視候補
-3858,Ubiquitous AI Corporation,,35.1,2.16,15.7,✗,✗,✗,監視候補
-3851,"Nippon Ichi Software, Inc.",,71.1,0.24,14.6,✗,✗,✗,監視候補
-3848,"Data Applications Company, Limited",,53.3,1.15,3.9,✗,✗,✓,監視候補
-3845,I-Freek Mobile Inc.,,74.7,0.49,15.4,✗,✗,✗,監視候補
-3841,Jedat Inc.,,50.1,0.09,6.5,✗,✗,✓,監視候補
-3840,VIXTON Corporation,,50.4,0.99,6.7,✗,✗,✓,監視候補
-3839,"ODK Solutions Company, Ltd.",,50.9,0.64,6.6,✗,✗,✓,監視候補
-3826,System Integrator Corp.,,53.6,0.17,2.9,✗,✗,✓,監視候補
-3816,"Daiwa Computer Co., Ltd.",,42.6,0.8,2.6,✗,✗,✓,監視候補
-3815,"Media Kobo, Inc.",,46.6,0.53,2.3,✗,✗,✓,監視候補
-3807,Fisco Ltd.,,39.9,1.02,6.9,✗,✗,✗,監視候補
-3804,System D Inc.,,86.8,1.16,10.2,✗,✗,✓,監視候補
-3802,"Ecomic Co., Ltd",,16.4,1.5,5.4,✗,✗,✗,監視候補
-3799,Keyware Solutions Inc.,,91.1,1.09,4.2,✗,✗,✓,監視候補
-3796,"e-Seikatsu Co.,Ltd.",,40.0,0.34,15.8,✗,✗,✗,監視候補
-3930,"Hatena Co., Ltd.",,22.9,1.21,7.5,✗,✗,✓,監視候補
-3929,"Socialwire Co., Ltd.",,28.3,0.1,9.2,✗,✗,✗,監視候補
-3928,Mynet Inc.,,21.8,0.51,5.7,✗,✗,✗,監視候補
-3920,"Internetworking and Broadband Consulting Co.,Ltd.",,55.4,3.25,2.0,✗,✗,✓,監視候補
-3917,"iRidge, Inc.",,38.3,0.43,7.7,✗,✗,✓,監視候補
-3913,"GreenBee, Inc.",,21.9,0.46,12.3,✗,✗,✗,監視候補
-3912,"Mobile Factory, Inc.",,67.9,2.75,8.1,✗,✗,✗,監視候補
-3911,Aiming Inc.,,78.4,0.45,9.0,✗,✗,✓,監視候補
-3910,MKSystem Corporation,,16.4,0.45,6.7,✗,✗,✓,監視候補
-3909,Showcase Inc.,,21.3,102.48,10.2,✗,✗,✗,監視候補
-3908,Collabos Corporation,,17.0,0.63,5.1,✗,✗,✗,監視候補
-3904,KAYAC Inc.,,66.1,1.76,3.1,✗,✗,✓,監視候補
-3896,"Awa Paper & Technological Company, Inc.",,41.3,0.52,5.4,✗,✗,✓,監視候補
-3895,Havix Corporation,,33.0,0.44,14.3,✗,✗,✗,監視候補
-3892,"Okayama Paper Industries Co., Ltd.",,75.2,1.01,4.7,✗,✗,✓,監視候補
-387A,"Fuller, Inc.",,16.0,0.1,2.6,✗,✗,✓,監視候補
-3985,TEMONA.inc.,,19.8,0.31,7.5,✗,✗,✗,監視候補
-3976,SHANON Inc.,,30.3,0.4,16.0,✗,✗,✗,監視候補
-3974,SCAT Inc.,,21.1,1.37,3.4,✗,✗,✓,監視候補
-3970,Innovation Inc.,,22.0,0.11,6.1,✗,✗,✗,監視候補
-3965,"Capital Asset Planning, Inc.",,49.0,0.5,3.9,✗,✗,✓,監視候補
-3958,"Sasatoku Printing Co.,Ltd.",,29.3,0.45,3.8,✗,✗,✓,監視候補
-3955,"IMURA & Co.,Ltd.",,87.0,1.08,4.9,✗,✗,✓,監視候補
-3953,"Ohmura Shigyo Co.,Ltd.",,28.1,0.18,2.7,✗,✗,✓,監視候補
-3948,"Hikari Business Form Co., Ltd.",,63.5,0.15,1.6,✗,✗,✓,監視候補
-3945,"Superbag Company, Limited",,32.7,2.31,2.6,✗,✗,✓,監視候補
-3944,"Furubayashi Shiko Co.,Ltd.",,34.9,0.08,5.7,✗,✗,✗,監視候補
-3940,"Nomura System Corporation Co, Ltd.",,57.6,1.03,6.2,✗,✗,✓,監視候補
-3936,"Globalway, Inc.",,47.5,0.34,9.4,✗,✗,✓,監視候補
-3935,"Edia Co., Ltd.",,40.7,0.72,4.9,✗,✗,✓,監視候補
-3933,"CHIeru Co.,Ltd.",,38.5,0.93,4.3,✗,✗,✓,監視候補
-3931,VALUE GOLF Inc.,,26.4,0.55,2.8,✗,✗,✓,監視候補
-4057,"Interfactory, Inc.",,14.0,0.15,4.1,✗,✗,✓,監視候補
-4054,"Japan PropTech Co.,Ltd.",,71.3,0.46,1.2,✗,✗,✓,監視候補
-4040,"Nankai Chemical Company,Limited",,81.0,0.35,9.3,✗,✗,✓,監視候補
-4031,Katakura & Co-op Agri Corporation,,93.1,0.47,9.6,✗,✗,✗,監視候補
-4020,Betrend Corporation,,19.5,2.97,8.6,✗,✗,✗,監視候補
-4019,"Stmn, Inc.",,52.8,0.57,6.7,✗,✗,✗,監視候補
-4017,Creema Ltd.,,13.9,0.29,3.9,✗,✗,✓,監視候補
-4016,"MIT Holdings Co., Ltd.",,21.9,0.68,4.6,✗,✗,✓,監視候補
-4015,Paycloud Holdings Inc.,,81.7,0.9,6.0,✗,✗,✓,監視候補
-4012,"Axis Co.,Ltd.",,74.2,0.34,7.4,✗,✗,✓,監視候補
-3998,"SuRaLa Net Co.,Ltd.",,17.1,1.95,6.9,✗,✗,✗,監視候補
-3996,Signpost Corporation,,27.4,0.18,13.6,✗,✗,✓,監視候補
-3991,"Wantedly, Inc.",,90.3,0.18,2.5,✗,✗,✓,監視候補
-3988,"SYS Holdings Co., Ltd.",,59.2,0.28,4.2,✗,✗,✓,監視候補
-3987,Ecomott Inc.,,32.0,0.41,9.2,✗,✗,✓,監視候補
-3986,"bBreak Systems Company, Limited",,22.8,0.58,8.5,✗,✗,✓,監視候補
-416A,"Fuji United Holdings Company,Ltd.",,88.0,0.22,8.0,✗,✗,✓,監視候補
-4167,Kokopelli Inc.,,25.0,0.21,9.5,✗,✗,✗,監視候補
-4166,Cacco Inc.,,20.4,132.26,15.5,✗,✗,✗,監視候補
-415A,"GMO TECH Holdings, Inc.",,89.8,1.03,12.5,✗,✗,✗,監視候補
-4124,Osaka Yuka Industry Ltd.,,24.4,0.74,5.7,✗,✗,✗,監視候補
-4120,"Sugai Chemical Industry Co., Ltd.",,41.1,0.5,8.6,✗,✗,✗,監視候補
-4119,Nippon Pigment Holdings Company Limited,,98.4,0.09,7.6,✗,✗,✓,監視候補
-410A,"GMO Commerce, Inc.",,69.7,2.1,16.6,✗,✗,✗,監視候補
-4102,"Maruo Calcium Co., Ltd.",,30.8,0.64,2.1,✗,✗,✓,監視候補
-4098,"Titan Kogyo, Ltd.",,29.8,0.9,3.4,✗,✗,✓,監視候補
-407A,"Unicon Holdings Co., Ltd.",,88.7,0.79,5.5,✗,✗,✓,監視候補
-4076,"CNS Co.,Ltd",,57.6,1.44,3.4,✗,✗,✓,監視候補
-4074,"LaKeel, Inc.",,52.1,0.24,5.2,✗,✗,✓,監視候補
-4068,Basis Corporation,,33.7,0.71,6.8,✗,✗,✓,監視候補
-4060,rakumo Inc.,,70.3,0.62,8.9,✗,✗,✗,監視候補
-4059,"Magmag, Inc.",,10.9,0.12,9.1,✗,✗,✗,監視候補
-4245,"Daiki Axis Co., Ltd.",,96.4,0.74,3.3,✗,✗,✓,監視候補
-4243,"Nix, Inc.",,23.5,0.03,11.5,✗,✗,✗,監視候補
-4242,Takagi Seiko Corporation,,48.0,1.21,3.4,✗,✗,✓,監視候補
-4241,atect corporation,,32.7,0.55,17.2,✗,✗,✓,監視候補
-4240,"Cluster Technology Co.,Ltd.",,17.3,0.32,5.3,✗,✗,✓,監視候補
-4237,Fujipream Corporation,,98.9,1.04,7.9,✗,✗,✓,監視候補
-4234,"Sun A.Kaken Company,Limited",,99.4,0.96,4.8,✗,✗,✓,監視候補
-4224,Lonseal Corporation,,97.6,0.62,2.9,✗,✗,✓,監視候補
-4222,"Kodama Chemical Industry Co.,Ltd.",,99.5,0.61,13.4,✗,✗,✗,監視候補
-4199,WonderPlanet Inc.,,20.1,0.26,2.8,✗,✗,✓,監視候補
-4198,"TENDA Co.,LTD.",,33.3,8.4,3.0,✗,✗,✓,監視候補
-4197,"Asmarq Co., Ltd.",,27.9,1.95,2.9,✗,✗,✓,監視候補
-4179,G-NEXT Inc.,,18.1,1.1,13.6,✗,✗,✗,監視候補
-4177,"i-plug,Inc.",,54.8,0.55,11.5,✗,✗,✓,監視候補
-4172,"Hi-CRATES CO.,LTD.",,51.1,2.52,3.7,✗,✗,✓,監視候補
-4170,"Kaizen Platform, Inc.",,18.6,0.22,16.2,✗,✗,✓,監視候補
-4334,"YUKE'S Co.,Ltd.",,31.8,0.63,5.8,✗,✗,✓,監視候補
-4317,Ray Corporation,,79.3,2.74,7.5,✗,✗,✗,監視候補
-4308,J-Stream Inc.,,88.3,0.49,1.7,✗,✗,✓,監視候補
-4287,Just Planning Inc.,,55.0,0.76,6.0,✗,✗,✓,監視候補
-4284,"SOLXYZ Co., Ltd.",,91.3,0.28,5.0,✗,✗,✓,監視候補
-4274,"Hosoya Pyro-Engineering Co., Ltd.",,44.1,0.27,15.9,✗,✗,✓,監視候補
-4270,BeeX Inc.,,42.5,0.14,2.1,✗,✗,✓,監視候補
-4265,Institution for a Global Society Corporation,,11.8,0.26,15.9,✗,✗,✗,監視候補
-4264,"Secure, Inc.",,86.4,1.82,6.8,✗,✗,✓,監視候補
-4263,"SUSMED,Inc.",,67.4,0.46,9.7,✗,✗,✗,監視候補
-4262,"NIFTY Lifestyle Co., Ltd.",,88.0,0.49,3.5,✗,✗,✓,監視候補
-4261,"AsiaQuest Co., Ltd.",,44.6,0.38,4.7,✗,✗,✓,監視候補
-4260,"Hybrid Technologies Co., Ltd.",,23.4,0.61,7.5,✗,✗,✓,監視候補
-4256,"CYND Co., Ltd.",,73.3,1.11,9.0,✗,✗,✗,監視候補
-4255,THECOO Inc.,,68.3,1.61,8.6,✗,✗,✗,監視候補
-4247,"POVAL KOGYO Co., Ltd.",,37.3,0.34,4.1,✗,✗,✓,監視候補
-4414,"FLECT Co., Ltd.",,60.5,0.17,8.5,✗,✗,✓,監視候補
-4406,"New Japan Chemical Co., Ltd.",,86.5,0.48,7.8,✗,✗,✓,監視候補
-4397,TeamSpirit Inc.,,56.0,0.33,12.1,✗,✗,✗,監視候補
-4391,"Logizard Co., Ltd.",,37.2,0.64,3.7,✗,✗,✓,監視候補
-4388,"AI,Inc.",,21.3,0.49,8.0,✗,✗,✓,監視候補
-4386,"SIG Group Co., Ltd.",,52.2,5.14,6.2,✗,✗,✓,監視候補
-4380,M - mart Inc.,,65.0,1.19,3.8,✗,✗,✓,監視候補
-4378,CINC Corp.,,13.6,0.87,17.1,✗,✗,✓,監視候補
-4374,Robot Payment Inc.,,87.8,0.5,9.1,✗,✗,✗,監視候補
-4372,"YMIRLINK,Inc.",,51.0,0.19,2.7,✗,✗,✓,監視候補
-4361,"Kawaguchi Chemical Industry Co., Ltd",,20.5,2.29,7.4,✗,✗,✓,監視候補
-4360,"MANAC Chemical Partners Co.,Ltd",,82.2,0.55,10.5,✗,✗,✗,監視候補
-4356,"Applied Technology Co., Ltd.",,94.3,1.09,4.8,✗,✗,✓,監視候補
-4351,Yamada Servicer Synthetic Office,,36.0,0.13,4.2,✗,✗,✓,監視候補
-4341,Seiryo Electric Corporation,,30.8,0.39,4.3,✗,✗,✓,監視候補
-4335,"IPS Holdings Co., Ltd.",,24.2,4.37,2.4,✗,✗,✓,監視候補
-4476,AI CROSS Inc.,,41.4,0.57,3.1,✗,✗,✓,監視候補
-4450,"Power Solutions, Ltd.",,74.6,2.31,4.5,✗,✗,✓,監視候補
-4447,"PBsystems,Inc.",,28.8,3.11,8.2,✗,✗,✓,監視候補
-4445,Living Technologies Inc.,,40.8,0.84,18.7,✗,✗,✗,監視候補
-4444,INFONET GROUP inc.,,18.8,0.36,7.9,✗,✗,✗,監視候補
-4442,"Valtes Holdings Co.,Ltd.",,81.6,2.53,6.3,✗,✗,✓,監視候補
-4437,"gooddays holdings, Inc.",724.0,54.8,1.23,6.3,✓,✗,✓,監視候補
-4430,"Tokai Soft Co., Ltd.",,83.3,0.37,3.1,✗,✗,✓,監視候補
-4429,"Ricksoft Co., Ltd.",,32.0,0.43,5.3,✗,✗,✓,監視候補
-4428,sinops Inc.,,42.6,0.19,3.6,✗,✗,✓,監視候補
-4427,"EduLab, Inc.",,22.8,0.31,11.5,✗,✗,✗,監視候補
-4424,"Amazia,inc.",,19.7,0.02,12.3,✗,✗,✗,監視候補
-4421,"D. I. System Co., Ltd.",,26.4,0.5,3.2,✗,✗,✓,監視候補
-441A,NE Inc.,,87.3,0.4,9.7,✗,✗,✓,監視候補
-4416,True Data Inc.,,19.5,0.05,8.7,✗,✗,✓,監視候補
-4415,"Broad Enterprise Co.,Ltd.",,90.6,0.25,8.0,✗,✗,✓,監視候補
-4582,SymBio Pharmaceuticals Limited,,44.9,0.76,13.2,✗,✗,✓,監視候補
-4572,"Carna Biosciences, Inc.",,76.1,4.47,11.2,✗,✗,✗,監視候補
-4571,"Nano Holdings, Inc.",,77.8,1.13,9.6,✗,✗,✓,監視候補
-4564,"OncoTherapy Science, Inc.",,81.6,1.39,15.0,✗,✗,✗,監視候補
-4558,"Chukyoiyakuhin Co.,Ltd.",,21.4,0.41,1.8,✗,✗,✓,監視候補
-4539,"Nippon Chemiphar Co., Ltd.",,56.2,0.17,3.2,✗,✗,✓,監視候補
-4531,"Yuki Gosei Kogyo Co., Ltd.",,79.8,0.14,6.1,✗,✗,✓,監視候補
-4524,"Morishita Jintan Co., Ltd.",,91.0,1.41,1.9,✗,✗,✓,監視候補
-4496,Commerce One Holdings Inc.,,52.2,0.77,3.2,✗,✗,✓,監視候補
-4492,Genetec Corporation,,45.7,0.6,4.7,✗,✗,✓,監視候補
-4491,"Computer Management Co., Ltd.",,60.9,0.76,12.7,✗,✗,✗,監視候補
-4490,VisasQ Inc.,,63.9,0.68,7.6,✗,✗,✓,監視候補
-4488,AI inside Inc.,,82.9,0.58,7.3,✗,✗,✓,監視候補
-4487,"Spacemarket,Inc.",,25.4,1.47,9.9,✗,✗,✗,監視候補
-4486,Unite and Grow Inc.,,54.0,0.43,5.0,✗,✗,✓,監視候補
-4484,"Lancers, Inc.",,46.3,0.7,7.5,✗,✗,✗,監視候補
-4664,Japan Reliance Service Corporation,,34.0,0.45,12.7,✗,✗,✗,監視候補
-4657,"Environmental Control Center Co.,Ltd.",,21.6,0.51,3.8,✗,✗,✓,監視候補
-4650,"SD ENTERTAINMENT,Inc.",,24.4,0.7,1.1,✗,✗,✓,監視候補
-4645,"Ichishin Holdings Co.,Ltd.",,34.9,0.53,2.8,✗,✗,✗,監視候補
-4644,"Imagineer Co.,Ltd.",,98.8,0.21,1.5,✗,✗,✓,監視候補
-4642,"Original Engineering Consultants Co., Ltd.",,84.0,0.45,3.5,✗,✗,✓,監視候補
-463A,"INTELLEX HOLDINGS Co.,Ltd.",,96.3,1.13,6.9,✗,✗,✗,監視候補
-462A,"FUNDINNO,Inc.",,60.7,0.14,18.4,✗,✗,✓,監視候補
-4625,"Atomix Co.,Ltd.",,47.2,0.6,12.9,✗,✗,✓,監視候補
-4624,"Isamu Paint Co., Ltd.",,75.7,1.17,4.6,✗,✗,✓,監視候補
-4623,Asahipen Corporation,,64.2,0.13,4.1,✗,✗,✓,監視候補
-4615,"Shinto Paint Company, Limited",,45.3,0.66,2.3,✗,✗,✓,監視候補
-4597,Solasia Pharma K.K.,,90.1,1.08,10.3,✗,✗,✗,監視候補
-4591,Ribomic Inc.,,41.8,0.96,13.3,✗,✗,✗,監視候補
-4586,"MedRx Co., Ltd",,39.7,0.09,6.9,✗,✗,✓,監視候補
-4584,Kidswell Bio Corporation,,81.9,0.58,6.2,✗,✗,✓,監視候補
-4762,XNET Corporation,,83.9,0.63,14.9,✗,✗,✓,監視候補
-475A,"GIMIC Co., Ltd.",,35.3,0.42,12.6,✗,✗,✗,監視候補
-4754,TOSNET Corporation,,71.4,0.35,6.1,✗,✗,✗,監視候補
-4752,Showa System Engineering Corporation,,69.0,0.33,3.1,✗,✗,✓,監視候補
-4750,"Daisan Co., Ltd.",,35.8,0.18,4.0,✗,✗,✓,監視候補
-4736,Nippon RAD Inc.,,32.3,0.27,6.4,✗,✗,✗,監視候補
-4735,"Kyoshin Co., Ltd.",,22.0,0.65,7.9,✗,✗,✓,監視候補
-472A,Mirrativ Inc.,,93.6,0.38,8.3,✗,✗,✓,監視候補
-4728,"Tose Co., Ltd.",,49.0,0.47,2.0,✗,✗,✓,監視候補
-4720,"Johnan Academic Preparatory Institute, Inc.",,19.1,0.63,3.3,✗,✗,✓,監視候補
-4707,KITAC Corporation,,22.3,1.59,17.6,✗,✗,✗,監視候補
-4705,CLIP Corporation,,28.0,0.41,2.7,✗,✗,✓,監視候補
-469A,Fitcrew Inc.,,17.4,0.73,7.5,✗,✗,✓,監視候補
-4679,"TAYA Co.,Ltd.",,19.9,0.31,3.8,✗,✗,✓,監視候補
-4678,"SHUEI YOBIKO Co., Ltd.",,22.0,0.51,1.8,✗,✗,✓,監視候補
-4673,"Kawasaki Geological Engineering Co., Ltd.",,42.5,0.22,6.1,✗,✗,✓,監視候補
-4892,Cyfuse Biomedical K.K.,,63.6,1.23,15.0,✗,✗,✗,監視候補
-4890,Tsubota Laboratory Incorporated,,66.8,1.3,19.1,✗,✗,✗,監視候補
-4885,Muromachi Chemicals Inc.,,36.4,0.43,7.3,✗,✗,✓,監視候補
-4881,FunPep Company Limited,,23.3,0.95,14.9,✗,✗,✓,監視候補
-4880,"CellSource Co., Ltd.",,61.7,1.12,9.9,✗,✗,✓,監視候補
-4845,"Scala, Inc.",,56.0,2.85,4.8,✗,✗,✓,監視候補
-483A,"Tera Technology, Inc.",,35.7,0.46,1.5,✗,✗,✓,監視候補
-4829,"Nihon Enterprise Co.,Ltd.",,40.5,0.84,5.8,✗,✗,✓,監視候補
-4814,Nextware Ltd.,,21.3,3.67,8.0,✗,✗,✓,監視候補
-480A,"LiB Consulting co.,ltd",,67.9,0.37,13.2,✗,✗,✗,監視候補
-478A,Hutzper Inc.,,73.4,0.8,17.2,✗,✗,✗,監視候補
-477A,"Startline CO.,LTD.",,32.8,0.33,16.6,✗,✗,✗,監視候補
-4777,Gala Incorporated,,56.0,0.77,2.0,✗,✗,✓,監視候補
-4772,"SM ENTERTAINMENT JAPAN Co.,Ltd.",,85.8,1.2,4.2,✗,✗,✓,監視候補
-4769,"Ic Co., Ltd.",,84.3,0.47,5.9,✗,✗,✗,監視候補
-4766,"PA Co., Ltd.",,23.9,0.89,10.6,✗,✗,✗,監視候補
-5028,"SecondXight Analytica, Inc.",,33.4,1.04,3.7,✗,✗,✓,監視候補
-5026,"Tripleize Co.,Ltd.",,51.2,0.29,10.4,✗,✗,✗,監視候補
-5025,MERCURY Inc.,585.0,15.6,0.6,5.8,✓,✗,✓,監視候補
-5010,"Nippon Seiro Co., Ltd.",,62.4,0.49,13.6,✗,✗,✗,監視候補
-4990,"Showa Chemical Industry Co., Ltd.",,55.5,0.02,7.9,✗,✗,✓,監視候補
-4976,"Toyo Drilube Co., Ltd.",,60.7,0.61,12.3,✗,✗,✗,監視候補
-4937,Waqoo Inc.,,84.4,0.12,4.1,✗,✗,✓,監視候補
-4936,AXXZIA Inc.,,65.4,1.74,10.4,✗,✗,✗,監視候補
-4934,"Premier Anti-Aging Co., Ltd.",,50.5,0.25,5.5,✗,✗,✓,監視候補
-4932,"Almado, Inc.",,72.1,0.6,7.7,✗,✗,✗,監視候補
-4929,"Adjuvant Holdings Co.,Ltd.",,59.1,0.33,1.2,✗,✗,✓,監視候補
-4926,"C'BON COSMETICS Co.,Ltd.",,51.1,1.21,1.7,✗,✗,✓,監視候補
-4925,"HABA Laboratories,Inc.",,63.9,0.81,4.1,✗,✗,✓,監視候補
-4920,"Nippon Shikizai, Inc.",,25.1,1.09,7.0,✗,✗,✓,監視候補
-4918,Ivy Cosmetics Corporation,,19.0,0.77,3.1,✗,✗,✓,監視候補
-4896,"K Pharma,Inc.",,88.3,1.47,9.6,✗,✗,✗,監視候補
-5244,"jig.jp Co., Ltd.",,74.7,0.42,5.2,✗,✗,✓,監視候補
-5240,"monoAI technology Co.,Ltd.",,20.7,0.04,18.1,✗,✗,✗,監視候補
-5216,"Kuramoto Co., Ltd.",,72.7,0.17,17.6,✗,✗,✗,監視候補
-5199,"Fuji Latex Co., Ltd.",,25.2,0.49,2.3,✗,✗,✓,監視候補
-5194,"Sagami Rubber Industries Co., Ltd.",,67.6,2.84,1.7,✗,✗,✓,監視候補
-5189,"Sakura Rubber Co., Ltd.",,66.2,0.06,3.8,✗,✗,✓,監視候補
-5187,"Create Medic Co., Ltd.",,90.2,0.27,5.8,✗,✗,✓,監視候補
-5162,Asahi Rubber Inc.,,36.2,0.22,6.0,✗,✗,✓,監視候補
-5138,"Rebase, Inc.",,22.4,0.35,6.8,✗,✗,✓,監視候補
-5134,"POPER Co.,Ltd.",,17.5,3.19,8.0,✗,✗,✓,監視候補
-5129,FIXER Inc.,,35.4,0.4,16.6,✗,✗,✗,監視候補
-5126,PORTERS Corporation,,22.4,5.5,3.7,✗,✗,✓,監視候補
-5035,HOUSEI Inc.,,23.8,0.81,4.5,✗,✗,✓,監視候補
-5034,"unerry,Inc.",,91.9,0.9,14.8,✗,✗,✓,監視候補
-5033,Nulab Inc.,,78.9,0.68,8.0,✗,✗,✓,監視候補
-5029,circlace Inc,,40.6,0.54,8.9,✗,✗,✗,監視候補
-548A,"SystemEXE,Inc.",,49.3,0.41,4.4,✗,✗,✓,監視候補
-5458,Takasago Tekko K.K.,,39.4,0.09,4.7,✗,✗,✓,監視候補
-5446,"HOKUETSU METAL Co., Ltd.",,39.8,0.26,4.6,✗,✗,✓,監視候補
-542A,Vitabrid Japan Inc.,,62.4,0.66,10.3,✗,✗,✗,監視候補
-5391,A&A Material Corporation,,81.6,0.21,3.5,✗,✗,✓,監視候補
-5368,"Japan Insulation Co., Ltd.",,86.3,2.6,5.5,✗,✗,✓,監視候補
-5355,"Nippon Crucible Co., Ltd.",,43.9,1.02,1.2,✗,✗,✓,監視候補
-5341,"Asahi Eito Holdings Co.,Ltd.",,11.6,0.66,14.8,✗,✗,✗,監視候補
-5287,"Ito Yogyo Co., Ltd",,25.3,0.99,17.4,✗,✗,✓,監視候補
-5279,"Nihon Kogyo Co., Ltd.",,35.0,0.59,3.3,✗,✗,✓,監視候補
-5271,"Toyo Asano Foundation Co., Ltd.",,29.5,0.13,5.3,✗,✗,✓,監視候補
-5257,"Nova System Co.,Ltd.",,38.7,0.04,4.3,✗,✗,✓,監視候補
-5255,Monstarlab Inc.,,52.4,0.23,15.4,✗,✗,✓,監視候補
-5250,"GMO Prime Strategy Co.,Ltd.",,37.1,0.31,16.1,✗,✗,✗,監視候補
-5248,"TECHNOLOGIES, Inc.",,86.3,0.26,4.4,✗,✗,✓,監視候補
-5247,"BTM, Inc.",,15.8,0.26,4.4,✗,✗,✓,監視候補
-5603,Kogi Corporation,,42.2,0.17,2.0,✗,✗,✓,監視候補
-559A,"Umenoyado Brewery Co., Ltd.",,68.4,0.19,5.7,✗,✗,✓,監視候補
-5597,"Blue Innovation Co., Ltd.",,52.1,0.73,11.4,✗,✗,✗,監視候補
-5591,AVILEN Inc.,,50.3,1.47,10.4,✗,✗,✗,監視候補
-5587,Inbound Platform Corp.,,29.0,0.14,6.5,✗,✗,✗,監視候補
-5582,GRID Inc.,,98.4,1.02,5.0,✗,✗,✓,監視候補
-5580,"Prodelight Co.,Ltd.",,27.5,0.87,7.1,✗,✗,✓,監視候補
-5578,"AR advanced technology, Inc.",,90.1,0.53,5.9,✗,✗,✓,監視候補
-5576,O.B.System Inc.,,70.9,0.22,6.2,✗,✗,✓,監視候補
-5571,"Excite Holdings Co., Ltd.",,50.5,0.48,4.3,✗,✗,✗,監視候補
-5570,"Jenoba Co.,Ltd.",,79.3,1.05,6.8,✗,✗,✓,監視候補
-554A,"Batonz Co., Ltd.",,63.6,0.28,12.9,✗,✗,✗,監視候補
-5527,Property Technologies Inc.,,96.5,1.71,8.8,✗,✗,✓,監視候補
-550A,"Softtex Co.,Ltd.",,20.1,0.38,10.6,✗,✗,✗,監視候補
-549A,"HITO-TO-HITO Holdings Co.,Ltd.",,63.3,0.43,11.6,✗,✗,✗,監視候補
-5491,"Nippon Kinzoku Co., Ltd.",,57.3,0.24,4.8,✗,✗,✓,監視候補
-5868,Rococo Co. Ltd.,,38.1,0.3,4.7,✗,✗,✓,監視候補
-5867,"es Networks Co., Ltd.",,42.4,1.9,9.1,✗,✗,✓,監視候補
-5858,"STG Co., Ltd.",,24.6,0.08,4.2,✗,✗,✓,監視候補
-5843,"Nippon Insure Co., Ltd.",,65.8,0.33,4.7,✗,✗,✓,監視候補
-5820,"Mitsuboshi Co., Ltd.",,36.2,0.51,11.0,✗,✗,✓,監視候補
-5817,"JMACS Japan Co., Ltd.",,66.0,0.47,15.5,✗,✗,✗,監視候補
-5753,"Nippon Shindo Co., Ltd.",,54.3,0.55,6.4,✗,✗,✓,監視候補
-5742,"NIC Autotec, Inc.",,38.7,1.79,2.6,✗,✗,✓,監視候補
-5704,JMC Corporation,,20.9,0.3,5.6,✗,✗,✓,監視候補
-5699,"IBOKIN Co.,Ltd.",,51.0,0.17,4.7,✗,✗,✓,監視候補
-5697,"Sanyu Co., Ltd.",,48.8,0.2,3.2,✗,✗,✓,監視候補
-5619,MRSO Inc.,840.0,29.5,0.15,4.3,✗,✗,✓,監視候補
-5618,Nyle Inc.,,25.1,0.81,6.8,✗,✗,✓,監視候補
-5616,"Ame Kaze Taiyo, Inc.",,15.2,0.9,5.7,✗,✗,✓,監視候補
-5612,Nippon Chutetsukan K.K.,,50.8,0.2,3.9,✗,✗,✓,監視候補
-5609,Nippon Chuzo K. K.,,45.6,0.74,4.8,✗,✗,✓,監視候補
-5956,"Toso Company, Limited",,51.3,1.9,3.2,✗,✗,✓,監視候補
-5952,Amatei Incorporated,,22.2,0.34,2.7,✗,✗,✓,監視候補
-5950,"Japan Power Fastening Co.,Ltd.",,19.6,1.48,6.8,✗,✗,✓,監視候補
-5940,"Fujisash Co.,Ltd.",,91.9,1.03,2.8,✗,✗,✓,監視候補
-5939,"Otani Kogyo Co.,Ltd.",,36.1,0.2,3.3,✗,✗,✓,監視候補
-5936,"Toyo Shutter Co., Ltd.",,56.0,0.52,4.8,✗,✗,✓,監視候補
-5928,"Almetax Manufacturing Co., Ltd.",,29.7,0.44,2.1,✗,✗,✓,監視候補
-5923,"TAKADAKIKO (Steel Construction) CO.,LTD.",,68.2,0.19,3.0,✗,✗,✓,監視候補
-5905,Nihon Seikan k.k.,,18.4,0.46,1.5,✗,✗,✓,監視候補
-589A,"NEIS Co.,Ltd.",,59.5,0.06,8.4,✗,✗,✓,監視候補
-5891,"SAKIGAKE Holdings Co.,Ltd.",,96.8,1.05,1.7,✗,✗,✓,監視候補
-5888,"Daiwa Cycle Co.,Ltd.",,71.5,4.19,10.7,✗,✗,✗,監視候補
-5884,"KURADASHI.Co.,Ltd.",,74.9,0.23,8.1,✗,✗,✓,監視候補
-5871,SOLIZE Holdings Corporation,,71.5,0.52,8.9,✗,✗,✓,監視候補
-5870,Nalnet Communications Inc.,,46.9,0.45,4.0,✗,✗,✓,監視候補
-6034,MRT Inc.,,30.8,1.28,10.5,✗,✗,✗,監視候補
-6033,"Extreme Co.,Ltd.",,87.1,0.2,11.7,✗,✗,✗,監視候補
-6031,Zeta Inc.,,56.1,0.47,10.7,✗,✗,✓,監視候補
-6029,Artra Group Corporation,,19.7,0.87,4.3,✗,✗,✓,監視候補
-6022,Akasaka Diesels Limited,,37.9,0.89,4.1,✗,✗,✓,監視候補
-5997,Kyoritsu Air Tech Inc.,,43.7,0.18,4.8,✗,✗,✓,監視候補
-5994,"Fine Sinter Co., Ltd.",,41.6,0.1,7.0,✗,✗,✓,監視候補
-5990,Super Tool Co. Ltd.,,45.5,0.75,2.3,✗,✗,✓,監視候補
-5987,ONEX Corporation,,27.2,0.35,3.5,✗,✗,✓,監視候補
-5986,"Molitec Steel Co., Ltd.",,63.6,0.91,14.4,✗,✗,✗,監視候補
-5974,"Chugokukogyo Co.,Ltd.",,27.5,0.34,2.6,✗,✗,✓,監視候補
-5973,Toami Corporation,,34.1,1.04,1.8,✗,✗,✓,監視候補
-5969,"Lobtex Co., Ltd.",,22.3,0.18,1.9,✗,✗,✓,監視候補
-5967,"Tone Co., Ltd.",,95.6,0.56,7.6,✗,✗,✓,監視候補
-5966,"Kyoto Tool Co., Ltd.",,66.5,0.75,9.0,✗,✗,✗,監視候補
-5962,"Asaka Industrial Co., Ltd.",,20.9,1.06,8.2,✗,✗,✗,監視候補
-6093,"MITRA Group, Inc.",,68.8,4.54,5.1,✗,✗,✓,監視候補
-6092,"EnBio Holdings, Inc",,63.0,0.34,8.2,✗,✗,✗,監視候補
-6090,"Human Metabolome Technologies, Inc.",,32.4,0.67,3.1,✗,✗,✓,監視候補
-6082,"RIDE ON EXPRESS HOLDINGS Co., Ltd.",,95.6,0.8,3.2,✗,✗,✓,監視候補
-6081,"Allied Architects, Inc.",,25.7,0.18,17.3,✗,✗,✗,監視候補
-607A,"every,Inc.",,51.8,0.16,19.2,✗,✗,✗,監視候補
-6074,JSS Corporation,,20.3,0.47,1.7,✗,✗,✓,監視候補
-6069,"Trenders, Inc.",,49.4,1.03,5.4,✗,✗,✗,監視候補
-6063,"Emergency Assistance Japan Co., Ltd.",,25.2,0.22,2.9,✗,✗,✓,監視候補
-6059,"UCHIYAMA HOLDINGS Co.,Ltd.",,71.8,0.96,3.9,✗,✗,✓,監視候補
-6054,Livesense Inc.,,31.2,0.42,3.7,✗,✗,✓,監視候補
-6049,ItoKuro Inc.,,50.5,2.72,4.1,✗,✗,✓,監視候補
-6047,Gunosy Inc.,,73.0,0.29,10.6,✗,✗,✗,監視候補
-6046,Linkbal Inc.,,26.7,0.12,9.9,✗,✗,✗,監視候補
-6042,"Nikki Co., Ltd.",,71.8,0.3,3.2,✗,✗,✓,監視候補
-6038,"IID, Inc.",,40.8,0.13,4.1,✗,✗,✓,監視候補
-6190,"PhoenixBio Co., Ltd.",,12.6,2.31,11.0,✗,✗,✓,監視候補
-6189,Global Kids Company Corp.,,93.8,0.21,1.9,✗,✗,✓,監視候補
-6186,"Ichikura Co., Ltd.",,20.6,0.46,1.9,✗,✗,✓,監視候補
-6185,SMN Corporation,,53.2,0.08,1.9,✗,✗,✓,監視候補
-6182,MetaReal Corporation,,54.5,0.52,11.0,✗,✗,✗,監視候補
-6181,Tameny Inc.,,37.8,0.39,11.9,✗,✗,✗,監視候補
-6180,GMO Media Inc.,,67.2,1.02,3.6,✗,✗,✓,監視候補
-6177,AppBank Inc.,,21.2,0.31,6.1,✗,✗,✓,監視候補
-6171,C.E.Management Integrated Laboratory Co.Ltd,,52.9,0.57,1.4,✗,✗,✓,監視候補
-6166,"Nakamura Choukou Co., Ltd.",,65.8,0.35,13.2,✗,✗,✗,監視候補
-6158,"Waida Mfg. Co.,Ltd.",,66.7,0.62,3.7,✗,✗,✓,監視候補
-6156,A-One Seimitsu Inc.,,95.1,0.14,5.2,✗,✗,✓,監視候補
-6155,"Takamatsu Machinery Co., Ltd.",,59.4,0.3,2.4,✗,✗,✗,監視候補
-6150,"Takeda Machinery Co., Ltd.",,25.6,0.63,1.7,✗,✗,✓,監視候補
-6138,"Dijet Industrial Co., Ltd.",,58.5,0.74,8.6,✗,✗,✗,監視候補
-6094,"FreakOut Holdings, inc.",,86.7,0.92,13.5,✗,✗,✗,監視候補
-6307,"Sansei Co.,Ltd.",,35.4,0.17,9.5,✗,✗,✓,監視候補
-6292,"Kawata Mfg. Co., Ltd.",,57.0,0.76,4.6,✗,✗,✓,監視候補
-6286,Seiko Corporation,,96.8,0.14,4.4,✗,✗,✓,監視候補
-6276,"SiriusVision Co., Ltd.",,16.0,0.08,9.0,✗,✗,✓,監視候補
-6267,"General Packer Co., Ltd.",,70.9,0.43,7.2,✗,✗,✓,監視候補
-6265,CONVUM Ltd.,,49.7,0.45,10.0,✗,✗,✓,監視候補
-6248,"Yokota Manufacturing Co., Ltd.",,32.7,0.44,7.0,✗,✗,✓,監視候補
-6239,Nagaoka International Corporation,,98.9,0.17,4.6,✗,✗,✓,監視候補
-6233,KLASS Corporation,,20.6,0.07,3.1,✗,✗,✓,監視候補
-6230,Sanei Ltd.,,98.0,0.35,2.7,✗,✗,✓,監視候補
-6229,Okumura Engineering corp.,,65.3,0.53,4.8,✗,✗,✓,監視候補
-6218,ENSHU Limited,,41.6,0.38,6.4,✗,✗,✗,監視候補
-6217,Tsudakoma Corp.,,50.3,0.38,11.7,✗,✗,✓,監視候補
-6198,"CAREER CO., LTD.",,16.2,0.62,7.2,✗,✗,✓,監視候補
-6195,"Hope, Inc.",,27.3,0.69,4.0,✗,✗,✓,監視候補
-6193,"Virtualex Holdings, Inc.",,34.7,68.35,15.0,✗,✗,✗,監視候補
-6513,"Origin Company, Limited",,66.2,0.17,6.8,✗,✗,✓,監視候補
-6495,"Miyairi Valve Mfg. Co., Ltd.",,50.1,0.29,8.7,✗,✗,✗,監視候補
-6494,"NFK Holdings Co., Ltd.",,48.7,2.05,5.2,✗,✗,✓,監視候補
-6467,Nichidai Corporation,,31.2,0.28,4.4,✗,✗,✓,監視候補
-6428,OIZUMI Corporation,,73.8,0.57,2.5,✗,✗,✓,監視候補
-6424,"Takamisawa Cybernetics Company, Ltd.",,36.8,0.56,2.4,✗,✗,✓,監視候補
-6402,"Kanematsu Engineering Co., Ltd.",,77.3,0.33,3.4,✗,✗,✓,監視候補
-6400,"Fuji Seiki Co.,Ltd.",,25.6,0.51,15.8,✗,✗,✗,監視候補
-6391,Kaji Technology Corporation,,84.4,0.72,10.3,✗,✗,✓,監視候補
-6347,"Placo Co., Ltd.",,23.7,0.36,3.7,✗,✗,✗,監視候補
-6343,Freesia Macross Corporation,,67.1,0.84,3.4,✗,✗,✓,監視候補
-6342,"Taihei Machinery Works, Limited",,36.8,0.1,3.1,✗,✗,✓,監視候補
-6338,Takatori Corporation,,92.7,0.77,14.5,✗,✗,✗,監視候補
-6335,"Tokyo Kikai Seisakusho, Ltd.",,45.5,0.11,4.2,✗,✗,✓,監視候補
-6334,"Meiji Machine Co., Ltd.",,52.2,0.23,7.5,✗,✗,✓,監視候補
-6325,"Takakita Co., Ltd.",,47.4,0.66,2.7,✗,✗,✓,監視候補
-6568,"KNC Laboratories Co., Ltd.",,94.7,0.82,2.6,✗,✗,✓,監視候補
-6563,Mirai Works Inc.,,23.8,0.31,4.7,✗,✗,✓,監視候補
-6558,"Cookbiz Co.,Ltd.",,18.7,0.07,3.0,✗,✗,✗,監視候補
-6557,AIAI Group Corporation,,42.2,0.54,16.7,✗,✗,✗,監視候補
-6555,"MS&Consulting Co., Ltd.",,19.0,0.28,3.8,✗,✗,✓,監視候補
-6554,"SUS Co.,Ltd.",,95.8,1.5,5.9,✗,✗,✗,監視候補
-6552,GameWith Inc.,,29.5,0.52,5.4,✗,✗,✓,監視候補
-6551,"Tsunagu Group Holdings, Inc.",,50.9,0.54,5.0,✗,✗,✓,監視候補
-6549,"DM Solutions Co.,Ltd",,61.1,0.81,3.5,✗,✗,✓,監視候補
-6548,Tabikobo Co. Ltd.,,23.9,0.08,11.8,✗,✗,✗,監視候補
-6546,Fulltech Co.Ltd.,,62.2,0.32,1.5,✗,✗,✓,監視候補
-6545,internet infinity Inc.,,40.8,1.83,5.6,✗,✗,✓,監視候補
-6543,Nissen Inc.,,47.1,0.36,4.2,✗,✗,✓,監視候補
-6538,Disruptors Inc.,,47.9,0.84,5.9,✗,✗,✗,監視候補
-6537,"Washhouse Co.,Ltd.",,20.8,0.36,10.0,✗,✗,✗,監視候補
-6518,"Sanso Electric Co.,Ltd.",,80.2,0.19,8.1,✗,✗,✓,監視候補
-6663,"Taiyo Technolex Co.,Ltd.",,18.5,0.34,3.6,✗,✗,✓,監視候補
-6662,"Ubiteq, Inc.",,33.4,0.19,4.1,✗,✗,✓,監視候補
-6658,"Shirai Electronics Industrial Co., Ltd.",,69.3,0.44,3.8,✗,✗,✓,監視候補
-6656,inspec Inc.,,32.1,0.25,13.0,✗,✗,✗,監視候補
-6654,"Fuji Electric Industry Co., Ltd.",,56.6,0.15,2.6,✗,✗,✓,監視候補
-6647,"Morio Denki Co., Ltd.",,44.3,1.88,14.2,✗,✗,✗,監視候補
-6635,"Di-Nikko Engineering Co., Ltd.",,43.9,0.02,5.2,✗,✗,✓,監視候補
-6634,JN Group Inc.,,31.4,0.15,8.8,✗,✗,✓,監視候補
-6633,Cgs Holdings Inc.,,29.4,1.46,3.2,✗,✗,✓,監視候補
-6615,"UMC Electronics Co., Ltd.",,63.6,1.9,6.1,✗,✗,✓,監視候補
-6614,"Shikino High-Tech CO.,LTD.",,39.0,1.34,6.2,✗,✗,✗,監視候補
-6612,BALMUDA Inc.,,48.3,0.77,4.4,✗,✗,✓,監視候補
-6580,"Writeup Co.,Ltd.",,40.4,0.54,7.1,✗,✗,✓,監視候補
-6579,"logly,Inc.",,12.9,0.13,7.6,✗,✗,✗,監視候補
-6578,"CORREC Co., Ltd.",,35.6,0.27,6.6,✗,✗,✓,監視候補
-6573,CRAVIA Inc.,,15.3,1.57,12.0,✗,✗,✗,監視候補
-6819,"Izu Shaboten Resort Co.,Ltd",,86.2,4.82,2.6,✗,✗,✓,監視候補
-6803,Teac Corporation,,27.6,0.99,4.1,✗,✗,✓,監視候補
-6786,RVH Inc.,,11.6,0.44,6.5,✗,✗,✓,監視候補
-6778,"Artiza Networks, Inc.",,54.0,0.07,11.2,✗,✗,✓,監視候補
-6776,"Tensho Electric Industries Co., Ltd.",,49.3,1.13,7.8,✗,✗,✓,監視候補
-6775,TB Group Inc.,,20.0,0.37,13.7,✗,✗,✗,監視候補
-6772,"Tokyo Cosmos Electric Co., Ltd.",,67.6,0.28,7.4,✗,✗,✓,監視候補
-6771,"Ikegami Tsushinki Co., Ltd.",,45.4,0.44,6.8,✗,✗,✓,監視候補
-6757,"OSG Corporation Co., Ltd.",,48.0,1.17,6.2,✗,✗,✓,監視候補
-6731,Pixela Corporation,,15.3,1.93,9.2,✗,✗,✓,監視候補
-6721,Wintest Corp.,,38.3,0.35,18.5,✗,✗,✗,監視候補
-6699,"Diamond Electric Holdings Co., Ltd.",,57.2,0.74,4.7,✗,✗,✓,監視候補
-6696,TRaaS On Product Inc.,,14.5,0.06,13.1,✗,✗,✗,監視候補
-6694,Zoom Corporation,,35.6,0.17,13.9,✗,✗,✗,監視候補
-6666,River Eletec Corporation,,69.9,0.23,13.3,✗,✗,✗,監視候補
-6664,"Optoelectronics Co., Ltd.",,39.6,1.45,16.1,✗,✗,✗,監視候補
-7021,"Nitchitsu Co., Ltd.",,46.4,1.2,13.0,✗,✗,✗,監視候補
-6982,"The Lead Co., Inc.",,14.7,0.73,3.5,✗,✗,✓,監視候補
-6964,"Sanko Co., Ltd.",,61.7,0.97,2.5,✗,✗,✓,監視候補
-6943,"NKK Switches Co., Ltd.",,52.6,0.69,18.6,✗,✗,✗,監視候補
-6942,"Sophia Holdings Co.,Ltd.",,65.5,0.48,3.7,✗,✗,✗,監視候補
-6926,"Okaya Electric Industries Co., Ltd.",,43.9,0.23,4.2,✗,✗,✓,監視候補
-6907,"GEOMATEC Co., Ltd.",,63.9,1.09,9.3,✗,✗,✓,監視候補
-6899,Asti Corporation,,68.3,1.22,8.4,✗,✗,✓,監視候補
-6898,"Tomita Electric Co.,Ltd.",,40.4,0.06,19.4,✗,✗,✓,監視候補
-6894,"Pulstec Industrial Co., Ltd.",,29.5,1.1,2.6,✗,✗,✓,監視候補
-6888,Acmos Inc.,,52.7,2.81,4.8,✗,✗,✓,監視候補
-6867,Leader Electronics Corporation,,17.5,0.9,3.2,✗,✗,✓,監視候補
-6863,Nireco Corporation,,78.6,4.36,17.6,✗,✗,✗,監視候補
-6858,"Ono Sokki Co., Ltd.",,91.0,0.54,8.0,✗,✗,✓,監視候補
-6836,"Plat'Home Co., Ltd.",,43.1,0.63,12.4,✗,✗,✗,監視候補
-6822,"Oi Electric Co., Ltd.",,58.5,0.42,3.3,✗,✗,✓,監視候補
-7062,"Fureasu Co.,Ltd.",,18.0,0.94,2.5,✗,✗,✓,監視候補
-7061,Japan Hospice Holdings Inc.,,39.7,0.44,12.2,✗,✗,✓,監視候補
-7060,geechs inc.,,61.0,0.16,7.3,✗,✗,✓,監視候補
-7058,"Kyoei Security Service Co., Ltd.",,44.2,3.62,4.9,✗,✗,✓,監視候補
-7057,"New Constructor's Network Co., Ltd.",,28.0,0.42,3.8,✗,✗,✓,監視候補
-7049,"SHIKIGAKU. Co., Ltd.",,64.7,0.91,4.8,✗,✗,✓,監視候補
-7048,VELTRA Corporation,,50.9,0.45,15.7,✗,✗,✗,監視候補
-7046,TDSE Inc.,,27.8,0.15,4.3,✗,✗,✓,監視候補
-7043,"Alue Co.,Ltd.",,23.9,0.22,2.2,✗,✗,✓,監視候補
-7042,"Access Group Holdings Co., Ltd.",,23.3,0.65,6.2,✗,✗,✓,監視候補
-7041,"CRG Holdings Co.,Ltd.",,17.8,1.6,8.7,✗,✗,✗,監視候補
-7040,"Sun-Life Holding Co.,Ltd.",,58.4,0.48,2.0,✗,✗,✓,監視候補
-7039,BRIDGE International Group Corp.,,47.7,0.51,3.2,✗,✗,✓,監視候補
-7037,teno. Holdings Company Limited,,36.5,0.45,3.4,✗,✗,✓,監視候補
-7036,eMnet Japan.co.ltd.,,25.6,0.68,3.2,✗,✗,✓,監視候補
-7031,Inbound Tech Inc.,,20.6,2.33,10.6,✗,✗,✗,監視候補
-7091,"Living Platform,Ltd.",,52.2,0.97,14.8,✗,✗,✗,監視候補
-7090,Ligua Inc.,,14.5,1.37,10.8,✗,✗,✗,監視候補
-7087,"WILLTEC Co.,Ltd.",,86.1,0.32,4.6,✗,✗,✓,監視候補
-7084,Smile Holdings Inc.,,89.1,0.65,8.0,✗,✗,✓,監視候補
-7080,"Sportsfield Co., Ltd.",,65.5,0.1,5.8,✗,✗,✓,監視候補
-7079,"WDB coco Co., Ltd.",,62.3,0.05,3.3,✗,✗,✓,監視候補
-7078,INCLUSIVE Holdings Inc.,,34.0,0.41,5.1,✗,✗,✓,監視候補
-7077,"ALiNK Internet, Inc.",,17.9,0.3,1.4,✗,✗,✓,監視候補
-7075,"QLS Holdings Co., Ltd",,75.4,0.73,15.0,✗,✗,✗,監視候補
-7074,Twenty-four seven Holdings Inc.,,15.9,0.13,6.6,✗,✗,✓,監視候補
-7072,"Intimate Merger, Inc.",,35.2,0.28,6.0,✗,✗,✓,監視候補
-7069,"CyberBuzz, Inc.",,40.1,0.47,13.6,✗,✗,✗,監視候補
-7067,Branding Technology Inc.,,17.2,0.23,5.1,✗,✗,✓,監視候補
-7066,"Peers Co.,Ltd.",,40.4,1.23,4.0,✗,✗,✓,監視候補
-7065,UPR Corporation,,71.5,0.48,3.0,✗,✗,✓,監視候補
-7064,"Howtelevision, Inc.",,26.8,0.42,12.1,✗,✗,✗,監視候補
-7192,Mortgage Service Japan Limited,,99.1,0.43,6.8,✗,✗,✗,監視候補
-7183,"Anshin Guarantor Service Co., Ltd.",,44.5,1.07,0.8,✗,✗,✓,監視候補
-7175,"The Imamura Securities Co., Ltd.",,97.4,0.48,12.6,✗,✗,✗,監視候補
-7162,"ASTMAX Co., Ltd.",,38.5,0.44,7.7,✗,✗,✗,監視候補
-7150,"The Shimane Bank,Ltd.",,41.6,0.3,3.5,✗,✗,✓,監視候補
-7140,Petgo Corporation,,17.8,0.1,1.8,✗,✗,✓,監視候補
-7135,"Japan Craft Holdings Co., Ltd.",,63.1,0.65,6.5,✗,✗,✓,監視候補
-7131,Nomura Corporation,,49.3,1.93,4.1,✗,✗,✓,監視候補
-7129,Miahelsa Holdings Corporation,,31.1,1.35,5.8,✗,✗,✓,監視候補
-7127,"Ikka Holdings Co.,Ltd.",,50.7,0.74,4.8,✗,✗,✓,監視候補
-7126,"Global Style Co.,Ltd.",,49.0,0.31,3.2,✗,✗,✓,監視候補
-7120,SHINKO Inc.,,45.0,4.95,2.3,✗,✗,✓,監視候補
-7114,"Foodison, Inc.",,35.6,0.8,11.5,✗,✗,✗,監視候補
-7111,"INEST, Inc.",,43.0,0.63,18.3,✗,✗,✗,監視候補
-7096,StemCell Institute Inc.,,75.8,0.94,5.5,✗,✗,✓,監視候補
-7093,"adish Co., Ltd.",,14.3,8.73,9.0,✗,✗,✓,監視候補
-7314,"Odawara Auto-Machine Mfg. Co., Ltd.",,43.3,0.41,5.0,✗,✗,✓,監視候補
-7297,"Car Mate Mfg. Co., Ltd.",,60.2,20.14,3.6,✗,✗,✓,監視候補
-7291,"Nihon Plast Co., Ltd.",,85.7,0.25,4.2,✗,✗,✓,監視候補
-7284,"Meiwa Industry Co., Ltd.",,41.5,0.44,3.7,✗,✗,✓,監視候補
-7271,Yasunaga Corporation,,83.4,0.62,4.5,✗,✗,✓,監視候補
-7265,"Eiken Industries Co.,Ltd.",,36.1,0.92,6.7,✗,✗,✓,監視候補
-7264,Muro Corporation,,79.8,1.44,3.6,✗,✗,✓,監視候補
-7228,Daytona Corporation,,97.5,0.31,2.0,✗,✗,✓,監視候補
-7218,"Tanaka Seimitsu Kogyo Co., Ltd.",,99.9,0.82,8.5,✗,✗,✓,監視候補
-7217,"Tein, Inc.",,44.7,0.17,5.3,✗,✗,✓,監視候補
-7215,"Faltec Co., Ltd.",,38.4,1.7,3.9,✗,✗,✓,監視候補
-7214,GMB Corporation,,60.8,1.23,6.9,✗,✗,✓,監視候補
-7213,LECIP Holdings Corporation,,97.1,0.16,8.0,✗,✗,✓,監視候補
-7208,Kanemitsu Corporation,,62.8,0.69,5.8,✗,✗,✗,監視候補
-7196,Casa Inc.,,66.7,0.55,3.6,✗,✗,✓,監視候補
-7371,Zenken Corporation,,98.4,0.36,5.0,✗,✗,✓,監視候補
-7370,"Enjin Co., Ltd.",,48.0,0.46,1.4,✗,✗,✓,監視候補
-7369,"Meiho Holdings,Inc.",,18.2,0.62,7.8,✗,✗,✓,監視候補
-7368,"HYOJITO Co., Ltd.",,80.7,1.28,5.0,✗,✗,✓,監視候補
-7367,"CELM,Inc.",,69.6,0.22,4.2,✗,✗,✓,監視候補
-7362,Terminalcare Support Institute Inc.,,13.1,1.15,3.2,✗,✗,✓,監視候補
-7361,"Human Creation Holdings, Inc.",,40.1,0.51,5.1,✗,✗,✓,監視候補
-7360,"ONDECK Co., Ltd.",,16.0,0.28,8.2,✗,✗,✗,監視候補
-7359,"Tokyo Communications Group,Inc.",,25.0,0.4,11.9,✗,✗,✗,監視候補
-7357,"GEOCODE CO.,Ltd.",,47.5,0.28,5.1,✗,✗,✓,監視候補
-7356,Retty Inc.,,16.6,0.42,5.4,✗,✗,✗,監視候補
-7353,"KIYO Learning Co.,Ltd.",,35.3,0.41,6.2,✗,✗,✓,監視候補
-7351,"Goodpatch, Inc.",,40.8,0.1,11.1,✗,✗,✓,監視候補
-7345,AI Partners Financial Inc.,,31.0,2.07,2.0,✗,✗,✓,監視候補
-7343,"Broad-minded Co.,Ltd.",,75.0,0.56,8.8,✗,✗,✓,監視候補
-7325,IRRC Corporation,,56.8,0.18,3.5,✗,✗,✓,監視候補
-7501,Tiemco Ltd.,,34.7,0.1,4.7,✗,✗,✓,監視候補
-7494,"Konaka Co.,Ltd.",,77.7,0.55,4.8,✗,✗,✓,監視候補
-7477,Muraki Corporation,,22.7,0.2,9.9,✗,✗,✗,監視候補
-7464,"Saftec Co.,Ltd.",,26.3,0.19,2.2,✗,✗,✓,監視候補
-7462,CAPITA Inc.,,32.1,0.41,10.3,✗,✗,✗,監視候補
-7461,"Kimura Co.,Ltd.",,69.7,0.12,2.8,✗,✗,✓,監視候補
-7443,"Yokohama Gyorui Co., Ltd.",,42.5,0.49,4.4,✗,✗,✓,監視候補
-7442,"Nakayamafuku Co.,Ltd.",,89.9,0.37,2.5,✗,✗,✓,監視候補
-7434,Otake Corporation,,67.0,6.74,5.8,✗,✗,✗,監視候補
-7427,"Echo Trading Co., Ltd.",,50.2,1.48,2.3,✗,✗,✓,監視候補
-7425,"Hatsuho Shouji Co.,Ltd.",,73.3,0.24,2.9,✗,✗,✓,監視候補
-7399,"Nansin Co., Ltd.",,39.6,1.37,3.0,✗,✗,✓,監視候補
-7376,"BCC Co., Ltd.",,30.1,4.9,13.8,✗,✗,✗,監視候補
-7375,"REFINVERSE Group, Inc.",,41.0,1.13,14.5,✗,✗,✗,監視候補
-7374,Interworks Confidence Inc.,,94.0,0.95,2.1,✗,✗,✓,監視候補
-7372,Decollte Holdings Corporation,,21.9,1.05,12.3,✗,✗,✗,監視候補
-7604,"Umenohana Group Co.,Ltd.",,81.0,1.05,2.0,✗,✗,✓,監視候補
-7602,"Ledax Co.,Ltd.",,34.6,0.07,18.8,✗,✗,✓,監視候補
-7601,"Poplar Co., Ltd.",,19.6,7.74,3.7,✗,✗,✓,監視候補
-7590,"Takasho Co.,Ltd.",,66.8,0.71,15.3,✗,✗,✓,監視候補
-7585,Kan-Nanmaru Corporation,,15.5,0.65,1.0,✗,✗,✓,監視候補
-7571,Yamano Holdings Corporation,,28.6,1.41,7.2,✗,✗,✓,監視候補
-7567,Sakae Electronics Corporation,,33.9,2.96,7.8,✗,✗,✓,監視候補
-7555,"Ota Floriculture Auction Co.,Ltd.",,37.3,0.35,2.0,✗,✗,✓,監視候補
-7544,"Three F Co.,Ltd.",,42.3,0.09,1.8,✗,✗,✓,監視候補
-7538,"Daisui Co.,Ltd.",,47.8,0.55,2.9,✗,✗,✓,監視候補
-7531,Seiwa Chuo Holdings Corporation,,52.6,0.9,2.7,✗,✗,✓,監視候補
-7527,SystemSoft Corporation,,48.7,1.44,15.2,✗,✗,✗,監視候補
-7524,Marche Corporation,,29.3,0.4,7.0,✗,✗,✗,監視候補
-7509,I.A Group Corporation,,67.7,0.67,4.3,✗,✗,✓,監視候補
-7506,"HOUSE OF ROSE Co.,Ltd.",,64.2,2.39,0.7,✗,✗,✓,監視候補
-7502,"Plaza Holdings Co.,Ltd.",,33.7,0.26,3.4,✗,✗,✓,監視候補
-7771,"Nihon Seimitsu Co., Ltd.",,59.4,0.63,6.9,✗,✗,✗,監視候補
-7726,Kuroda Precision Industries Ltd.,,81.7,0.24,11.1,✗,✗,✗,監視候補
-7719,Tokyo Koki Co. Ltd.,,35.7,0.3,15.2,✗,✗,✓,監視候補
-7707,"Precision System Science Co., Ltd.",,62.1,1.02,8.8,✗,✗,✓,監視候補
-7695,"Reform Technology, Inc.",,61.8,0.89,11.7,✗,✗,✗,監視候補
-7692,Earth Infinity Co.Ltd.,,84.8,0.42,7.9,✗,✗,✓,監視候補
-7687,"MICREED Co.,Ltd.",,31.6,0.5,9.9,✗,✗,✗,監視候補
-7682,"Hamayuu Co.,Ltd.",,80.7,1.03,7.8,✗,✗,✓,監視候補
+7057,"New Constructor's Network Co., Ltd.",940.0,28.0,0.42,4.4,✓,✓,✓,◆ Step0（仕込み）
+3439,Mitsuchi Corporation,687.0,32.1,0.06,2.4,✓,✓,✓,◆ Step0（仕込み）
+9885,"Charle Co.,Ltd.",,49.4,0.12,1.2,✗,✗,✓,監視候補
+9878,"SEKIDO Co., Ltd.",,12.2,1.88,10.3,✗,✗,✓,監視候補
+9876,"Cox Co., Ltd.",,61.3,1.43,5.1,✗,✗,✓,監視候補
+9872,"Kitakei Co., Ltd.",,89.3,1.38,2.5,✗,✗,✓,監視候補
+9854,"Aigan Co.,Ltd.",,50.8,0.32,9.6,✗,✗,✗,監視候補
+9853,"Ginza Renoir Co., Ltd.",,55.3,0.14,0.7,✗,✗,✓,監視候補
+9849,Kyodo Paper Holdings,,30.2,0.93,1.9,✗,✗,✓,監視候補
+9835,"Juntendo Co.,Ltd.",,41.4,0.31,1.4,✗,✗,✓,監視候補
+9827,"Lilycolor Co., Ltd.",,80.2,0.51,5.1,✗,✗,✓,監視候補
+9820,MT Genex Corporation,,40.7,0.15,6.2,✗,✗,✓,監視候補
+9816,Striders Corporation,,21.9,1.02,5.3,✗,✗,✗,監視候補
+9812,"T.O. Holdings CO.,LTD.",,14.8,1.39,5.2,✗,✗,✓,監視候補
+9791,Biken Techno Corporation,,86.8,0.88,2.9,✗,✗,✓,監視候補
+9780,Harima B.Stem Corporation,,99.8,0.81,6.1,✗,✗,✓,監視候補
+9778,"Subaru Co., Ltd.",,33.0,0.45,3.5,✗,✗,✓,監視候補
+9767,"Nikken Kogaku Co., Ltd.",,29.7,2.64,11.3,✗,✗,✗,監視候補
+151A,Dive Group Inc.,,50.9,4.46,3.9,✗,✗,✓,監視候補
+149A,"Thinca Co.,Ltd.",,27.3,2.15,5.0,✗,✗,✓,監視候補
+1491,"Chugai Mining Co., Ltd.",,97.9,1.36,10.9,✗,✗,✗,監視候補
+148A,"Hatch Work Co.,Ltd.",,34.5,0.89,12.6,✗,✗,✗,監視候補
+145A,L is B corp.,,43.5,1.75,3.5,✗,✗,✓,監視候補
+1446,"CANDEAL Co.,Ltd",,50.1,0.92,2.9,✗,✗,✓,監視候補
+1443,"Giken Holdings Co., Ltd.",,43.2,0.9,4.5,✗,✗,✓,監視候補
+143A,"Ishin Co., Ltd.",,13.6,0.41,6.3,✗,✗,✗,監視候補
+1438,"Gifu landscape architect Co., Ltd.",,71.5,0.32,5.2,✗,✗,✓,監視候補
+1420,Sanyo Homes Corporation,,78.1,0.63,0.6,✗,✗,✓,監視候補
+1418,"Interlife Holdings Co., Ltd.",,91.1,1.17,5.6,✗,✗,✓,監視候補
+138A,"Hikari Food Service Co., Ltd.",,31.1,0.36,3.6,✗,✗,✓,監視候補
+1383,"Berg Earth Co.,Ltd.",,48.7,0.86,2.8,✗,✗,✓,監視候補
+1380,"Akikawa Foods & Farms Co., Ltd.",,41.6,0.35,0.5,✗,✗,✓,監視候補
+137A,"Cocolive, Inc.",,20.5,0.08,6.3,✗,✗,✓,監視候補
+9890,"Makiya Co., Ltd.",,99.0,0.42,5.1,✗,✗,✓,監視候補
+2139,"Chuco Co., Ltd.",,32.9,0.95,8.8,✗,✗,✗,監視候補
+2138,"CROOZ, Inc.",,39.4,0.07,5.3,✗,✗,✓,監視候補
+2136,HIP Corporation,,53.4,0.75,2.6,✗,✗,✓,監視候補
+2122,"Interspace Co.,Ltd.",,82.2,0.52,12.0,✗,✗,✗,監視候補
+211A,Cados Corporation,,31.1,0.43,9.8,✗,✗,✓,監視候補
+205A,Logos Holdings Inc.,,61.8,1.18,4.9,✗,✗,✓,監視候補
+2055,"Nichiwa Sangyo Co., Ltd.",,61.9,0.16,2.3,✗,✗,✓,監視候補
+1997,"Akatsuki Eazima Co., Ltd.",,86.7,0.58,10.5,✗,✗,✗,監視候補
+1994,Takahashi Curtain Wall Corporation,,47.4,0.56,4.0,✗,✗,✓,監視候補
+198A,PostPrime Inc.,,19.1,1.12,4.4,✗,✗,✓,監視候補
+195A,MUSCAT GROUP Inc.,,23.2,0.76,15.4,✗,✗,✗,監視候補
+192A,Integroup Inc.,,28.6,0.96,14.3,✗,✗,✓,監視候補
+1905,Tenox Corporation,,97.1,0.36,3.2,✗,✗,✓,監視候補
+189A,"D & M Company Co., Ltd.",,24.5,0.79,6.9,✗,✗,✓,監視候補
+1897,"The Kaneshita Construction Co.,Ltd.",,75.1,2.38,20.0,✗,✗,✗,監視候補
+184A,"Manabi-aid Co.,Ltd.",,11.3,0.53,6.0,✗,✗,✓,監視候補
+2311,"EPCO Co.,Ltd.",,69.3,0.58,2.3,✗,✗,✓,監視候補
+2304,"CSS Holdings,Ltd.",,44.4,1.0,2.5,✗,✗,✓,監視候補
+2303,Dawn Corp.,,79.3,5.22,4.2,✗,✗,✓,監視候補
+2300,"Kyokuto Co., Ltd.",,26.6,0.3,2.2,✗,✗,✓,監視候補
+2293,"Takizawa Ham Co., Ltd.",,54.5,0.55,2.0,✗,✗,✓,監視候補
+2291,"Fukutome Meat Packers, Ltd.",,16.9,1.43,1.0,✗,✗,✓,監視候補
+2286,"Hayashikane Sangyo Co.,Ltd.",,72.5,0.35,1.9,✗,✗,✓,監視候補
+2215,"First Baking Co., Ltd.",,42.8,0.41,2.0,✗,✗,✓,監視候補
+220A,Faber Company Inc.,925.0,25.4,0.64,4.5,✗,✓,✓,監視候補
+2195,"Amita Holdings Co.,Ltd.",,63.0,1.31,10.3,✗,✗,✓,監視候補
+2193,Cookpad Inc.,,86.3,1.24,8.3,✗,✗,✗,監視候補
+2186,Sobal Corporation,,70.3,0.36,1.0,✗,✗,✓,監視候補
+2183,"Linical Co., Ltd.",,45.6,0.95,3.0,✗,✗,✓,監視候補
+2179,"Seigakusha Co.,Ltd.",,45.5,0.3,3.5,✗,✗,✓,監視候補
+2164,"Chiikishinbunsha Co.,Ltd.",,21.0,0.51,13.5,✗,✗,✗,監視候補
+2156,Saylor Advertising.Inc.,,13.7,0.77,7.8,✗,✗,✓,監視候補
+2424,Brass Corporation,,32.5,0.43,10.4,✗,✗,✓,監視候補
+241A,"ROXX,inc.",,32.8,0.64,14.7,✗,✗,✗,監視候補
+2411,Gendai Agency Inc.,,49.6,0.24,2.6,✗,✗,✓,監視候補
+2408,"KG Intelligence CO., LTD.",,59.4,1.81,4.3,✗,✗,✓,監視候補
+2404,"Tetsujin Holdings, Inc.",,70.7,0.25,2.7,✗,✗,✓,監視候補
+2391,"Planet, Inc.",,76.4,0.88,1.1,✗,✗,✓,監視候補
+2385,Soiken Holdings Inc.,,56.5,0.54,14.1,✗,✗,✓,監視候補
+2376,Scinex Corporation,,43.3,0.05,5.5,✗,✗,✗,監視候補
+2375,GiG Works Inc.,,41.2,0.27,18.8,✗,✗,✓,監視候補
+2373,Care Twentyone Corporation,,56.9,2.13,12.2,✗,✗,✓,監視候補
+2370,"MEDINET Co., Ltd.",,64.8,2.64,4.2,✗,✗,✓,監視候補
+2351,ASJ Inc.,,25.2,0.42,5.8,✗,✗,✓,監視候補
+2342,Transgenic Group Inc.,,38.6,0.85,8.8,✗,✗,✓,監視候補
+2341,"Arbeit-Times Co., Ltd.",,31.1,5.65,5.9,✗,✗,✓,監視候補
+2332,"Quest Co., Ltd.",,94.8,6.46,6.8,✗,✗,✗,監視候補
+2323,fonfun corporation,,71.2,0.41,14.4,✗,✗,✗,監視候補
+2488,"JTP Co.,Ltd.",,78.0,9.29,4.0,✗,✗,✓,監視候補
+2485,Tear Corporation,,96.5,1.37,2.1,✗,✗,✓,監視候補
+2483,Honyaku Center Inc.,,74.7,0.72,6.0,✗,✗,✓,監視候補
+2481,"Townnews-Sha Co.,Ltd.",,39.5,0.98,8.2,✗,✗,✗,監視候補
+2480,"System Location Co.,Ltd.",,60.7,1.19,9.8,✗,✗,✗,監視候補
+2479,JTEC Corporation,,20.0,0.86,6.3,✗,✗,✗,監視候補
+2464,"Aoba-BBT, Inc.",,46.2,0.12,5.0,✗,✗,✓,監視候補
+245A,INGS inc.,,63.3,1.18,2.1,✗,✗,✓,監視候補
+2459,"AUN CONSULTING, Inc.",,13.0,0.14,5.3,✗,✗,✓,監視候補
+2454,"All About, Inc.",,45.8,1.01,8.3,✗,✗,✗,監視候補
+244A,"Growth X Partners,Inc.",,41.4,0.67,10.7,✗,✗,✗,監視候補
+2440,"Gurunavi, Inc.",,61.4,2.16,10.7,✗,✗,✗,監視候補
+2438,"Asukanet Co., Ltd.",,49.8,0.43,6.4,✗,✗,✓,監視候補
+2437,"Shinwa Wise Holdings Co.,Ltd.",,66.9,0.27,4.8,✗,✗,✗,監視候補
+2435,"CEDAR.Co.,Ltd.",,22.8,0.57,3.4,✗,✗,✓,監視候補
+2425,"Care Service Co.,Ltd.",,25.7,0.11,4.5,✗,✗,✓,監視候補
+2708,"Kuze Co., Ltd.",,86.2,0.45,2.6,✗,✗,✓,監視候補
+269A,Sapeet Inc.,,47.4,2.12,15.5,✗,✗,✗,監視候補
+2693,YKT Corporation,,31.8,0.2,4.7,✗,✗,✓,監視候補
+2687,CVS Bay Area Inc.,,24.0,0.24,2.9,✗,✗,✓,監視候補
+2683,"UOGroup CO.,LTD.",,25.0,0.64,0.5,✗,✗,✓,監視候補
+2673,"YUMEMITSUKETAI Co.,Ltd.",,10.1,0.45,8.8,✗,✗,✓,監視候補
+2668,Tabio Corporation,,86.6,0.94,1.3,✗,✗,✓,監視候補
+2666,"AUTOWAVE Co., Ltd.",,27.2,0.25,3.8,✗,✗,✓,監視候補
+265A,Hmcomm Inc.,,30.3,0.54,12.8,✗,✗,✓,監視候補
+2656,Vector HOLDINGS Inc.,,45.6,0.61,9.3,✗,✗,✗,監視候補
+2654,Asmo Corporation,,52.4,24.42,15.7,✗,✗,✗,監視候補
+254A,Ai Fusion Capital Group Corp.,,97.3,0.56,7.5,✗,✗,✗,監視候補
+253A,"ETS Group Co.,Ltd",,64.6,0.75,4.1,✗,✗,✓,監視候補
+2499,"Nihonwasou Holdings, Inc.",,28.0,0.72,3.3,✗,✗,✓,監視候補
+2493,"E-SUPPORTLINK, Ltd.",,41.6,0.54,4.0,✗,✗,✓,監視候補
+248A,KIDS STAR Inc.,,21.1,0.86,1.2,✗,✗,✓,監視候補
+281A,"Informetis Co., Ltd.",,23.0,0.41,11.4,✗,✗,✓,監視候補
+2813,"Wakou Shokuhin Co., Ltd.",,98.6,1.39,2.3,✗,✗,✓,監視候補
+280A,TMH Inc.,,40.0,0.31,7.1,✗,✗,✓,監視候補
+2798,Y's Table Corporation,,98.9,0.23,0.5,✗,✗,✓,監視候補
+2796,Pharmarise Holdings Corporation,,58.2,0.75,3.0,✗,✗,✓,監視候補
+2795,Nippon Primex Inc.,,51.5,3.11,7.2,✗,✗,✓,監視候補
+2789,"Karula Co.,LTD.",,27.5,1.84,3.6,✗,✗,✓,監視候補
+2788,"Apple International Co., Ltd.",,51.6,0.63,9.4,✗,✗,✓,監視候補
+2778,"Palemo Holdings Co.,Ltd.",,14.2,0.92,14.2,✗,✗,✗,監視候補
+2776,"SHINTO Holdings, Inc.",,50.2,0.55,15.6,✗,✗,✓,監視候補
+2769,"Village Vanguard CO.,LTD.",,73.6,0.55,2.1,✗,✗,✓,監視候補
+2762,"Sanko Marketing Foods Co., Ltd.",,28.9,0.69,9.2,✗,✗,✓,監視候補
+2736,"Festaria Holdings Co., Ltd.",,21.2,1.33,3.0,✗,✗,✓,監視候補
+2735,"Watts Co., Ltd.",,95.0,0.68,5.1,✗,✗,✓,監視候補
+2722,"IK HOLDINGS Co.,Ltd.",,27.1,1.59,1.1,✗,✗,✓,監視候補
+2721,J-Holdings Corp.,,16.5,0.14,8.2,✗,✗,✓,監視候補
+2999,"Home Position Co., Ltd.",,48.5,0.4,5.0,✗,✗,✓,監視候補
+2997,"STORAGE-OH Co.,Ltd.",,25.0,0.02,0.2,✗,✗,✓,監視候補
+2993,Choei Inc.,,94.9,0.22,3.9,✗,✗,✓,監視候補
+2984,"Yamaichi Real Estate Co., Ltd",,66.3,0.63,8.0,✗,✗,✓,監視候補
+2978,TSUKURUBA Inc.,,37.7,1.43,9.9,✗,✗,✓,監視候補
+2926,"Shinozakiya, Inc.",,14.9,0.89,15.5,✗,✗,✗,監視候補
+291A,Reskill Corp.,,40.9,1.6,4.3,✗,✗,✓,監視候補
+2917,"Ohmoriya Co.,Ltd.",,44.2,0.5,4.5,✗,✗,✓,監視候補
+2916,"Semba Tohka Industries Co., Ltd",,81.8,0.28,3.6,✗,✗,✓,監視候補
+2911,"Asahimatsu Foods Co., Ltd.",,39.7,0.39,2.3,✗,✗,✓,監視候補
+2901,Wel-Dish.Incorporated,,36.0,1.07,17.8,✗,✗,✗,監視候補
+2894,"Ishii Food Co., Ltd.",,59.9,0.5,3.4,✗,✗,✓,監視候補
+288A,Laxus Technologies Inc.,,24.1,0.83,4.3,✗,✗,✓,監視候補
+2877,NittoBest Corporation,,90.7,0.08,2.7,✗,✗,✓,監視候補
+2876,Delsole Corporation,469.0,41.8,0.22,3.9,✗,✗,✓,監視候補
+2872,"Seihyo Co., Ltd.",,26.7,0.53,1.6,✗,✗,✓,監視候補
+3071,"Stream Co.,Ltd.",,27.9,1.04,3.0,✗,✗,✓,監視候補
+3069,JFLA Holdings Inc.,,74.7,0.95,7.7,✗,✗,✓,監視候補
+3067,"Tokyo Ichiban Foods Co., Ltd.",,40.4,0.19,3.8,✗,✗,✓,監視候補
+3065,"Life Foods Co., Ltd.",,49.1,0.43,0.3,✗,✗,✓,監視候補
+3059,"Hiraki Co.,Ltd.",,34.5,0.93,1.7,✗,✗,✓,監視候補
+3058,Sanyodo Holdings Inc,,51.9,3.26,2.1,✗,✗,✓,監視候補
+3054,HYPER Inc.,,36.6,0.1,10.0,✗,✗,✓,監視候補
+304A,"FORCIA, Inc.",,26.3,0.63,12.5,✗,✗,✗,監視候補
+3041,"Beauty Kadan Holdings Co., Ltd.",,16.3,1.04,3.5,✗,✗,✓,監視候補
+303A,visumo Inc.,,12.3,0.67,9.2,✗,✗,✓,監視候補
+3035,ktk Inc.,,40.5,7.25,9.1,✗,✗,✗,監視候補
+302A,"b-style holdings,Inc.",,17.5,0.12,8.9,✗,✗,✗,監視候補
+3024,Create Corporation,,45.1,0.13,10.0,✗,✗,✗,監視候補
+3021,"Pacific Net Co.,Ltd.",,83.8,1.56,5.6,✗,✗,✓,監視候補
+3011,"Banners Co., Ltd.",,21.6,1.53,2.9,✗,✗,✓,監視候補
+3004,Shinyei Kaisha,,78.9,0.62,3.8,✗,✗,✓,監視候補
+3187,miratap inc.,,66.0,0.8,16.8,✗,✗,✓,監視候補
+3181,"Kaitori Okoku Co., Ltd.",,38.6,0.4,4.1,✗,✗,✓,監視候補
+3174,"Happiness and D Co.,Ltd.",,10.5,0.16,19.4,✗,✗,✗,監視候補
+3172,"Tea Life Co., Ltd.",,48.2,0.12,1.1,✗,✗,✓,監視候補
+3169,"Misawa & Co., Ltd.",,49.5,0.28,3.9,✗,✗,✓,監視候補
+3161,AZEARTH Corporation,,41.1,6.41,6.1,✗,✗,✓,監視候補
+3160,"Oomitsu Co., Ltd.",,82.4,0.9,4.0,✗,✗,✓,監視候補
+3138,"Fujisan Magazine Service Co., Ltd.",,39.8,0.77,7.7,✗,✗,✓,監視候補
+3137,"Fundely Co., Ltd.",,27.4,0.3,8.3,✗,✗,✓,監視候補
+3135,"MarketEnterprise Co.,Ltd",,60.1,0.55,5.9,✗,✗,✗,監視候補
+3134,Hamee Corp.,,46.9,0.9,8.5,✗,✗,✓,監視候補
+3123,"Saibo Co., Ltd.",,80.4,0.72,3.0,✗,✗,✓,監視候補
+3121,"MBK Co.,Ltd.",,76.3,1.17,10.0,✗,✗,✓,監視候補
+3113,UNIVA Oak Holdings Limited,,73.7,0.34,10.1,✗,✗,✓,監視候補
+3111,"Omikenshi Co., Ltd.",,11.2,0.48,6.5,✗,✗,✓,監視候補
+3089,"Techno Alpha Co., Ltd.",,17.7,1.38,10.2,✗,✗,✗,監視候補
+3267,"Phil Company, Inc.",,33.1,0.61,6.7,✗,✗,✓,監視候補
+3266,Fund Creation Group Company Limited,,29.4,0.69,2.5,✗,✗,✓,監視候補
+3261,"GRANDES, Inc.",,18.4,0.41,9.1,✗,✗,✓,監視候補
+324A,"Booking Resort Co., Ltd.",,38.0,0.54,6.6,✗,✗,✓,監視候補
+3248,"Early Age Co., Ltd.",,28.4,0.39,1.9,✗,✗,✓,監視候補
+3246,"KOSE R.E. Co.,Ltd.",,70.3,1.03,1.9,✗,✗,✓,監視候補
+3241,"WILL,Co.,Ltd.",,69.3,0.24,4.1,✗,✗,✓,監視候補
+323A,Flier Inc.,,13.1,0.15,4.1,✗,✗,✓,監視候補
+3238,"Central General Development Co., Ltd.",,36.4,0.84,1.8,✗,✗,✓,監視候補
+3237,"Intrance Co., Ltd.",,42.3,0.6,9.1,✗,✗,✗,監視候補
+3236,"Properst Co., Ltd.",,88.4,1.27,4.4,✗,✗,✓,監視候補
+3224,"General Oyster, Inc.",,35.0,0.5,6.7,✗,✗,✓,監視候補
+3223,"SLD Entertainment, Inc.",,15.6,0.53,4.1,✗,✗,✓,監視候補
+3204,Toabo Corporation,,43.6,0.53,2.6,✗,✗,✓,監視候補
+3202,"Daitobo Co., Ltd.",,37.9,0.95,3.9,✗,✗,✓,監視候補
+3190,"HOTMAN Co.,Ltd.",,40.1,0.1,3.5,✗,✗,✓,監視候補
+3370,"FUJITA CORPORATION Co.,Ltd.",,15.8,0.61,7.0,✗,✗,✓,監視候補
+335A,Mirairo Inc.,,35.0,0.07,4.8,✗,✗,✓,監視候補
+3359,"cotta CO.,LTD",,51.9,0.4,5.6,✗,✗,✓,監視候補
+3358,"Trailhead Global Holdings,Inc.",,34.3,0.17,3.3,✗,✗,✓,監視候補
+3352,"Buffalo Co.,Ltd.",,41.8,0.18,3.8,✗,✗,✓,監視候補
+334A,"Visual Processing Japan Co., Ltd.",,37.4,1.89,16.3,✗,✗,✗,監視候補
+3326,"Runsystem Co.,Ltd.",,27.5,1.5,5.2,✗,✗,✓,監視候補
+3323,"Recomm Co., Ltd.",,72.6,0.43,3.5,✗,✗,✓,監視候補
+3320,Cross Plus Inc.,,96.3,0.59,1.4,✗,✗,✓,監視候補
+331A,Medix Inc.,,34.9,0.51,1.0,✗,✗,✓,監視候補
+3317,"Flying Garden Co., Ltd.",,43.3,0.26,1.4,✗,✗,✓,監視候補
+330A,TalentX Inc.,,29.0,0.23,6.3,✗,✗,✗,監視候補
+3297,"Toubujyuhan Co.,Ltd.",,31.1,1.75,3.9,✗,✗,✓,監視候補
+3293,"AZUMA HOUSE Co., Ltd.",,59.9,0.98,1.9,✗,✗,✓,監視候補
+3286,TRUST Holdings Inc.,,31.0,1.37,2.1,✗,✗,✓,監視候補
+3280,"STrust Co.,Ltd.",,56.3,0.31,1.8,✗,✗,✓,監視候補
+3440,"NISSO GROUP Co.,Ltd.",,54.0,0.22,4.5,✗,✗,✓,監視候補
+343A,IACE TRAVEL Corporation.,,59.1,1.02,5.9,✗,✗,✗,監視候補
+3437,"Tokuden Co., Ltd.",,41.0,0.23,3.3,✗,✗,✓,監視候補
+3426,"Atom Livin Tech Co., Ltd.",,51.9,2.1,2.4,✗,✗,✓,監視候補
+3423,SE Corporation,,79.7,0.32,3.8,✗,✗,✓,監視候補
+3422,"J-MAX Co.,Ltd.",,75.9,0.3,14.6,✗,✗,✗,監視候補
+3416,PIXTA Inc.,,15.6,0.15,5.5,✗,✗,✓,監視候補
+340A,"zig-zag,Inc.",,25.4,0.33,8.0,✗,✗,✗,監視候補
+3409,"Kitabo Co.,Ltd",,23.3,0.97,19.7,✗,✗,✗,監視候補
+339A,"Progress Technologies Group, Inc.",,69.5,0.36,6.3,✗,✗,✓,監視候補
+3396,Felissimo Corporation,,60.3,3.47,2.7,✗,✗,✓,監視候補
+3386,"Cosmo Bio Company,Limited",,71.2,0.91,3.9,✗,✗,✓,監視候補
+3377,BIKE O & COMPANY Ltd.,,59.9,1.98,10.8,✗,✗,✗,監視候補
+3375,Zoa Corporation,,21.9,0.15,4.7,✗,✗,✓,監視候補
+3372,"KANMONKAI Co., Ltd.",,29.5,1.24,3.3,✗,✗,✓,監視候補
+3557,"United & Collective Co., Ltd.",,24.2,1.08,4.5,✗,✗,✓,監視候補
+3550,"STUDIO ATAO Co., Ltd.",,29.9,1.7,4.2,✗,✗,✓,監視候補
+3538,WILLPLUS Holdings Corporation,,90.9,0.53,4.7,✗,✗,✓,監視候補
+3537,"Shoei Yakuhin Co.,Ltd.",,58.1,1.98,6.9,✗,✗,✓,監視候補
+3536,"Axas Holdings Co.,Ltd.",,38.2,2.55,1.6,✗,✗,✓,監視候補
+352A,"LOIVE Co.,Ltd.",,67.3,0.64,2.6,✗,✗,✓,監視候補
+3524,"Nitto Seimo Co., Ltd.",,38.4,0.47,1.6,✗,✗,✓,監視候補
+3521,"Thermae-Yu Holdings Co., Ltd.",,41.5,0.28,1.3,✗,✗,✓,監視候補
+3495,"Koryojyuhan Co., Ltd.",,60.8,0.7,4.6,✗,✗,✓,監視候補
+3494,"Mullion Co., Ltd.",,32.4,0.23,10.9,✗,✗,✗,監視候補
+3490,"Azplanning Co.,Ltd.",,48.2,1.64,6.0,✗,✗,✓,監視候補
+3477,"FORLIFE Co., Ltd.",,35.0,0.56,3.1,✗,✗,✓,監視候補
+3474,"G-Factory Co.,Ltd.",,38.7,0.66,1.9,✗,✗,✓,監視候補
+3469,"Dualtap Co., Ltd.",,37.0,2.67,6.0,✗,✗,✗,監視候補
+3461,"Palma Co., Ltd.",,37.4,1.32,13.1,✗,✗,✗,監視候補
+3446,JTEC Corporation,,85.0,1.29,7.7,✗,✗,✓,監視候補
+3645,"Medical Net, Inc.",,23.4,0.12,10.8,✗,✗,✓,監視候補
+3641,"Papyless Co., Ltd.",,77.7,0.35,1.8,✗,✗,✓,監視候補
+3639,Voltage Incorporation,,14.5,0.38,4.9,✗,✗,✓,監視候補
+3628,"Data Horizon Co.,Ltd.",,90.6,0.37,11.2,✗,✗,✗,監視候補
+3627,Tecmira Holdings Inc.,,32.5,1.04,5.3,✗,✗,✓,監視候補
+3625,Techfirm Holdings Inc.,,51.8,0.96,16.9,✗,✗,✗,監視候補
+3624,Axel Mark Inc.,,53.6,1.35,15.7,✗,✗,✗,監視候補
+3623,Billing System Corporation,,78.6,0.93,7.0,✗,✗,✓,監視候補
+3622,Netyear Group Corporation,,34.5,4.71,2.2,✗,✗,✓,監視候補
+3607,"Kuraudia Holdings Co.,Ltd.",,31.9,0.66,9.2,✗,✗,✗,監視候補
+3598,"Yamaki Co.,Ltd.",,22.0,0.53,8.4,✗,✗,✗,監視候補
+3583,AuBEX CORPORATION,,37.2,0.79,2.6,✗,✗,✓,監視候補
+3577,Tokai Senko K.K.,,29.0,0.23,1.3,✗,✗,✓,監視候補
+3571,"Sotoh Co., Ltd.",,84.7,1.07,1.9,✗,✗,✓,監視候補
+3566,"Uniform Next Co., Ltd.",,70.3,0.45,6.6,✗,✗,✗,監視候補
+3559,p-ban.com Corp.,,22.3,0.52,7.2,✗,✗,✗,監視候補
+3719,"AI storm Co., Ltd.",,27.2,3.07,16.7,✗,✗,✗,監視候補
+3710,"Jorudan Co.,Ltd.",,32.7,0.13,2.8,✗,✗,✓,監視候補
+3698,"CRI Middleware Co., Ltd.",,63.9,0.34,3.9,✗,✗,✓,監視候補
+3695,"GMO Product Platform, Inc.",,66.5,4.52,12.5,✗,✗,✗,監視候補
+3691,"DIGITAL PLUS, Inc.",,77.3,0.59,8.0,✗,✗,✗,監視候補
+3690,YRGLM Inc.,,33.8,0.69,8.6,✗,✗,✓,監視候補
+3686,DLE Inc.,,23.9,1.28,12.5,✗,✗,✗,監視候補
+3682,"Encourage Technologies Co., Ltd.",,43.0,6.45,11.2,✗,✗,✗,監視候補
+3680,"Hottolink, Inc.",,30.9,0.99,2.5,✗,✗,✓,監視候補
+3674,"Aucfan Co., Ltd.",,34.4,0.77,4.0,✗,✗,✓,監視候補
+3672,AltPlus Holdings Inc.,,24.3,1.24,7.1,✗,✗,✓,監視候補
+3671,"Softmax Co., Ltd",,76.0,1.02,6.0,✗,✗,✓,監視候補
+3667,"enish,inc.",,14.1,0.24,7.7,✗,✗,✗,監視候補
+365A,"Izawa Towel Co.,Ltd.",,69.6,0.71,3.8,✗,✗,✓,監視候補
+3647,"ASULINA Co.,Ltd.",,24.1,0.23,7.1,✗,✗,✓,監視候補
+3646,"Ekitan & Co., Ltd.",,16.1,0.43,6.2,✗,✗,✗,監視候補
+3807,Fisco Ltd.,,38.0,1.94,6.9,✗,✗,✗,監視候補
+3804,System D Inc.,,85.9,0.11,9.5,✗,✗,✓,監視候補
+3802,"Ecomic Co., Ltd",,16.4,0.49,6.1,✗,✗,✗,監視候補
+3799,Keyware Solutions Inc.,,93.4,1.17,4.3,✗,✗,✓,監視候補
+3796,"e-Seikatsu Co.,Ltd.",,39.2,0.55,16.6,✗,✗,✗,監視候補
+3779,"J Escom Holdings,Inc.",,13.6,1.13,9.3,✗,✗,✓,監視候補
+3768,Riskmonster.com,,42.1,4.94,4.0,✗,✗,✗,監視候補
+3766,"Systems Design Co., Ltd.",,50.6,2.29,10.0,✗,✗,✓,監視候補
+3760,"CAVE Interactive CO.,LTD.",,44.1,0.62,7.4,✗,✗,✓,監視候補
+3758,Aeria Inc.,,49.1,0.69,2.9,✗,✗,✓,監視候補
+3753,FLIGHT SOLUTIONS Inc.,,35.7,3.98,10.7,✗,✗,✗,監視候補
+3750,ADR Biomedical Holdings Inc.,,68.7,0.55,11.4,✗,✗,✗,監視候補
+3747,"Intertrade Co.,Ltd.",,30.6,1.57,13.5,✗,✗,✗,監視候補
+3744,SIOS Corporation,,39.9,0.49,3.3,✗,✗,✓,監視候補
+373A,"LIPPS Co.,Ltd",,39.7,0.72,6.6,✗,✗,✓,監視候補
+3727,Aplix Corporation,,68.9,0.36,7.5,✗,✗,✓,監視候補
+3904,KAYAC Inc.,,65.8,0.33,2.9,✗,✗,✓,監視候補
+3896,"Awa Paper & Technological Company, Inc.",,41.1,0.7,5.4,✗,✗,✓,監視候補
+3895,Havix Corporation,,32.8,0.23,15.0,✗,✗,✗,監視候補
+3892,"Okayama Paper Industries Co., Ltd.",,75.3,2.23,4.7,✗,✗,✓,監視候補
+387A,"Fuller, Inc.",,15.7,1.16,2.6,✗,✗,✓,監視候補
+386A,"Minoya Co., Ltd.",,45.1,0.3,0.6,✗,✗,✓,監視候補
+3858,Ubiquitous AI Corporation,,37.8,19.3,15.3,✗,✗,✗,監視候補
+3851,"Nippon Ichi Software, Inc.",,69.8,0.21,14.6,✗,✗,✗,監視候補
+3848,"Data Applications Company, Limited",,53.3,0.22,3.9,✗,✗,✓,監視候補
+3845,I-Freek Mobile Inc.,,75.8,0.48,15.0,✗,✗,✗,監視候補
+3841,Jedat Inc.,,49.5,0.16,4.9,✗,✗,✓,監視候補
+3840,VIXTON Corporation,,50.4,0.87,6.7,✗,✗,✗,監視候補
+3839,"ODK Solutions Company, Ltd.",,50.8,0.42,6.6,✗,✗,✓,監視候補
+3826,System Integrator Corp.,,53.4,0.33,2.9,✗,✗,✓,監視候補
+3816,"Daiwa Computer Co., Ltd.",,42.5,1.13,2.6,✗,✗,✓,監視候補
+3815,"Media Kobo, Inc.",,46.5,0.47,2.3,✗,✗,✓,監視候補
+3945,"Superbag Company, Limited",,32.7,0.6,2.6,✗,✗,✓,監視候補
+3940,"Nomura System Corporation Co, Ltd.",,57.6,0.9,6.2,✗,✗,✓,監視候補
+3936,"Globalway, Inc.",,45.7,0.92,8.6,✗,✗,✓,監視候補
+3935,"Edia Co., Ltd.",,40.9,0.21,4.8,✗,✗,✓,監視候補
+3933,"CHIeru Co.,Ltd.",,37.6,1.09,6.4,✗,✗,✓,監視候補
+3931,VALUE GOLF Inc.,,26.2,0.88,3.0,✗,✗,✓,監視候補
+3930,"Hatena Co., Ltd.",,22.7,0.14,7.5,✗,✗,✓,監視候補
+3929,"Socialwire Co., Ltd.",,28.5,0.19,9.2,✗,✗,✗,監視候補
+3928,Mynet Inc.,,21.7,0.44,6.1,✗,✗,✗,監視候補
+3920,"Internetworking and Broadband Consulting Co.,Ltd.",,56.4,3.33,2.4,✗,✗,✓,監視候補
+3917,"iRidge, Inc.",,37.7,0.53,6.3,✗,✗,✓,監視候補
+3913,"GreenBee, Inc.",,22.2,0.5,12.3,✗,✗,✗,監視候補
+3912,"Mobile Factory, Inc.",,67.5,3.55,9.3,✗,✗,✗,監視候補
+3911,Aiming Inc.,,77.9,0.33,6.6,✗,✗,✓,監視候補
+3910,MKSystem Corporation,,16.4,0.33,6.7,✗,✗,✓,監視候補
+3908,Collabos Corporation,,17.0,0.3,4.5,✗,✗,✗,監視候補
+3998,"SuRaLa Net Co.,Ltd.",,16.9,1.05,8.9,✗,✗,✗,監視候補
+3996,Signpost Corporation,,27.1,0.22,13.6,✗,✗,✗,監視候補
+3991,"Wantedly, Inc.",,90.4,0.21,2.5,✗,✗,✓,監視候補
+3988,"SYS Holdings Co., Ltd.",,59.0,0.05,4.2,✗,✗,✓,監視候補
+3987,Ecomott Inc.,,31.8,0.16,9.2,✗,✗,✓,監視候補
+3986,"bBreak Systems Company, Limited",,22.4,0.29,8.5,✗,✗,✓,監視候補
+3985,TEMONA.inc.,,19.7,0.49,8.1,✗,✗,✗,監視候補
+3981,Beaglee Inc.,,68.2,1.11,2.2,✗,✗,✓,監視候補
+3976,SHANON Inc.,,28.6,2.53,16.2,✗,✗,✗,監視候補
+3974,SCAT Inc.,,21.1,1.36,3.4,✗,✗,✓,監視候補
+3970,Innovation Inc.,,21.8,0.32,6.1,✗,✗,✓,監視候補
+3965,"Capital Asset Planning, Inc.",,49.0,1.1,4.0,✗,✗,✓,監視候補
+3958,"Sasatoku Printing Co.,Ltd.",,29.3,0.28,3.4,✗,✗,✓,監視候補
+3955,"IMURA & Co.,Ltd.",,87.5,1.21,4.9,✗,✗,✓,監視候補
+3953,"Ohmura Shigyo Co.,Ltd.",,27.8,2.55,2.7,✗,✗,✓,監視候補
+3948,"Hikari Business Form Co., Ltd.",,63.2,0.24,1.6,✗,✗,✓,監視候補
+4076,"CNS Co.,Ltd",,57.6,0.52,3.4,✗,✗,✓,監視候補
+4074,"LaKeel, Inc.",,52.6,0.05,5.2,✗,✗,✓,監視候補
+4068,Basis Corporation,,33.5,0.19,6.8,✗,✗,✓,監視候補
+4060,rakumo Inc.,,69.9,0.23,8.9,✗,✗,✗,監視候補
+4059,"Magmag, Inc.",,10.8,1.34,9.1,✗,✗,✗,監視候補
+4057,"Interfactory, Inc.",,13.9,0.6,4.1,✗,✗,✓,監視候補
+4056,Neural Group Inc.,,33.2,0.48,18.0,✗,✗,✓,監視候補
+4054,"Japan PropTech Co.,Ltd.",,71.2,0.64,1.0,✗,✗,✓,監視候補
+4040,"Nankai Chemical Company,Limited",,80.0,0.47,9.3,✗,✗,✓,監視候補
+4031,Katakura & Co-op Agri Corporation,,90.3,0.87,9.6,✗,✗,✗,監視候補
+4020,Betrend Corporation,,19.5,0.88,10.3,✗,✗,✗,監視候補
+4019,"Stmn, Inc.",,53.1,0.39,6.0,✗,✗,✗,監視候補
+4017,Creema Ltd.,,13.8,0.29,4.4,✗,✗,✓,監視候補
+4016,"MIT Holdings Co., Ltd.",,21.9,0.72,4.8,✗,✗,✓,監視候補
+4015,Paycloud Holdings Inc.,,82.2,0.42,6.0,✗,✗,✓,監視候補
+4012,"Axis Co.,Ltd.",,73.7,0.81,7.4,✗,✗,✓,監視候補
+4177,"i-plug,Inc.",,54.6,1.35,11.2,✗,✗,✓,監視候補
+4176,coconala Inc.,,60.0,1.86,3.7,✗,✗,✓,監視候補
+4172,"Hi-CRATES CO.,LTD.",,49.9,2.83,3.7,✗,✗,✓,監視候補
+4170,"Kaizen Platform, Inc.",,18.6,0.1,15.6,✗,✗,✓,監視候補
+416A,"Fuji United Holdings Company,Ltd.",,86.1,0.93,8.0,✗,✗,✓,監視候補
+4168,"Yappli, Inc.",,99.3,0.38,6.7,✗,✗,✓,監視候補
+4167,Kokopelli Inc.,,24.5,0.51,8.5,✗,✗,✗,監視候補
+4166,Cacco Inc.,,21.9,39.72,18.7,✗,✗,✗,監視候補
+415A,"GMO TECH Holdings, Inc.",,89.4,0.55,12.7,✗,✗,✗,監視候補
+4124,Osaka Yuka Industry Ltd.,,24.3,0.59,6.6,✗,✗,✗,監視候補
+4120,"Sugai Chemical Industry Co., Ltd.",,39.3,0.4,9.2,✗,✗,✗,監視候補
+4119,Nippon Pigment Holdings Company Limited,,96.8,0.18,7.6,✗,✗,✓,監視候補
+410A,"GMO Commerce, Inc.",,70.3,1.41,16.6,✗,✗,✓,監視候補
+4102,"Maruo Calcium Co., Ltd.",,30.7,0.86,2.1,✗,✗,✓,監視候補
+4098,"Titan Kogyo, Ltd.",,29.4,0.6,2.6,✗,✗,✓,監視候補
+407A,"Unicon Holdings Co., Ltd.",,87.2,1.23,4.4,✗,✗,✓,監視候補
+4256,"CYND Co., Ltd.",,72.7,1.3,9.0,✗,✗,✗,監視候補
+4255,THECOO Inc.,,68.0,1.96,11.5,✗,✗,✗,監視候補
+4247,"POVAL KOGYO Co., Ltd.",,36.5,1.68,4.1,✗,✗,✓,監視候補
+4245,"Daiki Axis Co., Ltd.",,96.0,0.53,3.4,✗,✗,✓,監視候補
+4243,"Nix, Inc.",,23.2,1.07,11.5,✗,✗,✗,監視候補
+4242,Takagi Seiko Corporation,,47.2,1.19,3.5,✗,✗,✓,監視候補
+4241,atect corporation,,31.6,0.37,17.2,✗,✗,✓,監視候補
+4240,"Cluster Technology Co.,Ltd.",,17.1,1.77,5.0,✗,✗,✓,監視候補
+4237,Fujipream Corporation,,94.6,1.18,6.7,✗,✗,✓,監視候補
+4234,"Sun A.Kaken Company,Limited",,96.1,0.91,4.4,✗,✗,✓,監視候補
+4224,Lonseal Corporation,,97.0,1.04,2.9,✗,✗,✓,監視候補
+4222,"Kodama Chemical Industry Co.,Ltd.",,97.0,0.89,10.3,✗,✗,✓,監視候補
+4199,WonderPlanet Inc.,,20.4,0.2,3.4,✗,✗,✓,監視候補
+4198,"TENDA Co.,LTD.",,32.9,0.88,3.0,✗,✗,✓,監視候補
+4197,"Asmarq Co., Ltd.",,28.3,2.87,2.9,✗,✗,✓,監視候補
+4179,G-NEXT Inc.,,17.9,0.81,13.6,✗,✗,✗,監視候補
+4351,Yamada Servicer Synthetic Office,,35.9,0.3,4.0,✗,✗,✓,監視候補
+4341,Seiryo Electric Corporation,,30.4,1.14,4.3,✗,✗,✓,監視候補
+4335,"IPS Holdings Co., Ltd.",,24.2,0.55,3.7,✗,✗,✓,監視候補
+4334,"YUKE'S Co.,Ltd.",,31.8,0.49,4.5,✗,✗,✓,監視候補
+4317,Ray Corporation,,79.1,0.33,7.9,✗,✗,✗,監視候補
+4308,J-Stream Inc.,,87.3,1.62,1.7,✗,✗,✓,監視候補
+4287,Just Planning Inc.,,55.4,0.65,6.2,✗,✗,✓,監視候補
+4284,"SOLXYZ Co., Ltd.",,90.5,0.38,5.0,✗,✗,✓,監視候補
+4274,"Hosoya Pyro-Engineering Co., Ltd.",,42.7,0.41,15.9,✗,✗,✓,監視候補
+4270,BeeX Inc.,,42.9,0.35,2.1,✗,✗,✓,監視候補
+4265,Institution for a Global Society Corporation,,11.8,0.46,15.9,✗,✗,✗,監視候補
+4264,"Secure, Inc.",,84.5,2.19,6.8,✗,✗,✓,監視候補
+4263,"SUSMED,Inc.",,67.1,1.08,10.8,✗,✗,✗,監視候補
+4262,"NIFTY Lifestyle Co., Ltd.",,87.3,0.74,3.5,✗,✗,✓,監視候補
+4261,"AsiaQuest Co., Ltd.",,44.3,0.58,4.7,✗,✗,✓,監視候補
+4260,"Hybrid Technologies Co., Ltd.",,23.6,0.78,7.5,✗,✗,✓,監視候補
+441A,NE Inc.,,87.3,0.82,9.7,✗,✗,✓,監視候補
+4416,True Data Inc.,,19.4,1.68,8.7,✗,✗,✓,監視候補
+4415,"Broad Enterprise Co.,Ltd.",,90.9,0.83,8.0,✗,✗,✓,監視候補
+4414,"FLECT Co., Ltd.",,60.6,0.21,8.5,✗,✗,✓,監視候補
+4406,"New Japan Chemical Co., Ltd.",,84.3,0.88,7.8,✗,✗,✓,監視候補
+4397,TeamSpirit Inc.,,56.4,0.32,10.4,✗,✗,✗,監視候補
+4391,"Logizard Co., Ltd.",,36.7,0.7,3.7,✗,✗,✓,監視候補
+4388,"AI,Inc.",,21.1,0.52,8.0,✗,✗,✓,監視候補
+4386,"SIG Group Co., Ltd.",,56.7,16.35,6.5,✗,✗,✓,監視候補
+4380,M - mart Inc.,,64.1,0.18,7.4,✗,✗,✗,監視候補
+4378,CINC Corp.,,13.5,0.25,17.2,✗,✗,✓,監視候補
+4374,Robot Payment Inc.,,88.0,0.47,9.1,✗,✗,✗,監視候補
+4372,"YMIRLINK,Inc.",,49.9,0.08,2.7,✗,✗,✓,監視候補
+4361,"Kawaguchi Chemical Industry Co., Ltd",,20.6,6.71,7.7,✗,✗,✓,監視候補
+4360,"MANAC Chemical Partners Co.,Ltd",,81.8,0.44,10.5,✗,✗,✗,監視候補
+4356,"Applied Technology Co., Ltd.",,94.3,0.5,4.8,✗,✗,✓,監視候補
+4487,"Spacemarket,Inc.",,25.7,1.09,11.0,✗,✗,✗,監視候補
+4486,Unite and Grow Inc.,,54.0,0.34,5.0,✗,✗,✓,監視候補
+4484,"Lancers, Inc.",,45.7,0.26,7.5,✗,✗,✗,監視候補
+4476,AI CROSS Inc.,,41.1,0.24,3.1,✗,✗,✓,監視候補
+4450,"Power Solutions, Ltd.",,73.7,3.87,4.5,✗,✗,✓,監視候補
+4447,"PBsystems,Inc.",,28.8,8.65,8.2,✗,✗,✓,監視候補
+4445,Living Technologies Inc.,,40.6,0.39,18.7,✗,✗,✗,監視候補
+4444,INFONET GROUP inc.,,18.6,0.73,7.9,✗,✗,✗,監視候補
+4442,"Valtes Holdings Co.,Ltd.",,83.2,1.81,6.3,✗,✗,✓,監視候補
+4437,"gooddays holdings, Inc.",,54.8,0.08,6.3,✗,✗,✓,監視候補
+4430,"Tokai Soft Co., Ltd.",,83.0,0.45,2.9,✗,✗,✓,監視候補
+4429,"Ricksoft Co., Ltd.",,32.0,0.39,5.3,✗,✗,✓,監視候補
+4428,sinops Inc.,,42.8,0.03,4.2,✗,✗,✓,監視候補
+4427,"EduLab, Inc.",,21.7,0.51,11.5,✗,✗,✗,監視候補
+4424,"Amazia,inc.",,19.8,0.02,13.4,✗,✗,✗,監視候補
+4421,"D. I. System Co., Ltd.",,29.1,64.82,3.2,✗,✗,✓,監視候補
+4591,Ribomic Inc.,,40.7,0.58,13.5,✗,✗,✗,監視候補
+4586,"MedRx Co., Ltd",,38.4,0.3,6.9,✗,✗,✓,監視候補
+4584,Kidswell Bio Corporation,,78.9,0.93,6.2,✗,✗,✓,監視候補
+4582,SymBio Pharmaceuticals Limited,,44.1,0.32,13.2,✗,✗,✓,監視候補
+4571,"Nano Holdings, Inc.",,67.8,5.15,8.6,✗,✗,✗,監視候補
+4570,"Immuno-Biological Laboratories Co., Ltd.",,98.9,1.28,9.1,✗,✗,✗,監視候補
+4564,"OncoTherapy Science, Inc.",,81.6,1.35,15.0,✗,✗,✗,監視候補
+4558,"Chukyoiyakuhin Co.,Ltd.",,21.4,0.85,1.8,✗,✗,✓,監視候補
+4539,"Nippon Chemiphar Co., Ltd.",,55.7,0.35,3.2,✗,✗,✓,監視候補
+4531,"Yuki Gosei Kogyo Co., Ltd.",,80.6,3.26,6.3,✗,✗,✓,監視候補
+4524,"Morishita Jintan Co., Ltd.",,91.4,1.07,2.0,✗,✗,✓,監視候補
+4496,Commerce One Holdings Inc.,,51.9,0.3,3.2,✗,✗,✓,監視候補
+4492,Genetec Corporation,,44.6,1.08,4.7,✗,✗,✓,監視候補
+4491,"Computer Management Co., Ltd.",,60.5,1.34,13.0,✗,✗,✗,監視候補
+4490,VisasQ Inc.,,62.8,0.4,9.0,✗,✗,✓,監視候補
+4488,AI inside Inc.,,82.3,0.63,7.0,✗,✗,✓,監視候補
+469A,Fitcrew Inc.,,17.4,0.49,7.5,✗,✗,✓,監視候補
+4679,"TAYA Co.,Ltd.",,20.5,2.11,3.8,✗,✗,✓,監視候補
+4678,"SHUEI YOBIKO Co., Ltd.",,22.0,0.55,2.1,✗,✗,✓,監視候補
+4673,"Kawasaki Geological Engineering Co., Ltd.",,42.6,0.54,6.1,✗,✗,✓,監視候補
+4664,Japan Reliance Service Corporation,,34.5,0.38,12.7,✗,✗,✗,監視候補
+4657,"Environmental Control Center Co.,Ltd.",,21.6,0.52,4.0,✗,✗,✓,監視候補
+4650,"SD ENTERTAINMENT,Inc.",,24.3,0.6,1.1,✗,✗,✓,監視候補
+4645,"Ichishin Holdings Co.,Ltd.",,35.3,1.53,2.8,✗,✗,✗,監視候補
+4644,"Imagineer Co.,Ltd.",,99.0,0.38,1.5,✗,✗,✓,監視候補
+4642,"Original Engineering Consultants Co., Ltd.",,83.8,0.73,3.5,✗,✗,✓,監視候補
+463A,"INTELLEX HOLDINGS Co.,Ltd.",,95.3,0.88,6.9,✗,✗,✗,監視候補
+462A,"FUNDINNO,Inc.",,59.0,0.11,15.6,✗,✗,✓,監視候補
+4625,"Atomix Co.,Ltd.",,47.2,0.77,12.9,✗,✗,✓,監視候補
+4623,Asahipen Corporation,,63.3,0.26,4.1,✗,✗,✓,監視候補
+4615,"Shinto Paint Company, Limited",,45.6,15.77,2.3,✗,✗,✓,監視候補
+4597,Solasia Pharma K.K.,,84.6,1.1,13.8,✗,✗,✗,監視候補
+477A,"Startline CO.,LTD.",,32.1,0.74,16.6,✗,✗,✗,監視候補
+4777,Gala Incorporated,,55.5,0.97,2.0,✗,✗,✓,監視候補
+4772,"SM ENTERTAINMENT JAPAN Co.,Ltd.",,85.8,0.19,4.2,✗,✗,✓,監視候補
+4769,"Ic Co., Ltd.",,84.7,0.85,5.9,✗,✗,✗,監視候補
+4766,"PA Co., Ltd.",,23.9,0.37,11.6,✗,✗,✗,監視候補
+4762,XNET Corporation,,83.6,0.47,14.9,✗,✗,✗,監視候補
+475A,"GIMIC Co., Ltd.",,35.0,0.19,12.6,✗,✗,✗,監視候補
+4752,Showa System Engineering Corporation,,67.6,4.28,3.1,✗,✗,✓,監視候補
+4750,"Daisan Co., Ltd.",,35.7,0.47,4.0,✗,✗,✓,監視候補
+4736,Nippon RAD Inc.,,32.0,0.07,6.4,✗,✗,✗,監視候補
+4735,"Kyoshin Co., Ltd.",,21.4,4.04,7.9,✗,✗,✓,監視候補
+472A,Mirrativ Inc.,,92.1,0.16,8.3,✗,✗,✓,監視候補
+4728,"Tose Co., Ltd.",,49.3,1.52,2.0,✗,✗,✓,監視候補
+4720,"Johnan Academic Preparatory Institute, Inc.",,19.0,0.73,3.8,✗,✗,✓,監視候補
+4707,KITAC Corporation,,22.2,1.21,18.5,✗,✗,✗,監視候補
+4705,CLIP Corporation,,27.8,0.72,2.7,✗,✗,✓,監視候補
+4925,"HABA Laboratories,Inc.",,63.8,0.46,4.1,✗,✗,✓,監視候補
+4920,"Nippon Shikizai, Inc.",,23.4,5.4,7.0,✗,✗,✗,監視候補
+4918,Ivy Cosmetics Corporation,,18.7,0.46,3.4,✗,✗,✓,監視候補
+4896,"K Pharma,Inc.",,86.5,1.12,9.6,✗,✗,✗,監視候補
+4892,Cyfuse Biomedical K.K.,,61.8,1.76,15.0,✗,✗,✗,監視候補
+4890,Tsubota Laboratory Incorporated,,66.0,0.39,16.3,✗,✗,✗,監視候補
+4885,Muromachi Chemicals Inc.,,36.2,0.6,7.3,✗,✗,✓,監視候補
+4882,Perseus Proteomics Inc.,,27.6,0.55,18.5,✗,✗,✗,監視候補
+4881,FunPep Company Limited,,22.8,0.35,17.4,✗,✗,✗,監視候補
+4880,"CellSource Co., Ltd.",,60.9,1.12,7.4,✗,✗,✓,監視候補
+4845,"Scala, Inc.",,55.6,2.2,7.6,✗,✗,✗,監視候補
+483A,"Tera Technology, Inc.",,35.5,0.69,1.5,✗,✗,✓,監視候補
+4829,"Nihon Enterprise Co.,Ltd.",,40.5,1.16,5.8,✗,✗,✓,監視候補
+4814,Nextware Ltd.,,21.3,3.44,5.6,✗,✗,✓,監視候補
+480A,"LiB Consulting co.,ltd",,67.1,0.87,13.2,✗,✗,✗,監視候補
+478A,Hutzper Inc.,,72.3,0.43,13.8,✗,✗,✗,監視候補
+5126,PORTERS Corporation,,21.8,2.27,5.8,✗,✗,✗,監視候補
+5035,HOUSEI Inc.,,23.9,0.6,5.3,✗,✗,✓,監視候補
+5034,"unerry,Inc.",,97.2,1.68,14.8,✗,✗,✓,監視候補
+5033,Nulab Inc.,,82.3,2.13,7.6,✗,✗,✓,監視候補
+5029,circlace Inc,,40.1,0.12,8.9,✗,✗,✗,監視候補
+5028,"SecondXight Analytica, Inc.",,32.8,0.9,3.7,✗,✗,✓,監視候補
+5026,"Tripleize Co.,Ltd.",,51.4,0.31,8.5,✗,✗,✗,監視候補
+5025,MERCURY Inc.,,15.3,0.71,5.8,✗,✗,✓,監視候補
+5010,"Nippon Seiro Co., Ltd.",,61.4,0.49,13.6,✗,✗,✗,監視候補
+4990,"Showa Chemical Industry Co., Ltd.",,55.4,0.09,7.9,✗,✗,✓,監視候補
+4937,Waqoo Inc.,,82.9,0.47,4.1,✗,✗,✓,監視候補
+4936,AXXZIA Inc.,,65.2,0.89,10.8,✗,✗,✗,監視候補
+4934,"Premier Anti-Aging Co., Ltd.",,50.4,0.21,5.5,✗,✗,✓,監視候補
+4932,"Almado, Inc.",,71.1,0.57,7.7,✗,✗,✗,監視候補
+4929,"Adjuvant Holdings Co.,Ltd.",,59.1,0.36,1.2,✗,✗,✓,監視候補
+4926,"C'BON COSMETICS Co.,Ltd.",,51.1,0.86,1.7,✗,✗,✓,監視候補
+5257,"Nova System Co.,Ltd.",,38.6,0.34,4.3,✗,✗,✓,監視候補
+5255,Monstarlab Inc.,,50.4,1.05,15.4,✗,✗,✓,監視候補
+5250,"GMO Prime Strategy Co.,Ltd.",,35.6,0.57,16.1,✗,✗,✗,監視候補
+5248,"TECHNOLOGIES, Inc.",,84.9,0.56,4.4,✗,✗,✓,監視候補
+5247,"BTM, Inc.",,15.9,0.19,4.4,✗,✗,✓,監視候補
+5244,"jig.jp Co., Ltd.",,75.1,0.75,5.2,✗,✗,✓,監視候補
+5240,"monoAI technology Co.,Ltd.",,20.7,0.06,17.8,✗,✗,✗,監視候補
+5216,"Kuramoto Co., Ltd.",,70.5,0.34,16.8,✗,✗,✓,監視候補
+5199,"Fuji Latex Co., Ltd.",,25.1,0.33,2.3,✗,✗,✓,監視候補
+5194,"Sagami Rubber Industries Co., Ltd.",,67.1,1.22,3.0,✗,✗,✓,監視候補
+5189,"Sakura Rubber Co., Ltd.",,65.9,0.11,3.4,✗,✗,✓,監視候補
+5187,"Create Medic Co., Ltd.",,89.7,1.1,5.8,✗,✗,✓,監視候補
+5162,Asahi Rubber Inc.,,36.1,0.22,6.0,✗,✗,✓,監視候補
+5138,"Rebase, Inc.",,22.1,0.47,6.8,✗,✗,✓,監視候補
+5134,"POPER Co.,Ltd.",,17.3,2.27,8.0,✗,✗,✓,監視候補
+5129,FIXER Inc.,,35.9,0.38,13.0,✗,✗,✗,監視候補
+554A,"Batonz Co., Ltd.",,62.4,0.19,12.9,✗,✗,✗,監視候補
+5527,Property Technologies Inc.,,98.1,1.89,8.8,✗,✗,✓,監視候補
+550A,"Softtex Co.,Ltd.",,20.5,1.2,10.6,✗,✗,✗,監視候補
+549A,"HITO-TO-HITO Holdings Co.,Ltd.",,62.7,0.68,11.8,✗,✗,✗,監視候補
+5491,"Nippon Kinzoku Co., Ltd.",,56.6,1.56,5.4,✗,✗,✓,監視候補
+548A,"SystemEXE,Inc.",,49.2,0.64,4.4,✗,✗,✓,監視候補
+5458,Takasago Tekko K.K.,,39.4,0.33,4.6,✗,✗,✓,監視候補
+5446,"HOKUETSU METAL Co., Ltd.",,39.5,0.34,2.9,✗,✗,✓,監視候補
+542A,Vitabrid Japan Inc.,,61.9,0.52,10.3,✗,✗,✓,監視候補
+5391,A&A Material Corporation,,80.7,1.35,3.5,✗,✗,✓,監視候補
+5368,"Japan Insulation Co., Ltd.",,85.2,2.52,5.7,✗,✗,✗,監視候補
+5355,"Nippon Crucible Co., Ltd.",,43.9,0.29,1.1,✗,✗,✓,監視候補
+5341,"Asahi Eito Holdings Co.,Ltd.",,11.5,0.89,15.0,✗,✗,✗,監視候補
+5287,"Ito Yogyo Co., Ltd",,24.3,0.42,18.0,✗,✗,✗,監視候補
+5283,"Takamisawa Co., Ltd.",,52.4,0.32,5.6,✗,✗,✓,監視候補
+5279,"Nihon Kogyo Co., Ltd.",,34.9,1.1,3.3,✗,✗,✓,監視候補
+5619,MRSO Inc.,,29.3,0.89,4.3,✗,✗,✓,監視候補
+5618,Nyle Inc.,,25.1,0.39,6.8,✗,✗,✓,監視候補
+5616,"Ame Kaze Taiyo, Inc.",,15.1,0.6,5.4,✗,✗,✓,監視候補
+5612,Nippon Chutetsukan K.K.,,50.3,0.79,3.9,✗,✗,✓,監視候補
+5609,Nippon Chuzo K. K.,,44.9,0.95,4.8,✗,✗,✓,監視候補
+5603,Kogi Corporation,,41.4,1.78,2.4,✗,✗,✓,監視候補
+559A,"Umenoyado Brewery Co., Ltd.",,67.8,0.39,5.7,✗,✗,✓,監視候補
+5597,"Blue Innovation Co., Ltd.",,51.3,0.62,11.0,✗,✗,✗,監視候補
+5591,AVILEN Inc.,,48.9,1.04,10.9,✗,✗,✗,監視候補
+5587,Inbound Platform Corp.,,29.5,0.51,6.5,✗,✗,✗,監視候補
+5582,GRID Inc.,,96.1,1.15,5.0,✗,✗,✓,監視候補
+5580,"Prodelight Co.,Ltd.",,27.4,0.39,7.3,✗,✗,✓,監視候補
+5578,"AR advanced technology, Inc.",,88.8,0.34,6.5,✗,✗,✓,監視候補
+5576,O.B.System Inc.,,71.4,0.37,6.2,✗,✗,✓,監視候補
+5571,"Excite Holdings Co., Ltd.",,50.4,0.44,4.5,✗,✗,✓,監視候補
+5570,"Jenoba Co.,Ltd.",,79.4,1.24,5.6,✗,✗,✓,監視候補
+5891,"SAKIGAKE Holdings Co.,Ltd.",,96.6,1.59,2.2,✗,✗,✓,監視候補
+5888,"Daiwa Cycle Co.,Ltd.",,73.4,2.93,11.4,✗,✗,✗,監視候補
+5884,"KURADASHI.Co.,Ltd.",,74.2,0.41,6.3,✗,✗,✓,監視候補
+5871,SOLIZE Holdings Corporation,,71.7,0.37,8.9,✗,✗,✓,監視候補
+5870,Nalnet Communications Inc.,,46.8,0.8,4.0,✗,✗,✓,監視候補
+5868,Rococo Co. Ltd.,,37.6,0.63,4.7,✗,✗,✓,監視候補
+5867,"es Networks Co., Ltd.",,42.0,0.68,9.1,✗,✗,✓,監視候補
+5858,"STG Co., Ltd.",,24.6,0.72,4.2,✗,✗,✓,監視候補
+5843,"Nippon Insure Co., Ltd.",,65.5,0.3,4.7,✗,✗,✓,監視候補
+5820,"Mitsuboshi Co., Ltd.",,34.6,1.5,9.4,✗,✗,✓,監視候補
+5817,"JMACS Japan Co., Ltd.",,62.8,0.74,15.5,✗,✗,✗,監視候補
+5753,"Nippon Shindo Co., Ltd.",,53.8,0.59,6.4,✗,✗,✓,監視候補
+5742,"NIC Autotec, Inc.",,38.6,1.52,3.5,✗,✗,✓,監視候補
+5704,JMC Corporation,,21.0,0.5,5.1,✗,✗,✓,監視候補
+5699,"IBOKIN Co.,Ltd.",,50.3,0.72,4.7,✗,✗,✓,監視候補
+5697,"Sanyu Co., Ltd.",,48.4,0.93,3.2,✗,✗,✓,監視候補
+5987,ONEX Corporation,,26.5,1.39,3.5,✗,✗,✓,監視候補
+5986,"Molitec Steel Co., Ltd.",,62.7,1.5,14.4,✗,✗,✗,監視候補
+5974,"Chugokukogyo Co.,Ltd.",,27.2,0.35,2.6,✗,✗,✓,監視候補
+5973,Toami Corporation,,34.1,0.18,1.8,✗,✗,✓,監視候補
+5967,"Tone Co., Ltd.",,95.0,0.45,5.7,✗,✗,✓,監視候補
+5962,"Asaka Industrial Co., Ltd.",,21.5,1.57,8.2,✗,✗,✓,監視候補
+5956,"Toso Company, Limited",,51.3,0.42,3.2,✗,✗,✓,監視候補
+5952,Amatei Incorporated,,21.3,7.79,2.7,✗,✗,✓,監視候補
+5950,"Japan Power Fastening Co.,Ltd.",,19.7,1.83,8.5,✗,✗,✗,監視候補
+5940,"Fujisash Co.,Ltd.",,91.2,0.44,2.6,✗,✗,✓,監視候補
+5939,"Otani Kogyo Co.,Ltd.",,36.1,0.2,3.0,✗,✗,✓,監視候補
+5936,"Toyo Shutter Co., Ltd.",,55.7,0.24,4.0,✗,✗,✓,監視候補
+5928,"Almetax Manufacturing Co., Ltd.",,29.1,0.99,2.1,✗,✗,✓,監視候補
+5923,"TAKADAKIKO (Steel Construction) CO.,LTD.",,68.2,0.09,3.0,✗,✗,✓,監視候補
+5900,"Daiken Co.,Ltd.",,47.3,0.37,7.6,✗,✗,✓,監視候補
+589A,"NEIS Co.,Ltd.",,60.0,0.34,8.4,✗,✗,✓,監視候補
+6059,"UCHIYAMA HOLDINGS Co.,Ltd.",,71.4,0.35,3.6,✗,✗,✓,監視候補
+6054,Livesense Inc.,,30.9,0.81,3.7,✗,✗,✓,監視候補
+6049,ItoKuro Inc.,,50.9,0.6,4.1,✗,✗,✓,監視候補
+6047,Gunosy Inc.,,73.5,0.21,9.2,✗,✗,✗,監視候補
+6046,Linkbal Inc.,,26.5,0.14,9.9,✗,✗,✗,監視候補
+6042,"Nikki Co., Ltd.",,71.9,1.48,3.2,✗,✗,✓,監視候補
+6038,"IID, Inc.",,40.7,0.48,4.1,✗,✗,✓,監視候補
+6034,MRT Inc.,,30.0,4.05,12.1,✗,✗,✗,監視候補
+6033,"Extreme Co.,Ltd.",,85.0,0.29,11.7,✗,✗,✗,監視候補
+6031,Zeta Inc.,,55.9,0.43,7.0,✗,✗,✓,監視候補
+6029,Artra Group Corporation,,19.8,0.82,3.8,✗,✗,✓,監視候補
+6022,Akasaka Diesels Limited,,37.9,0.68,4.4,✗,✗,✓,監視候補
+5997,Kyoritsu Air Tech Inc.,,43.6,0.47,4.8,✗,✗,✓,監視候補
+5994,"Fine Sinter Co., Ltd.",,41.6,0.63,6.7,✗,✗,✓,監視候補
+5990,Super Tool Co. Ltd.,,46.4,2.41,2.2,✗,✗,✓,監視候補
+598A,"ChatPlus Co.,Ltd.",,63.6,0.06,18.6,✗,✗,✓,監視候補
+6166,"Nakamura Choukou Co., Ltd.",,63.4,0.78,11.1,✗,✗,✗,監視候補
+6158,"Waida Mfg. Co.,Ltd.",,66.4,0.2,3.7,✗,✗,✓,監視候補
+6156,A-One Seimitsu Inc.,,93.8,0.49,5.2,✗,✗,✓,監視候補
+6155,"Takamatsu Machinery Co., Ltd.",,58.9,0.17,3.0,✗,✗,✗,監視候補
+6150,"Takeda Machinery Co., Ltd.",,25.3,0.54,1.7,✗,✗,✓,監視候補
+6138,"Dijet Industrial Co., Ltd.",,56.2,0.59,8.6,✗,✗,✗,監視候補
+6094,"FreakOut Holdings, inc.",,87.1,0.28,11.1,✗,✗,✗,監視候補
+6093,"MITRA Group, Inc.",,67.1,2.94,5.1,✗,✗,✓,監視候補
+6092,"EnBio Holdings, Inc",,61.5,0.63,6.7,✗,✗,✗,監視候補
+6090,"Human Metabolome Technologies, Inc.",,32.4,0.28,2.5,✗,✗,✓,監視候補
+6082,"RIDE ON EXPRESS HOLDINGS Co., Ltd.",,94.7,1.4,2.8,✗,✗,✓,監視候補
+6081,"Allied Architects, Inc.",,25.0,0.46,17.3,✗,✗,✗,監視候補
+607A,"every,Inc.",,51.2,0.13,19.2,✗,✗,✗,監視候補
+6074,JSS Corporation,,20.2,1.04,1.5,✗,✗,✓,監視候補
+6069,"Trenders, Inc.",,49.7,0.86,6.6,✗,✗,✗,監視候補
+6063,"Emergency Assistance Japan Co., Ltd.",,25.2,0.17,2.3,✗,✗,✓,監視候補
+6230,Sanei Ltd.,,97.5,0.43,2.7,✗,✗,✓,監視候補
+6229,Okumura Engineering corp.,,64.2,0.57,3.4,✗,✗,✓,監視候補
+6218,ENSHU Limited,,40.9,0.37,6.4,✗,✗,✗,監視候補
+6217,Tsudakoma Corp.,,47.9,0.43,11.7,✗,✗,✓,監視候補
+6198,"CAREER CO., LTD.",,16.1,0.12,5.7,✗,✗,✓,監視候補
+6195,"Hope, Inc.",,27.2,0.62,4.0,✗,✗,✓,監視候補
+6193,"Virtualex Holdings, Inc.",,31.7,4.4,15.5,✗,✗,✗,監視候補
+6190,"PhoenixBio Co., Ltd.",,13.1,1.14,7.7,✗,✗,✓,監視候補
+6189,Global Kids Company Corp.,,93.1,0.65,1.9,✗,✗,✓,監視候補
+6186,"Ichikura Co., Ltd.",,20.5,0.83,1.9,✗,✗,✓,監視候補
+6185,SMN Corporation,,52.9,0.3,1.9,✗,✗,✓,監視候補
+6182,MetaReal Corporation,,53.9,0.59,11.0,✗,✗,✗,監視候補
+6181,Tameny Inc.,,36.4,0.72,9.5,✗,✗,✗,監視候補
+6180,GMO Media Inc.,,67.0,0.62,3.6,✗,✗,✓,監視候補
+6177,AppBank Inc.,,20.4,1.1,6.1,✗,✗,✓,監視候補
+6171,C.E.Management Integrated Laboratory Co.Ltd,,52.8,0.16,1.4,✗,✗,✓,監視候補
+6360,"Tokyo Automatic Machinery Works, Ltd.",,66.5,0.11,5.8,✗,✗,✓,監視候補
+6347,"Placo Co., Ltd.",,23.7,0.21,3.7,✗,✗,✗,監視候補
+6343,Freesia Macross Corporation,,67.1,0.45,3.4,✗,✗,✓,監視候補
+6338,Takatori Corporation,,90.7,0.8,14.5,✗,✗,✗,監視候補
+6335,"Tokyo Kikai Seisakusho, Ltd.",,44.5,1.1,3.3,✗,✗,✓,監視候補
+6334,"Meiji Machine Co., Ltd.",,51.3,0.51,7.5,✗,✗,✓,監視候補
+6325,"Takakita Co., Ltd.",,47.2,0.32,2.7,✗,✗,✓,監視候補
+6307,"Sansei Co.,Ltd.",,34.6,0.38,9.5,✗,✗,✓,監視候補
+6292,"Kawata Mfg. Co., Ltd.",,56.4,2.74,4.6,✗,✗,✓,監視候補
+6286,Seiko Corporation,,96.6,0.41,4.4,✗,✗,✓,監視候補
+6276,"SiriusVision Co., Ltd.",,14.9,0.55,8.5,✗,✗,✓,監視候補
+6267,"General Packer Co., Ltd.",,70.9,0.22,7.2,✗,✗,✓,監視候補
+6265,CONVUM Ltd.,,51.0,4.11,10.0,✗,✗,✓,監視候補
+6248,"Yokota Manufacturing Co., Ltd.",,32.7,0.53,7.0,✗,✗,✓,監視候補
+6239,Nagaoka International Corporation,,99.9,1.44,4.3,✗,✗,✓,監視候補
+6233,KLASS Corporation,,20.6,0.13,2.8,✗,✗,✓,監視候補
+6543,Nissen Inc.,,46.5,0.13,4.2,✗,✗,✓,監視候補
+6538,Disruptors Inc.,,47.5,0.55,6.8,✗,✗,✗,監視候補
+6537,"Washhouse Co.,Ltd.",,19.6,1.12,10.0,✗,✗,✗,監視候補
+6518,"Sanso Electric Co.,Ltd.",,78.5,0.55,8.1,✗,✗,✓,監視候補
+6513,"Origin Company, Limited",,64.6,0.38,6.8,✗,✗,✓,監視候補
+6497,Hamai Industries Ltd.,,96.9,0.81,6.4,✗,✗,✓,監視候補
+6495,"Miyairi Valve Mfg. Co., Ltd.",,48.2,0.57,7.8,✗,✗,✗,監視候補
+6494,"NFK Holdings Co., Ltd.",,48.7,1.11,5.2,✗,✗,✓,監視候補
+6467,Nichidai Corporation,,30.9,0.87,4.4,✗,✗,✓,監視候補
+6428,OIZUMI Corporation,,73.6,0.14,2.5,✗,✗,✓,監視候補
+6424,"Takamisawa Cybernetics Company, Ltd.",,36.7,0.96,2.5,✗,✗,✓,監視候補
+6408,"Ogura Clutch Co.,Ltd.",,63.4,0.31,5.9,✗,✗,✗,監視候補
+6402,"Kanematsu Engineering Co., Ltd.",,76.5,0.53,3.6,✗,✗,✗,監視候補
+6400,"Fuji Seiki Co.,Ltd.",,25.3,1.06,15.8,✗,✗,✗,監視候補
+6391,Kaji Technology Corporation,,83.9,1.3,10.3,✗,✗,✓,監視候補
+6380,"Oriental Chain Mfg. Co., Ltd.",,62.9,0.01,16.0,✗,✗,✗,監視候補
+6612,BALMUDA Inc.,,48.1,1.29,5.6,✗,✗,✓,監視候補
+6580,"Writeup Co.,Ltd.",,40.9,0.42,7.9,✗,✗,✗,監視候補
+6579,"logly,Inc.",,12.9,1.07,7.6,✗,✗,✗,監視候補
+6578,"CORREC Co., Ltd.",,35.7,0.72,6.6,✗,✗,✓,監視候補
+6568,"KNC Laboratories Co., Ltd.",,95.9,1.12,2.6,✗,✗,✓,監視候補
+6563,Mirai Works Inc.,,23.2,0.35,4.7,✗,✗,✓,監視候補
+6558,"Cookbiz Co.,Ltd.",,18.7,0.57,3.0,✗,✗,✓,監視候補
+6557,AIAI Group Corporation,,42.1,1.77,16.7,✗,✗,✗,監視候補
+6555,"MS&Consulting Co., Ltd.",,19.0,4.16,3.8,✗,✗,✓,監視候補
+6554,"SUS Co.,Ltd.",,95.9,0.74,5.9,✗,✗,✗,監視候補
+6552,GameWith Inc.,,29.0,1.66,3.0,✗,✗,✓,監視候補
+6551,"Tsunagu Group Holdings, Inc.",,50.8,0.32,5.0,✗,✗,✓,監視候補
+6549,"DM Solutions Co.,Ltd",,61.0,0.07,3.5,✗,✗,✓,監視候補
+6548,Tabikobo Co. Ltd.,,23.9,0.04,11.8,✗,✗,✗,監視候補
+6546,Fulltech Co.Ltd.,,61.6,0.64,1.5,✗,✗,✓,監視候補
+6545,internet infinity Inc.,,40.4,2.04,6.0,✗,✗,✓,監視候補
+6699,"Diamond Electric Holdings Co., Ltd.",,56.4,1.3,2.5,✗,✗,✓,監視候補
+6696,TRaaS On Product Inc.,,14.0,0.38,13.1,✗,✗,✗,監視候補
+6694,Zoom Corporation,,36.0,0.6,8.0,✗,✗,✗,監視候補
+6666,River Eletec Corporation,,66.8,0.43,13.3,✗,✗,✗,監視候補
+6664,"Optoelectronics Co., Ltd.",,37.8,1.6,16.1,✗,✗,✗,監視候補
+6663,"Taiyo Technolex Co.,Ltd.",,19.3,16.35,2.6,✗,✗,✓,監視候補
+6662,"Ubiteq, Inc.",,33.1,0.02,4.1,✗,✗,✓,監視候補
+6658,"Shirai Electronics Industrial Co., Ltd.",,67.5,0.34,4.1,✗,✗,✓,監視候補
+6656,inspec Inc.,,31.9,0.18,12.9,✗,✗,✗,監視候補
+6654,"Fuji Electric Industry Co., Ltd.",,56.6,0.25,2.6,✗,✗,✓,監視候補
+6647,"Morio Denki Co., Ltd.",,44.5,1.0,14.9,✗,✗,✗,監視候補
+6635,"Di-Nikko Engineering Co., Ltd.",,43.1,0.11,5.2,✗,✗,✓,監視候補
+6634,JN Group Inc.,,30.5,0.29,8.8,✗,✗,✓,監視候補
+6633,Cgs Holdings Inc.,,29.1,0.56,3.2,✗,✗,✓,監視候補
+6615,"UMC Electronics Co., Ltd.",,61.6,2.95,7.5,✗,✗,✗,監視候補
+6614,"Shikino High-Tech CO.,LTD.",,39.1,0.51,6.2,✗,✗,✗,監視候補
+6867,Leader Electronics Corporation,,17.5,0.49,3.2,✗,✗,✓,監視候補
+6858,"Ono Sokki Co., Ltd.",,88.1,0.36,8.0,✗,✗,✓,監視候補
+6836,"Plat'Home Co., Ltd.",,42.4,0.38,12.8,✗,✗,✗,監視候補
+6822,"Oi Electric Co., Ltd.",,58.5,0.16,3.3,✗,✗,✓,監視候補
+6819,"Izu Shaboten Resort Co.,Ltd",,86.0,1.14,3.4,✗,✗,✓,監視候補
+6803,Teac Corporation,,27.6,1.41,5.2,✗,✗,✓,監視候補
+6786,RVH Inc.,,11.1,3.94,6.5,✗,✗,✓,監視候補
+6778,"Artiza Networks, Inc.",,53.0,0.32,10.2,✗,✗,✓,監視候補
+6776,"Tensho Electric Industries Co., Ltd.",,48.8,2.01,7.8,✗,✗,✓,監視候補
+6775,TB Group Inc.,,20.0,0.1,13.7,✗,✗,✗,監視候補
+6772,"Tokyo Cosmos Electric Co., Ltd.",,67.6,0.07,7.4,✗,✗,✓,監視候補
+6771,"Ikegami Tsushinki Co., Ltd.",,46.4,1.22,6.8,✗,✗,✓,監視候補
+6757,"OSG Corporation Co., Ltd.",,47.6,0.34,6.2,✗,✗,✓,監視候補
+6748,"Seiwa Electric Mfg. Co., Ltd.",,99.2,1.19,5.7,✗,✗,✓,監視候補
+6731,Pixela Corporation,,15.3,1.05,11.6,✗,✗,✗,監視候補
+6721,Wintest Corp.,,45.9,54.91,18.5,✗,✗,✗,監視候補
+7039,BRIDGE International Group Corp.,,47.3,0.55,3.2,✗,✗,✓,監視候補
+7037,teno. Holdings Company Limited,,36.5,0.43,3.4,✗,✗,✓,監視候補
+7036,eMnet Japan.co.ltd.,662.0,25.6,0.68,3.2,✓,✗,✓,監視候補
+7035,"and factory,inc.",,24.4,0.15,12.7,✗,✗,✗,監視候補
+7031,Inbound Tech Inc.,,21.1,1.43,12.7,✗,✗,✗,監視候補
+7021,"Nitchitsu Co., Ltd.",,47.6,0.95,12.4,✗,✗,✗,監視候補
+6982,"The Lead Co., Inc.",,14.7,1.76,4.6,✗,✗,✓,監視候補
+6964,"Sanko Co., Ltd.",,61.7,0.98,2.5,✗,✗,✓,監視候補
+6943,"NKK Switches Co., Ltd.",,51.4,1.51,18.6,✗,✗,✗,監視候補
+6942,"Sophia Holdings Co.,Ltd.",,65.3,19.29,3.7,✗,✗,✗,監視候補
+6926,"Okaya Electric Industries Co., Ltd.",,43.4,0.33,4.2,✗,✗,✓,監視候補
+6907,"GEOMATEC Co., Ltd.",,63.9,0.94,9.3,✗,✗,✓,監視候補
+6899,Asti Corporation,,67.4,1.79,8.4,✗,✗,✓,監視候補
+6898,"Tomita Electric Co.,Ltd.",,43.0,0.83,19.4,✗,✗,✓,監視候補
+6894,"Pulstec Industrial Co., Ltd.",,29.5,0.1,2.6,✗,✗,✓,監視候補
+6888,Acmos Inc.,,52.3,2.56,6.4,✗,✗,✓,監視候補
+7069,"CyberBuzz, Inc.",,40.1,1.13,12.6,✗,✗,✗,監視候補
+7066,"Peers Co.,Ltd.",,39.5,0.7,4.6,✗,✗,✓,監視候補
+7065,UPR Corporation,,70.8,1.14,3.8,✗,✗,✓,監視候補
+7064,"Howtelevision, Inc.",,27.1,0.12,12.1,✗,✗,✗,監視候補
+7062,"Fureasu Co.,Ltd.",,17.9,0.86,2.5,✗,✗,✓,監視候補
+7061,Japan Hospice Holdings Inc.,,39.4,0.54,12.2,✗,✗,✓,監視候補
+7060,geechs inc.,,60.8,0.29,7.3,✗,✗,✓,監視候補
+7058,"Kyoei Security Service Co., Ltd.",,44.1,0.43,4.9,✗,✗,✓,監視候補
+7049,"SHIKIGAKU. Co., Ltd.",,63.9,0.62,4.8,✗,✗,✓,監視候補
+7048,VELTRA Corporation,,50.5,0.9,16.5,✗,✗,✗,監視候補
+7046,TDSE Inc.,,27.1,2.84,4.3,✗,✗,✓,監視候補
+7043,"Alue Co.,Ltd.",,24.0,0.07,2.2,✗,✗,✓,監視候補
+7042,"Access Group Holdings Co., Ltd.",,23.0,0.45,6.2,✗,✗,✓,監視候補
+7041,"CRG Holdings Co.,Ltd.",,17.8,0.68,8.7,✗,✗,✗,監視候補
+7040,"Sun-Life Holding Co.,Ltd.",,58.0,2.15,2.0,✗,✗,✓,監視候補
+7114,"Foodison, Inc.",,34.9,0.15,11.5,✗,✗,✗,監視候補
+7111,"INEST, Inc.",,42.3,0.7,18.5,✗,✗,✗,監視候補
+7096,StemCell Institute Inc.,,75.3,0.27,4.9,✗,✗,✓,監視候補
+7093,"adish Co., Ltd.",,14.5,3.64,14.5,✗,✗,✓,監視候補
+7091,"Living Platform,Ltd.",,51.7,1.36,15.6,✗,✗,✗,監視候補
+7090,Ligua Inc.,882.0,14.4,1.37,12.5,✗,✗,✗,監視候補
+7087,"WILLTEC Co.,Ltd.",,85.7,0.9,4.6,✗,✗,✓,監視候補
+7084,Smile Holdings Inc.,,87.9,1.24,8.0,✗,✗,✓,監視候補
+7080,"Sportsfield Co., Ltd.",,65.2,0.34,5.5,✗,✗,✓,監視候補
+7079,"WDB coco Co., Ltd.",,62.3,0.82,3.3,✗,✗,✓,監視候補
+7078,INCLUSIVE Holdings Inc.,,33.7,0.82,5.1,✗,✗,✓,監視候補
+7077,"ALiNK Internet, Inc.",,18.1,0.51,1.4,✗,✗,✓,監視候補
+7075,"QLS Holdings Co., Ltd",,74.9,0.49,15.0,✗,✗,✗,監視候補
+7074,Twenty-four seven Holdings Inc.,,16.0,0.36,6.6,✗,✗,✓,監視候補
+7073,"JAIC Co.,Ltd.",,21.9,0.2,5.6,✗,✗,✓,監視候補
+7072,"Intimate Merger, Inc.",,34.4,0.47,6.0,✗,✗,✓,監視候補
+7214,GMB Corporation,,60.3,0.94,6.9,✗,✗,✓,監視候補
+7213,LECIP Holdings Corporation,,95.7,0.58,8.0,✗,✗,✓,監視候補
+7208,Kanemitsu Corporation,,62.2,0.61,5.8,✗,✗,✗,監視候補
+7196,Casa Inc.,,66.6,0.31,3.6,✗,✗,✓,監視候補
+7192,Mortgage Service Japan Limited,,98.2,0.77,7.1,✗,✗,✗,監視候補
+7183,"Anshin Guarantor Service Co., Ltd.",,44.3,0.12,0.8,✗,✗,✓,監視候補
+7175,"The Imamura Securities Co., Ltd.",,95.2,0.55,12.7,✗,✗,✗,監視候補
+7162,"ASTMAX Co., Ltd.",,38.2,0.25,4.6,✗,✗,✓,監視候補
+7150,"The Shimane Bank,Ltd.",,40.9,0.64,3.5,✗,✗,✓,監視候補
+7140,Petgo Corporation,,17.7,0.25,1.8,✗,✗,✓,監視候補
+7135,"Japan Craft Holdings Co., Ltd.",,63.4,0.44,7.1,✗,✗,✓,監視候補
+7131,Nomura Corporation,,48.7,2.31,3.9,✗,✗,✓,監視候補
+7129,Miahelsa Holdings Corporation,,31.0,1.17,6.7,✗,✗,✓,監視候補
+7127,"Ikka Holdings Co.,Ltd.",,50.4,0.8,4.8,✗,✗,✓,監視候補
+7126,"Global Style Co.,Ltd.",,49.3,0.2,3.2,✗,✗,✓,監視候補
+7120,SHINKO Inc.,,44.1,2.73,5.2,✗,✗,✗,監視候補
+7345,AI Partners Financial Inc.,,31.0,1.13,2.0,✗,✗,✓,監視候補
+7343,"Broad-minded Co.,Ltd.",,75.4,0.5,8.8,✗,✗,✓,監視候補
+7325,IRRC Corporation,,56.8,0.13,3.5,✗,✗,✓,監視候補
+7314,"Odawara Auto-Machine Mfg. Co., Ltd.",,43.4,0.16,5.2,✗,✗,✓,監視候補
+7297,"Car Mate Mfg. Co., Ltd.",,60.0,0.23,3.6,✗,✗,✓,監視候補
+7291,"Nihon Plast Co., Ltd.",,84.6,0.14,4.2,✗,✗,✓,監視候補
+7284,"Meiwa Industry Co., Ltd.",,41.0,0.58,4.3,✗,✗,✓,監視候補
+7271,Yasunaga Corporation,,82.1,1.16,4.5,✗,✗,✓,監視候補
+7265,"Eiken Industries Co.,Ltd.",,35.9,1.93,6.7,✗,✗,✓,監視候補
+7264,Muro Corporation,,78.9,1.66,3.6,✗,✗,✓,監視候補
+7228,Daytona Corporation,,97.4,0.19,2.0,✗,✗,✓,監視候補
+7219,"HKS Co., Ltd.",,35.4,0.93,4.0,✗,✗,✓,監視候補
+7218,"Tanaka Seimitsu Kogyo Co., Ltd.",,98.7,0.02,8.5,✗,✗,✓,監視候補
+7217,"Tein, Inc.",,44.2,0.08,5.3,✗,✗,✓,監視候補
+7215,"Faltec Co., Ltd.",,38.1,0.62,4.6,✗,✗,✓,監視候補
+7375,"REFINVERSE Group, Inc.",,40.4,1.5,14.5,✗,✗,✗,監視候補
+7374,Interworks Confidence Inc.,,93.3,0.42,2.2,✗,✗,✓,監視候補
+7372,Decollte Holdings Corporation,,22.1,1.57,12.3,✗,✗,✗,監視候補
+7371,Zenken Corporation,,97.8,0.58,3.2,✗,✗,✓,監視候補
+7370,"Enjin Co., Ltd.",,47.8,0.66,1.6,✗,✗,✓,監視候補
+7369,"Meiho Holdings,Inc.",,18.0,0.19,5.9,✗,✗,✓,監視候補
+7368,"HYOJITO Co., Ltd.",,80.3,0.85,5.0,✗,✗,✓,監視候補
+7367,"CELM,Inc.",,68.8,1.44,4.2,✗,✗,✓,監視候補
+7362,Terminalcare Support Institute Inc.,,13.2,0.14,4.5,✗,✗,✓,監視候補
+7361,"Human Creation Holdings, Inc.",,40.1,1.12,5.1,✗,✗,✓,監視候補
+7360,"ONDECK Co., Ltd.",,15.9,0.77,8.2,✗,✗,✗,監視候補
+7359,"Tokyo Communications Group,Inc.",,24.7,0.41,13.7,✗,✗,✗,監視候補
+7357,"GEOCODE CO.,Ltd.",,47.0,0.86,5.1,✗,✗,✓,監視候補
+7356,Retty Inc.,,16.6,0.19,6.3,✗,✗,✗,監視候補
+7353,"KIYO Learning Co.,Ltd.",,35.1,0.21,5.8,✗,✗,✓,監視候補
+7351,"Goodpatch, Inc.",,40.8,0.23,10.6,✗,✗,✓,監視候補
+7506,"HOUSE OF ROSE Co.,Ltd.",,64.1,1.03,0.8,✗,✗,✓,監視候補
+7502,"Plaza Holdings Co.,Ltd.",,33.5,1.04,3.4,✗,✗,✓,監視候補
+7494,"Konaka Co.,Ltd.",,76.7,0.39,4.8,✗,✗,✓,監視候補
+7486,"Sanrin Co., Ltd.",,98.9,0.15,8.8,✗,✗,✗,監視候補
+7477,Muraki Corporation,,22.2,1.43,9.9,✗,✗,✗,監視候補
+7464,"Saftec Co.,Ltd.",,26.3,0.56,2.2,✗,✗,✓,監視候補
+7462,CAPITA Inc.,,32.1,0.36,10.3,✗,✗,✗,監視候補
+7461,"Kimura Co.,Ltd.",,69.3,0.15,2.8,✗,✗,✓,監視候補
+7446,"Tohoku Chemical Co., Ltd.",,39.7,1.77,3.2,✗,✗,✓,監視候補
+7443,"Yokohama Gyorui Co., Ltd.",,42.5,0.36,4.4,✗,✗,✓,監視候補
+7442,"Nakayamafuku Co.,Ltd.",,88.9,1.94,2.1,✗,✗,✓,監視候補
+7434,Otake Corporation,,66.8,2.3,8.3,✗,✗,✓,監視候補
+7427,"Echo Trading Co., Ltd.",,50.2,1.59,2.3,✗,✗,✓,監視候補
+7425,"Hatsuho Shouji Co.,Ltd.",,72.9,0.13,2.6,✗,✗,✓,監視候補
+7399,"Nansin Co., Ltd.",,39.1,0.19,3.0,✗,✗,✓,監視候補
+7376,"BCC Co., Ltd.",,29.7,1.68,13.8,✗,✗,✗,監視候補
+7610,"Tay Two Co., Ltd.",,83.0,0.85,2.2,✗,✗,✓,監視候補
+7604,"Umenohana Group Co.,Ltd.",,81.0,0.71,2.0,✗,✗,✓,監視候補
+7602,"Ledax Co.,Ltd.",,34.4,0.13,18.8,✗,✗,✓,監視候補
+7601,"Poplar Co., Ltd.",,19.4,0.3,3.7,✗,✗,✓,監視候補
+7590,"Takasho Co.,Ltd.",,66.6,0.79,15.3,✗,✗,✓,監視候補
+7585,Kan-Nanmaru Corporation,,15.5,0.87,1.0,✗,✗,✓,監視候補
+7571,Yamano Holdings Corporation,,28.6,1.2,8.5,✗,✗,✓,監視候補
+7567,Sakae Electronics Corporation,,32.1,2.35,10.8,✗,✗,✓,監視候補
+7555,"Ota Floriculture Auction Co.,Ltd.",733.0,37.3,0.35,2.2,✗,✗,✓,監視候補
+7544,"Three F Co.,Ltd.",,42.0,1.71,1.8,✗,✗,✓,監視候補
+7538,"Daisui Co.,Ltd.",,47.3,1.61,2.9,✗,✗,✓,監視候補
+7531,Seiwa Chuo Holdings Corporation,,51.6,1.33,3.3,✗,✗,✓,監視候補
+7527,SystemSoft Corporation,,49.7,1.43,15.2,✗,✗,✗,監視候補
+7524,Marche Corporation,,28.4,0.58,7.0,✗,✗,✗,監視候補
+7515,Maruyoshi Center Inc.,,42.6,0.9,2.1,✗,✗,✓,監視候補
+7509,I.A Group Corporation,,66.9,0.68,4.3,✗,✗,✓,監視候補
+7771,"Nihon Seimitsu Co., Ltd.",,56.8,2.57,6.5,✗,✗,✓,監視候補
+7726,Kuroda Precision Industries Ltd.,,80.2,0.57,11.1,✗,✗,✗,監視候補
+7722,"Kokusai Co., Ltd.",,100.0,0.4,4.6,✗,✗,✓,監視候補
+7719,Tokyo Koki Co. Ltd.,,33.7,0.49,15.2,✗,✗,✓,監視候補
+7707,"Precision System Science Co., Ltd.",,62.3,2.15,10.8,✗,✗,✗,監視候補
+7695,"Reform Technology, Inc.",,61.4,0.91,15.5,✗,✗,✗,監視候補
+7692,Earth Infinity Co.Ltd.,,82.6,0.53,7.9,✗,✗,✓,監視候補
+7687,"MICREED Co.,Ltd.",,31.5,0.6,9.9,✗,✗,✗,監視候補
+7682,"Hamayuu Co.,Ltd.",,80.6,1.09,7.4,✗,✗,✓,監視候補
 7681,"LEOCLAN Co.,Ltd.",984.0,58.3,0.0,5.3,✗,✗,✓,監視候補
-7674,"NATTY SWANKY holdings Co.,Ltd.",,68.2,0.33,7.0,✗,✗,✓,監視候補
-7673,"Daiko Tsusan Co.,Ltd.",,91.7,0.06,3.9,✗,✗,✓,監視候補
-7640,"TOP CULTURE Co.,Ltd.",,34.6,0.63,7.5,✗,✗,✗,監視候補
-7625,"Global-Dining, Inc.",,46.4,0.5,7.5,✗,✗,✗,監視候補
-7619,"Tanaka Co.,Ltd.",,81.2,0.11,7.5,✗,✗,✓,監視候補
-7615,"KYOTO KIMONO YUZEN HOLDINGS Co., Ltd.",,19.3,0.2,6.4,✗,✗,✓,監視候補
-7610,"Tay Two Co., Ltd.",,83.6,0.23,4.4,✗,✗,✓,監視候補
-7833,IFIS Japan Ltd.,,66.2,2.68,2.2,✗,✗,✓,監視候補
-7831,Wellco Holdings Corporation,,10.4,3.5,3.1,✗,✗,✓,監視候補
-7827,Orvis Corporation,,31.9,1.2,5.9,✗,✗,✓,監視候補
-7813,"Platz Co., Ltd.",,30.9,1.12,6.2,✗,✗,✗,監視候補
-7812,CRESTEC Inc.,,61.8,0.11,5.6,✗,✗,✓,監視候補
-7810,"Crossfor Co.,Ltd.",,26.3,0.04,14.7,✗,✗,✓,監視候補
-7808,"C.S. Lumber Co., Inc",,48.1,0.12,6.8,✗,✗,✓,監視候補
-7807,"Kowa Co.,Ltd.",,36.6,1.98,4.8,✗,✗,✓,監視候補
-7805,Printnet Inc.,,33.9,0.09,2.3,✗,✗,✓,監視候補
-7804,"B&P Co.,Ltd.",,59.7,1.87,8.6,✗,✗,✗,監視候補
-7800,"Amifa Co.,Ltd.",,30.5,0.36,4.5,✗,✗,✓,監視候補
-7795,"Kyoritsu Co.,Ltd.",,85.7,0.61,8.3,✗,✗,✗,監視候補
-7793,IMAGE MAGIC Inc.,,39.2,1.05,8.6,✗,✗,✓,監視候補
-7791,"Dreambed Co.,Ltd.",,33.1,0.53,3.1,✗,✗,✓,監視候補
-7782,"Sincere Co., LTD.",,33.3,0.7,4.9,✗,✗,✗,監視候補
-7776,CellSeed Inc.,,84.4,0.74,6.5,✗,✗,✗,監視候補
-7919,"Nozaki Insatsu Shigyo Co., Ltd.",,35.4,0.6,5.7,✗,✗,✓,監視候補
-7918,"VIA Holdings,Inc.",,47.9,0.53,2.9,✗,✗,✓,監視候補
-7902,"Sonocom Co.,Ltd.",,40.6,0.77,4.3,✗,✗,✓,監視候補
-7898,"Wood One Co.,Ltd.",,86.6,0.47,4.6,✗,✗,✓,監視候補
-7896,"Seven Industries Co., Ltd.",,22.3,0.8,3.1,✗,✗,✓,監視候補
-7887,"Nankai Plywood Co.,Ltd.",,71.0,3.85,8.4,✗,✗,✗,監視候補
-7879,Noda Corporation,,98.1,2.06,1.6,✗,✗,✓,監視候補
-7877,"Eidai Kako Co.,Ltd.",,26.2,0.55,4.4,✗,✗,✓,監視候補
-7872,"Estelle Holdings Co.,Ltd.",,64.4,0.87,1.6,✗,✗,✓,監視候補
-7865,"People Co., Ltd.",,12.7,1.22,2.4,✗,✗,✓,監視候補
-7863,"Hiraga Co.,Ltd.",,26.8,0.16,3.1,✗,✗,✓,監視候補
-7859,Almedio Inc.,,51.1,0.32,14.2,✗,✗,✗,監視候補
-7850,"Sougou Shouken Co.,Ltd.",,24.0,0.71,3.3,✗,✗,✓,監視候補
-7841,"Endo Manufacturing Co., Ltd.",,93.8,0.26,3.9,✗,✗,✓,監視候補
-7837,"R. C. Core Co., Ltd.",,14.3,0.34,8.1,✗,✗,✗,監視候補
-7836,"AVIX,Inc.",,25.3,0.41,6.9,✗,✗,✓,監視候補
-8077,TORQ Inc.,,47.9,0.74,4.3,✗,✗,✓,監視候補
-8040,"Tokyo Soir Co., Ltd.",,36.5,0.29,3.8,✗,✗,✓,監視候補
-8039,"Tsukiji Uoichiba Company, Limited",,77.6,0.59,2.0,✗,✗,✓,監視候補
-8025,"Tsukamoto Corporation Co., Ltd.",,58.2,4.33,11.5,✗,✗,✗,監視候補
-8013,"Naigai Co.,Ltd.",,29.7,0.19,4.4,✗,✗,✓,監視候補
-7997,Kurogane Kosakusho Ltd.,,19.7,3.57,8.3,✗,✗,✗,監視候補
-7992,"The Sailor Pen Co., Ltd.",,29.9,0.54,5.0,✗,✗,✓,監視候補
-7986,"Nihon Isk Co.,Ltd.",,30.6,6.65,1.6,✗,✗,✓,監視候補
-7983,Miroku Corporation,,35.1,0.22,7.0,✗,✗,✓,監視候補
-7980,"Shigematsu Works Co., Ltd.",,61.2,1.47,5.2,✗,✗,✓,監視候補
-7975,"Lihit Lab.,Inc.",,39.6,1.41,5.3,✗,✗,✓,監視候補
-7963,Koken Ltd.,,87.8,2.05,3.4,✗,✗,✓,監視候補
-7953,"Kikusui Chemical Industries Co., Ltd.",,50.2,0.56,3.8,✗,✗,✓,監視候補
-7939,"Kensoh Co.,Ltd.",,22.9,1.02,1.9,✗,✗,✓,監視候補
-7938,Regal Corporation,,60.3,1.23,1.8,✗,✗,✓,監視候補
-7928,"Asahi Kagaku Kogyo Co.,Ltd.",,18.6,0.37,1.0,✗,✗,✓,監視候補
-8260,"Izutsuya Co., Ltd.",,41.3,0.44,6.2,✗,✗,✓,監視候補
-8247,"Daiwa Co.,Ltd.",,18.9,0.2,15.6,✗,✗,✗,監視候補
-8230,"Hasegawa Co., Ltd.",,54.8,0.23,1.6,✗,✗,✓,監視候補
-8226,Rikei Corporation,,58.4,0.42,8.0,✗,✗,✓,監視候補
-8225,"Takachiho Co.,Ltd.",,26.0,0.62,2.8,✗,✗,✓,監視候補
-8181,"Totenko Co., Ltd.",,25.7,0.34,4.7,✗,✗,✓,監視候補
-8166,"Taka-Q Co., Ltd.",,32.5,2.16,1.3,✗,✗,✓,監視候補
-8165,"Senshukai Co., Ltd.",,47.2,1.39,5.0,✗,✗,✓,監視候補
-8147,"Tomita Co., Ltd.",,73.9,1.06,5.4,✗,✗,✓,監視候補
-8144,"Denkyo Group Holdings Co.,Ltd.",,79.3,0.13,1.8,✗,✗,✓,監視候補
-8138,Sankyo Kasei Corporation,,37.3,0.46,5.1,✗,✗,✓,監視候補
-8135,Zett Corporation,,83.0,1.07,3.0,✗,✗,✓,監視候補
-8123,"T.Kawabe & Co., Ltd.",,25.9,0.65,3.9,✗,✗,✓,監視候補
-8119,Sanyei Corporation,,74.4,0.18,1.7,✗,✗,✓,監視候補
-8115,"MOONBAT Co.,Ltd.",,59.4,0.24,3.3,✗,✗,✓,監視候補
-8107,Kimuratan Corporation,,82.6,0.15,3.3,✗,✗,✓,監視候補
-9036,"Tohbu Network Co., Ltd.",,64.3,4.77,3.4,✗,✗,✓,監視候補
-9017,"Niigata Kotsu Co., Ltd.",,76.1,6.66,1.3,✗,✗,✓,監視候補
-9012,"Chichibu Railway Co., Ltd.",,33.3,42.14,2.1,✗,✗,✓,監視候補
-8996,"HouseFreedom Co.,Ltd.",,42.5,0.59,7.1,✗,✗,✗,監視候補
-8946,Asian Star Co.,,19.2,0.38,5.6,✗,✗,✓,監視候補
-8944,"Land Business Co.,Ltd.",,58.7,8.16,18.0,✗,✗,✗,監視候補
-8938,"GLOME Holdings,Inc.",,32.5,0.15,7.3,✗,✗,✗,監視候補
-8912,Area Quest Inc.,,23.0,0.27,3.2,✗,✗,✓,監視候補
-8891,"AMG Holdings Co.,Ltd.",,59.0,1.31,9.9,✗,✗,✓,監視候補
-8836,RISE Inc.,,25.0,0.05,7.7,✗,✗,✓,監視候補
-8835,Taiheiyo Kouhatsu Incorporated,,60.4,0.93,3.6,✗,✗,✓,監視候補
-8769,"Advantage Risk Management Co., Ltd.",,79.3,0.25,9.0,✗,✗,✗,監視候補
-8742,"Kobayashi Yoko Co., Ltd.",,66.7,0.54,9.0,✗,✗,✗,監視候補
-8700,"Maruhachi Securities Co., Ltd.",,76.9,0.08,5.5,✗,✗,✓,監視候補
-8617,"The Kosei Securities Co., Ltd.",,56.8,0.98,5.3,✗,✗,✓,監視候補
-8518,"Japan Asia Investment Co., Ltd.",,40.1,0.76,6.8,✗,✗,✗,監視候補
-9215,"CaSy Co., Ltd.",,18.8,1.7,4.4,✗,✗,✓,監視候補
-9214,"Recovery International Co.,Ltd.",,16.6,0.23,3.5,✗,✗,✓,監視候補
-9213,Seyfert Ltd.,,13.6,1.03,5.3,✗,✗,✓,監視候補
-9212,"Green Earth Institute Co., Ltd.",,31.0,0.45,19.5,✗,✗,✗,監視候補
-9206,Star Flyer Inc.,,72.3,1.11,4.2,✗,✗,✓,監視候補
-9193,"Tokyo Kisen Co.,Ltd.",,85.6,0.31,3.9,✗,✗,✓,監視候補
-9173,"Tokai Kisen Co., Ltd.",,62.3,0.59,1.7,✗,✗,✓,監視候補
-9168,"Rise Consulting Group, Inc.",,99.6,0.51,4.9,✗,✗,✓,監視候補
-9165,"Qualtec Co.,Ltd.",,41.8,1.31,8.3,✗,✗,✓,監視候補
-9162,"Bleach, Inc.",,58.2,0.48,3.6,✗,✗,✓,監視候補
-9159,W TOKYO Inc.,,48.4,1.54,6.9,✗,✗,✓,監視候補
-9127,"Tamai Steamship Co., Ltd.",,53.1,0.5,11.9,✗,✗,✗,監視候補
-9073,"Kyogoku unyu shoji Co., Ltd.",,36.1,0.22,3.8,✗,✗,✓,監視候補
-9063,"Okayamaken Freight Transportation Co., Ltd.",,82.3,2.89,3.3,✗,✗,✓,監視候補
+7674,"NATTY SWANKY holdings Co.,Ltd.",,68.4,0.71,7.0,✗,✗,✓,監視候補
+7673,"Daiko Tsusan Co.,Ltd.",,90.2,0.85,3.9,✗,✗,✓,監視候補
+7640,"TOP CULTURE Co.,Ltd.",,34.6,0.83,7.5,✗,✗,✓,監視候補
+7625,"Global-Dining, Inc.",,46.0,1.08,6.8,✗,✗,✗,監視候補
+7619,"Tanaka Co.,Ltd.",,81.4,1.28,7.5,✗,✗,✓,監視候補
+7615,"KYOTO KIMONO YUZEN HOLDINGS Co., Ltd.",,19.3,0.24,7.5,✗,✗,✓,監視候補
+7833,IFIS Japan Ltd.,,65.2,0.23,2.2,✗,✗,✓,監視候補
+7831,Wellco Holdings Corporation,,10.2,0.61,3.1,✗,✗,✓,監視候補
+7827,Orvis Corporation,,31.8,1.67,5.9,✗,✗,✓,監視候補
+7813,"Platz Co., Ltd.",,31.1,0.87,6.2,✗,✗,✗,監視候補
+7812,CRESTEC Inc.,,61.7,0.05,5.6,✗,✗,✓,監視候補
+7810,"Crossfor Co.,Ltd.",,25.6,0.1,10.0,✗,✗,✓,監視候補
+7808,"C.S. Lumber Co., Inc",,49.0,0.18,6.8,✗,✗,✓,監視候補
+7807,"Kowa Co.,Ltd.",,36.9,0.85,4.8,✗,✗,✓,監視候補
+7805,Printnet Inc.,,33.9,0.16,2.4,✗,✗,✓,監視候補
+7804,"B&P Co.,Ltd.",,60.0,1.16,8.6,✗,✗,✗,監視候補
+7800,"Amifa Co.,Ltd.",,30.6,0.25,4.5,✗,✗,✓,監視候補
+7795,"Kyoritsu Co.,Ltd.",,84.4,1.13,7.3,✗,✗,✗,監視候補
+7793,IMAGE MAGIC Inc.,,38.9,0.77,8.6,✗,✗,✓,監視候補
+7791,"Dreambed Co.,Ltd.",,33.0,0.78,3.1,✗,✗,✓,監視候補
+7782,"Sincere Co., LTD.",,33.3,0.31,4.9,✗,✗,✗,監視候補
+7776,CellSeed Inc.,,80.4,1.98,7.0,✗,✗,✗,監視候補
+7916,"Mitsumura Printing Co., Ltd.",,58.2,0.15,3.5,✗,✗,✓,監視候補
+7902,"Sonocom Co.,Ltd.",,40.9,1.84,4.3,✗,✗,✓,監視候補
+7898,"Wood One Co.,Ltd.",,84.5,1.26,4.6,✗,✗,✓,監視候補
+7896,"Seven Industries Co., Ltd.",,22.3,0.7,3.1,✗,✗,✓,監視候補
+7887,"Nankai Plywood Co.,Ltd.",,71.5,2.57,8.4,✗,✗,✗,監視候補
+7879,Noda Corporation,,97.7,1.26,1.6,✗,✗,✓,監視候補
+7877,"Eidai Kako Co.,Ltd.",,27.0,1.61,5.2,✗,✗,✓,監視候補
+7872,"Estelle Holdings Co.,Ltd.",,64.3,0.91,1.6,✗,✗,✓,監視候補
+7865,"People Co., Ltd.",,12.5,0.37,2.4,✗,✗,✓,監視候補
+7863,"Hiraga Co.,Ltd.",,27.3,0.49,3.1,✗,✗,✓,監視候補
+7859,Almedio Inc.,,50.1,0.37,14.2,✗,✗,✗,監視候補
+7857,"Seki Co., Ltd.",,53.0,1.43,2.8,✗,✗,✓,監視候補
+7850,"Sougou Shouken Co.,Ltd.",,24.1,0.03,2.5,✗,✗,✓,監視候補
+7841,"Endo Manufacturing Co., Ltd.",,94.1,0.89,3.9,✗,✗,✓,監視候補
+7837,"R. C. Core Co., Ltd.",,14.4,0.21,8.1,✗,✗,✗,監視候補
+7836,"AVIX,Inc.",,25.3,1.33,6.9,✗,✗,✓,監視候補
+8039,"Tsukiji Uoichiba Company, Limited",,78.2,0.65,1.7,✗,✗,✓,監視候補
+8025,"Tsukamoto Corporation Co., Ltd.",,58.8,0.46,11.5,✗,✗,✗,監視候補
+8013,"Naigai Co.,Ltd.",,29.6,1.24,4.4,✗,✗,✓,監視候補
+7997,Kurogane Kosakusho Ltd.,,19.6,1.87,9.3,✗,✗,✗,監視候補
+7992,"The Sailor Pen Co., Ltd.",,29.6,0.4,4.0,✗,✗,✓,監視候補
+7986,"Nihon Isk Co.,Ltd.",,34.2,19.21,5.1,✗,✗,✓,監視候補
+7983,Miroku Corporation,,34.4,0.14,6.2,✗,✗,✓,監視候補
+7980,"Shigematsu Works Co., Ltd.",,63.0,2.67,5.2,✗,✗,✓,監視候補
+7975,"Lihit Lab.,Inc.",,39.5,3.05,5.3,✗,✗,✓,監視候補
+7963,Koken Ltd.,,89.5,3.3,2.7,✗,✗,✓,監視候補
+7953,"Kikusui Chemical Industries Co., Ltd.",,49.8,1.81,3.8,✗,✗,✓,監視候補
+7939,"Kensoh Co.,Ltd.",,22.8,0.21,1.9,✗,✗,✓,監視候補
+7938,Regal Corporation,,60.2,2.29,2.0,✗,✗,✓,監視候補
+7928,"Asahi Kagaku Kogyo Co.,Ltd.",,18.5,0.29,1.0,✗,✗,✓,監視候補
+7919,"Nozaki Insatsu Shigyo Co., Ltd.",,35.7,0.64,5.7,✗,✗,✓,監視候補
+7918,"VIA Holdings,Inc.",,47.9,0.7,2.9,✗,✗,✓,監視候補
+8518,"Japan Asia Investment Co., Ltd.",,39.3,0.42,6.8,✗,✗,✗,監視候補
+8260,"Izutsuya Co., Ltd.",,41.1,0.1,6.5,✗,✗,✓,監視候補
+8247,"Daiwa Co.,Ltd.",,18.7,0.91,15.6,✗,✗,✗,監視候補
+8230,"Hasegawa Co., Ltd.",,54.4,1.96,1.3,✗,✗,✓,監視候補
+8226,Rikei Corporation,,56.1,1.25,8.0,✗,✗,✓,監視候補
+8181,"Totenko Co., Ltd.",,25.6,0.14,4.4,✗,✗,✓,監視候補
+8166,"Taka-Q Co., Ltd.",,32.1,4.06,1.3,✗,✗,✓,監視候補
+8165,"Senshukai Co., Ltd.",,46.8,1.05,5.0,✗,✗,✓,監視候補
+8147,"Tomita Co., Ltd.",,73.9,0.06,5.4,✗,✗,✓,監視候補
+8144,"Denkyo Group Holdings Co.,Ltd.",,79.8,0.04,1.8,✗,✗,✓,監視候補
+8135,Zett Corporation,,83.0,0.97,3.8,✗,✗,✓,監視候補
+8119,Sanyei Corporation,,74.3,0.66,1.7,✗,✗,✓,監視候補
+8115,"MOONBAT Co.,Ltd.",,58.6,0.72,3.3,✗,✗,✓,監視候補
+8107,Kimuratan Corporation,,85.4,1.88,3.3,✗,✗,✓,監視候補
+8077,TORQ Inc.,,47.3,0.93,4.3,✗,✗,✓,監視候補
+8040,"Tokyo Soir Co., Ltd.",,36.1,1.18,3.8,✗,✗,✓,監視候補
 9060,Japan Logistic Systems Corp.,,56.6,0.3,2.4,✗,✗,✓,監視候補
-9051,"Senkon Logistics Co., Ltd.",,56.1,1.36,16.2,✗,✗,✗,監視候補
-9313,"Maruhachi Warehouse Company, Limited",,59.7,0.03,4.5,✗,✗,✓,監視候補
-9271,"Wagokoro Co., Ltd.",,81.2,0.68,10.5,✗,✗,✗,監視候補
-9264,"Puequ CO.,LTD.",,73.2,0.19,3.4,✗,✗,✓,監視候補
-9262,"Silver Life Co., Ltd.",,73.5,0.43,3.0,✗,✗,✓,監視候補
-9259,"TAKAYOSHI Holdings, INC.",,46.1,0.19,2.3,✗,✗,✓,監視候補
-9256,"Succeed co.,ltd.",,34.7,0.08,8.7,✗,✗,✗,監視候補
-9254,"Lovable Marketing Group,inc.",,16.0,2.14,11.6,✗,✗,✗,監視候補
-9253,Slogan Inc.,,18.0,1.22,16.7,✗,✗,✗,監視候補
-9242,"Media Research Institute,Inc.",,24.6,1.04,3.8,✗,✗,✓,監視候補
-9241,"Future Link Network Co.,Ltd.",,10.7,0.4,5.5,✗,✗,✓,監視候補
-9240,Delivery Consulting Inc.,,18.0,0.38,19.0,✗,✗,✓,監視候補
-9225,Bridge Consulting Group Inc.,,20.1,0.1,1.8,✗,✗,✓,監視候補
-9220,"FB Care Service Co.,Ltd.",,31.2,0.73,8.9,✗,✗,✓,監視候補
-9219,GiXo Ltd.,,50.4,0.33,3.1,✗,✗,✓,監視候補
-9218,"Mental Health Technologies Co.,Ltd.",,85.6,0.72,7.2,✗,✗,✓,監視候補
-9363,"Daiun Co.,Ltd.",,25.1,0.4,6.9,✗,✗,✓,監視候補
-9362,"Hyoki Kaiun Kaisha, Ltd.",,45.2,1.54,6.6,✗,✗,✗,監視候補
-9360,Suzuyo Shinwart Corporation,,79.7,0.07,2.4,✗,✗,✓,監視候補
-9355,Rinko Corporation,,58.3,0.45,4.1,✗,✗,✓,監視候補
-9353,"Sakurajima Futo Kaisha, Ltd.",,45.4,0.13,1.9,✗,✗,✓,監視候補
-9346,"Cocorport, Inc.",,67.4,0.19,4.4,✗,✗,✓,監視候補
-9345,"Bizmates, Inc.",,18.9,0.31,3.8,✗,✗,✓,監視候補
-9344,Axis Consulting Corporation,,72.7,0.97,11.9,✗,✗,✗,監視候補
-9342,Sumasapo Inc.,,20.8,0.16,13.7,✗,✗,✗,監視候補
-9340,"ASO International, Inc.",,79.1,1.19,7.1,✗,✗,✗,監視候補
-9339,"Coach A Co., Ltd.",,35.4,0.88,5.1,✗,✗,✗,監視候補
-9337,toridori Inc.,,49.1,0.88,2.8,✗,✗,✓,監視候補
-9331,Caster Co.Ltd.,,13.7,0.52,8.2,✗,✗,✗,監視候補
-9330,AGEHA Inc.,,12.7,0.69,4.8,✗,✗,✓,監視候補
-9327,"e-LogiT co.,ltd.",,28.8,0.22,4.4,✗,✗,✗,監視候補
-9326,"Kantsu HD Co.,Ltd.",,48.3,0.24,3.6,✗,✗,✓,監視候補
-9478,"SE Holdings and Incubations Co., Ltd.",,74.5,0.16,7.1,✗,✗,✓,監視候補
-9476,"Chuokeizai-Sha Holdings, Inc.",,38.2,0.16,6.6,✗,✗,✓,監視候補
-9475,"Shobunsha Holdings, Inc.",,94.5,0.46,7.3,✗,✗,✗,監視候補
-9466,Aidma Marketing Communication Corporation,,30.8,0.54,3.4,✗,✗,✓,監視候補
-9446,"SAKAI Holdings CO.,LTD",,50.8,0.67,2.4,✗,✗,✓,監視候補
-9445,"Forval Telecom,Inc.",,89.1,2.42,3.6,✗,✗,✓,監視候補
-9444,"Toshin Holdings Co.,Ltd",,16.7,0.14,10.7,✗,✗,✗,監視候補
-9439,M H Group Ltd.,,34.1,0.04,5.6,✗,✗,✓,監視候補
-9425,ReYuu Japan Inc.,,20.6,0.63,17.9,✗,✗,✗,監視候補
-9423,Forval RealStraight Inc.,,25.2,1.32,2.9,✗,✗,✓,監視候補
-9421,NJ Holdings Inc.,,27.3,2.62,6.6,✗,✗,✓,監視候補
-9419,"WirelessGate, Inc.",,32.2,1.24,3.1,✗,✗,✓,監視候補
-9417,"Smartvalue Co., Ltd.",,34.0,1.54,5.2,✗,✗,✓,監視候補
-9385,Shoei Corporation,,57.0,0.88,2.0,✗,✗,✓,監視候補
-9376,"Eurasia Travel Co., Ltd.",,28.5,0.94,6.3,✗,✗,✗,監視候補
-9366,Sanritsu Corporation,,68.3,0.47,20.0,✗,✗,✗,監視候補
-9720,"Hotel Newgrand Co., Ltd.",,77.8,1.22,3.2,✗,✗,✓,監視候補
-9704,"AGORA Hospitality Group Co., Ltd",,69.3,0.73,7.7,✗,✗,✗,監視候補
-9698,"Creo Co.,Ltd.",,97.5,0.78,3.0,✗,✗,✓,監視候補
-9685,"KYCOM Holdings Co., Ltd.",,29.3,0.7,4.5,✗,✗,✓,監視候補
-9679,"HORAI Co., Ltd.",,86.3,1.24,12.1,✗,✗,✗,監視候補
-9656,Greenland Resort Company Limited,,62.0,0.11,0.8,✗,✗,✓,監視候補
-9647,"Kyowa Engineering Consultants Co., Ltd.",,39.5,0.22,5.4,✗,✗,✓,監視候補
-9635,"Musashino Kogyo Co., Ltd.",,26.5,0.36,2.9,✗,✗,✓,監視候補
-9625,"Cerespo Co., Ltd.",,49.4,0.17,5.0,✗,✗,✓,監視候補
-9610,Wilson Learning Worldwide Inc.,,12.0,0.11,17.3,✗,✗,✓,監視候補
-9565,GLOE Inc.,,17.9,1.6,2.6,✗,✗,✓,監視候補
-9563,Atlas Technologies Corporation,,25.0,0.71,9.4,✗,✗,✓,監視候補
-9561,GLAD CUBE Inc.,,35.7,1.24,5.0,✗,✗,✓,監視候補
-9558,"Japaniace Co.,Ltd.",,78.6,1.66,2.2,✗,✗,✓,監視候補
-9557,"airCloset, Inc.",,21.5,0.33,6.1,✗,✗,✗,監視候補
-9514,EF-ON Inc.,,71.3,0.48,10.4,✗,✗,✓,監視候補
-9872,"Kitakei Co., Ltd.",,89.2,1.57,2.5,✗,✗,✓,監視候補
-9867,Solekia Limited,,90.7,0.76,4.6,✗,✗,✓,監視候補
-9854,"Aigan Co.,Ltd.",,52.0,0.34,13.1,✗,✗,✗,監視候補
-9853,"Ginza Renoir Co., Ltd.",905.0,55.3,0.9,0.7,✗,✗,✓,監視候補
-9849,Kyodo Paper Holdings,,30.1,1.42,1.9,✗,✗,✓,監視候補
-9835,"Juntendo Co.,Ltd.",,41.6,0.78,1.4,✗,✗,✓,監視候補
-9827,"Lilycolor Co., Ltd.",,81.3,2.37,4.0,✗,✗,✓,監視候補
-9820,MT Genex Corporation,,41.1,0.16,6.2,✗,✗,✓,監視候補
-9816,Striders Corporation,,22.2,0.12,5.3,✗,✗,✗,監視候補
-9812,"T.O. Holdings CO.,LTD.",,15.3,0.31,5.6,✗,✗,✓,監視候補
-9780,Harima B.Stem Corporation,,99.9,0.32,6.1,✗,✗,✓,監視候補
-9778,"Subaru Co., Ltd.",,33.7,2.29,2.7,✗,✗,✓,監視候補
-9767,"Nikken Kogaku Co., Ltd.",,31.0,0.63,11.3,✗,✗,✗,監視候補
-9761,"Tokai Lease Co.,Ltd.",,80.9,0.36,3.2,✗,✗,✓,監視候補
-9760,"Shingakukai Holdings Co.,Ltd.",,19.0,2.7,5.3,✗,✗,✓,監視候補
-9723,"The Kyoto Hotel, Ltd.",,76.4,1.29,1.6,✗,✗,✓,監視候補
-1844,"Ohmori Co.,Ltd.",,80.5,0.67,14.2,✗,✗,✗,監視候補
-1840,"Tsuchiya Holdings Co., Ltd.",,67.3,0.71,4.8,✗,✗,✓,監視候補
-177A,"Kohjin Bio Co., Ltd.",,41.7,1.45,2.4,✗,✗,✓,監視候補
-1768,Sonec Corporation,,74.9,0.16,1.6,✗,✗,✓,監視候補
+9051,"Senkon Logistics Co., Ltd.",,56.3,1.0,17.7,✗,✗,✗,監視候補
+9036,"Tohbu Network Co., Ltd.",,63.9,2.69,4.9,✗,✗,✓,監視候補
+9017,"Niigata Kotsu Co., Ltd.",,76.1,0.37,1.3,✗,✗,✓,監視候補
+9012,"Chichibu Railway Co., Ltd.",,32.4,2.69,8.0,✗,✗,✓,監視候補
+8996,"HouseFreedom Co.,Ltd.",,41.7,0.99,7.1,✗,✗,✗,監視候補
+8946,Asian Star Co.,,19.2,0.72,5.6,✗,✗,✓,監視候補
+8938,"GLOME Holdings,Inc.",,32.9,0.49,8.0,✗,✗,✗,監視候補
+8912,Area Quest Inc.,,23.0,0.17,1.9,✗,✗,✓,監視候補
+8891,"AMG Holdings Co.,Ltd.",,58.0,0.71,9.9,✗,✗,✓,監視候補
+8836,RISE Inc.,,25.0,0.28,3.8,✗,✗,✓,監視候補
+8835,Taiheiyo Kouhatsu Incorporated,,59.7,0.6,3.2,✗,✗,✓,監視候補
+8769,"Advantage Risk Management Co., Ltd.",,78.5,3.92,9.0,✗,✗,✓,監視候補
+8742,"Kobayashi Yoko Co., Ltd.",,65.3,0.79,10.0,✗,✗,✓,監視候補
+8700,"Maruhachi Securities Co., Ltd.",,76.0,0.44,5.5,✗,✗,✓,監視候補
+8617,"The Kosei Securities Co., Ltd.",,56.3,0.57,5.3,✗,✗,✓,監視候補
+9220,"FB Care Service Co.,Ltd.",,31.0,0.21,8.9,✗,✗,✓,監視候補
+9219,GiXo Ltd.,,50.6,0.38,3.1,✗,✗,✓,監視候補
+9218,"Mental Health Technologies Co.,Ltd.",,85.6,0.69,7.2,✗,✗,✓,監視候補
+9215,"CaSy Co., Ltd.",,18.8,0.71,4.4,✗,✗,✓,監視候補
+9213,Seyfert Ltd.,,14.0,5.48,5.3,✗,✗,✓,監視候補
+9212,"Green Earth Institute Co., Ltd.",,30.4,0.5,18.1,✗,✗,✗,監視候補
+9206,Star Flyer Inc.,,71.9,0.64,4.2,✗,✗,✓,監視候補
+9193,"Tokyo Kisen Co.,Ltd.",,84.8,0.67,4.2,✗,✗,✓,監視候補
+9173,"Tokai Kisen Co., Ltd.",,62.6,0.7,1.7,✗,✗,✓,監視候補
+9168,"Rise Consulting Group, Inc.",,99.4,0.73,4.9,✗,✗,✓,監視候補
+9165,"Qualtec Co.,Ltd.",,41.0,1.32,7.1,✗,✗,✓,監視候補
+9162,"Bleach, Inc.",,57.9,0.25,3.6,✗,✗,✓,監視候補
+9159,W TOKYO Inc.,,47.7,0.82,6.5,✗,✗,✓,監視候補
+9127,"Tamai Steamship Co., Ltd.",,54.5,0.45,11.9,✗,✗,✗,監視候補
+9073,"Kyogoku unyu shoji Co., Ltd.",,36.1,0.55,3.7,✗,✗,✓,監視候補
+9063,"Okayamaken Freight Transportation Co., Ltd.",,82.1,0.92,3.2,✗,✗,✓,監視候補
+9330,AGEHA Inc.,,12.7,0.46,4.8,✗,✗,✓,監視候補
+9327,"e-LogiT co.,ltd.",,28.4,0.28,4.9,✗,✗,✗,監視候補
+9326,"Kantsu HD Co.,Ltd.",,48.3,0.12,2.8,✗,✗,✓,監視候補
+9271,"Wagokoro Co., Ltd.",,79.4,0.76,10.5,✗,✗,✗,監視候補
+9264,"Puequ CO.,LTD.",,72.3,0.66,3.4,✗,✗,✓,監視候補
+9262,"Silver Life Co., Ltd.",,72.5,1.39,3.0,✗,✗,✓,監視候補
+9259,"TAKAYOSHI Holdings, INC.",,46.1,0.35,2.3,✗,✗,✓,監視候補
+9258,"CS-C.Co.,Ltd.",,19.7,0.03,6.9,✗,✗,✓,監視候補
+9256,"Succeed co.,ltd.",,34.5,0.07,6.0,✗,✗,✗,監視候補
+9254,"Lovable Marketing Group,inc.",,15.5,3.43,11.6,✗,✗,✗,監視候補
+9253,Slogan Inc.,,18.0,2.34,16.7,✗,✗,✗,監視候補
+9242,"Media Research Institute,Inc.",,24.7,0.39,4.1,✗,✗,✓,監視候補
+9241,"Future Link Network Co.,Ltd.",,10.7,0.45,5.5,✗,✗,✓,監視候補
+9240,Delivery Consulting Inc.,,17.8,0.33,19.7,✗,✗,✓,監視候補
+9235,"Ureru Net Advertising Group Co.,Ltd.",,37.5,0.37,11.7,✗,✗,✓,監視候補
+9225,Bridge Consulting Group Inc.,,20.0,0.1,1.8,✗,✗,✓,監視候補
+9385,Shoei Corporation,,56.7,0.46,2.0,✗,✗,✓,監視候補
+9376,"Eurasia Travel Co., Ltd.",,28.4,0.41,6.7,✗,✗,✗,監視候補
+9366,Sanritsu Corporation,,64.2,1.83,20.0,✗,✗,✗,監視候補
+9365,Tradia Corporation,,23.6,0.4,4.4,✗,✗,✓,監視候補
+9363,"Daiun Co.,Ltd.",,24.8,0.51,6.9,✗,✗,✓,監視候補
+9362,"Hyoki Kaiun Kaisha, Ltd.",,44.3,0.84,6.6,✗,✗,✗,監視候補
+9360,Suzuyo Shinwart Corporation,,79.4,0.67,2.4,✗,✗,✓,監視候補
+9355,Rinko Corporation,,58.3,0.23,4.1,✗,✗,✓,監視候補
+9346,"Cocorport, Inc.",,67.4,0.17,4.4,✗,✗,✓,監視候補
+9345,"Bizmates, Inc.",,19.0,0.19,3.6,✗,✗,✓,監視候補
+9344,Axis Consulting Corporation,,72.4,0.32,13.2,✗,✗,✗,監視候補
+9342,Sumasapo Inc.,866.0,20.8,0.16,14.9,✗,✗,✗,監視候補
+9340,"ASO International, Inc.",,78.8,0.53,7.1,✗,✗,✗,監視候補
+9339,"Coach A Co., Ltd.",,35.1,0.84,5.1,✗,✗,✓,監視候補
+9337,toridori Inc.,,48.6,0.06,4.8,✗,✗,✓,監視候補
+9331,Caster Co.Ltd.,,13.7,0.37,8.1,✗,✗,✗,監視候補
+9558,"Japaniace Co.,Ltd.",,78.2,0.61,2.2,✗,✗,✓,監視候補
+9557,"airCloset, Inc.",,21.3,0.12,5.2,✗,✗,✗,監視候補
+9514,EF-ON Inc.,,70.4,1.53,10.4,✗,✗,✓,監視候補
+9478,"SE Holdings and Incubations Co., Ltd.",,73.9,0.18,5.9,✗,✗,✓,監視候補
+9476,"Chuokeizai-Sha Holdings, Inc.",986.0,38.2,0.16,6.6,✗,✗,✓,監視候補
+9475,"Shobunsha Holdings, Inc.",,94.4,0.31,7.3,✗,✗,✗,監視候補
+9466,Aidma Marketing Communication Corporation,,30.4,0.24,3.4,✗,✗,✓,監視候補
+9446,"SAKAI Holdings CO.,LTD",,50.4,0.5,2.4,✗,✗,✓,監視候補
+9445,"Forval Telecom,Inc.",,88.6,0.66,3.6,✗,✗,✓,監視候補
+9444,"Toshin Holdings Co.,Ltd",,16.7,0.1,10.7,✗,✗,✗,監視候補
+9439,M H Group Ltd.,,34.1,0.05,4.2,✗,✗,✓,監視候補
+9425,ReYuu Japan Inc.,,20.6,2.57,17.9,✗,✗,✗,監視候補
+9423,Forval RealStraight Inc.,,25.0,1.43,2.9,✗,✗,✓,監視候補
+9421,NJ Holdings Inc.,,28.1,1.71,6.4,✗,✗,✗,監視候補
+9419,"WirelessGate, Inc.",,32.3,1.15,3.1,✗,✗,✓,監視候補
+9417,"Smartvalue Co., Ltd.",,33.0,0.33,5.2,✗,✗,✓,監視候補
+9761,"Tokai Lease Co.,Ltd.",,80.0,0.41,4.1,✗,✗,✓,監視候補
+9760,"Shingakukai Holdings Co.,Ltd.",,18.8,2.63,5.3,✗,✗,✓,監視候補
+9723,"The Kyoto Hotel, Ltd.",,76.1,0.35,1.6,✗,✗,✓,監視候補
+9720,"Hotel Newgrand Co., Ltd.",,77.8,5.09,4.6,✗,✗,✓,監視候補
+9704,"AGORA Hospitality Group Co., Ltd",,72.0,0.74,7.7,✗,✗,✗,監視候補
+9698,"Creo Co.,Ltd.",,96.0,0.88,3.0,✗,✗,✓,監視候補
+9685,"KYCOM Holdings Co., Ltd.",,29.3,0.93,4.5,✗,✗,✓,監視候補
+9679,"HORAI Co., Ltd.",,85.5,0.76,12.4,✗,✗,✗,監視候補
+9656,Greenland Resort Company Limited,,61.7,0.81,0.7,✗,✗,✓,監視候補
+9647,"Kyowa Engineering Consultants Co., Ltd.",,39.3,0.77,5.4,✗,✗,✓,監視候補
+9635,"Musashino Kogyo Co., Ltd.",,26.4,3.62,2.9,✗,✗,✓,監視候補
+9625,"Cerespo Co., Ltd.",,49.4,0.14,5.3,✗,✗,✓,監視候補
+9610,Wilson Learning Worldwide Inc.,,11.6,0.13,17.3,✗,✗,✓,監視候補
+9565,GLOE Inc.,,17.8,0.36,2.6,✗,✗,✓,監視候補
+9563,Atlas Technologies Corporation,,25.2,0.28,9.4,✗,✗,✓,監視候補
+9561,GLAD CUBE Inc.,,34.6,0.93,5.0,✗,✗,✓,監視候補
+1844,"Ohmori Co.,Ltd.",,78.4,1.19,14.2,✗,✗,✗,監視候補
+1840,"Tsuchiya Holdings Co., Ltd.",,67.0,1.26,5.2,✗,✗,✓,監視候補
+177A,"Kohjin Bio Co., Ltd.",,42.0,0.4,3.2,✗,✗,✓,監視候補
+1768,Sonec Corporation,,74.7,0.31,1.6,✗,✗,✓,監視候補
 1764,Kudo Corporation,,33.5,0.36,3.0,✗,✗,✓,監視候補
-175A,"Will Smart Co.,LTD.",,13.3,0.09,6.9,✗,✗,✓,監視候補
-1758,"Taiyo Kisokogyo Co.,Ltd.",,47.0,0.4,10.3,✗,✗,✗,監視候補
-173A,Hammock Inc.,,74.3,20.13,9.6,✗,✗,✓,監視候補
-1724,Synclayer Inc.,,32.3,0.08,4.3,✗,✗,✓,監視候補
-1718,"Mikikogyo Co., Ltd.",,74.2,0.11,5.0,✗,✗,✓,監視候補
-1711,"SDS HOLDINGS Co.,Ltd.",,24.5,0.71,5.5,✗,✗,✗,監視候補
-168A,Itamiarts.Inc,,15.7,0.62,4.5,✗,✗,✓,監視候補
-160A,"As Partners CO.,LTD.",,70.0,0.47,4.2,✗,✗,✓,監視候補
-157A,Green Monster Inc.,,24.8,0.35,7.9,✗,✗,✓,監視候補
-156A,Material Group Inc.,,81.4,0.45,6.6,✗,✗,✓,監視候補
-155A,"Information Strategy and Technology Co.,Ltd.",,78.3,1.83,16.3,✗,✗,✗,監視候補
-130A,Veritas In Silico Inc.,,28.0,0.26,3.1,✗,✗,✓,監視候補
+175A,"Will Smart Co.,LTD.",,13.2,0.27,5.2,✗,✗,✓,監視候補
+1758,"Taiyo Kisokogyo Co.,Ltd.",,46.2,0.28,10.0,✗,✗,✗,監視候補
+173A,Hammock Inc.,,91.2,87.58,17.8,✗,✗,✗,監視候補
+1724,Synclayer Inc.,,32.5,0.11,4.3,✗,✗,✓,監視候補
+1718,"Mikikogyo Co., Ltd.",,74.2,0.16,5.0,✗,✗,✓,監視候補
+1711,"SDS HOLDINGS Co.,Ltd.",,24.1,1.09,5.5,✗,✗,✗,監視候補
+168A,Itamiarts.Inc,,15.6,0.05,4.5,✗,✗,✓,監視候補
+160A,"As Partners CO.,LTD.",,69.7,0.66,4.2,✗,✗,✓,監視候補
+157A,Green Monster Inc.,,24.1,0.29,7.9,✗,✗,✓,監視候補
+156A,Material Group Inc.,,81.0,0.56,5.7,✗,✗,✓,監視候補
+155A,"Information Strategy and Technology Co.,Ltd.",,80.0,4.75,16.3,✗,✗,✗,監視候補
+9895,Consec Corporation,,22.0,1.06,3.3,✗,✗,✓,監視候補
+9903,"Kanseki Co., Ltd.",,64.9,2.01,3.7,✗,✗,✓,監視候補
+9904,"Verite Co., Ltd.",,61.9,0.61,7.0,✗,✗,✗,監視候補
+9929,"Heiwa Paper Co.,Ltd.",,43.1,1.4,2.4,✗,✗,✓,監視候補
+9930,"Kitazawa Sangyo Co., Ltd.",,71.9,1.27,4.9,✗,✗,✗,監視候補
+9941,"Taiyo Bussan Kaisha,Ltd.",,25.3,0.48,19.4,✗,✗,✗,監視候補
+9950,"Hachi-Ban Co., Ltd.",,97.6,2.24,3.2,✗,✗,✓,監視候補
+9969,"Shokubun Co., Ltd.",,36.4,0.81,1.7,✗,✗,✓,監視候補
+9972,"Altech Co., Ltd.",,39.0,1.5,6.6,✗,✗,✓,監視候補
+9973,"KOZO Holdings Co.,Ltd.",,53.5,5.41,5.3,✗,✗,✓,監視候補
+9976,"Sekichu Co., Ltd.",,57.4,0.35,14.1,✗,✗,✗,監視候補
+9978,"Bunkyodo Group Holdings Co., Ltd.",,20.2,4.85,4.5,✗,✗,✓,監視候補
+9980,MRK Holdings Inc.,,81.7,0.91,6.7,✗,✗,✗,監視候補
+130A,Veritas In Silico Inc.,,27.6,0.72,3.1,✗,✗,✓,監視候補

@@ -2,58 +2,9 @@
   "status": "OK",
   "stage": "SCREENER",
   "target_count": 2152,
-  "judged_count": 2140,
-  "candidate_count": 1057,
-  "fetch_error_count": 12,
-  "success_rate": 0.9944,
-  "fetch_errors": [
-    {
-      "ticker": "1822.T",
-      "reason": "YFRateLimitError: Too Many Requests. Rate limited. Try after a while."
-    },
-    {
-      "ticker": "2735.T",
-      "reason": "YFRateLimitError: Too Many Requests. Rate limited. Try after a while."
-    },
-    {
-      "ticker": "3723.T",
-      "reason": "YFRateLimitError: Too Many Requests. Rate limited. Try after a while."
-    },
-    {
-      "ticker": "3772.T",
-      "reason": "YFRateLimitError: Too Many Requests. Rate limited. Try after a while."
-    },
-    {
-      "ticker": "4176.T",
-      "reason": "YFRateLimitError: Too Many Requests. Rate limited. Try after a while."
-    },
-    {
-      "ticker": "4346.T",
-      "reason": "YFRateLimitError: Too Many Requests. Rate limited. Try after a while."
-    },
-    {
-      "ticker": "4598.T",
-      "reason": "YFRateLimitError: Too Many Requests. Rate limited. Try after a while."
-    },
-    {
-      "ticker": "523A.T",
-      "reason": "YFRateLimitError: Too Many Requests. Rate limited. Try after a while."
-    },
-    {
-      "ticker": "7035.T",
-      "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "ticker": "8783.T",
-      "reason": "YFRateLimitError: Too Many Requests. Rate limited. Try after a while."
-    },
-    {
-      "ticker": "9306.T",
-      "reason": "YFRateLimitError: Too Many Requests. Rate limited. Try after a while."
-    },
-    {
-      "ticker": "9467.T",
-      "reason": "YFRateLimitError: Too Many Requests. Rate limited. Try after a while."
-    }
-  ]
+  "judged_count": 2152,
+  "candidate_count": 1054,
+  "fetch_error_count": 0,
+  "success_rate": 1.0,
+  "fetch_errors": []
 }
