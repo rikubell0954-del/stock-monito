@@ -1,27 +1,27 @@
 Stock Pipeline Enhancer v2.2.0-cloud
-run_time=2026-10-14T23:41:15
+run_time=2026-10-15T23:18:19
 script_path=/home/runner/work/stock-monito/stock-monito/stock_pipeline_enhancer_cloud.py
 input_path=/home/runner/work/stock-monito/stock-monito/step2_3_result.csv
-input_rows=672
+input_rows=676
 
 [stage_counts]
-Step3=1
-Step2完了=27
-Step2中=78
-監視=566
+Step3=3
+Step2完了=11
+Step2中=32
+監視=630
 
 [rank_counts]
-S=0
-A=6
-B=17
-C=65
-D=584
+S=1
+A=3
+B=9
+C=28
+D=635
 
-step3_score_min=78
-step3_score_max=78
-trade_log_rows=99
-history_update_attempted=40
-history_update_success=40
+step3_score_min=75
+step3_score_max=87
+trade_log_rows=101
+history_update_attempted=36
+history_update_success=36
 yfinance_available=True
 
 [self_checks]
