@@ -13,6 +13,16 @@ RESULTS = ROOT / "results"
 DOCS = ROOT / "docs"
 DOCS.mkdir(exist_ok=True)
 
+# Research is strictly add-on. A research data-provider error never prevents
+# the established dashboard from being generated.
+research_runtime_error = ""
+try:
+    from trade_research import run as run_trade_research
+    run_trade_research(ROOT)
+except Exception as exc:
+    research_runtime_error = f"追加検証の更新に失敗: {type(exc).__name__}: {exc}"
+    print("WARNING: " + research_runtime_error)
+
 def read_csv(name):
     p = RESULTS / name
     if not p.exists():
@@ -48,6 +58,8 @@ def read_json(name):
     except Exception: return {}
 health=read_json("screener_health.json")
 validation=read_json("model_validation.json")
+research_health = read_json("trade_research_status.json")
+research_compare = read_csv("trade_strategy_comparison.csv")
 
 now = datetime.now(TOKYO)
 today = now.strftime("%Y-%m-%d")
@@ -186,6 +198,69 @@ def paper_pnl_section():
     <div class="muted market-note">※各Step3シグナルで100株を仮想購入。CLOSEDは決済価格、OPENは取得できた最新終値で評価します。手数料・税金・スリッページは含みません。</div>
     </section>'''
 
+def research_section():
+    # Show how much evidence is usable without overstating shadow performance.
+    if not research_health:
+        err = f'<div class="alert warn">{esc(research_runtime_error)}</div>' if research_runtime_error else ''
+        return f'<section><h2>🔬 急騰パターン検証</h2>{err}<p class="muted">研究データの準備中です。</p></section>'
+
+    h = research_health
+    n = int(h.get("trade_count", 0))
+    full = int(h.get("full_signal_snapshots", 0))
+    prices = int(h.get("daily_price_rows", 0))
+    complete = int(h.get("trades_with_complete_price_history", 0))
+    price_codes = int(h.get("trades_with_price_rows", 0))
+    failures = len(h.get("price_fetch_failed_trade_ids", []))
+    mismatches = int(h.get("trades_with_baseline_reconciliation_mismatch", 0))
+    err = f'<div class="alert warn">{esc(research_runtime_error)}</div>' if research_runtime_error else ''
+    rows=[]
+    if not research_compare.empty and {"strategy_id", "original_status", "data_quality", "comparison_status", "total_pnl_100shares"}.issubset(research_compare.columns):
+        # Only mature original CLOSED trades with complete bars may enter the
+        # performance comparison. This prevents open-trade right-censoring.
+        eligible = research_compare[
+            research_compare["original_status"].astype(str).eq("CLOSED")
+            & research_compare["data_quality"].astype(str).eq("READY")
+            & research_compare["comparison_status"].astype(str).eq("CLOSED")
+        ].copy()
+        eligible["pnl"] = pd.to_numeric(eligible["total_pnl_100shares"], errors="coerce")
+        labels = [
+            ("BASE_30_20D", "現行基準 +30%"),
+            ("TP20_20D", "+20%全売却"),
+            ("HALF20_REST30", "+20%半分・残り+30%"),
+            ("TIME10", "10営業日決済"),
+            ("TIME15", "15営業日決済"),
+        ]
+        # Identical trade set for EVERY alternative.
+        common = None
+        for key, _ in labels:
+            ids = set(eligible.loc[eligible["strategy_id"].eq(key) & eligible["pnl"].notna(), "trade_id"].astype(str))
+            common = ids if common is None else common & ids
+        common = common or set()
+        for key, label in labels:
+            g = eligible[eligible["strategy_id"].eq(key) & eligible["trade_id"].astype(str).isin(common)]
+            if len(g):
+                total = float(g["pnl"].sum())
+                mean = float(g["pnl"].mean())
+                rows.append(f'<tr><td>{esc(label)}</td><td>{len(g)}</td><td class="{pnl_class(total)}">{fmt_yen(total)}</td><td class="{pnl_class(mean)}">{fmt_yen(mean)}</td></tr>')
+        pair_note = f'比較可能なCLOSED取引: {len(common)}件（各ルールに同じ取引を使用）'
+    else:
+        pair_note = '比較計算の準備中'
+    table = ('''<table><thead><tr><th>仮想決済ルール</th><th>件数</th><th>合計損益</th><th>平均損益</th></tr></thead><tbody>'''
+             + ''.join(rows) + '</tbody></table>') if rows else '<p class="muted">日次OHLCが揃うと、ここに並行検証の結果が表示されます。</p>'
+    return f'''<section><h2>🔬 急騰パターン・決済ルール検証</h2>
+        {err}
+        <div class="pnl-stats"><span>取引ログ <b>{n}</b>件</span>
+        <span>新方式のシグナル詳細 <b>{full}</b>件</span>
+        <span>日次OHLC <b>{prices}</b>行・<b>{price_codes}</b>取引</span>
+        <span>価格履歴の照合完了 <b>{complete}</b>件</span></div>
+        <div class="muted">{esc(pair_note)} / 今回の価格取得失敗 {failures}件 / 決済価格との不一致 {mismatches}件（比較除外）</div>
+        {table}
+        <div class="muted market-note">※検証用の別計算です。現行のCLOSE条件・実際の仮想取引記録は変更しません。
+        過去のシグナル詳細は復元せず「旧データ」として区別します。
+        過去の日足は後日取得した調整後株価を含みます。日足だけでは同日内の売買順序は確定できないためSTOPを優先し、指値約定・手数料・スリッページは考慮しません。
+        少数サンプルの優劣をそのまま売買判断に使わないでください。</div></section>'''
+
+
 def copy_box(title, textarea_id, text, note):
     disabled = " disabled" if not text else ""
     button_label = "該当銘柄なし" if not text else "コードをコピー"
@@ -287,6 +362,8 @@ async function openEdinet(code,btn) {{
 {market_section()}
 
 {paper_pnl_section()}
+
+{research_section()}
 
 <section><h2>📋 ChatGPTへ貼り付け</h2>{copy_sections}</section>
 
