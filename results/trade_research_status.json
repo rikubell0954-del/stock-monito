@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-10-20 01:31:54 JST",
-  "trade_count": 107,
-  "full_signal_snapshots": 0,
+  "updated_at": "2026-10-20 23:20:27 JST",
+  "trade_count": 108,
+  "full_signal_snapshots": 1,
   "legacy_signal_snapshots": 107,
-  "daily_price_rows": 554,
-  "trades_with_price_rows": 44,
-  "trades_with_complete_price_history": 44,
+  "daily_price_rows": 616,
+  "trades_with_price_rows": 50,
+  "trades_with_complete_price_history": 50,
   "trades_with_baseline_reconciliation_mismatch": 0,
   "historical_attempt_counts": {
     "4073_20260917": 1,
@@ -24,18 +24,19 @@
     "3187_20260911": 1,
     "4492_20260910": 1,
     "265A_20260910": 1,
-    "4174_20260910": 1
+    "4174_20260910": 1,
+    "2411_20261016": 1,
+    "4750_20261016": 1,
+    "150A_20260916": 1,
+    "2376_20260916": 1,
+    "9212_20260916": 1,
+    "2424_20260915": 1,
+    "4379_20260915": 1,
+    "3823_20260915": 1
   },
-  "open_fetch_attempted": 34,
+  "open_fetch_attempted": 27,
   "closed_backfill_attempted": 8,
-  "price_fetch_failed_trade_ids": [
-    "1418_20261016",
-    "2411_20261016",
-    "7992_20261016",
-    "5028_20261016",
-    "4750_20261016",
-    "4429_20261016"
-  ],
+  "price_fetch_failed_trade_ids": [],
   "price_source": "yfinance auto_adjust=True (reconstructed history where marked)",
   "note": "Old signal factors cannot be reconstructed from present-day rankings. Strategy results require complete OHLC bars and are NOT real executed trades."
 }
