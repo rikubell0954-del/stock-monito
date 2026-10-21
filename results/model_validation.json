@@ -1,19 +1,19 @@
 {
-  "trade_count": 108,
+  "trade_count": 111,
   "evidence_level": "VALIDATION_READY",
   "message": "比較検証を開始できる母数です。",
   "rank_groups": [
     {
       "rank": "A",
-      "n": 62,
-      "hit10_rate": 0.2419,
-      "avg_max_gain_pct": 6.07
+      "n": 63,
+      "hit10_rate": 0.2381,
+      "avg_max_gain_pct": 6.14
     },
     {
       "rank": "B",
-      "n": 26,
-      "hit10_rate": 0.5,
-      "avg_max_gain_pct": 14.04
+      "n": 28,
+      "hit10_rate": 0.4643,
+      "avg_max_gain_pct": 13.04
     },
     {
       "rank": "C",
