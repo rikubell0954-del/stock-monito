@@ -1,31 +1,31 @@
 {
-  "trade_count": 111,
+  "trade_count": 116,
   "evidence_level": "VALIDATION_READY",
   "message": "比較検証を開始できる母数です。",
   "rank_groups": [
     {
       "rank": "A",
-      "n": 63,
-      "hit10_rate": 0.2381,
-      "avg_max_gain_pct": 6.14
+      "n": 67,
+      "hit10_rate": 0.2388,
+      "avg_max_gain_pct": 6.05
     },
     {
       "rank": "B",
       "n": 28,
-      "hit10_rate": 0.4643,
-      "avg_max_gain_pct": 13.04
+      "hit10_rate": 0.5,
+      "avg_max_gain_pct": 13.83
     },
     {
       "rank": "C",
-      "n": 4,
-      "hit10_rate": 0.75,
-      "avg_max_gain_pct": 14.39
+      "n": 5,
+      "hit10_rate": 0.6,
+      "avg_max_gain_pct": 11.51
     },
     {
       "rank": "S",
       "n": 16,
       "hit10_rate": 0.125,
-      "avg_max_gain_pct": 3.75
+      "avg_max_gain_pct": 3.96
     }
   ],
   "policy": "現行条件・ランク閾値・地合い配点は仮説として維持。十分な母数まで自動最適化しない。"
