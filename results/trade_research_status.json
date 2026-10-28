@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-10-28 00:40:32 JST",
+  "updated_at": "2026-10-29 01:29:14 JST",
   "trade_count": 119,
   "full_signal_snapshots": 12,
   "legacy_signal_snapshots": 107,
-  "daily_price_rows": 1250,
-  "trades_with_price_rows": 90,
-  "trades_with_complete_price_history": 89,
+  "daily_price_rows": 1423,
+  "trades_with_price_rows": 98,
+  "trades_with_complete_price_history": 97,
   "trades_with_baseline_reconciliation_mismatch": 1,
   "historical_attempt_counts": {
     "4073_20260917": 1,
@@ -72,7 +72,15 @@
     "8518_20260901": 1,
     "4598_20260901": 1,
     "2788_20260828": 1,
-    "3991_20260828": 1
+    "3991_20260828": 1,
+    "4394_20260828": 1,
+    "7078_20260828": 1,
+    "9340_20260828": 1,
+    "6778_20260828": 1,
+    "5033_20260828": 1,
+    "4370_20260828": 1,
+    "6775_20260828": 1,
+    "5129_20260828": 1
   },
   "open_fetch_attempted": 26,
   "closed_backfill_attempted": 8,
