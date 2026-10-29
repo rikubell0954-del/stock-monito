@@ -7,19 +7,19 @@
       "rank": "A",
       "n": 67,
       "hit10_rate": 0.2537,
-      "avg_max_gain_pct": 6.35
+      "avg_max_gain_pct": 6.39
     },
     {
       "rank": "B",
       "n": 31,
       "hit10_rate": 0.4839,
-      "avg_max_gain_pct": 13.24
+      "avg_max_gain_pct": 13.5
     },
     {
       "rank": "C",
       "n": 5,
-      "hit10_rate": 0.6,
-      "avg_max_gain_pct": 11.68
+      "hit10_rate": 0.8,
+      "avg_max_gain_pct": 13.81
     },
     {
       "rank": "S",
