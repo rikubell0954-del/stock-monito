@@ -1,9 +1,9 @@
 {
   "status": "OK",
   "stage": "SCREENER",
-  "target_count": 2152,
-  "judged_count": 2152,
-  "candidate_count": 1012,
+  "target_count": 2140,
+  "judged_count": 2140,
+  "candidate_count": 1003,
   "fetch_error_count": 0,
   "success_rate": 1.0,
   "fetch_errors": []
