@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-11-11 02:20:22 JST",
+  "updated_at": "2026-11-12 02:10:42 JST",
   "trade_count": 121,
   "full_signal_snapshots": 14,
   "legacy_signal_snapshots": 107,
-  "daily_price_rows": 1920,
+  "daily_price_rows": 1933,
   "trades_with_price_rows": 121,
   "trades_with_complete_price_history": 114,
   "trades_with_baseline_reconciliation_mismatch": 7,
