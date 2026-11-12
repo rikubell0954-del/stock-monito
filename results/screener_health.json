@@ -2,14 +2,9 @@
   "status": "OK",
   "stage": "SCREENER",
   "target_count": 2140,
-  "judged_count": 2139,
-  "candidate_count": 889,
-  "fetch_error_count": 1,
-  "success_rate": 0.9995,
-  "fetch_errors": [
-    {
-      "ticker": "9828.T",
-      "reason": "Timeout: Failed to perform, curl: (28) Connection timed out after 30001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
-    }
-  ]
+  "judged_count": 2140,
+  "candidate_count": 914,
+  "fetch_error_count": 0,
+  "success_rate": 1.0,
+  "fetch_errors": []
 }
