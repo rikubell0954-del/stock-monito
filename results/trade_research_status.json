@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-11-20 03:17:13 JST",
+  "updated_at": "2026-11-21 03:03:00 JST",
   "trade_count": 121,
   "full_signal_snapshots": 14,
   "legacy_signal_snapshots": 107,
-  "daily_price_rows": 1969,
+  "daily_price_rows": 1971,
   "trades_with_price_rows": 121,
   "trades_with_complete_price_history": 114,
   "trades_with_baseline_reconciliation_mismatch": 7,
@@ -127,9 +127,10 @@
     "5616_20261022": 1,
     "4645_20261015": 1,
     "549A_20261023": 1,
-    "3710_20261020": 1
+    "3710_20261020": 1,
+    "3815_20261104": 1
   },
-  "open_fetch_attempted": 2,
+  "open_fetch_attempted": 1,
   "closed_backfill_attempted": 1,
   "price_fetch_failed_trade_ids": [],
   "price_source": "yfinance auto_adjust=True (reconstructed history where marked)",

@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "stage": "STEP2_3",
-  "input_count": 911,
-  "analyzed_count": 911,
+  "input_count": 926,
+  "analyzed_count": 926,
   "output_file": "step2_3_result.csv"
 }
